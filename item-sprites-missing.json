@@ -1,17 +1,5 @@
 [
   {
-    "name": "合众之石",
-    "en": "unova-stone",
-    "type": "进化道具",
-    "note": "宝可梦GO道具，52poke无对应图"
-  },
-  {
-    "name": "神奥之石",
-    "en": "sinnoh-stone",
-    "type": "进化道具",
-    "note": "宝可梦GO道具，52poke无对应图"
-  },
-  {
     "name": "碎瓦片",
     "en": "brick-piece",
     "type": "贵重道具",
