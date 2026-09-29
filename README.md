@@ -8,12 +8,13 @@
 
 | 网站 | 抓取内容 | 对应文件 |
 |---|---|---|
-| [神奇宝贝百科 wiki.52poke.com](https://wiki.52poke.com)（MediaWiki API） | 特性、招式、道具、精灵（含种族值/图鉴描述/形态）、进化链、徽章、属性相克表、各代可学招式等文字数据 | `abilities.json` `moves.json` `items.json` `evolution.json` `badges.json` `types.json` `pokemon/` `movesets/` |
+| [神奇宝贝百科 wiki.52poke.com](https://wiki.52poke.com)（MediaWiki API） | 特性、招式、道具、精灵（含种族值/图鉴描述/形态）、进化链、徽章、属性相克表、各代可学招式、地区图鉴等文字数据 | `abilities.json` `moves.json` `items.json` `evolution.json` `badges.json` `types.json` `regional-dex.json` `pokemon/` `movesets/` |
 | [神奇宝贝百科图床 media.52poke.com](https://media.52poke.com) | 道具图标（部分） | `item-sprites/` |
 | [Serebii.net ItemDex](https://www.serebii.net/itemdex/) | 道具图标（宝可梦 GO 糖果、装饰品、老世代道具等独有图） | `item-sprites/` |
 | [PokeOS](https://www.pokeos.com/) | 精灵高清渲染图 + 128px 动图（普通 + 闪光） | `pokemon-sprites/static/pokeos/` `pokemon-sprites/animated/pokeos/` |
 | [Pokémon Showdown](https://play.pokemonshowdown.com/) | 精灵像素动图 + gen5 静态图（普通 + 闪光） | `pokemon-sprites/animated/showdown/` `pokemon-sprites/static/showdown/` |
 | [feixianer/pokemon-badges](https://github.com/feixianer/pokemon-badges) | 徽章图片（8 地区） | `badges/` |
+| [PokeAPI/cries](https://github.com/PokeAPI/cries)（经 jsDelivr CDN） | 宝可梦叫声（`.ogg`） | `cries/` |
 
 > 道具图标命名规则：小写 + 去掉连字符/下划线/空格 + 保留点号，与 Serebii ItemDex 图床命名一致。
 > 例：`poke-ball` → `pokeball.png`，`cheri-berry` → `cheriberry.png`。
@@ -31,12 +32,15 @@
 ├─ evolution.json                 # 进化链 534 条
 ├─ badges.json                    # 徽章 8 个联盟
 ├─ dex-list.json                  # 全国图鉴列表（1025 只：编号/名字/英文slug/属性）
+├─ regional-dex.json              # 地区图鉴列表（13 地区）
 ├─ pokemon/                       # 精灵，按世代拆分（1315 只）
 │  ├─ gen-01.json ~ gen-10.json
 ├─ movesets/                      # 各精灵各代可学招式（升级/机器/蛋/教学）
-├─ item-sprites/                  # 道具图标（1988 张 PNG，命名 = slug 规则）
+├─ item-sprites/                  # 道具图标（2023 张 PNG，命名 = slug 规则）
 ├─ item-sprites-missing.json      # 暂无图的极少数道具清单
+├─ cries/                         # 宝可梦叫声（1025 个 .ogg）
 ├─ badges/                        # 徽章图片（8 地区 68 张 PNG）
+├─ scripts/                       # 抓取脚本（更新数据用，见 scripts/README.md）
 └─ pokemon-sprites/               # 精灵图片（命名统一为英文 slug）
    ├─ animated/                   # 动图
    │  ├─ pokeos/                  # PokeOS 128px 动图

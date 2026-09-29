@@ -4,7 +4,11 @@
   "sources": [
     "https://wiki.52poke.com",
     "https://media.52poke.com",
-    "https://www.serebii.net/itemdex/"
+    "https://www.serebii.net/itemdex/",
+    "https://www.pokeos.com/",
+    "https://play.pokemonshowdown.com/",
+    "https://github.com/PokeAPI/cries",
+    "https://github.com/feixianer/pokemon-badges"
   ],
   "disclaimer": "数据版权归 Nintendo / The Pokémon Company / Game Freak 及原始数据提供方所有，本仓库仅做抓取整理，严禁商业用途。",
   "files": {
@@ -30,6 +34,8 @@
     "item-sprites": "item-sprites/",
     "item-sprites-missing": "item-sprites-missing.json",
     "dex-list": "dex-list.json",
+    "regional-dex": "regional-dex.json",
+    "cries": "cries/",
     "pokemon-sprites": "pokemon-sprites/"
   },
   "counts": {
@@ -38,6 +44,8 @@
     "items": 2361,
     "evolution": 534,
     "badges": 8,
-    "pokemon": 1315
+    "pokemon": 1315,
+    "regional-dex": 13,
+    "cries": 1025
   }
 }
