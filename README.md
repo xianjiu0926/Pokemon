@@ -11,8 +11,8 @@
 | [神奇宝贝百科 wiki.52poke.com](https://wiki.52poke.com)（MediaWiki API） | 特性、招式、道具、精灵（含种族值/图鉴描述/形态）、进化链、徽章、属性相克表、各代可学招式等文字数据 | `abilities.json` `moves.json` `items.json` `evolution.json` `badges.json` `types.json` `pokemon/` `movesets/` |
 | [神奇宝贝百科图床 media.52poke.com](https://media.52poke.com) | 道具图标（部分） | `item-sprites/` |
 | [Serebii.net ItemDex](https://www.serebii.net/itemdex/) | 道具图标（宝可梦 GO 糖果、装饰品、老世代道具等独有图） | `item-sprites/` |
-| [PokeOS](https://www.pokeos.com/) | 精灵高清渲染图（普通 + 闪光） | `pokemon-sprites/pokeos/` |
-| [Pokémon Showdown](https://play.pokemonshowdown.com/) | 精灵像素动图（普通 + 闪光） | `pokemon-sprites/showdown/` |
+| [PokeOS](https://www.pokeos.com/) | 精灵高清渲染图 + 128px 动图（普通 + 闪光） | `pokemon-sprites/static/pokeos/` `pokemon-sprites/animated/pokeos/` |
+| [Pokémon Showdown](https://play.pokemonshowdown.com/) | 精灵像素动图 + gen5 静态图（普通 + 闪光） | `pokemon-sprites/animated/showdown/` `pokemon-sprites/static/showdown/` |
 | [feixianer/pokemon-badges](https://github.com/feixianer/pokemon-badges) | 徽章图片（8 地区） | `badges/` |
 
 > 道具图标命名规则：小写 + 去掉连字符/下划线/空格 + 保留点号，与 Serebii ItemDex 图床命名一致。
@@ -37,12 +37,24 @@
 ├─ item-sprites/                  # 道具图标（1988 张 PNG，命名 = slug 规则）
 ├─ item-sprites-missing.json      # 暂无图的极少数道具清单
 ├─ badges/                        # 徽章图片（8 地区 68 张 PNG）
-└─ pokemon-sprites/               # 精灵图片
-   ├─ pokeos/                     # PokeOS 高清渲染图（普通 1025 张）
-   │  └─ shiny/                   # 闪光（1025 张）
-   └─ showdown/                   # Pokémon Showdown 像素动图（普通 1011 张）
-      └─ shiny/                   # 闪光（1011 张）
+└─ pokemon-sprites/               # 精灵图片（命名统一为英文 slug）
+   ├─ animated/                   # 动图
+   │  ├─ pokeos/                  # PokeOS 128px 动图
+   │  │  ├─ normal/               # 普通
+   │  │  └─ shiny/                # 闪光
+   │  └─ showdown/                # Showdown 像素动图
+   │     ├─ normal/               # 普通
+   │     └─ shiny/                # 闪光
+   └─ static/                     # 静图
+      ├─ pokeos/                  # PokeOS 高清渲染图
+      │  ├─ normal/               # 普通
+      │  └─ shiny/                # 闪光
+      └─ showdown/                # Showdown gen5 静态图
+         ├─ normal/               # 普通
+         └─ shiny/                # 闪光
 ```
+
+精灵图片文件名统一为**英文名小写 slug**：基础用 `bulbasaur.png`，形态用 `venusaur-mega.png` / `pikachu-gmax.gif` 等（与 PokeAPI 命名一致）。`dex-list.json`（编号→英文名）与 `form-ids.json`（形态编号→英文名）提供查表。
 
 ## 在 HUD 中按需加载
 
