@@ -1,95 +1,118 @@
 {
  "10001": {
   "no": 386,
-  "en": "deoxys-attack"
+  "en": "deoxys-attack",
+  "suffix": ""
  },
  "10002": {
   "no": 386,
-  "en": "deoxys-defense"
+  "en": "deoxys-defense",
+  "suffix": ""
  },
  "10003": {
   "no": 386,
-  "en": "deoxys-speed"
+  "en": "deoxys-speed",
+  "suffix": ""
  },
  "10004": {
   "no": 413,
-  "en": "wormadam-sandy"
+  "en": "wormadam-sandy",
+  "suffix": ""
  },
  "10005": {
   "no": 413,
-  "en": "wormadam-trash"
+  "en": "wormadam-trash",
+  "suffix": ""
  },
  "10006": {
   "no": 492,
-  "en": "shaymin-sky"
+  "en": "shaymin-sky",
+  "suffix": "-sky"
  },
  "10007": {
   "no": 487,
-  "en": "giratina-origin"
+  "en": "giratina-origin",
+  "suffix": "-origin"
  },
  "10008": {
   "no": 479,
-  "en": "rotom-heat"
+  "en": "rotom-heat",
+  "suffix": ""
  },
  "10009": {
   "no": 479,
-  "en": "rotom-wash"
+  "en": "rotom-wash",
+  "suffix": ""
  },
  "10010": {
   "no": 479,
-  "en": "rotom-frost"
+  "en": "rotom-frost",
+  "suffix": ""
  },
  "10011": {
   "no": 479,
-  "en": "rotom-fan"
+  "en": "rotom-fan",
+  "suffix": ""
  },
  "10012": {
   "no": 479,
-  "en": "rotom-mow"
+  "en": "rotom-mow",
+  "suffix": ""
  },
  "10013": {
   "no": 351,
-  "en": "castform-sunny"
+  "en": "castform-sunny",
+  "suffix": ""
  },
  "10014": {
   "no": 351,
-  "en": "castform-rainy"
+  "en": "castform-rainy",
+  "suffix": ""
  },
  "10015": {
   "no": 351,
-  "en": "castform-snowy"
+  "en": "castform-snowy",
+  "suffix": ""
  },
  "10016": {
   "no": 550,
-  "en": "basculin-blue-striped"
+  "en": "basculin-blue-striped",
+  "suffix": ""
  },
  "10017": {
   "no": 555,
-  "en": "darmanitan-zen"
+  "en": "darmanitan-zen",
+  "suffix": "-zen"
  },
  "10018": {
   "no": 648,
-  "en": "meloetta-pirouette"
+  "en": "meloetta-pirouette",
+  "suffix": ""
  },
  "10019": {
   "no": 641,
-  "en": "tornadus-therian"
+  "en": "tornadus-therian",
+  "suffix": "-therian"
  },
  "10020": {
   "no": 642,
-  "en": "thundurus-therian"
+  "en": "thundurus-therian",
+  "suffix": "-therian"
  },
  "10021": {
   "no": 645,
-  "en": "landorus-therian"
+  "en": "landorus-therian",
+  "suffix": "-therian"
  },
  "10022": {
   "no": 646,
-  "en": "kyurem-black"
+  "en": "kyurem-black",
+  "suffix": "-black"
  },
  "10023": {
   "no": 646,
-  "en": "kyurem-white"
+  "en": "kyurem-white",
+  "suffix": "-white"
  },
  "10024": {
   "no": null,
@@ -101,219 +124,273 @@
  },
  "10026": {
   "no": 681,
-  "en": "aegislash-blade"
+  "en": "aegislash-blade",
+  "suffix": ""
  },
  "10027": {
-  "no": null,
-  "en": "pumpkaboo-small"
+  "no": 710,
+  "en": "pumpkaboo-small",
+  "suffix": ""
  },
  "10028": {
-  "no": null,
-  "en": "pumpkaboo-large"
+  "no": 710,
+  "en": "pumpkaboo-large",
+  "suffix": ""
  },
  "10029": {
-  "no": null,
-  "en": "pumpkaboo-super"
+  "no": 710,
+  "en": "pumpkaboo-super",
+  "suffix": ""
  },
  "10030": {
-  "no": null,
-  "en": "gourgeist-small"
+  "no": 711,
+  "en": "gourgeist-small",
+  "suffix": ""
  },
  "10031": {
-  "no": null,
-  "en": "gourgeist-large"
+  "no": 711,
+  "en": "gourgeist-large",
+  "suffix": ""
  },
  "10032": {
-  "no": null,
-  "en": "gourgeist-super"
+  "no": 711,
+  "en": "gourgeist-super",
+  "suffix": ""
  },
  "10033": {
   "no": 3,
-  "en": "venusaur-mega"
+  "en": "venusaur-mega",
+  "suffix": "-mega"
  },
  "10034": {
   "no": 6,
-  "en": "charizard-mega-x"
+  "en": "charizard-mega-x",
+  "suffix": "-mega-x"
  },
  "10035": {
   "no": 6,
-  "en": "charizard-mega-y"
+  "en": "charizard-mega-y",
+  "suffix": "-mega-y"
  },
  "10036": {
   "no": 9,
-  "en": "blastoise-mega"
+  "en": "blastoise-mega",
+  "suffix": "-mega"
  },
  "10037": {
   "no": 65,
-  "en": "alakazam-mega"
+  "en": "alakazam-mega",
+  "suffix": "-mega"
  },
  "10038": {
   "no": 94,
-  "en": "gengar-mega"
+  "en": "gengar-mega",
+  "suffix": "-mega"
  },
  "10039": {
   "no": 115,
-  "en": "kangaskhan-mega"
+  "en": "kangaskhan-mega",
+  "suffix": "-mega"
  },
  "10040": {
   "no": 127,
-  "en": "pinsir-mega"
+  "en": "pinsir-mega",
+  "suffix": "-mega"
  },
  "10041": {
   "no": 130,
-  "en": "gyarados-mega"
+  "en": "gyarados-mega",
+  "suffix": "-mega"
  },
  "10042": {
   "no": 142,
-  "en": "aerodactyl-mega"
+  "en": "aerodactyl-mega",
+  "suffix": "-mega"
  },
  "10043": {
   "no": 150,
-  "en": "mewtwo-mega-x"
+  "en": "mewtwo-mega-x",
+  "suffix": "-mega-x"
  },
  "10044": {
   "no": 150,
-  "en": "mewtwo-mega-y"
+  "en": "mewtwo-mega-y",
+  "suffix": "-mega-y"
  },
  "10045": {
   "no": 181,
-  "en": "ampharos-mega"
+  "en": "ampharos-mega",
+  "suffix": "-mega"
  },
  "10046": {
   "no": 212,
-  "en": "scizor-mega"
+  "en": "scizor-mega",
+  "suffix": "-mega"
  },
  "10047": {
   "no": 214,
-  "en": "heracross-mega"
+  "en": "heracross-mega",
+  "suffix": "-mega"
  },
  "10048": {
   "no": 229,
-  "en": "houndoom-mega"
+  "en": "houndoom-mega",
+  "suffix": "-mega"
  },
  "10049": {
   "no": 248,
-  "en": "tyranitar-mega"
+  "en": "tyranitar-mega",
+  "suffix": "-mega"
  },
  "10050": {
   "no": 257,
-  "en": "blaziken-mega"
+  "en": "blaziken-mega",
+  "suffix": "-mega"
  },
  "10051": {
   "no": 282,
-  "en": "gardevoir-mega"
+  "en": "gardevoir-mega",
+  "suffix": "-mega"
  },
  "10052": {
   "no": 303,
-  "en": "mawile-mega"
+  "en": "mawile-mega",
+  "suffix": "-mega"
  },
  "10053": {
   "no": 306,
-  "en": "aggron-mega"
+  "en": "aggron-mega",
+  "suffix": "-mega"
  },
  "10054": {
   "no": 308,
-  "en": "medicham-mega"
+  "en": "medicham-mega",
+  "suffix": "-mega"
  },
  "10055": {
   "no": 310,
-  "en": "manectric-mega"
+  "en": "manectric-mega",
+  "suffix": "-mega"
  },
  "10056": {
   "no": 354,
-  "en": "banette-mega"
+  "en": "banette-mega",
+  "suffix": "-mega"
  },
  "10057": {
   "no": 359,
-  "en": "absol-mega"
+  "en": "absol-mega",
+  "suffix": "-mega"
  },
  "10058": {
   "no": 445,
-  "en": "garchomp-mega"
+  "en": "garchomp-mega",
+  "suffix": "-mega"
  },
  "10059": {
   "no": 448,
-  "en": "lucario-mega"
+  "en": "lucario-mega",
+  "suffix": "-mega"
  },
  "10060": {
   "no": 460,
-  "en": "abomasnow-mega"
+  "en": "abomasnow-mega",
+  "suffix": "-mega"
  },
  "10061": {
   "no": 670,
-  "en": "floette-eternal"
+  "en": "floette-eternal",
+  "suffix": ""
  },
  "10062": {
   "no": 380,
-  "en": "latias-mega"
+  "en": "latias-mega",
+  "suffix": "-mega"
  },
  "10063": {
   "no": 381,
-  "en": "latios-mega"
+  "en": "latios-mega",
+  "suffix": "-mega"
  },
  "10064": {
   "no": 260,
-  "en": "swampert-mega"
+  "en": "swampert-mega",
+  "suffix": "-mega"
  },
  "10065": {
   "no": 254,
-  "en": "sceptile-mega"
+  "en": "sceptile-mega",
+  "suffix": "-mega"
  },
  "10066": {
   "no": 302,
-  "en": "sableye-mega"
+  "en": "sableye-mega",
+  "suffix": "-mega"
  },
  "10067": {
   "no": 334,
-  "en": "altaria-mega"
+  "en": "altaria-mega",
+  "suffix": "-mega"
  },
  "10068": {
   "no": 475,
-  "en": "gallade-mega"
+  "en": "gallade-mega",
+  "suffix": "-mega"
  },
  "10069": {
   "no": 531,
-  "en": "audino-mega"
+  "en": "audino-mega",
+  "suffix": "-mega"
  },
  "10070": {
   "no": 319,
-  "en": "sharpedo-mega"
+  "en": "sharpedo-mega",
+  "suffix": "-mega"
  },
  "10071": {
   "no": 80,
-  "en": "slowbro-mega"
+  "en": "slowbro-mega",
+  "suffix": "-mega"
  },
  "10072": {
   "no": 208,
-  "en": "steelix-mega"
+  "en": "steelix-mega",
+  "suffix": "-mega"
  },
  "10073": {
   "no": 18,
-  "en": "pidgeot-mega"
+  "en": "pidgeot-mega",
+  "suffix": "-mega"
  },
  "10074": {
   "no": 362,
-  "en": "glalie-mega"
+  "en": "glalie-mega",
+  "suffix": "-mega"
  },
  "10075": {
   "no": 719,
-  "en": "diancie-mega"
+  "en": "diancie-mega",
+  "suffix": "-mega"
  },
  "10076": {
   "no": 376,
-  "en": "metagross-mega"
+  "en": "metagross-mega",
+  "suffix": "-mega"
  },
  "10077": {
   "no": 382,
-  "en": "kyogre-primal"
+  "en": "kyogre-primal",
+  "suffix": "-mega"
  },
  "10078": {
   "no": 383,
-  "en": "groudon-primal"
+  "en": "groudon-primal",
+  "suffix": "-mega"
  },
  "10079": {
   "no": 384,
-  "en": "rayquaza-mega"
+  "en": "rayquaza-mega",
+  "suffix": "-mega"
  },
  "10080": {
   "no": null,
@@ -341,31 +418,38 @@
  },
  "10086": {
   "no": 720,
-  "en": "hoopa-unbound"
+  "en": "hoopa-unbound",
+  "suffix": ""
  },
  "10087": {
   "no": 323,
-  "en": "camerupt-mega"
+  "en": "camerupt-mega",
+  "suffix": "-mega"
  },
  "10088": {
   "no": 428,
-  "en": "lopunny-mega"
+  "en": "lopunny-mega",
+  "suffix": "-mega"
  },
  "10089": {
   "no": 373,
-  "en": "salamence-mega"
+  "en": "salamence-mega",
+  "suffix": "-mega"
  },
  "10090": {
   "no": 15,
-  "en": "beedrill-mega"
+  "en": "beedrill-mega",
+  "suffix": "-mega"
  },
  "10091": {
   "no": 19,
-  "en": "rattata-alola"
+  "en": "rattata-alola",
+  "suffix": "-regional-a"
  },
  "10092": {
   "no": 20,
-  "en": "raticate-alola"
+  "en": "raticate-alola",
+  "suffix": "-regional-a"
  },
  "10093": {
   "no": null,
@@ -397,67 +481,83 @@
  },
  "10100": {
   "no": 26,
-  "en": "raichu-alola"
+  "en": "raichu-alola",
+  "suffix": "-regional-a"
  },
  "10101": {
   "no": 27,
-  "en": "sandshrew-alola"
+  "en": "sandshrew-alola",
+  "suffix": "-regional-a"
  },
  "10102": {
   "no": 28,
-  "en": "sandslash-alola"
+  "en": "sandslash-alola",
+  "suffix": "-regional-a"
  },
  "10103": {
   "no": 37,
-  "en": "vulpix-alola"
+  "en": "vulpix-alola",
+  "suffix": "-regional-a"
  },
  "10104": {
   "no": 38,
-  "en": "ninetales-alola"
+  "en": "ninetales-alola",
+  "suffix": "-regional-a"
  },
  "10105": {
   "no": 50,
-  "en": "diglett-alola"
+  "en": "diglett-alola",
+  "suffix": "-regional-a"
  },
  "10106": {
   "no": 51,
-  "en": "dugtrio-alola"
+  "en": "dugtrio-alola",
+  "suffix": "-regional-a"
  },
  "10107": {
   "no": 52,
-  "en": "meowth-alola"
+  "en": "meowth-alola",
+  "suffix": "-regional-a"
  },
  "10108": {
   "no": 53,
-  "en": "persian-alola"
+  "en": "persian-alola",
+  "suffix": "-regional-a"
  },
  "10109": {
   "no": 74,
-  "en": "geodude-alola"
+  "en": "geodude-alola",
+  "suffix": "-regional-a"
  },
  "10110": {
   "no": 75,
-  "en": "graveler-alola"
+  "en": "graveler-alola",
+  "suffix": "-regional-a"
  },
  "10111": {
   "no": 76,
-  "en": "golem-alola"
+  "en": "golem-alola",
+  "suffix": "-regional-a"
  },
  "10112": {
   "no": 88,
-  "en": "grimer-alola"
+  "en": "grimer-alola",
+  "suffix": "-regional-a"
  },
  "10113": {
   "no": 89,
-  "en": "muk-alola"
+  "en": "muk-alola",
+  "suffix": "-regional-a"
  },
  "10114": {
   "no": 103,
-  "en": "exeggutor-alola"
+  "en": "exeggutor-alola",
+  "suffix": "-regional-a"
  },
  "10115": {
   "no": 105,
-  "en": "marowak-alola"
+  "en": "marowak-alola",
+  "suffix": "-regional-a"
  },
  "10116": {
   "no": null,
@@ -465,7 +565,8 @@
  },
  "10117": {
   "no": 658,
-  "en": "greninja-ash"
+  "en": "greninja-ash",
+  "suffix": "-ash"
  },
  "10118": {
   "no": 718,
@@ -477,7 +578,8 @@
  },
  "10120": {
   "no": 718,
-  "en": "zygarde-complete"
+  "en": "zygarde-complete",
+  "suffix": "-complete"
  },
  "10121": {
   "no": null,
@@ -489,23 +591,28 @@
  },
  "10123": {
   "no": 741,
-  "en": "oricorio-pom-pom"
+  "en": "oricorio-pom-pom",
+  "suffix": ""
  },
  "10124": {
   "no": 741,
-  "en": "oricorio-pau"
+  "en": "oricorio-pau",
+  "suffix": ""
  },
  "10125": {
   "no": 741,
-  "en": "oricorio-sensu"
+  "en": "oricorio-sensu",
+  "suffix": ""
  },
  "10126": {
   "no": 745,
-  "en": "lycanroc-midnight"
+  "en": "lycanroc-midnight",
+  "suffix": ""
  },
  "10127": {
   "no": 746,
-  "en": "wishiwashi-school"
+  "en": "wishiwashi-school",
+  "suffix": "-school"
  },
  "10128": {
   "no": null,
@@ -585,7 +692,8 @@
  },
  "10147": {
   "no": 801,
-  "en": "magearna-original"
+  "en": "magearna-original",
+  "suffix": ""
  },
  "10148": {
   "no": 25,
@@ -605,7 +713,8 @@
  },
  "10152": {
   "no": 745,
-  "en": "lycanroc-dusk"
+  "en": "lycanroc-dusk",
+  "suffix": ""
  },
  "10153": {
   "no": null,
@@ -625,7 +734,8 @@
  },
  "10157": {
   "no": 800,
-  "en": "necrozma-ultra"
+  "en": "necrozma-ultra",
+  "suffix": "-ultra"
  },
  "10158": {
   "no": null,
@@ -641,67 +751,83 @@
  },
  "10161": {
   "no": 52,
-  "en": "meowth-galar"
+  "en": "meowth-galar",
+  "suffix": "-regional-g"
  },
  "10162": {
   "no": 77,
-  "en": "ponyta-galar"
+  "en": "ponyta-galar",
+  "suffix": "-regional-g"
  },
  "10163": {
   "no": 78,
-  "en": "rapidash-galar"
+  "en": "rapidash-galar",
+  "suffix": "-regional-g"
  },
  "10164": {
   "no": 79,
-  "en": "slowpoke-galar"
+  "en": "slowpoke-galar",
+  "suffix": "-regional-g"
  },
  "10165": {
   "no": 80,
-  "en": "slowbro-galar"
+  "en": "slowbro-galar",
+  "suffix": "-regional-g"
  },
  "10166": {
   "no": 83,
-  "en": "farfetchd-galar"
+  "en": "farfetchd-galar",
+  "suffix": "-regional-g"
  },
  "10167": {
   "no": 110,
-  "en": "weezing-galar"
+  "en": "weezing-galar",
+  "suffix": "-regional-g"
  },
  "10168": {
   "no": 122,
-  "en": "mr-mime-galar"
+  "en": "mr-mime-galar",
+  "suffix": "-regional-g"
  },
  "10169": {
   "no": 144,
-  "en": "articuno-galar"
+  "en": "articuno-galar",
+  "suffix": "-regional-g"
  },
  "10170": {
   "no": 145,
-  "en": "zapdos-galar"
+  "en": "zapdos-galar",
+  "suffix": "-regional-g"
  },
  "10171": {
   "no": 146,
-  "en": "moltres-galar"
+  "en": "moltres-galar",
+  "suffix": "-regional-g"
  },
  "10172": {
   "no": 199,
-  "en": "slowking-galar"
+  "en": "slowking-galar",
+  "suffix": "-regional-g"
  },
  "10173": {
   "no": 222,
-  "en": "corsola-galar"
+  "en": "corsola-galar",
+  "suffix": "-regional-g"
  },
  "10174": {
   "no": 263,
-  "en": "zigzagoon-galar"
+  "en": "zigzagoon-galar",
+  "suffix": "-regional-g"
  },
  "10175": {
   "no": 264,
-  "en": "linoone-galar"
+  "en": "linoone-galar",
+  "suffix": "-regional-g"
  },
  "10176": {
   "no": 554,
-  "en": "darumaka-galar"
+  "en": "darumaka-galar",
+  "suffix": "-regional-g"
  },
  "10177": {
   "no": 555,
@@ -709,19 +835,23 @@
  },
  "10178": {
   "no": 555,
-  "en": "darmanitan-galar-zen"
+  "en": "darmanitan-galar-zen",
+  "suffix": "-regional-g"
  },
  "10179": {
   "no": 562,
-  "en": "yamask-galar"
+  "en": "yamask-galar",
+  "suffix": "-regional-g"
  },
  "10180": {
   "no": 618,
-  "en": "stunfisk-galar"
+  "en": "stunfisk-galar",
+  "suffix": "-regional-g"
  },
  "10181": {
-  "no": null,
-  "en": "zygarde-10"
+  "no": 718,
+  "en": "zygarde-10",
+  "suffix": ""
  },
  "10182": {
   "no": null,
@@ -733,35 +863,42 @@
  },
  "10184": {
   "no": 849,
-  "en": "toxtricity-low-key"
+  "en": "toxtricity-low-key",
+  "suffix": ""
  },
  "10185": {
   "no": 875,
-  "en": "eiscue-noice"
+  "en": "eiscue-noice",
+  "suffix": ""
  },
  "10186": {
   "no": 876,
   "en": "indeedee-female"
  },
  "10187": {
-  "no": null,
-  "en": "morpeko-hangry"
+  "no": 877,
+  "en": "morpeko-hangry",
+  "suffix": ""
  },
  "10188": {
   "no": 888,
-  "en": "zacian-crowned"
+  "en": "zacian-crowned",
+  "suffix": "-crowned"
  },
  "10189": {
   "no": 889,
-  "en": "zamazenta-crowned"
+  "en": "zamazenta-crowned",
+  "suffix": "-crowned"
  },
  "10190": {
   "no": 890,
-  "en": "eternatus-eternamax"
+  "en": "eternatus-eternamax",
+  "suffix": ""
  },
  "10191": {
   "no": 892,
-  "en": "urshifu-rapid-strike"
+  "en": "urshifu-rapid-strike",
+  "suffix": "-rapid-strike"
  },
  "10192": {
   "no": null,
@@ -769,87 +906,108 @@
  },
  "10193": {
   "no": 898,
-  "en": "calyrex-ice"
+  "en": "calyrex-ice",
+  "suffix": "-ice"
  },
  "10194": {
   "no": 898,
-  "en": "calyrex-shadow"
+  "en": "calyrex-shadow",
+  "suffix": "-shadow"
  },
  "10195": {
   "no": 3,
-  "en": "venusaur-gmax"
+  "en": "venusaur-gmax",
+  "suffix": "-gmax"
  },
  "10196": {
   "no": 6,
-  "en": "charizard-gmax"
+  "en": "charizard-gmax",
+  "suffix": "-gmax"
  },
  "10197": {
   "no": 9,
-  "en": "blastoise-gmax"
+  "en": "blastoise-gmax",
+  "suffix": "-gmax"
  },
  "10198": {
   "no": 12,
-  "en": "butterfree-gmax"
+  "en": "butterfree-gmax",
+  "suffix": "-gmax"
  },
  "10199": {
   "no": 25,
-  "en": "pikachu-gmax"
+  "en": "pikachu-gmax",
+  "suffix": "-gmax"
  },
  "10200": {
   "no": 52,
-  "en": "meowth-gmax"
+  "en": "meowth-gmax",
+  "suffix": "-gmax"
  },
  "10201": {
   "no": 68,
-  "en": "machamp-gmax"
+  "en": "machamp-gmax",
+  "suffix": "-gmax"
  },
  "10202": {
   "no": 94,
-  "en": "gengar-gmax"
+  "en": "gengar-gmax",
+  "suffix": "-gmax"
  },
  "10203": {
   "no": 99,
-  "en": "kingler-gmax"
+  "en": "kingler-gmax",
+  "suffix": "-gmax"
  },
  "10204": {
   "no": 131,
-  "en": "lapras-gmax"
+  "en": "lapras-gmax",
+  "suffix": "-gmax"
  },
  "10205": {
   "no": 133,
-  "en": "eevee-gmax"
+  "en": "eevee-gmax",
+  "suffix": "-gmax"
  },
  "10206": {
   "no": 143,
-  "en": "snorlax-gmax"
+  "en": "snorlax-gmax",
+  "suffix": "-gmax"
  },
  "10207": {
   "no": 569,
-  "en": "garbodor-gmax"
+  "en": "garbodor-gmax",
+  "suffix": "-gmax"
  },
  "10208": {
   "no": 809,
-  "en": "melmetal-gmax"
+  "en": "melmetal-gmax",
+  "suffix": "-gmax"
  },
  "10209": {
   "no": 812,
-  "en": "rillaboom-gmax"
+  "en": "rillaboom-gmax",
+  "suffix": "-gmax"
  },
  "10210": {
   "no": 815,
-  "en": "cinderace-gmax"
+  "en": "cinderace-gmax",
+  "suffix": "-gmax"
  },
  "10211": {
   "no": 818,
-  "en": "inteleon-gmax"
+  "en": "inteleon-gmax",
+  "suffix": "-gmax"
  },
  "10212": {
   "no": 823,
-  "en": "corviknight-gmax"
+  "en": "corviknight-gmax",
+  "suffix": "-gmax"
  },
  "10213": {
   "no": 826,
-  "en": "orbeetle-gmax"
+  "en": "orbeetle-gmax",
+  "suffix": "-gmax"
  },
  "10214": {
   "no": 834,
@@ -857,19 +1015,23 @@
  },
  "10215": {
   "no": 839,
-  "en": "coalossal-gmax"
+  "en": "coalossal-gmax",
+  "suffix": "-gmax"
  },
  "10216": {
   "no": 841,
-  "en": "flapple-gmax"
+  "en": "flapple-gmax",
+  "suffix": "-gmax"
  },
  "10217": {
   "no": 842,
-  "en": "appletun-gmax"
+  "en": "appletun-gmax",
+  "suffix": "-gmax"
  },
  "10218": {
   "no": 844,
-  "en": "sandaconda-gmax"
+  "en": "sandaconda-gmax",
+  "suffix": "-gmax"
  },
  "10219": {
   "no": 849,
@@ -877,27 +1039,33 @@
  },
  "10220": {
   "no": 851,
-  "en": "centiskorch-gmax"
+  "en": "centiskorch-gmax",
+  "suffix": "-gmax"
  },
  "10221": {
   "no": 858,
-  "en": "hatterene-gmax"
+  "en": "hatterene-gmax",
+  "suffix": "-gmax"
  },
  "10222": {
   "no": 861,
-  "en": "grimmsnarl-gmax"
+  "en": "grimmsnarl-gmax",
+  "suffix": "-gmax"
  },
  "10223": {
   "no": 869,
-  "en": "alcremie-gmax"
+  "en": "alcremie-gmax",
+  "suffix": "-gmax"
  },
  "10224": {
   "no": 879,
-  "en": "copperajah-gmax"
+  "en": "copperajah-gmax",
+  "suffix": "-gmax"
  },
  "10225": {
   "no": 884,
-  "en": "duraludon-gmax"
+  "en": "duraludon-gmax",
+  "suffix": "-gmax"
  },
  "10226": {
   "no": 892,
@@ -905,7 +1073,8 @@
  },
  "10227": {
   "no": 892,
-  "en": "urshifu-rapid-strike-gmax"
+  "en": "urshifu-rapid-strike-gmax",
+  "suffix": "-rapid-strike"
  },
  "10228": {
   "no": null,
@@ -913,79 +1082,98 @@
  },
  "10229": {
   "no": 58,
-  "en": "growlithe-hisui"
+  "en": "growlithe-hisui",
+  "suffix": "-regional-h"
  },
  "10230": {
   "no": 59,
-  "en": "arcanine-hisui"
+  "en": "arcanine-hisui",
+  "suffix": "-regional-h"
  },
  "10231": {
   "no": 100,
-  "en": "voltorb-hisui"
+  "en": "voltorb-hisui",
+  "suffix": "-regional-h"
  },
  "10232": {
   "no": 101,
-  "en": "electrode-hisui"
+  "en": "electrode-hisui",
+  "suffix": "-regional-h"
  },
  "10233": {
   "no": 157,
-  "en": "typhlosion-hisui"
+  "en": "typhlosion-hisui",
+  "suffix": "-regional-h"
  },
  "10234": {
   "no": 211,
-  "en": "qwilfish-hisui"
+  "en": "qwilfish-hisui",
+  "suffix": "-regional-h"
  },
  "10235": {
   "no": 215,
-  "en": "sneasel-hisui"
+  "en": "sneasel-hisui",
+  "suffix": "-regional-h"
  },
  "10236": {
   "no": 503,
-  "en": "samurott-hisui"
+  "en": "samurott-hisui",
+  "suffix": "-regional-h"
  },
  "10237": {
   "no": 549,
-  "en": "lilligant-hisui"
+  "en": "lilligant-hisui",
+  "suffix": "-regional-h"
  },
  "10238": {
   "no": 570,
-  "en": "zorua-hisui"
+  "en": "zorua-hisui",
+  "suffix": "-regional-h"
  },
  "10239": {
   "no": 571,
-  "en": "zoroark-hisui"
+  "en": "zoroark-hisui",
+  "suffix": "-regional-h"
  },
  "10240": {
   "no": 628,
-  "en": "braviary-hisui"
+  "en": "braviary-hisui",
+  "suffix": "-regional-h"
  },
  "10241": {
   "no": 705,
-  "en": "sliggoo-hisui"
+  "en": "sliggoo-hisui",
+  "suffix": "-regional-h"
  },
  "10242": {
   "no": 706,
-  "en": "goodra-hisui"
+  "en": "goodra-hisui",
+  "suffix": "-regional-h"
  },
  "10243": {
   "no": 713,
-  "en": "avalugg-hisui"
+  "en": "avalugg-hisui",
+  "suffix": "-regional-h"
  },
  "10244": {
   "no": 724,
-  "en": "decidueye-hisui"
+  "en": "decidueye-hisui",
+  "suffix": "-regional-h"
  },
  "10245": {
   "no": 483,
-  "en": "dialga-origin"
+  "en": "dialga-origin",
+  "suffix": "-origin"
  },
  "10246": {
   "no": 484,
-  "en": "palkia-origin"
+  "en": "palkia-origin",
+  "suffix": "-origin"
  },
  "10247": {
   "no": 550,
-  "en": "basculin-white-striped"
+  "en": "basculin-white-striped",
+  "suffix": ""
  },
  "10248": {
   "no": 902,
@@ -993,7 +1181,8 @@
  },
  "10249": {
   "no": 905,
-  "en": "enamorus-therian"
+  "en": "enamorus-therian",
+  "suffix": "-therian"
  },
  "10250": {
   "no": 194,
@@ -1008,32 +1197,37 @@
   "en": "tauros-paldea-aqua-breed"
  },
  "10253": {
-  "no": 128,
-  "en": "wooper-paldea"
+  "no": 194,
+  "en": "wooper-paldea",
+  "suffix": "-regional-p"
  },
  "10254": {
   "no": null,
   "en": "oinkologne-female"
  },
  "10255": {
-  "no": 964,
-  "en": "dudunsparce-three-segment"
+  "no": 982,
+  "en": "dudunsparce-three-segment",
+  "suffix": ""
  },
  "10256": {
-  "no": null,
-  "en": "palafin-hero"
+  "no": 964,
+  "en": "palafin-hero",
+  "suffix": "-hero"
  },
  "10257": {
   "no": 999,
   "en": "maushold-family-of-three"
  },
  "10258": {
-  "no": 931,
-  "en": "tatsugiri-droopy"
+  "no": 978,
+  "en": "tatsugiri-droopy",
+  "suffix": ""
  },
  "10259": {
-  "no": 931,
-  "en": "tatsugiri-stretchy"
+  "no": 978,
+  "en": "tatsugiri-stretchy",
+  "suffix": ""
  },
  "10260": {
   "no": 931,
@@ -1048,8 +1242,9 @@
   "en": "squawkabilly-white-plumage"
  },
  "10263": {
-  "no": null,
-  "en": "gimmighoul-roaming"
+  "no": 999,
+  "en": "gimmighoul-roaming",
+  "suffix": ""
  },
  "10264": {
   "no": 925,
@@ -1084,8 +1279,9 @@
   "en": "miraidon-glide-mode"
  },
  "10272": {
-  "no": null,
-  "en": "ursaluna-bloodmoon"
+  "no": 901,
+  "en": "ursaluna-bloodmoon",
+  "suffix": ""
  },
  "10273": {
   "no": null,
@@ -1100,204 +1296,252 @@
   "en": "ogerpon-cornerstone-mask"
  },
  "10276": {
-  "no": null,
-  "en": "terapagos-terastal"
+  "no": 1024,
+  "en": "terapagos-terastal",
+  "suffix": ""
  },
  "10277": {
-  "no": null,
-  "en": "terapagos-stellar"
+  "no": 1024,
+  "en": "terapagos-stellar",
+  "suffix": "-stellar"
  },
  "10278": {
-  "no": null,
-  "en": "clefable-mega"
+  "no": 36,
+  "en": "clefable-mega",
+  "suffix": "-mega"
  },
  "10279": {
-  "no": null,
-  "en": "victreebel-mega"
+  "no": 71,
+  "en": "victreebel-mega",
+  "suffix": "-mega"
  },
  "10280": {
-  "no": null,
-  "en": "starmie-mega"
+  "no": 121,
+  "en": "starmie-mega",
+  "suffix": "-mega"
  },
  "10281": {
-  "no": null,
-  "en": "dragonite-mega"
+  "no": 149,
+  "en": "dragonite-mega",
+  "suffix": "-mega"
  },
  "10282": {
-  "no": null,
-  "en": "meganium-mega"
+  "no": 154,
+  "en": "meganium-mega",
+  "suffix": "-mega"
  },
  "10283": {
-  "no": null,
-  "en": "feraligatr-mega"
+  "no": 160,
+  "en": "feraligatr-mega",
+  "suffix": "-mega"
  },
  "10284": {
-  "no": null,
-  "en": "skarmory-mega"
+  "no": 227,
+  "en": "skarmory-mega",
+  "suffix": "-mega"
  },
  "10285": {
-  "no": null,
-  "en": "froslass-mega"
+  "no": 478,
+  "en": "froslass-mega",
+  "suffix": "-mega"
  },
  "10286": {
-  "no": null,
-  "en": "emboar-mega"
+  "no": 500,
+  "en": "emboar-mega",
+  "suffix": "-mega"
  },
  "10287": {
-  "no": null,
-  "en": "excadrill-mega"
+  "no": 530,
+  "en": "excadrill-mega",
+  "suffix": "-mega"
  },
  "10288": {
-  "no": null,
-  "en": "scolipede-mega"
+  "no": 545,
+  "en": "scolipede-mega",
+  "suffix": "-mega"
  },
  "10289": {
-  "no": null,
-  "en": "scrafty-mega"
+  "no": 560,
+  "en": "scrafty-mega",
+  "suffix": "-mega"
  },
  "10290": {
-  "no": null,
-  "en": "eelektross-mega"
+  "no": 604,
+  "en": "eelektross-mega",
+  "suffix": "-mega"
  },
  "10291": {
-  "no": null,
-  "en": "chandelure-mega"
+  "no": 609,
+  "en": "chandelure-mega",
+  "suffix": "-mega"
  },
  "10292": {
-  "no": null,
-  "en": "chesnaught-mega"
+  "no": 652,
+  "en": "chesnaught-mega",
+  "suffix": "-mega"
  },
  "10293": {
-  "no": null,
-  "en": "delphox-mega"
+  "no": 655,
+  "en": "delphox-mega",
+  "suffix": "-mega"
  },
  "10294": {
-  "no": null,
-  "en": "greninja-mega"
+  "no": 658,
+  "en": "greninja-mega",
+  "suffix": "-mega"
  },
  "10295": {
-  "no": null,
-  "en": "pyroar-mega"
+  "no": 668,
+  "en": "pyroar-mega",
+  "suffix": "-mega"
  },
  "10296": {
-  "no": null,
-  "en": "floette-mega"
+  "no": 670,
+  "en": "floette-mega",
+  "suffix": "-mega"
  },
  "10297": {
-  "no": null,
-  "en": "malamar-mega"
+  "no": 687,
+  "en": "malamar-mega",
+  "suffix": "-mega"
  },
  "10298": {
-  "no": null,
-  "en": "barbaracle-mega"
+  "no": 689,
+  "en": "barbaracle-mega",
+  "suffix": "-mega"
  },
  "10299": {
-  "no": null,
-  "en": "dragalge-mega"
+  "no": 691,
+  "en": "dragalge-mega",
+  "suffix": "-mega"
  },
  "10300": {
-  "no": null,
-  "en": "hawlucha-mega"
+  "no": 701,
+  "en": "hawlucha-mega",
+  "suffix": "-mega"
  },
  "10301": {
-  "no": null,
-  "en": "zygarde-mega"
+  "no": 718,
+  "en": "zygarde-mega",
+  "suffix": "-mega"
  },
  "10302": {
-  "no": null,
-  "en": "drampa-mega"
+  "no": 780,
+  "en": "drampa-mega",
+  "suffix": "-mega"
  },
  "10303": {
-  "no": null,
-  "en": "falinks-mega"
+  "no": 870,
+  "en": "falinks-mega",
+  "suffix": "-mega"
  },
  "10304": {
-  "no": null,
-  "en": "raichu-mega-x"
+  "no": 26,
+  "en": "raichu-mega-x",
+  "suffix": "-mega-x"
  },
  "10305": {
-  "no": null,
-  "en": "raichu-mega-y"
+  "no": 26,
+  "en": "raichu-mega-y",
+  "suffix": "-mega-y"
  },
  "10306": {
-  "no": null,
-  "en": "chimecho-mega"
+  "no": 358,
+  "en": "chimecho-mega",
+  "suffix": "-mega"
  },
  "10307": {
-  "no": null,
-  "en": "absol-mega-z"
+  "no": 359,
+  "en": "absol-mega-z",
+  "suffix": "-mega-z"
  },
  "10308": {
-  "no": null,
-  "en": "staraptor-mega"
+  "no": 398,
+  "en": "staraptor-mega",
+  "suffix": "-mega"
  },
  "10309": {
-  "no": null,
-  "en": "garchomp-mega-z"
+  "no": 445,
+  "en": "garchomp-mega-z",
+  "suffix": "-mega-z"
  },
  "10310": {
-  "no": null,
-  "en": "lucario-mega-z"
+  "no": 448,
+  "en": "lucario-mega-z",
+  "suffix": "-mega-z"
  },
  "10311": {
-  "no": null,
-  "en": "heatran-mega"
+  "no": 485,
+  "en": "heatran-mega",
+  "suffix": "-mega"
  },
  "10312": {
-  "no": null,
-  "en": "darkrai-mega"
+  "no": 491,
+  "en": "darkrai-mega",
+  "suffix": "-mega"
  },
  "10313": {
-  "no": null,
-  "en": "golurk-mega"
+  "no": 623,
+  "en": "golurk-mega",
+  "suffix": "-mega"
  },
  "10314": {
   "no": null,
   "en": "meowstic-male-mega"
  },
  "10315": {
-  "no": null,
-  "en": "crabominable-mega"
+  "no": 740,
+  "en": "crabominable-mega",
+  "suffix": "-mega"
  },
  "10316": {
-  "no": null,
-  "en": "golisopod-mega"
+  "no": 768,
+  "en": "golisopod-mega",
+  "suffix": "-mega"
  },
  "10317": {
-  "no": null,
-  "en": "magearna-mega"
+  "no": 801,
+  "en": "magearna-mega",
+  "suffix": "-mega"
  },
  "10318": {
-  "no": null,
-  "en": "magearna-original-mega"
+  "no": 801,
+  "en": "magearna-original-mega",
+  "suffix": "-mega"
  },
  "10319": {
-  "no": null,
-  "en": "zeraora-mega"
+  "no": 807,
+  "en": "zeraora-mega",
+  "suffix": "-mega"
  },
  "10320": {
-  "no": null,
-  "en": "scovillain-mega"
+  "no": 952,
+  "en": "scovillain-mega",
+  "suffix": "-mega"
  },
  "10321": {
-  "no": null,
-  "en": "glimmora-mega"
+  "no": 970,
+  "en": "glimmora-mega",
+  "suffix": "-mega"
  },
  "10322": {
   "no": null,
   "en": "tatsugiri-curly-mega"
  },
  "10323": {
-  "no": null,
-  "en": "tatsugiri-droopy-mega"
+  "no": 978,
+  "en": "tatsugiri-droopy-mega",
+  "suffix": "-mega"
  },
  "10324": {
-  "no": null,
-  "en": "tatsugiri-stretchy-mega"
+  "no": 978,
+  "en": "tatsugiri-stretchy-mega",
+  "suffix": "-mega"
  },
  "10325": {
-  "no": null,
-  "en": "baxcalibur-mega"
+  "no": 998,
+  "en": "baxcalibur-mega",
+  "suffix": "-mega"
  },
  "10326": {
   "no": null,
