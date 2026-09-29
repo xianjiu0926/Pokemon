@@ -69,19 +69,47 @@ def fullwidth(s):
 
 
 def resolve_html(name):
-    """优先原名，失败则试全角→半角、再试半角→全角。"""
+    """优先原名（+招式），失败则用 converttitles 转繁体再试（含无后缀的 Z/超极巨招式）。"""
     title = name + '（招式）'
     h = get_html(title)
     if h:
         return title, h
+    # 繁体转换（MediaWiki converttitles）
+    trad = convert_title(name)
+    if trad and trad != name:
+        for t in (trad + '（招式）', trad):
+            h2 = get_html(t)
+            if h2:
+                return t, h2
+    # 无后缀原名（部分 Z/超极巨招式标题不带「（招式）」）
+    h_nosuffix = get_html(name)
+    if h_nosuffix:
+        return name, h_nosuffix
+    # 半角/全角兜底（V热焰）
     for variant in (normalize_width(name), fullwidth(name)):
         if variant == name:
             continue
-        title2 = variant + '（招式）'
-        h2 = get_html(title2)
-        if h2:
-            return title2, h2
+        title3 = variant + '（招式）'
+        h3 = get_html(title3)
+        if h3:
+            return title3, h3
     return title, ''
+
+
+_convert_cache = {}
+
+
+def convert_title(name):
+    if name in _convert_cache:
+        return _convert_cache[name]
+    try:
+        d = api({'action': 'query', 'titles': name, 'converttitles': 1})
+        conv = d.get('query', {}).get('converted', [])
+        trad = conv[0].get('to', '') if conv else ''
+    except Exception:
+        trad = ''
+    _convert_cache[name] = trad
+    return trad
 
 
 def extract_section(html, want):
