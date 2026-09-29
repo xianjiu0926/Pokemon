@@ -1,5 +1,5 @@
 {
- "count": 1025,
+ "count": 1305,
  "data": [
   {
    "no": 1,
@@ -23,6 +23,24 @@
    "no": 3,
    "name": "妙蛙花",
    "en": "venusaur",
+   "types": [
+    "草",
+    "毒"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "超级妙蛙花",
+   "en": "venusaur-mega",
+   "types": [
+    "草",
+    "毒"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "超极巨化妙蛙花",
+   "en": "venusaur-gmax",
    "types": [
     "草",
     "毒"
@@ -56,6 +74,33 @@
    ]
   },
   {
+   "no": 6,
+   "name": "超级喷火龙X",
+   "en": "charizard-mega-x",
+   "types": [
+    "火",
+    "龙"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "超级喷火龙Y",
+   "en": "charizard-mega-y",
+   "types": [
+    "火",
+    "飞行"
+   ]
+  },
+  {
+   "no": 6,
+   "name": "超极巨化喷火龙",
+   "en": "charizard-gmax",
+   "types": [
+    "火",
+    "飞行"
+   ]
+  },
+  {
    "no": 7,
    "name": "杰尼龟",
    "en": "squirtle",
@@ -77,6 +122,24 @@
    "no": 9,
    "name": "水箭龟",
    "en": "blastoise",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
+   "no": 9,
+   "name": "超级水箭龟",
+   "en": "blastoise-mega",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
+   "no": 9,
+   "name": "超极巨化水箭龟",
+   "en": "blastoise-gmax",
    "types": [
     "水",
     null
@@ -110,6 +173,15 @@
    ]
   },
   {
+   "no": 12,
+   "name": "超极巨化巴大蝶",
+   "en": "butterfree-gmax",
+   "types": [
+    "虫",
+    "飞行"
+   ]
+  },
+  {
    "no": 13,
    "name": "独角虫",
    "en": "weedle",
@@ -131,6 +203,15 @@
    "no": 15,
    "name": "大针蜂",
    "en": "beedrill",
+   "types": [
+    "虫",
+    "毒"
+   ]
+  },
+  {
+   "no": 15,
+   "name": "超级大针蜂",
+   "en": "beedrill-mega",
    "types": [
     "虫",
     "毒"
@@ -164,9 +245,27 @@
    ]
   },
   {
+   "no": 18,
+   "name": "超级大比鸟",
+   "en": "pidgeot-mega",
+   "types": [
+    "一般",
+    "飞行"
+   ]
+  },
+  {
    "no": 19,
    "name": "小拉达",
    "en": "rattata",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 19,
+   "name": "小拉达(阿罗拉)",
+   "en": "rattata-alola",
    "types": [
     "恶",
     "一般"
@@ -176,6 +275,15 @@
    "no": 20,
    "name": "拉达",
    "en": "raticate",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 20,
+   "name": "拉达(阿罗拉)",
+   "en": "raticate-alola",
    "types": [
     "恶",
     "一般"
@@ -227,9 +335,117 @@
    ]
   },
   {
+   "no": 25,
+   "name": "皮卡丘(初始帽子)",
+   "en": "pikachu-original",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 25,
+   "name": "皮卡丘(丰缘帽子)",
+   "en": "pikachu-hoenn",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 25,
+   "name": "皮卡丘(神奥帽子)",
+   "en": "pikachu-sinnoh",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 25,
+   "name": "皮卡丘(合众帽子)",
+   "en": "pikachu-unova",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 25,
+   "name": "皮卡丘(卡洛斯帽子)",
+   "en": "pikachu-kalos",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 25,
+   "name": "皮卡丘(阿罗拉帽子)",
+   "en": "pikachu-alola",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 25,
+   "name": "皮卡丘(就决定是你的帽子)",
+   "en": "pikachu-partner",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 25,
+   "name": "皮卡丘(世界帽子)",
+   "en": "pikachu-world",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 25,
+   "name": "超极巨化皮卡丘",
+   "en": "pikachu-gmax",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
    "no": 26,
    "name": "雷丘",
    "en": "raichu",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 26,
+   "name": "雷丘(阿罗拉)",
+   "en": "raichu-alola",
+   "types": [
+    "电",
+    "超能力"
+   ]
+  },
+  {
+   "no": 26,
+   "name": "超级雷丘X",
+   "en": "raichu-mega-x",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 26,
+   "name": "超级雷丘Y",
+   "en": "raichu-mega-y",
    "types": [
     "电",
     null
@@ -240,6 +456,15 @@
    "name": "穿山鼠",
    "en": "sandshrew",
    "types": [
+    "地面",
+    null
+   ]
+  },
+  {
+   "no": 27,
+   "name": "穿山鼠(阿罗拉)",
+   "en": "sandshrew-alola",
+   "types": [
     "冰",
     "钢"
    ]
@@ -249,6 +474,15 @@
    "name": "穿山王",
    "en": "sandslash",
    "types": [
+    "地面",
+    null
+   ]
+  },
+  {
+   "no": 28,
+   "name": "穿山王(阿罗拉)",
+   "en": "sandslash-alola",
+   "types": [
     "冰",
     "钢"
    ]
@@ -256,7 +490,7 @@
   {
    "no": 29,
    "name": "尼多兰",
-   "en": "nidoranf",
+   "en": "nidoran-f",
    "types": [
     "毒",
     null
@@ -283,7 +517,7 @@
   {
    "no": 32,
    "name": "尼多朗",
-   "en": "nidoranm",
+   "en": "nidoran-m",
    "types": [
     "毒",
     null
@@ -322,6 +556,15 @@
    "en": "clefable",
    "types": [
     "妖精",
+    null
+   ]
+  },
+  {
+   "no": 36,
+   "name": "超级皮可西",
+   "en": "clefable-mega",
+   "types": [
+    "妖精",
     "飞行"
    ]
   },
@@ -329,6 +572,15 @@
    "no": 37,
    "name": "六尾",
    "en": "vulpix",
+   "types": [
+    "火",
+    null
+   ]
+  },
+  {
+   "no": 37,
+   "name": "六尾(阿罗拉)",
+   "en": "vulpix-alola",
    "types": [
     "冰",
     null
@@ -338,6 +590,15 @@
    "no": 38,
    "name": "九尾",
    "en": "ninetales",
+   "types": [
+    "火",
+    null
+   ]
+  },
+  {
+   "no": 38,
+   "name": "九尾(阿罗拉)",
+   "en": "ninetales-alola",
    "types": [
     "冰",
     "妖精"
@@ -448,6 +709,15 @@
    "en": "diglett",
    "types": [
     "地面",
+    null
+   ]
+  },
+  {
+   "no": 50,
+   "name": "地鼠(阿罗拉)",
+   "en": "diglett-alola",
+   "types": [
+    "地面",
     "钢"
    ]
   },
@@ -455,6 +725,15 @@
    "no": 51,
    "name": "三地鼠",
    "en": "dugtrio",
+   "types": [
+    "地面",
+    null
+   ]
+  },
+  {
+   "no": 51,
+   "name": "三地鼠(阿罗拉)",
+   "en": "dugtrio-alola",
    "types": [
     "地面",
     "钢"
@@ -465,6 +744,33 @@
    "name": "喵喵",
    "en": "meowth",
    "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 52,
+   "name": "超极巨化喵喵",
+   "en": "meowth-gmax",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 52,
+   "name": "喵喵(阿罗拉)",
+   "en": "meowth-alola",
+   "types": [
+    "恶",
+    null
+   ]
+  },
+  {
+   "no": 52,
+   "name": "喵喵(伽勒尔)",
+   "en": "meowth-galar",
+   "types": [
     "钢",
     null
    ]
@@ -473,6 +779,15 @@
    "no": 53,
    "name": "猫老大",
    "en": "persian",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 53,
+   "name": "猫老大(阿罗拉)",
+   "en": "persian-alola",
    "types": [
     "恶",
     null
@@ -507,7 +822,7 @@
   },
   {
    "no": 57,
-   "name": "火暴猴",
+   "name": "火暴猴(火爆猴)",
    "en": "primeape",
    "types": [
     "格斗",
@@ -520,6 +835,15 @@
    "en": "growlithe",
    "types": [
     "火",
+    null
+   ]
+  },
+  {
+   "no": 58,
+   "name": "卡蒂狗(洗翠)",
+   "en": "growlithe-hisui",
+   "types": [
+    "火",
     "岩石"
    ]
   },
@@ -527,6 +851,15 @@
    "no": 59,
    "name": "风速狗",
    "en": "arcanine",
+   "types": [
+    "火",
+    null
+   ]
+  },
+  {
+   "no": 59,
+   "name": "风速狗(洗翠)",
+   "en": "arcanine-hisui",
    "types": [
     "火",
     "岩石"
@@ -587,6 +920,15 @@
    ]
   },
   {
+   "no": 65,
+   "name": "超级胡地",
+   "en": "alakazam-mega",
+   "types": [
+    "超能力",
+    null
+   ]
+  },
+  {
    "no": 66,
    "name": "腕力",
    "en": "machop",
@@ -608,6 +950,15 @@
    "no": 68,
    "name": "怪力",
    "en": "machamp",
+   "types": [
+    "格斗",
+    null
+   ]
+  },
+  {
+   "no": 68,
+   "name": "超极巨化怪力",
+   "en": "machamp-gmax",
    "types": [
     "格斗",
     null
@@ -641,6 +992,15 @@
    ]
   },
   {
+   "no": 71,
+   "name": "超级大食花",
+   "en": "victreebel-mega",
+   "types": [
+    "草",
+    "毒"
+   ]
+  },
+  {
    "no": 72,
    "name": "玛瑙水母",
    "en": "tentacool",
@@ -664,6 +1024,15 @@
    "en": "geodude",
    "types": [
     "岩石",
+    "地面"
+   ]
+  },
+  {
+   "no": 74,
+   "name": "小拳石(阿罗拉)",
+   "en": "geodude-alola",
+   "types": [
+    "岩石",
     "电"
    ]
   },
@@ -671,6 +1040,15 @@
    "no": 75,
    "name": "隆隆石",
    "en": "graveler",
+   "types": [
+    "岩石",
+    "地面"
+   ]
+  },
+  {
+   "no": 75,
+   "name": "隆隆石(阿罗拉)",
+   "en": "graveler-alola",
    "types": [
     "岩石",
     "电"
@@ -682,6 +1060,15 @@
    "en": "golem",
    "types": [
     "岩石",
+    "地面"
+   ]
+  },
+  {
+   "no": 76,
+   "name": "隆隆岩(阿罗拉)",
+   "en": "golem-alola",
+   "types": [
+    "岩石",
     "电"
    ]
   },
@@ -689,6 +1076,15 @@
    "no": 77,
    "name": "小火马",
    "en": "ponyta",
+   "types": [
+    "火",
+    null
+   ]
+  },
+  {
+   "no": 77,
+   "name": "小火马(伽勒尔)",
+   "en": "ponyta-galar",
    "types": [
     "超能力",
     null
@@ -699,6 +1095,15 @@
    "name": "烈焰马",
    "en": "rapidash",
    "types": [
+    "火",
+    null
+   ]
+  },
+  {
+   "no": 78,
+   "name": "烈焰马(伽勒尔)",
+   "en": "rapidash-galar",
+   "types": [
     "超能力",
     "妖精"
    ]
@@ -708,6 +1113,15 @@
    "name": "呆呆兽",
    "en": "slowpoke",
    "types": [
+    "水",
+    "超能力"
+   ]
+  },
+  {
+   "no": 79,
+   "name": "呆呆兽(伽勒尔)",
+   "en": "slowpoke-galar",
+   "types": [
     "超能力",
     null
    ]
@@ -716,6 +1130,24 @@
    "no": 80,
    "name": "呆壳兽",
    "en": "slowbro",
+   "types": [
+    "水",
+    "超能力"
+   ]
+  },
+  {
+   "no": 80,
+   "name": "呆壳兽(伽勒尔)",
+   "en": "slowbro-galar",
+   "types": [
+    "毒",
+    "超能力"
+   ]
+  },
+  {
+   "no": 80,
+   "name": "超级呆壳兽",
+   "en": "slowbro-mega",
    "types": [
     "水",
     "超能力"
@@ -743,6 +1175,15 @@
    "no": 83,
    "name": "大葱鸭",
    "en": "farfetchd",
+   "types": [
+    "一般",
+    "飞行"
+   ]
+  },
+  {
+   "no": 83,
+   "name": "大葱鸭(伽勒尔)",
+   "en": "farfetchd-galar",
    "types": [
     "格斗",
     null
@@ -790,6 +1231,15 @@
    "en": "grimer",
    "types": [
     "毒",
+    null
+   ]
+  },
+  {
+   "no": 88,
+   "name": "臭泥(阿罗拉)",
+   "en": "grimer-alola",
+   "types": [
+    "毒",
     "恶"
    ]
   },
@@ -797,6 +1247,15 @@
    "no": 89,
    "name": "臭臭泥",
    "en": "muk",
+   "types": [
+    "毒",
+    null
+   ]
+  },
+  {
+   "no": 89,
+   "name": "臭臭泥(阿罗拉)",
+   "en": "muk-alola",
    "types": [
     "毒",
     "恶"
@@ -848,6 +1307,24 @@
    ]
   },
   {
+   "no": 94,
+   "name": "超级耿鬼",
+   "en": "gengar-mega",
+   "types": [
+    "幽灵",
+    "毒"
+   ]
+  },
+  {
+   "no": 94,
+   "name": "超极巨化耿鬼",
+   "en": "gengar-gmax",
+   "types": [
+    "幽灵",
+    "毒"
+   ]
+  },
+  {
    "no": 95,
    "name": "大岩蛇",
    "en": "onix",
@@ -893,9 +1370,27 @@
    ]
   },
   {
+   "no": 99,
+   "name": "超极巨化巨钳蟹",
+   "en": "kingler-gmax",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
    "no": 100,
    "name": "霹雳电球",
    "en": "voltorb",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 100,
+   "name": "霹雳电球(洗翠)",
+   "en": "voltorb-hisui",
    "types": [
     "电",
     "草"
@@ -905,6 +1400,15 @@
    "no": 101,
    "name": "顽皮雷弹",
    "en": "electrode",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 101,
+   "name": "顽皮雷弹(洗翠)",
+   "en": "electrode-hisui",
    "types": [
     "电",
     "草"
@@ -925,6 +1429,15 @@
    "en": "exeggutor",
    "types": [
     "草",
+    "超能力"
+   ]
+  },
+  {
+   "no": 103,
+   "name": "椰蛋树(阿罗拉)",
+   "en": "exeggutor-alola",
+   "types": [
+    "草",
     "龙"
    ]
   },
@@ -941,6 +1454,15 @@
    "no": 105,
    "name": "嘎啦嘎啦",
    "en": "marowak",
+   "types": [
+    "地面",
+    null
+   ]
+  },
+  {
+   "no": 105,
+   "name": "嘎啦嘎啦(阿罗拉)",
+   "en": "marowak-alola",
    "types": [
     "火",
     "幽灵"
@@ -988,6 +1510,15 @@
    "en": "weezing",
    "types": [
     "毒",
+    null
+   ]
+  },
+  {
+   "no": 110,
+   "name": "双弹瓦斯(伽勒尔)",
+   "en": "weezing-galar",
+   "types": [
+    "毒",
     "妖精"
    ]
   },
@@ -1031,6 +1562,15 @@
    "no": 115,
    "name": "袋兽",
    "en": "kangaskhan",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 115,
+   "name": "超级袋兽",
+   "en": "kangaskhan-mega",
    "types": [
     "一般",
     null
@@ -1091,9 +1631,27 @@
    ]
   },
   {
+   "no": 121,
+   "name": "超级宝石海星",
+   "en": "starmie-mega",
+   "types": [
+    "水",
+    "超能力"
+   ]
+  },
+  {
    "no": 122,
    "name": "魔墙人偶",
-   "en": "mrmime",
+   "en": "mr-mime",
+   "types": [
+    "超能力",
+    "妖精"
+   ]
+  },
+  {
+   "no": 122,
+   "name": "魔墙人偶(伽勒尔)",
+   "en": "mr-mime-galar",
    "types": [
     "冰",
     "超能力"
@@ -1141,6 +1699,15 @@
    "en": "pinsir",
    "types": [
     "虫",
+    null
+   ]
+  },
+  {
+   "no": 127,
+   "name": "超级凯罗斯",
+   "en": "pinsir-mega",
+   "types": [
+    "虫",
     "飞行"
    ]
   },
@@ -1148,6 +1715,33 @@
    "no": 128,
    "name": "肯泰罗",
    "en": "tauros",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 128,
+   "name": "肯泰罗(斗战种)",
+   "en": "tauros-paldea-combat",
+   "types": [
+    "格斗",
+    null
+   ]
+  },
+  {
+   "no": 128,
+   "name": "肯泰罗(火炽种)",
+   "en": "tauros-paldea-blaze",
+   "types": [
+    "格斗",
+    "火"
+   ]
+  },
+  {
+   "no": 128,
+   "name": "肯泰罗(水澜种)",
+   "en": "tauros-paldea-aqua",
    "types": [
     "格斗",
     "水"
@@ -1168,6 +1762,15 @@
    "en": "gyarados",
    "types": [
     "水",
+    "飞行"
+   ]
+  },
+  {
+   "no": 130,
+   "name": "超级暴鲤龙",
+   "en": "gyarados-mega",
+   "types": [
+    "水",
     "恶"
    ]
   },
@@ -1175,6 +1778,15 @@
    "no": 131,
    "name": "拉普拉斯",
    "en": "lapras",
+   "types": [
+    "水",
+    "冰"
+   ]
+  },
+  {
+   "no": 131,
+   "name": "超极巨化拉普拉斯",
+   "en": "lapras-gmax",
    "types": [
     "水",
     "冰"
@@ -1193,6 +1805,15 @@
    "no": 133,
    "name": "伊布",
    "en": "eevee",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 133,
+   "name": "超极巨化伊布",
+   "en": "eevee-gmax",
    "types": [
     "一般",
     null
@@ -1280,9 +1901,27 @@
    ]
   },
   {
+   "no": 142,
+   "name": "超级化石翼龙",
+   "en": "aerodactyl-mega",
+   "types": [
+    "岩石",
+    "飞行"
+   ]
+  },
+  {
    "no": 143,
    "name": "卡比兽",
    "en": "snorlax",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 143,
+   "name": "超极巨化卡比兽",
+   "en": "snorlax-gmax",
    "types": [
     "一般",
     null
@@ -1293,6 +1932,15 @@
    "name": "急冻鸟",
    "en": "articuno",
    "types": [
+    "冰",
+    "飞行"
+   ]
+  },
+  {
+   "no": 144,
+   "name": "急冻鸟(伽勒尔)",
+   "en": "articuno-galar",
+   "types": [
     "超能力",
     "飞行"
    ]
@@ -1302,6 +1950,15 @@
    "name": "闪电鸟",
    "en": "zapdos",
    "types": [
+    "电",
+    "飞行"
+   ]
+  },
+  {
+   "no": 145,
+   "name": "闪电鸟(伽勒尔)",
+   "en": "zapdos-galar",
+   "types": [
     "格斗",
     "飞行"
    ]
@@ -1310,6 +1967,15 @@
    "no": 146,
    "name": "火焰鸟",
    "en": "moltres",
+   "types": [
+    "火",
+    "飞行"
+   ]
+  },
+  {
+   "no": 146,
+   "name": "火焰鸟(伽勒尔)",
+   "en": "moltres-galar",
    "types": [
     "恶",
     "飞行"
@@ -1343,9 +2009,36 @@
    ]
   },
   {
+   "no": 149,
+   "name": "超级快龙",
+   "en": "dragonite-mega",
+   "types": [
+    "龙",
+    "飞行"
+   ]
+  },
+  {
    "no": 150,
    "name": "超梦",
    "en": "mewtwo",
+   "types": [
+    "超能力",
+    null
+   ]
+  },
+  {
+   "no": 150,
+   "name": "超级超梦X",
+   "en": "mewtwo-mega-x",
+   "types": [
+    "超能力",
+    "格斗"
+   ]
+  },
+  {
+   "no": 150,
+   "name": "超级超梦Y",
+   "en": "mewtwo-mega-y",
    "types": [
     "超能力",
     null
@@ -1384,6 +2077,15 @@
    "en": "meganium",
    "types": [
     "草",
+    null
+   ]
+  },
+  {
+   "no": 154,
+   "name": "超级大竺葵",
+   "en": "meganium-mega",
+   "types": [
+    "草",
     "妖精"
    ]
   },
@@ -1411,6 +2113,15 @@
    "en": "typhlosion",
    "types": [
     "火",
+    null
+   ]
+  },
+  {
+   "no": 157,
+   "name": "火暴兽(洗翠)",
+   "en": "typhlosion-hisui",
+   "types": [
+    "火",
     "幽灵"
    ]
   },
@@ -1436,6 +2147,15 @@
    "no": 160,
    "name": "大力鳄",
    "en": "feraligatr",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
+   "no": 160,
+   "name": "超级大力鳄",
+   "en": "feraligatr-mega",
    "types": [
     "水",
     "龙"
@@ -1627,6 +2347,15 @@
    "en": "ampharos",
    "types": [
     "电",
+    null
+   ]
+  },
+  {
+   "no": 181,
+   "name": "超级电龙",
+   "en": "ampharos-mega",
+   "types": [
+    "电",
     "龙"
    ]
   },
@@ -1743,6 +2472,15 @@
    "name": "乌波",
    "en": "wooper",
    "types": [
+    "水",
+    "地面"
+   ]
+  },
+  {
+   "no": 194,
+   "name": "乌波(帕底亚)",
+   "en": "wooper-paldea",
+   "types": [
     "毒",
     "地面"
    ]
@@ -1787,6 +2525,15 @@
    "no": 199,
    "name": "呆呆王",
    "en": "slowking",
+   "types": [
+    "水",
+    "超能力"
+   ]
+  },
+  {
+   "no": 199,
+   "name": "呆呆王(伽勒尔)",
+   "en": "slowking-galar",
    "types": [
     "毒",
     "超能力"
@@ -1874,6 +2621,15 @@
    ]
   },
   {
+   "no": 208,
+   "name": "超级大钢蛇",
+   "en": "steelix-mega",
+   "types": [
+    "钢",
+    "地面"
+   ]
+  },
+  {
    "no": 209,
    "name": "布鲁",
    "en": "snubbull",
@@ -1896,6 +2652,15 @@
    "name": "千针鱼",
    "en": "qwilfish",
    "types": [
+    "水",
+    "毒"
+   ]
+  },
+  {
+   "no": 211,
+   "name": "千针鱼(洗翠)",
+   "en": "qwilfish-hisui",
+   "types": [
     "恶",
     "毒"
    ]
@@ -1904,6 +2669,15 @@
    "no": 212,
    "name": "巨钳螳螂",
    "en": "scizor",
+   "types": [
+    "虫",
+    "钢"
+   ]
+  },
+  {
+   "no": 212,
+   "name": "超级巨钳螳螂",
+   "en": "scizor-mega",
    "types": [
     "虫",
     "钢"
@@ -1928,9 +2702,27 @@
    ]
   },
   {
+   "no": 214,
+   "name": "超级赫拉克罗斯",
+   "en": "heracross-mega",
+   "types": [
+    "虫",
+    "格斗"
+   ]
+  },
+  {
    "no": 215,
    "name": "狃拉",
    "en": "sneasel",
+   "types": [
+    "恶",
+    "冰"
+   ]
+  },
+  {
+   "no": 215,
+   "name": "狃拉(洗翠)",
+   "en": "sneasel-hisui",
    "types": [
     "格斗",
     "毒"
@@ -1995,6 +2787,15 @@
    "name": "太阳珊瑚",
    "en": "corsola",
    "types": [
+    "水",
+    "岩石"
+   ]
+  },
+  {
+   "no": 222,
+   "name": "太阳珊瑚(伽勒尔)",
+   "en": "corsola-galar",
+   "types": [
     "幽灵",
     null
    ]
@@ -2045,6 +2846,15 @@
    ]
   },
   {
+   "no": 227,
+   "name": "超级盔甲鸟",
+   "en": "skarmory-mega",
+   "types": [
+    "钢",
+    "飞行"
+   ]
+  },
+  {
    "no": 228,
    "name": "戴鲁比",
    "en": "houndour",
@@ -2057,6 +2867,15 @@
    "no": 229,
    "name": "黑鲁加",
    "en": "houndoom",
+   "types": [
+    "恶",
+    "火"
+   ]
+  },
+  {
+   "no": 229,
+   "name": "超级黑鲁加",
+   "en": "houndoom-mega",
    "types": [
     "恶",
     "火"
@@ -2091,7 +2910,7 @@
   },
   {
    "no": 233,
-   "name": "多边兽Ⅱ",
+   "name": "多边兽2型",
    "en": "porygon2",
    "types": [
     "一般",
@@ -2234,6 +3053,15 @@
    ]
   },
   {
+   "no": 248,
+   "name": "超级班基拉斯",
+   "en": "tyranitar-mega",
+   "types": [
+    "岩石",
+    "恶"
+   ]
+  },
+  {
    "no": 249,
    "name": "洛奇亚",
    "en": "lugia",
@@ -2245,7 +3073,7 @@
   {
    "no": 250,
    "name": "凤王",
-   "en": "hooh",
+   "en": "ho-oh",
    "types": [
     "火",
     "飞行"
@@ -2284,6 +3112,15 @@
    "en": "sceptile",
    "types": [
     "草",
+    null
+   ]
+  },
+  {
+   "no": 254,
+   "name": "超级蜥蜴王",
+   "en": "sceptile-mega",
+   "types": [
+    "草",
     "龙"
    ]
   },
@@ -2309,6 +3146,15 @@
    "no": 257,
    "name": "火焰鸡",
    "en": "blaziken",
+   "types": [
+    "火",
+    "格斗"
+   ]
+  },
+  {
+   "no": 257,
+   "name": "超级火焰鸡",
+   "en": "blaziken-mega",
    "types": [
     "火",
     "格斗"
@@ -2342,6 +3188,15 @@
    ]
   },
   {
+   "no": 260,
+   "name": "超级巨沼怪",
+   "en": "swampert-mega",
+   "types": [
+    "水",
+    "地面"
+   ]
+  },
+  {
    "no": 261,
    "name": "土狼犬",
    "en": "poochyena",
@@ -2364,6 +3219,15 @@
    "name": "蛇纹熊",
    "en": "zigzagoon",
    "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 263,
+   "name": "蛇纹熊(伽勒尔)",
+   "en": "zigzagoon-galar",
+   "types": [
     "恶",
     "一般"
    ]
@@ -2372,6 +3236,15 @@
    "no": 264,
    "name": "直冲熊",
    "en": "linoone",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 264,
+   "name": "直冲熊(伽勒尔)",
+   "en": "linoone-galar",
    "types": [
     "恶",
     "一般"
@@ -2534,6 +3407,15 @@
    "no": 282,
    "name": "沙奈朵",
    "en": "gardevoir",
+   "types": [
+    "超能力",
+    "妖精"
+   ]
+  },
+  {
+   "no": 282,
+   "name": "超级沙奈朵",
+   "en": "gardevoir-mega",
    "types": [
     "超能力",
     "妖精"
@@ -2720,9 +3602,27 @@
    ]
   },
   {
+   "no": 302,
+   "name": "超级勾魂眼",
+   "en": "sableye-mega",
+   "types": [
+    "恶",
+    "幽灵"
+   ]
+  },
+  {
    "no": 303,
    "name": "大嘴娃",
    "en": "mawile",
+   "types": [
+    "钢",
+    "妖精"
+   ]
+  },
+  {
+   "no": 303,
+   "name": "超级大嘴娃",
+   "en": "mawile-mega",
    "types": [
     "钢",
     "妖精"
@@ -2752,6 +3652,15 @@
    "en": "aggron",
    "types": [
     "钢",
+    "岩石"
+   ]
+  },
+  {
+   "no": 306,
+   "name": "超级波士可多拉",
+   "en": "aggron-mega",
+   "types": [
+    "钢",
     null
    ]
   },
@@ -2774,6 +3683,15 @@
    ]
   },
   {
+   "no": 308,
+   "name": "超级恰雷姆",
+   "en": "medicham-mega",
+   "types": [
+    "格斗",
+    "超能力"
+   ]
+  },
+  {
    "no": 309,
    "name": "落雷兽",
    "en": "electrike",
@@ -2786,6 +3704,15 @@
    "no": 310,
    "name": "雷电兽",
    "en": "manectric",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
+   "no": 310,
+   "name": "超级雷电兽",
+   "en": "manectric-mega",
    "types": [
     "电",
     null
@@ -2873,6 +3800,15 @@
    ]
   },
   {
+   "no": 319,
+   "name": "超级巨牙鲨",
+   "en": "sharpedo-mega",
+   "types": [
+    "水",
+    "恶"
+   ]
+  },
+  {
    "no": 320,
    "name": "吼吼鲸",
    "en": "wailmer",
@@ -2903,6 +3839,15 @@
    "no": 323,
    "name": "喷火驼",
    "en": "camerupt",
+   "types": [
+    "火",
+    "地面"
+   ]
+  },
+  {
+   "no": 323,
+   "name": "超级喷火驼",
+   "en": "camerupt-mega",
    "types": [
     "火",
     "地面"
@@ -3002,6 +3947,15 @@
    "no": 334,
    "name": "七夕青鸟",
    "en": "altaria",
+   "types": [
+    "龙",
+    "飞行"
+   ]
+  },
+  {
+   "no": 334,
+   "name": "超级七夕青鸟",
+   "en": "altaria-mega",
    "types": [
     "龙",
     "妖精"
@@ -3156,6 +4110,33 @@
    "name": "飘浮泡泡",
    "en": "castform",
    "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 351,
+   "name": "飘浮泡泡(太阳)",
+   "en": "castform-sunny",
+   "types": [
+    "火",
+    null
+   ]
+  },
+  {
+   "no": 351,
+   "name": "飘浮泡泡(雨水)",
+   "en": "castform-rainy",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
+   "no": 351,
+   "name": "飘浮泡泡(雪云)",
+   "en": "castform-snowy",
+   "types": [
     "冰",
     null
    ]
@@ -3182,6 +4163,15 @@
    "no": 354,
    "name": "诅咒娃娃",
    "en": "banette",
+   "types": [
+    "幽灵",
+    null
+   ]
+  },
+  {
+   "no": 354,
+   "name": "超级诅咒娃娃",
+   "en": "banette-mega",
    "types": [
     "幽灵",
     null
@@ -3220,6 +4210,15 @@
    "en": "chimecho",
    "types": [
     "超能力",
+    null
+   ]
+  },
+  {
+   "no": 358,
+   "name": "超级风铃铃",
+   "en": "chimecho-mega",
+   "types": [
+    "超能力",
     "钢"
    ]
   },
@@ -3227,6 +4226,24 @@
    "no": 359,
    "name": "阿勃梭鲁",
    "en": "absol",
+   "types": [
+    "恶",
+    null
+   ]
+  },
+  {
+   "no": 359,
+   "name": "超级阿勃梭鲁",
+   "en": "absol-mega",
+   "types": [
+    "恶",
+    null
+   ]
+  },
+  {
+   "no": 359,
+   "name": "超级阿勃梭鲁Z",
+   "en": "absol-mega-z",
    "types": [
     "恶",
     "幽灵"
@@ -3254,6 +4271,15 @@
    "no": 362,
    "name": "冰鬼护",
    "en": "glalie",
+   "types": [
+    "冰",
+    null
+   ]
+  },
+  {
+   "no": 362,
+   "name": "超级冰鬼护",
+   "en": "glalie-mega",
    "types": [
     "冰",
     null
@@ -3359,6 +4385,15 @@
    ]
   },
   {
+   "no": 373,
+   "name": "超级暴飞龙",
+   "en": "salamence-mega",
+   "types": [
+    "龙",
+    "飞行"
+   ]
+  },
+  {
    "no": 374,
    "name": "铁哑铃",
    "en": "beldum",
@@ -3380,6 +4415,15 @@
    "no": 376,
    "name": "巨金怪",
    "en": "metagross",
+   "types": [
+    "钢",
+    "超能力"
+   ]
+  },
+  {
+   "no": 376,
+   "name": "超级巨金怪",
+   "en": "metagross-mega",
    "types": [
     "钢",
     "超能力"
@@ -3422,9 +4466,27 @@
    ]
   },
   {
+   "no": 380,
+   "name": "超级拉帝亚斯",
+   "en": "latias-mega",
+   "types": [
+    "龙",
+    "超能力"
+   ]
+  },
+  {
    "no": 381,
    "name": "拉帝欧斯",
    "en": "latios",
+   "types": [
+    "龙",
+    "超能力"
+   ]
+  },
+  {
+   "no": 381,
+   "name": "超级拉帝欧斯",
+   "en": "latios-mega",
    "types": [
     "龙",
     "超能力"
@@ -3440,9 +4502,27 @@
    ]
   },
   {
+   "no": 382,
+   "name": "盖欧卡(原始回归)",
+   "en": "kyogre-primal",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
    "no": 383,
    "name": "固拉多",
    "en": "groudon",
+   "types": [
+    "地面",
+    null
+   ]
+  },
+  {
+   "no": 383,
+   "name": "固拉多(原始回归)",
+   "en": "groudon-primal",
    "types": [
     "地面",
     "火"
@@ -3452,6 +4532,15 @@
    "no": 384,
    "name": "烈空坐",
    "en": "rayquaza",
+   "types": [
+    "龙",
+    "飞行"
+   ]
+  },
+  {
+   "no": 384,
+   "name": "超级烈空坐",
+   "en": "rayquaza-mega",
    "types": [
     "龙",
     "飞行"
@@ -3470,6 +4559,33 @@
    "no": 386,
    "name": "代欧奇希斯",
    "en": "deoxys",
+   "types": [
+    "超能力",
+    null
+   ]
+  },
+  {
+   "no": 386,
+   "name": "代欧奇希斯(攻击)",
+   "en": "deoxys-attack",
+   "types": [
+    "超能力",
+    null
+   ]
+  },
+  {
+   "no": 386,
+   "name": "代欧奇希斯(防御)",
+   "en": "deoxys-defense",
+   "types": [
+    "超能力",
+    null
+   ]
+  },
+  {
+   "no": 386,
+   "name": "代欧奇希斯(速度)",
+   "en": "deoxys-speed",
    "types": [
     "超能力",
     null
@@ -3578,6 +4694,15 @@
    "no": 398,
    "name": "姆克鹰",
    "en": "staraptor",
+   "types": [
+    "一般",
+    "飞行"
+   ]
+  },
+  {
+   "no": 398,
+   "name": "超级姆克鹰",
+   "en": "staraptor-mega",
    "types": [
     "格斗",
     "飞行"
@@ -3702,7 +4827,7 @@
   },
   {
    "no": 412,
-   "name": "结草儿",
+   "name": "结草儿(草木蓑衣)",
    "en": "burmy",
    "types": [
     "虫",
@@ -3711,8 +4836,26 @@
   },
   {
    "no": 413,
-   "name": "结草贵妇",
+   "name": "结草贵妇(草木蓑衣)",
    "en": "wormadam",
+   "types": [
+    "虫",
+    "草"
+   ]
+  },
+  {
+   "no": 413,
+   "name": "结草贵妇(砂土蓑衣)",
+   "en": "wormadam-sandy",
+   "types": [
+    "虫",
+    "地面"
+   ]
+  },
+  {
+   "no": 413,
+   "name": "结草贵妇(垃圾蓑衣)",
+   "en": "wormadam-trash",
    "types": [
     "虫",
     "钢"
@@ -3792,8 +4935,17 @@
   },
   {
    "no": 422,
-   "name": "无壳海兔",
-   "en": "shelloseast",
+   "name": "无壳海兔(东海)",
+   "en": "shellos-east",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
+   "no": 422,
+   "name": "无壳海兔(西海)",
+   "en": "shellos",
    "types": [
     "水",
     null
@@ -3801,8 +4953,17 @@
   },
   {
    "no": 423,
-   "name": "海兔兽",
-   "en": "gastrodoneast",
+   "name": "海兔兽(东海)",
+   "en": "gastrodon-east",
+   "types": [
+    "水",
+    "地面"
+   ]
+  },
+  {
+   "no": 423,
+   "name": "海兔兽(西海)",
+   "en": "gastrodon",
    "types": [
     "水",
     "地面"
@@ -3848,6 +5009,15 @@
    "no": 428,
    "name": "长耳兔",
    "en": "lopunny",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 428,
+   "name": "超级长耳兔",
+   "en": "lopunny-mega",
    "types": [
     "一般",
     "格斗"
@@ -3946,7 +5116,7 @@
   {
    "no": 439,
    "name": "魔尼尼",
-   "en": "mimejr",
+   "en": "mime-jr",
    "types": [
     "超能力",
     "妖精"
@@ -4003,6 +5173,24 @@
    "en": "garchomp",
    "types": [
     "龙",
+    "地面"
+   ]
+  },
+  {
+   "no": 445,
+   "name": "超级烈咬陆鲨",
+   "en": "garchomp-mega",
+   "types": [
+    "龙",
+    "地面"
+   ]
+  },
+  {
+   "no": 445,
+   "name": "超级烈咬陆鲨Z",
+   "en": "garchomp-mega-z",
+   "types": [
+    "龙",
     null
    ]
   },
@@ -4028,6 +5216,24 @@
    "no": 448,
    "name": "路卡利欧",
    "en": "lucario",
+   "types": [
+    "格斗",
+    "钢"
+   ]
+  },
+  {
+   "no": 448,
+   "name": "超级路卡利欧",
+   "en": "lucario-mega",
+   "types": [
+    "格斗",
+    "钢"
+   ]
+  },
+  {
+   "no": 448,
+   "name": "超级路卡利欧Z",
+   "en": "lucario-mega-z",
    "types": [
     "格斗",
     "钢"
@@ -4136,6 +5342,15 @@
    "no": 460,
    "name": "暴雪王",
    "en": "abomasnow",
+   "types": [
+    "草",
+    "冰"
+   ]
+  },
+  {
+   "no": 460,
+   "name": "超级暴雪王",
+   "en": "abomasnow-mega",
    "types": [
     "草",
     "冰"
@@ -4260,8 +5475,8 @@
   },
   {
    "no": 474,
-   "name": "多边兽Ｚ",
-   "en": "porygonz",
+   "name": "多边兽乙型",
+   "en": "porygon-z",
    "types": [
     "一般",
     null
@@ -4271,6 +5486,15 @@
    "no": 475,
    "name": "艾路雷朵",
    "en": "gallade",
+   "types": [
+    "超能力",
+    "格斗"
+   ]
+  },
+  {
+   "no": 475,
+   "name": "超级艾路雷朵",
+   "en": "gallade-mega",
    "types": [
     "超能力",
     "格斗"
@@ -4304,9 +5528,63 @@
    ]
   },
   {
+   "no": 478,
+   "name": "超级雪妖女",
+   "en": "froslass-mega",
+   "types": [
+    "冰",
+    "幽灵"
+   ]
+  },
+  {
    "no": 479,
    "name": "洛托姆",
    "en": "rotom",
+   "types": [
+    "电",
+    "幽灵"
+   ]
+  },
+  {
+   "no": 479,
+   "name": "洛托姆(加热)",
+   "en": "rotom-heat",
+   "types": [
+    "电",
+    "火"
+   ]
+  },
+  {
+   "no": 479,
+   "name": "洛托姆(清洗)",
+   "en": "rotom-wash",
+   "types": [
+    "电",
+    "水"
+   ]
+  },
+  {
+   "no": 479,
+   "name": "洛托姆(结冰)",
+   "en": "rotom-frost",
+   "types": [
+    "电",
+    "冰"
+   ]
+  },
+  {
+   "no": 479,
+   "name": "洛托姆(旋转)",
+   "en": "rotom-fan",
+   "types": [
+    "电",
+    "飞行"
+   ]
+  },
+  {
+   "no": 479,
+   "name": "洛托姆(切割)",
+   "en": "rotom-mow",
    "types": [
     "电",
     "草"
@@ -4349,6 +5627,15 @@
    ]
   },
   {
+   "no": 483,
+   "name": "帝牙卢卡(起源)",
+   "en": "dialga-origin",
+   "types": [
+    "钢",
+    "龙"
+   ]
+  },
+  {
    "no": 484,
    "name": "帕路奇亚",
    "en": "palkia",
@@ -4358,9 +5645,27 @@
    ]
   },
   {
+   "no": 484,
+   "name": "帕路奇亚(起源)",
+   "en": "palkia-origin",
+   "types": [
+    "水",
+    "龙"
+   ]
+  },
+  {
    "no": 485,
    "name": "席多蓝恩",
    "en": "heatran",
+   "types": [
+    "火",
+    "钢"
+   ]
+  },
+  {
+   "no": 485,
+   "name": "超级席多蓝恩",
+   "en": "heatran-mega",
    "types": [
     "火",
     "钢"
@@ -4377,8 +5682,17 @@
   },
   {
    "no": 487,
-   "name": "骑拉帝纳",
+   "name": "骑拉帝纳(别种)",
    "en": "giratina",
+   "types": [
+    "幽灵",
+    "龙"
+   ]
+  },
+  {
+   "no": 487,
+   "name": "骑拉帝纳(起源)",
+   "en": "giratina-origin",
    "types": [
     "幽灵",
     "龙"
@@ -4421,9 +5735,27 @@
    ]
   },
   {
+   "no": 491,
+   "name": "超级达克莱伊",
+   "en": "darkrai-mega",
+   "types": [
+    "恶",
+    null
+   ]
+  },
+  {
    "no": 492,
-   "name": "谢米",
-   "en": "shayminsky",
+   "name": "谢米(天空形态)",
+   "en": "shaymin-sky",
+   "types": [
+    "草",
+    "飞行"
+   ]
+  },
+  {
+   "no": 492,
+   "name": "谢米(陆上形态)",
+   "en": "shaymin",
    "types": [
     "草",
     null
@@ -4502,6 +5834,15 @@
    ]
   },
   {
+   "no": 500,
+   "name": "超级炎武王",
+   "en": "emboar-mega",
+   "types": [
+    "火",
+    "格斗"
+   ]
+  },
+  {
    "no": 501,
    "name": "水水獭",
    "en": "oshawott",
@@ -4523,6 +5864,15 @@
    "no": 503,
    "name": "大剑鬼",
    "en": "samurott",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
+   "no": 503,
+   "name": "大剑鬼(洗翠)",
+   "en": "samurott-hisui",
    "types": [
     "水",
     "恶"
@@ -4683,8 +6033,17 @@
   },
   {
    "no": 521,
-   "name": "高傲雉鸡",
+   "name": "高傲雉鸡(雄性)",
    "en": "unfezant",
+   "types": [
+    "一般",
+    "飞行"
+   ]
+  },
+  {
+   "no": 521,
+   "name": "高傲雉鸡(雌性)",
+   "en": "unfezant-f",
    "types": [
     "一般",
     "飞行"
@@ -4772,9 +6131,27 @@
    ]
   },
   {
+   "no": 530,
+   "name": "超级龙头地鼠",
+   "en": "excadrill-mega",
+   "types": [
+    "地面",
+    "钢"
+   ]
+  },
+  {
    "no": 531,
    "name": "差不多娃娃",
    "en": "audino",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 531,
+   "name": "超级差不多娃娃",
+   "en": "audino-mega",
    "types": [
     "一般",
     "妖精"
@@ -4907,6 +6284,15 @@
    ]
   },
   {
+   "no": 545,
+   "name": "超级蜈蚣王",
+   "en": "scolipede-mega",
+   "types": [
+    "虫",
+    "毒"
+   ]
+  },
+  {
    "no": 546,
    "name": "木棉球",
    "en": "cottonee",
@@ -4939,13 +6325,40 @@
    "en": "lilligant",
    "types": [
     "草",
+    null
+   ]
+  },
+  {
+   "no": 549,
+   "name": "裙儿小姐(洗翠)",
+   "en": "lilligant-hisui",
+   "types": [
+    "草",
     "格斗"
    ]
   },
   {
    "no": 550,
-   "name": "野蛮鲈鱼",
-   "en": "basculinredstriped",
+   "name": "野蛮鲈鱼(红条纹)",
+   "en": "basculin-red-striped",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
+   "no": 550,
+   "name": "野蛮鲈鱼(蓝条纹)",
+   "en": "basculin-blue-striped",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
+   "no": 550,
+   "name": "野蛮鲈鱼(白条纹)",
+   "en": "basculin-white-striped",
    "types": [
     "水",
     null
@@ -4983,14 +6396,50 @@
    "name": "火红不倒翁",
    "en": "darumaka",
    "types": [
+    "火",
+    null
+   ]
+  },
+  {
+   "no": 554,
+   "name": "火红不倒翁(伽勒尔)",
+   "en": "darumaka-galar",
+   "types": [
     "冰",
     null
    ]
   },
   {
    "no": 555,
-   "name": "达摩狒狒",
+   "name": "达摩狒狒(普通模式)",
    "en": "darmanitan",
+   "types": [
+    "火",
+    null
+   ]
+  },
+  {
+   "no": 555,
+   "name": "达摩狒狒(达摩模式)",
+   "en": "darmanitan-zen",
+   "types": [
+    "火",
+    "超能力"
+   ]
+  },
+  {
+   "no": 555,
+   "name": "达摩狒狒(伽勒尔普通模式)",
+   "en": "darmanitan-galar",
+   "types": [
+    "冰",
+    null
+   ]
+  },
+  {
+   "no": 555,
+   "name": "达摩狒狒(伽勒尔达摩模式)",
+   "en": "darmanitan-galar-zen",
    "types": [
     "冰",
     "火"
@@ -5042,6 +6491,15 @@
    ]
   },
   {
+   "no": 560,
+   "name": "超级头巾混混",
+   "en": "scrafty-mega",
+   "types": [
+    "恶",
+    "格斗"
+   ]
+  },
+  {
    "no": 561,
    "name": "象征鸟",
    "en": "sigilyph",
@@ -5055,13 +6513,22 @@
    "name": "哭哭面具",
    "en": "yamask",
    "types": [
+    "幽灵",
+    null
+   ]
+  },
+  {
+   "no": 562,
+   "name": "哭哭面具(伽勒尔)",
+   "en": "yamask-galar",
+   "types": [
     "地面",
     "幽灵"
    ]
   },
   {
    "no": 563,
-   "name": "死神棺",
+   "name": "迭失棺",
    "en": "cofagrigus",
    "types": [
     "幽灵",
@@ -5123,9 +6590,27 @@
    ]
   },
   {
+   "no": 569,
+   "name": "超极巨化灰尘山",
+   "en": "garbodor-gmax",
+   "types": [
+    "毒",
+    null
+   ]
+  },
+  {
    "no": 570,
    "name": "索罗亚",
    "en": "zorua",
+   "types": [
+    "恶",
+    null
+   ]
+  },
+  {
+   "no": 570,
+   "name": "索罗亚(洗翠)",
+   "en": "zorua-hisui",
    "types": [
     "一般",
     "幽灵"
@@ -5135,6 +6620,15 @@
    "no": 571,
    "name": "索罗亚克",
    "en": "zoroark",
+   "types": [
+    "恶",
+    null
+   ]
+  },
+  {
+   "no": 571,
+   "name": "索罗亚克(洗翠)",
+   "en": "zoroark-hisui",
    "types": [
     "一般",
     "幽灵"
@@ -5322,7 +6816,7 @@
   },
   {
    "no": 592,
-   "name": "轻飘飘",
+   "name": "轻飘飘(雄性)",
    "en": "frillish",
    "types": [
     "水",
@@ -5331,7 +6825,7 @@
   },
   {
    "no": 593,
-   "name": "胖嘟嘟",
+   "name": "胖嘟嘟(雄性)",
    "en": "jellicent",
    "types": [
     "水",
@@ -5438,6 +6932,15 @@
    ]
   },
   {
+   "no": 604,
+   "name": "超级麻麻鳗鱼王",
+   "en": "eelektross-mega",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
    "no": 605,
    "name": "小灰怪",
    "en": "elgyem",
@@ -5477,6 +6980,15 @@
    "no": 609,
    "name": "水晶灯火灵",
    "en": "chandelure",
+   "types": [
+    "幽灵",
+    "火"
+   ]
+  },
+  {
+   "no": 609,
+   "name": "超级水晶灯火灵",
+   "en": "chandelure-mega",
    "types": [
     "幽灵",
     "火"
@@ -5560,6 +7072,15 @@
    "en": "stunfisk",
    "types": [
     "地面",
+    "电"
+   ]
+  },
+  {
+   "no": 618,
+   "name": "泥巴鱼(伽勒尔)",
+   "en": "stunfisk-galar",
+   "types": [
+    "地面",
     "钢"
    ]
   },
@@ -5609,6 +7130,15 @@
    ]
   },
   {
+   "no": 623,
+   "name": "超级泥偶巨人",
+   "en": "golurk-mega",
+   "types": [
+    "地面",
+    "幽灵"
+   ]
+  },
+  {
    "no": 624,
    "name": "驹刀小兵",
    "en": "pawniard",
@@ -5648,6 +7178,15 @@
    "no": 628,
    "name": "勇士雄鹰",
    "en": "braviary",
+   "types": [
+    "一般",
+    "飞行"
+   ]
+  },
+  {
+   "no": 628,
+   "name": "勇士雄鹰(洗翠)",
+   "en": "braviary-hisui",
    "types": [
     "超能力",
     "飞行"
@@ -5763,7 +7302,7 @@
   },
   {
    "no": 641,
-   "name": "龙卷云",
+   "name": "龙卷云(化身)",
    "en": "tornadus",
    "types": [
     "飞行",
@@ -5771,9 +7310,27 @@
    ]
   },
   {
+   "no": 641,
+   "name": "龙卷云(灵兽)",
+   "en": "tornadus-therian",
+   "types": [
+    "飞行",
+    null
+   ]
+  },
+  {
    "no": 642,
-   "name": "雷电云",
+   "name": "雷电云(化身)",
    "en": "thundurus",
+   "types": [
+    "电",
+    "飞行"
+   ]
+  },
+  {
+   "no": 642,
+   "name": "雷电云(灵兽)",
+   "en": "thundurus-therian",
    "types": [
     "电",
     "飞行"
@@ -5799,8 +7356,17 @@
   },
   {
    "no": 645,
-   "name": "土地云",
+   "name": "土地云(化身)",
    "en": "landorus",
+   "types": [
+    "地面",
+    "飞行"
+   ]
+  },
+  {
+   "no": 645,
+   "name": "土地云(灵兽)",
+   "en": "landorus-therian",
    "types": [
     "地面",
     "飞行"
@@ -5810,6 +7376,24 @@
    "no": 646,
    "name": "酋雷姆",
    "en": "kyurem",
+   "types": [
+    "龙",
+    "冰"
+   ]
+  },
+  {
+   "no": 646,
+   "name": "酋雷姆(暗黑)",
+   "en": "kyurem-black",
+   "types": [
+    "龙",
+    "冰"
+   ]
+  },
+  {
+   "no": 646,
+   "name": "酋雷姆(焰白)",
+   "en": "kyurem-white",
    "types": [
     "龙",
     "冰"
@@ -5826,8 +7410,17 @@
   },
   {
    "no": 648,
-   "name": "美洛耶塔",
+   "name": "美洛耶塔(歌声)",
    "en": "meloetta",
+   "types": [
+    "一般",
+    "超能力"
+   ]
+  },
+  {
+   "no": 648,
+   "name": "美洛耶塔(舞步)",
+   "en": "meloetta-pirouette",
    "types": [
     "一般",
     "格斗"
@@ -5870,6 +7463,15 @@
    ]
   },
   {
+   "no": 652,
+   "name": "超级布里卡隆",
+   "en": "chesnaught-mega",
+   "types": [
+    "草",
+    "格斗"
+   ]
+  },
+  {
    "no": 653,
    "name": "火狐狸",
    "en": "fennekin",
@@ -5897,6 +7499,15 @@
    ]
   },
   {
+   "no": 655,
+   "name": "超级妖火红狐",
+   "en": "delphox-mega",
+   "types": [
+    "火",
+    "超能力"
+   ]
+  },
+  {
    "no": 656,
    "name": "呱呱泡蛙",
    "en": "froakie",
@@ -5918,6 +7529,24 @@
    "no": 658,
    "name": "甲贺忍蛙",
    "en": "greninja",
+   "types": [
+    "水",
+    "恶"
+   ]
+  },
+  {
+   "no": 658,
+   "name": "甲贺忍蛙(小智版)",
+   "en": "greninja-ash",
+   "types": [
+    "水",
+    "恶"
+   ]
+  },
+  {
+   "no": 658,
+   "name": "超级甲贺忍蛙",
+   "en": "greninja-mega",
    "types": [
     "水",
     "恶"
@@ -6006,8 +7635,17 @@
   },
   {
    "no": 668,
-   "name": "火炎狮",
+   "name": "火炎狮(雄性)",
    "en": "pyroar",
+   "types": [
+    "火",
+    "一般"
+   ]
+  },
+  {
+   "no": 668,
+   "name": "超级火炎狮",
+   "en": "pyroar-mega",
    "types": [
     "火",
     "一般"
@@ -6026,6 +7664,24 @@
    "no": 670,
    "name": "花叶蒂",
    "en": "floette",
+   "types": [
+    "妖精",
+    null
+   ]
+  },
+  {
+   "no": 670,
+   "name": "花叶蒂(永恒之花)",
+   "en": "floette-eternal",
+   "types": [
+    "妖精",
+    null
+   ]
+  },
+  {
+   "no": 670,
+   "name": "超级花叶蒂",
+   "en": "floette-mega",
    "types": [
     "妖精",
     null
@@ -6069,7 +7725,7 @@
   },
   {
    "no": 675,
-   "name": "流氓熊猫",
+   "name": "霸道熊猫",
    "en": "pangoro",
    "types": [
     "格斗",
@@ -6096,8 +7752,26 @@
   },
   {
    "no": 678,
-   "name": "超能妙喵",
+   "name": "超能妙喵(雄性)",
    "en": "meowstic",
+   "types": [
+    "超能力",
+    null
+   ]
+  },
+  {
+   "no": 678,
+   "name": "超能妙喵(雌性)",
+   "en": "meowstic-f",
+   "types": [
+    "超能力",
+    null
+   ]
+  },
+  {
+   "no": 678,
+   "name": "超级超能妙喵",
+   "en": "meowstic-mega",
    "types": [
     "超能力",
     null
@@ -6123,8 +7797,17 @@
   },
   {
    "no": 681,
-   "name": "坚盾剑怪",
-   "en": "aegislashblade",
+   "name": "坚盾剑怪(刀剑)",
+   "en": "aegislash-blade",
+   "types": [
+    "钢",
+    "幽灵"
+   ]
+  },
+  {
+   "no": 681,
+   "name": "坚盾剑怪(盾牌)",
+   "en": "aegislash",
    "types": [
     "钢",
     "幽灵"
@@ -6185,6 +7868,15 @@
    ]
   },
   {
+   "no": 687,
+   "name": "超级乌贼王",
+   "en": "malamar-mega",
+   "types": [
+    "恶",
+    "超能力"
+   ]
+  },
+  {
    "no": 688,
    "name": "龟脚脚",
    "en": "binacle",
@@ -6197,6 +7889,15 @@
    "no": 689,
    "name": "龟足巨铠",
    "en": "barbaracle",
+   "types": [
+    "岩石",
+    "水"
+   ]
+  },
+  {
+   "no": 689,
+   "name": "超级龟足巨铠",
+   "en": "barbaracle-mega",
    "types": [
     "岩石",
     "格斗"
@@ -6215,6 +7916,15 @@
    "no": 691,
    "name": "毒藻龙",
    "en": "dragalge",
+   "types": [
+    "毒",
+    "龙"
+   ]
+  },
+  {
+   "no": 691,
+   "name": "超级毒藻龙",
+   "en": "dragalge-mega",
    "types": [
     "毒",
     "龙"
@@ -6311,6 +8021,15 @@
    ]
   },
   {
+   "no": 701,
+   "name": "超级摔角鹰人",
+   "en": "hawlucha-mega",
+   "types": [
+    "格斗",
+    "飞行"
+   ]
+  },
+  {
    "no": 702,
    "name": "咚咚鼠",
    "en": "dedenne",
@@ -6342,6 +8061,15 @@
    "name": "黏美儿",
    "en": "sliggoo",
    "types": [
+    "龙",
+    null
+   ]
+  },
+  {
+   "no": 705,
+   "name": "黏美儿(洗翠)",
+   "en": "sliggoo-hisui",
+   "types": [
     "钢",
     "龙"
    ]
@@ -6350,6 +8078,15 @@
    "no": 706,
    "name": "黏美龙",
    "en": "goodra",
+   "types": [
+    "龙",
+    null
+   ]
+  },
+  {
+   "no": 706,
+   "name": "黏美龙(洗翠)",
+   "en": "goodra-hisui",
    "types": [
     "钢",
     "龙"
@@ -6384,7 +8121,7 @@
   },
   {
    "no": 710,
-   "name": "南瓜精",
+   "name": "南瓜精(普通尺寸)",
    "en": "pumpkaboo",
    "types": [
     "幽灵",
@@ -6392,9 +8129,63 @@
    ]
   },
   {
+   "no": 710,
+   "name": "南瓜精(小尺寸)",
+   "en": "pumpkaboo-small",
+   "types": [
+    "幽灵",
+    "草"
+   ]
+  },
+  {
+   "no": 710,
+   "name": "南瓜精(大尺寸)",
+   "en": "pumpkaboo-large",
+   "types": [
+    "幽灵",
+    "草"
+   ]
+  },
+  {
+   "no": 710,
+   "name": "南瓜精(特大尺寸)",
+   "en": "pumpkaboo-super",
+   "types": [
+    "幽灵",
+    "草"
+   ]
+  },
+  {
    "no": 711,
-   "name": "南瓜怪人",
+   "name": "南瓜怪人(普通尺寸)",
    "en": "gourgeist",
+   "types": [
+    "幽灵",
+    "草"
+   ]
+  },
+  {
+   "no": 711,
+   "name": "南瓜怪人(小尺寸)",
+   "en": "gourgeist-small",
+   "types": [
+    "幽灵",
+    "草"
+   ]
+  },
+  {
+   "no": 711,
+   "name": "南瓜怪人(大尺寸)",
+   "en": "gourgeist-large",
+   "types": [
+    "幽灵",
+    "草"
+   ]
+  },
+  {
+   "no": 711,
+   "name": "南瓜怪人(特大尺寸)",
+   "en": "gourgeist-super",
    "types": [
     "幽灵",
     "草"
@@ -6413,6 +8204,15 @@
    "no": 713,
    "name": "冰岩怪",
    "en": "avalugg",
+   "types": [
+    "冰",
+    null
+   ]
+  },
+  {
+   "no": 713,
+   "name": "冰岩怪(洗翠)",
+   "en": "avalugg-hisui",
    "types": [
     "冰",
     "岩石"
@@ -6456,8 +8256,35 @@
   },
   {
    "no": 718,
-   "name": "基格尔德",
-   "en": "zygarde10",
+   "name": "基格尔德(10％形态)",
+   "en": "zygarde-10",
+   "types": [
+    "龙",
+    "地面"
+   ]
+  },
+  {
+   "no": 718,
+   "name": "基格尔德(50％形态)",
+   "en": "zygarde",
+   "types": [
+    "龙",
+    "地面"
+   ]
+  },
+  {
+   "no": 718,
+   "name": "基格尔德(完全体形态)",
+   "en": "zygarde-complete",
+   "types": [
+    "龙",
+    "地面"
+   ]
+  },
+  {
+   "no": 718,
+   "name": "超级基格尔德",
+   "en": "zygarde-mega",
    "types": [
     "龙",
     "地面"
@@ -6473,9 +8300,27 @@
    ]
   },
   {
+   "no": 719,
+   "name": "超级蒂安希",
+   "en": "diancie-mega",
+   "types": [
+    "岩石",
+    "妖精"
+   ]
+  },
+  {
    "no": 720,
-   "name": "胡帕",
+   "name": "胡帕(惩戒)",
    "en": "hoopa",
+   "types": [
+    "超能力",
+    "幽灵"
+   ]
+  },
+  {
+   "no": 720,
+   "name": "胡帕(解放)",
+   "en": "hoopa-unbound",
    "types": [
     "超能力",
     "恶"
@@ -6512,6 +8357,15 @@
    "no": 724,
    "name": "狙射树枭",
    "en": "decidueye",
+   "types": [
+    "草",
+    "幽灵"
+   ]
+  },
+  {
+   "no": 724,
+   "name": "狙射树枭(洗翠)",
+   "en": "decidueye-hisui",
    "types": [
     "草",
     "格斗"
@@ -6662,9 +8516,45 @@
    ]
   },
   {
+   "no": 740,
+   "name": "超级好胜毛蟹",
+   "en": "crabominable-mega",
+   "types": [
+    "格斗",
+    "冰"
+   ]
+  },
+  {
    "no": 741,
-   "name": "花舞鸟",
+   "name": "花舞鸟(热辣)",
    "en": "oricorio",
+   "types": [
+    "火",
+    "飞行"
+   ]
+  },
+  {
+   "no": 741,
+   "name": "花舞鸟(啪滋)",
+   "en": "oricorio-pom-pom",
+   "types": [
+    "电",
+    "飞行"
+   ]
+  },
+  {
+   "no": 741,
+   "name": "花舞鸟(呼拉)",
+   "en": "oricorio-pau",
+   "types": [
+    "超能力",
+    "飞行"
+   ]
+  },
+  {
+   "no": 741,
+   "name": "花舞鸟(轻盈)",
+   "en": "oricorio-sensu",
    "types": [
     "幽灵",
     "飞行"
@@ -6699,7 +8589,7 @@
   },
   {
    "no": 745,
-   "name": "鬃岩狼人",
+   "name": "鬃岩狼人(白昼)",
    "en": "lycanroc",
    "types": [
     "岩石",
@@ -6707,9 +8597,36 @@
    ]
   },
   {
+   "no": 745,
+   "name": "鬃岩狼人(黑夜)",
+   "en": "lycanroc-midnight",
+   "types": [
+    "岩石",
+    null
+   ]
+  },
+  {
+   "no": 745,
+   "name": "鬃岩狼人(黄昏)",
+   "en": "lycanroc-dusk",
+   "types": [
+    "岩石",
+    null
+   ]
+  },
+  {
    "no": 746,
-   "name": "弱丁鱼",
+   "name": "弱丁鱼(单独)",
    "en": "wishiwashi",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
+   "no": 746,
+   "name": "弱丁鱼(鱼群)",
+   "en": "wishiwashi-school",
    "types": [
     "水",
     null
@@ -6910,6 +8827,15 @@
    "en": "golisopod",
    "types": [
     "虫",
+    "水"
+   ]
+  },
+  {
+   "no": 768,
+   "name": "超级具甲武者",
+   "en": "golisopod-mega",
+   "types": [
+    "虫",
     "钢"
    ]
   },
@@ -6943,7 +8869,7 @@
   {
    "no": 772,
    "name": "属性：空",
-   "en": "typenull",
+   "en": "type-null",
    "types": [
     "一般",
     null
@@ -6960,7 +8886,7 @@
   },
   {
    "no": 774,
-   "name": "小陨星",
+   "name": "小陨星(流星)",
    "en": "minior",
    "types": [
     "岩石",
@@ -6996,7 +8922,7 @@
   },
   {
    "no": 778,
-   "name": "谜拟Ｑ",
+   "name": "谜拟丘(化形)",
    "en": "mimikyu",
    "types": [
     "幽灵",
@@ -7022,6 +8948,15 @@
    ]
   },
   {
+   "no": 780,
+   "name": "超级老翁龙",
+   "en": "drampa-mega",
+   "types": [
+    "一般",
+    "龙"
+   ]
+  },
+  {
    "no": 781,
    "name": "破破舵轮",
    "en": "dhelmise",
@@ -7033,7 +8968,7 @@
   {
    "no": 782,
    "name": "心鳞宝",
-   "en": "jangmoo",
+   "en": "jangmo-o",
    "types": [
     "龙",
     null
@@ -7042,7 +8977,7 @@
   {
    "no": 783,
    "name": "鳞甲龙",
-   "en": "hakamoo",
+   "en": "hakamo-o",
    "types": [
     "龙",
     "格斗"
@@ -7051,7 +8986,7 @@
   {
    "no": 784,
    "name": "杖尾鳞甲龙",
-   "en": "kommoo",
+   "en": "kommo-o",
    "types": [
     "龙",
     "格斗"
@@ -7060,7 +8995,7 @@
   {
    "no": 785,
    "name": "卡璞・鸣鸣",
-   "en": "tapukoko",
+   "en": "tapu-koko",
    "types": [
     "电",
     "妖精"
@@ -7069,7 +9004,7 @@
   {
    "no": 786,
    "name": "卡璞・蝶蝶",
-   "en": "tapulele",
+   "en": "tapu-lele",
    "types": [
     "超能力",
     "妖精"
@@ -7078,7 +9013,7 @@
   {
    "no": 787,
    "name": "卡璞・哞哞",
-   "en": "tapubulu",
+   "en": "tapu-bulu",
    "types": [
     "草",
     "妖精"
@@ -7087,7 +9022,7 @@
   {
    "no": 788,
    "name": "卡璞・鳍鳍",
-   "en": "tapufini",
+   "en": "tapu-fini",
    "types": [
     "水",
     "妖精"
@@ -7198,6 +9133,33 @@
    "en": "necrozma",
    "types": [
     "超能力",
+    null
+   ]
+  },
+  {
+   "no": 800,
+   "name": "奈克洛兹玛(黄昏之鬃)",
+   "en": "necrozma-dusk-mane",
+   "types": [
+    "超能力",
+    "钢"
+   ]
+  },
+  {
+   "no": 800,
+   "name": "奈克洛兹玛(拂晓之翼)",
+   "en": "necrozma-dawn-wings",
+   "types": [
+    "超能力",
+    "幽灵"
+   ]
+  },
+  {
+   "no": 800,
+   "name": "奈克洛兹玛(究极)",
+   "en": "necrozma-ultra",
+   "types": [
+    "超能力",
     "龙"
    ]
   },
@@ -7205,6 +9167,33 @@
    "no": 801,
    "name": "玛机雅娜",
    "en": "magearna",
+   "types": [
+    "钢",
+    "妖精"
+   ]
+  },
+  {
+   "no": 801,
+   "name": "玛机雅娜(500年前的颜色)",
+   "en": "magearna-original",
+   "types": [
+    "钢",
+    "妖精"
+   ]
+  },
+  {
+   "no": 801,
+   "name": "超级玛机雅娜(现在的颜色)",
+   "en": "magearna-mega",
+   "types": [
+    "钢",
+    "妖精"
+   ]
+  },
+  {
+   "no": 801,
+   "name": "超级玛机雅娜(500年前的颜色)",
+   "en": "magearna-original-mega",
    "types": [
     "钢",
     "妖精"
@@ -7265,6 +9254,15 @@
    ]
   },
   {
+   "no": 807,
+   "name": "超级捷拉奥拉",
+   "en": "zeraora-mega",
+   "types": [
+    "电",
+    null
+   ]
+  },
+  {
    "no": 808,
    "name": "美录坦",
    "en": "meltan",
@@ -7277,6 +9275,15 @@
    "no": 809,
    "name": "美录梅塔",
    "en": "melmetal",
+   "types": [
+    "钢",
+    null
+   ]
+  },
+  {
+   "no": 809,
+   "name": "超极巨化美录梅塔",
+   "en": "melmetal-gmax",
    "types": [
     "钢",
     null
@@ -7310,6 +9317,15 @@
    ]
   },
   {
+   "no": 812,
+   "name": "超极巨化轰擂金刚猩",
+   "en": "rillaboom-gmax",
+   "types": [
+    "草",
+    null
+   ]
+  },
+  {
    "no": 813,
    "name": "炎兔儿",
    "en": "scorbunny",
@@ -7337,6 +9353,15 @@
    ]
   },
   {
+   "no": 815,
+   "name": "超极巨化闪焰王牌",
+   "en": "cinderace-gmax",
+   "types": [
+    "火",
+    null
+   ]
+  },
+  {
    "no": 816,
    "name": "泪眼蜥",
    "en": "sobble",
@@ -7358,6 +9383,15 @@
    "no": 818,
    "name": "千面避役",
    "en": "inteleon",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
+   "no": 818,
+   "name": "超极巨化千面避役",
+   "en": "inteleon-gmax",
    "types": [
     "水",
     null
@@ -7409,6 +9443,15 @@
    ]
   },
   {
+   "no": 823,
+   "name": "超极巨化钢铠鸦",
+   "en": "corviknight-gmax",
+   "types": [
+    "飞行",
+    "钢"
+   ]
+  },
+  {
    "no": 824,
    "name": "索侦虫",
    "en": "blipbug",
@@ -7436,8 +9479,17 @@
    ]
   },
   {
+   "no": 826,
+   "name": "超极巨化以欧路普",
+   "en": "orbeetle-gmax",
+   "types": [
+    "虫",
+    "超能力"
+   ]
+  },
+  {
    "no": 827,
-   "name": "偷儿狐",
+   "name": "狡小狐",
    "en": "nickit",
    "types": [
     "恶",
@@ -7446,7 +9498,7 @@
   },
   {
    "no": 828,
-   "name": "狐大盗",
+   "name": "猾大狐",
    "en": "thievul",
    "types": [
     "恶",
@@ -7508,6 +9560,15 @@
    ]
   },
   {
+   "no": 834,
+   "name": "超极巨化暴噬龟",
+   "en": "drednaw-gamx",
+   "types": [
+    "水",
+    "岩石"
+   ]
+  },
+  {
    "no": 835,
    "name": "来电汪",
    "en": "yamper",
@@ -7553,6 +9614,15 @@
    ]
   },
   {
+   "no": 839,
+   "name": "超极巨化巨炭山",
+   "en": "coalossal-gmax",
+   "types": [
+    "岩石",
+    "火"
+   ]
+  },
+  {
    "no": 840,
    "name": "啃果虫",
    "en": "applin",
@@ -7571,9 +9641,27 @@
    ]
   },
   {
+   "no": 841,
+   "name": "超极巨化苹裹龙",
+   "en": "flapple-gmax",
+   "types": [
+    "草",
+    "龙"
+   ]
+  },
+  {
    "no": 842,
    "name": "丰蜜龙",
    "en": "appletun",
+   "types": [
+    "草",
+    "龙"
+   ]
+  },
+  {
+   "no": 842,
+   "name": "超极巨化丰蜜龙",
+   "en": "appletun-gmax",
    "types": [
     "草",
     "龙"
@@ -7592,6 +9680,15 @@
    "no": 844,
    "name": "沙螺蟒",
    "en": "sandaconda",
+   "types": [
+    "地面",
+    null
+   ]
+  },
+  {
+   "no": 844,
+   "name": "超极巨化沙螺蟒",
+   "en": "sandaconda-gmax",
    "types": [
     "地面",
     null
@@ -7626,7 +9723,7 @@
   },
   {
    "no": 848,
-   "name": "毒电婴",
+   "name": "电音婴",
    "en": "toxel",
    "types": [
     "电",
@@ -7635,8 +9732,26 @@
   },
   {
    "no": 849,
-   "name": "颤弦蝾螈",
+   "name": "颤弦蝾螈(高调)",
    "en": "toxtricity",
+   "types": [
+    "电",
+    "毒"
+   ]
+  },
+  {
+   "no": 849,
+   "name": "颤弦蝾螈(低调)",
+   "en": "toxtricity-low-key",
+   "types": [
+    "电",
+    "毒"
+   ]
+  },
+  {
+   "no": 849,
+   "name": "超极巨化颤弦蝾螈",
+   "en": "toxtricity-gmax",
    "types": [
     "电",
     "毒"
@@ -7655,6 +9770,15 @@
    "no": 851,
    "name": "焚焰蚣",
    "en": "centiskorch",
+   "types": [
+    "火",
+    "虫"
+   ]
+  },
+  {
+   "no": 851,
+   "name": "超极巨化焚焰蚣",
+   "en": "centiskorch-gmax",
    "types": [
     "火",
     "虫"
@@ -7724,6 +9848,15 @@
    ]
   },
   {
+   "no": 858,
+   "name": "超极巨化布莉姆温",
+   "en": "hatterene-gmax",
+   "types": [
+    "超能力",
+    "妖精"
+   ]
+  },
+  {
    "no": 859,
    "name": "捣蛋小妖",
    "en": "impidimp",
@@ -7745,6 +9878,15 @@
    "no": 861,
    "name": "长毛巨魔",
    "en": "grimmsnarl",
+   "types": [
+    "恶",
+    "妖精"
+   ]
+  },
+  {
+   "no": 861,
+   "name": "超极巨化长毛巨魔",
+   "en": "grimmsnarl-gmax",
    "types": [
     "恶",
     "妖精"
@@ -7789,7 +9931,7 @@
   {
    "no": 866,
    "name": "踏冰人偶",
-   "en": "mrrime",
+   "en": "mr-rime",
    "types": [
     "冰",
     "超能力"
@@ -7797,7 +9939,7 @@
   },
   {
    "no": 867,
-   "name": "死神板",
+   "name": "迭失板",
    "en": "runerigus",
    "types": [
     "地面",
@@ -7823,9 +9965,27 @@
    ]
   },
   {
+   "no": 869,
+   "name": "超极巨化霜奶仙",
+   "en": "alcremie-gmax",
+   "types": [
+    "妖精",
+    null
+   ]
+  },
+  {
    "no": 870,
    "name": "列阵兵",
    "en": "falinks",
+   "types": [
+    "格斗",
+    null
+   ]
+  },
+  {
+   "no": 870,
+   "name": "超级列阵兵",
+   "en": "falinks-mega",
    "types": [
     "格斗",
     null
@@ -7869,7 +10029,7 @@
   },
   {
    "no": 875,
-   "name": "冰砌鹅",
+   "name": "冰砌鹅(结冻头)",
    "en": "eiscue",
    "types": [
     "冰",
@@ -7877,9 +10037,27 @@
    ]
   },
   {
+   "no": 875,
+   "name": "冰砌鹅(解冻头)",
+   "en": "eiscue-noice",
+   "types": [
+    "冰",
+    null
+   ]
+  },
+  {
    "no": 876,
-   "name": "爱管侍",
+   "name": "爱管侍(雄性)",
    "en": "indeedee",
+   "types": [
+    "超能力",
+    "一般"
+   ]
+  },
+  {
+   "no": 876,
+   "name": "爱管侍(雌性)",
+   "en": "indeedee-f",
    "types": [
     "超能力",
     "一般"
@@ -7889,6 +10067,15 @@
    "no": 877,
    "name": "莫鲁贝可",
    "en": "morpeko",
+   "types": [
+    "电",
+    "恶"
+   ]
+  },
+  {
+   "no": 877,
+   "name": "莫鲁贝可(空腹花纹)",
+   "en": "morpeko-hangry",
    "types": [
     "电",
     "恶"
@@ -7907,6 +10094,15 @@
    "no": 879,
    "name": "大王铜象",
    "en": "copperajah",
+   "types": [
+    "钢",
+    null
+   ]
+  },
+  {
+   "no": 879,
+   "name": "超极巨化大王铜象",
+   "en": "copperajah-gmax",
    "types": [
     "钢",
     null
@@ -7958,6 +10154,15 @@
    ]
   },
   {
+   "no": 884,
+   "name": "超极巨化铝钢龙",
+   "en": "duraludon-gmax",
+   "types": [
+    "钢",
+    "龙"
+   ]
+  },
+  {
    "no": 885,
    "name": "多龙梅西亚",
    "en": "dreepy",
@@ -7986,8 +10191,17 @@
   },
   {
    "no": 888,
-   "name": "苍响",
+   "name": "苍响(百战勇者)",
    "en": "zacian",
+   "types": [
+    "妖精",
+    null
+   ]
+  },
+  {
+   "no": 888,
+   "name": "苍响(剑之王)",
+   "en": "zacian-crowned",
    "types": [
     "妖精",
     "钢"
@@ -7995,8 +10209,17 @@
   },
   {
    "no": 889,
-   "name": "藏玛然特",
+   "name": "藏玛然特(百战勇者)",
    "en": "zamazenta",
+   "types": [
+    "格斗",
+    null
+   ]
+  },
+  {
+   "no": 889,
+   "name": "藏玛然特(盾之王)",
+   "en": "zamazenta-crowned",
    "types": [
     "格斗",
     "钢"
@@ -8006,6 +10229,15 @@
    "no": 890,
    "name": "无极汰那",
    "en": "eternatus",
+   "types": [
+    "毒",
+    "龙"
+   ]
+  },
+  {
+   "no": 890,
+   "name": "无极汰那(无极巨化)",
+   "en": "eternatus-eternamax",
    "types": [
     "毒",
     "龙"
@@ -8022,8 +10254,35 @@
   },
   {
    "no": 892,
-   "name": "武道熊师",
+   "name": "武道熊师(一击流)",
    "en": "urshifu",
+   "types": [
+    "格斗",
+    "恶"
+   ]
+  },
+  {
+   "no": 892,
+   "name": "武道熊师(连击流)",
+   "en": "urshifu-rapid-strike",
+   "types": [
+    "格斗",
+    "水"
+   ]
+  },
+  {
+   "no": 892,
+   "name": "超极巨化武道熊师(一击流)",
+   "en": "urshifu-gmax",
+   "types": [
+    "格斗",
+    "恶"
+   ]
+  },
+  {
+   "no": 892,
+   "name": "超极巨化武道熊师(连击流)",
+   "en": "urshifu-rapid-strike-gmax",
    "types": [
     "格斗",
     "水"
@@ -8080,6 +10339,24 @@
    "en": "calyrex",
    "types": [
     "超能力",
+    "草"
+   ]
+  },
+  {
+   "no": 898,
+   "name": "蕾冠王(骑白马)",
+   "en": "calyrex-ice",
+   "types": [
+    "超能力",
+    "冰"
+   ]
+  },
+  {
+   "no": 898,
+   "name": "蕾冠王(骑黑马)",
+   "en": "calyrex-shadow",
+   "types": [
+    "超能力",
     "幽灵"
    ]
   },
@@ -8111,9 +10388,27 @@
    ]
   },
   {
+   "no": 901,
+   "name": "月月熊(赫月)",
+   "en": "ursaluna-bloodmoon",
+   "types": [
+    "地面",
+    "一般"
+   ]
+  },
+  {
    "no": 902,
-   "name": "幽尾玄鱼",
+   "name": "幽尾玄鱼(雄性)",
    "en": "basculegion",
+   "types": [
+    "水",
+    "幽灵"
+   ]
+  },
+  {
+   "no": 902,
+   "name": "幽尾玄鱼(雌性)",
+   "en": "basculegion-f",
    "types": [
     "水",
     "幽灵"
@@ -8139,8 +10434,17 @@
   },
   {
    "no": 905,
-   "name": "眷恋云",
+   "name": "眷恋云(化身)",
    "en": "enamorus",
+   "types": [
+    "妖精",
+    "飞行"
+   ]
+  },
+  {
+   "no": 905,
+   "name": "眷恋云(灵兽)",
+   "en": "enamorus-therian",
    "types": [
     "妖精",
     "飞行"
@@ -8238,8 +10542,17 @@
   },
   {
    "no": 916,
-   "name": "飘香豚",
+   "name": "飘香豚(雄性)",
    "en": "oinkologne",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 916,
+   "name": "飘香豚(雌性)",
+   "en": "oinkologne-f",
    "types": [
     "一般",
     null
@@ -8319,8 +10632,17 @@
   },
   {
    "no": 925,
-   "name": "一家鼠",
+   "name": "一家鼠(三只家庭)",
    "en": "maushold",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 925,
+   "name": "一家鼠(四只家庭)",
+   "en": "maushold-four",
    "types": [
     "一般",
     null
@@ -8373,8 +10695,35 @@
   },
   {
    "no": 931,
-   "name": "怒鹦哥",
+   "name": "怒鹦哥(绿羽毛)",
    "en": "squawkabilly",
+   "types": [
+    "一般",
+    "飞行"
+   ]
+  },
+  {
+   "no": 931,
+   "name": "怒鹦哥(蓝羽毛)",
+   "en": "squawkabilly-blue",
+   "types": [
+    "一般",
+    "飞行"
+   ]
+  },
+  {
+   "no": 931,
+   "name": "怒鹦哥(黄羽毛)",
+   "en": "squawkabilly-yellow",
+   "types": [
+    "一般",
+    "飞行"
+   ]
+  },
+  {
+   "no": 931,
+   "name": "怒鹦哥(白羽毛)",
+   "en": "squawkabilly-white",
    "types": [
     "一般",
     "飞行"
@@ -8570,6 +10919,15 @@
    ]
   },
   {
+   "no": 952,
+   "name": "超级狠辣椒",
+   "en": "scovillain-mega",
+   "types": [
+    "草",
+    "火"
+   ]
+  },
+  {
    "no": 953,
    "name": "虫滚泥",
    "en": "rellor",
@@ -8678,6 +11036,15 @@
    ]
   },
   {
+   "no": 964,
+   "name": "海豚侠(全能形态)",
+   "en": "palafin-hero",
+   "types": [
+    "水",
+    null
+   ]
+  },
+  {
    "no": 965,
    "name": "噗隆隆",
    "en": "varoom",
@@ -8726,6 +11093,15 @@
    "no": 970,
    "name": "晶光花",
    "en": "glimmora",
+   "types": [
+    "岩石",
+    "毒"
+   ]
+  },
+  {
+   "no": 970,
+   "name": "超级晶光花",
+   "en": "glimmora-mega",
    "types": [
     "岩石",
     "毒"
@@ -8796,8 +11172,53 @@
   },
   {
    "no": 978,
-   "name": "米立龙",
+   "name": "米立龙(上弓姿势)",
    "en": "tatsugiri",
+   "types": [
+    "龙",
+    "水"
+   ]
+  },
+  {
+   "no": 978,
+   "name": "米立龙(下垂姿势)",
+   "en": "tatsugiri-droopy",
+   "types": [
+    "龙",
+    "水"
+   ]
+  },
+  {
+   "no": 978,
+   "name": "米立龙(平挺姿势)",
+   "en": "tatsugiri-stretchy",
+   "types": [
+    "龙",
+    "水"
+   ]
+  },
+  {
+   "no": 978,
+   "name": "超级米立龙(上弓姿势)",
+   "en": "tatsugiri-mega",
+   "types": [
+    "龙",
+    "水"
+   ]
+  },
+  {
+   "no": 978,
+   "name": "超级米立龙(下垂姿势)",
+   "en": "tatsugiri-droopy-mega",
+   "types": [
+    "龙",
+    "水"
+   ]
+  },
+  {
+   "no": 978,
+   "name": "超级米立龙(平挺姿势)",
+   "en": "tatsugiri-stretchy-mega",
    "types": [
     "龙",
     "水"
@@ -8832,7 +11253,7 @@
   },
   {
    "no": 982,
-   "name": "土龙节节",
+   "name": "土龙节节(两节)",
    "en": "dudunsparce",
    "types": [
     "一般",
@@ -8840,8 +11261,17 @@
    ]
   },
   {
+   "no": 982,
+   "name": "土龙节节(三节)",
+   "en": "dudunsparce-threesegment",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
    "no": 983,
-   "name": "仆斩将军",
+   "name": "仆刀将军",
    "en": "kingambit",
    "types": [
     "恶",
@@ -8851,7 +11281,7 @@
   {
    "no": 984,
    "name": "雄伟牙",
-   "en": "greattusk",
+   "en": "great-tusk",
    "types": [
     "地面",
     "格斗"
@@ -8860,7 +11290,7 @@
   {
    "no": 985,
    "name": "吼叫尾",
-   "en": "screamtail",
+   "en": "scream-tail",
    "types": [
     "妖精",
     "超能力"
@@ -8869,7 +11299,7 @@
   {
    "no": 986,
    "name": "猛恶菇",
-   "en": "brutebonnet",
+   "en": "brute-bonnet",
    "types": [
     "草",
     "恶"
@@ -8878,7 +11308,7 @@
   {
    "no": 987,
    "name": "振翼发",
-   "en": "fluttermane",
+   "en": "flutter-mane",
    "types": [
     "幽灵",
     "妖精"
@@ -8887,7 +11317,7 @@
   {
    "no": 988,
    "name": "爬地翅",
-   "en": "slitherwing",
+   "en": "slither-wing",
    "types": [
     "虫",
     "格斗"
@@ -8896,7 +11326,7 @@
   {
    "no": 989,
    "name": "沙铁皮",
-   "en": "sandyshocks",
+   "en": "sandy-shocks",
    "types": [
     "电",
     "地面"
@@ -8905,7 +11335,7 @@
   {
    "no": 990,
    "name": "铁辙迹",
-   "en": "irontreads",
+   "en": "iron-treads",
    "types": [
     "地面",
     "钢"
@@ -8914,7 +11344,7 @@
   {
    "no": 991,
    "name": "铁包袱",
-   "en": "ironbundle",
+   "en": "iron-bundle",
    "types": [
     "冰",
     "水"
@@ -8923,7 +11353,7 @@
   {
    "no": 992,
    "name": "铁臂膀",
-   "en": "ironhands",
+   "en": "iron-hands",
    "types": [
     "格斗",
     "电"
@@ -8932,7 +11362,7 @@
   {
    "no": 993,
    "name": "铁脖颈",
-   "en": "ironjugulis",
+   "en": "iron-jugulis",
    "types": [
     "恶",
     "飞行"
@@ -8941,7 +11371,7 @@
   {
    "no": 994,
    "name": "铁毒蛾",
-   "en": "ironmoth",
+   "en": "iron-moth",
    "types": [
     "火",
     "毒"
@@ -8950,7 +11380,7 @@
   {
    "no": 995,
    "name": "铁荆棘",
-   "en": "ironthorns",
+   "en": "iron-thorns",
    "types": [
     "岩石",
     "电"
@@ -8984,9 +11414,27 @@
    ]
   },
   {
+   "no": 998,
+   "name": "超级戟脊龙",
+   "en": "baxcalibur-mega",
+   "types": [
+    "龙",
+    "冰"
+   ]
+  },
+  {
    "no": 999,
-   "name": "索财灵",
+   "name": "索财灵(宝箱)",
    "en": "gimmighoul",
+   "types": [
+    "幽灵",
+    null
+   ]
+  },
+  {
+   "no": 999,
+   "name": "索财灵(徒步)",
+   "en": "gimmighoul-roaming",
    "types": [
     "幽灵",
     null
@@ -9004,7 +11452,7 @@
   {
    "no": 1001,
    "name": "古简蜗",
-   "en": "wochien",
+   "en": "wo-chien",
    "types": [
     "恶",
     "草"
@@ -9013,7 +11461,7 @@
   {
    "no": 1002,
    "name": "古剑豹",
-   "en": "chienpao",
+   "en": "chien-pao",
    "types": [
     "恶",
     "冰"
@@ -9022,7 +11470,7 @@
   {
    "no": 1003,
    "name": "古鼎鹿",
-   "en": "tinglu",
+   "en": "ting-lu",
    "types": [
     "恶",
     "地面"
@@ -9031,7 +11479,7 @@
   {
    "no": 1004,
    "name": "古玉鱼",
-   "en": "chiyu",
+   "en": "chi-yu",
    "types": [
     "恶",
     "火"
@@ -9040,7 +11488,7 @@
   {
    "no": 1005,
    "name": "轰鸣月",
-   "en": "roaringmoon",
+   "en": "roaring-moon",
    "types": [
     "龙",
     "恶"
@@ -9049,7 +11497,7 @@
   {
    "no": 1006,
    "name": "铁武者",
-   "en": "ironvaliant",
+   "en": "iron-valiant",
    "types": [
     "妖精",
     "格斗"
@@ -9076,7 +11524,7 @@
   {
    "no": 1009,
    "name": "波荡水",
-   "en": "walkingwake",
+   "en": "walking-wake",
    "types": [
     "水",
     "龙"
@@ -9085,7 +11533,7 @@
   {
    "no": 1010,
    "name": "铁斑叶",
-   "en": "ironleaves",
+   "en": "iron-leaves",
    "types": [
     "草",
     "超能力"
@@ -9147,8 +11595,35 @@
   },
   {
    "no": 1017,
-   "name": "厄诡椪",
+   "name": "厄诡椪(碧草面具)",
    "en": "ogerpon",
+   "types": [
+    "草",
+    null
+   ]
+  },
+  {
+   "no": 1017,
+   "name": "厄诡椪(水井面具)",
+   "en": "ogerpon-wellspring",
+   "types": [
+    "草",
+    "水"
+   ]
+  },
+  {
+   "no": 1017,
+   "name": "厄诡椪(火灶面具)",
+   "en": "ogerpon-hearthflame",
+   "types": [
+    "草",
+    "火"
+   ]
+  },
+  {
+   "no": 1017,
+   "name": "厄诡椪(础石面具)",
+   "en": "ogerpon-cornerstone",
    "types": [
     "草",
     "岩石"
@@ -9175,7 +11650,7 @@
   {
    "no": 1020,
    "name": "破空焰",
-   "en": "gougingfire",
+   "en": "gouging-fire",
    "types": [
     "火",
     "龙"
@@ -9184,7 +11659,7 @@
   {
    "no": 1021,
    "name": "猛雷鼓",
-   "en": "ragingbolt",
+   "en": "raging-bolt",
    "types": [
     "电",
     "龙"
@@ -9193,7 +11668,7 @@
   {
    "no": 1022,
    "name": "铁磐岩",
-   "en": "ironboulder",
+   "en": "iron-boulder",
    "types": [
     "岩石",
     "超能力"
@@ -9202,7 +11677,7 @@
   {
    "no": 1023,
    "name": "铁头壳",
-   "en": "ironcrown",
+   "en": "iron-crown",
    "types": [
     "钢",
     "超能力"
@@ -9210,8 +11685,26 @@
   },
   {
    "no": 1024,
-   "name": "太乐巴戈斯",
+   "name": "太乐巴戈斯(普通)",
    "en": "terapagos",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 1024,
+   "name": "太乐巴戈斯(太晶)",
+   "en": "terapagos-terastal",
+   "types": [
+    "一般",
+    null
+   ]
+  },
+  {
+   "no": 1024,
+   "name": "太乐巴戈斯(星晶)",
+   "en": "terapagos-stellar",
    "types": [
     "一般",
     null
@@ -9224,6 +11717,33 @@
    "types": [
     "毒",
     "幽灵"
+   ]
+  },
+  {
+   "no": 1026,
+   "name": "叶眉鸟",
+   "en": "browt",
+   "types": [
+    "草",
+    null
+   ]
+  },
+  {
+   "no": 1029,
+   "name": "博姆耿",
+   "en": "pombon",
+   "types": [
+    "火",
+    null
+   ]
+  },
+  {
+   "no": 1032,
+   "name": "妙澪儿",
+   "en": "gecqua",
+   "types": [
+    "水",
+    null
    ]
   }
  ]
