@@ -110,10 +110,11 @@ python3 scripts/fetch_item_sprites.py item-sprites/
 ### 2. 道具效果文字（52poke）
 
 ```bash
-python3 scripts/fetch_52poke_items.py items-effect.json
+python3 scripts/fetch_item_effects.py --merge
 ```
 
-- 从 52poke MediaWiki API 抓取「道具列表」的全部道具页，解析信息框与「效果」段落，输出结构化 JSON，用于刷新 `items.json` 的 effect 字段。
+- 批量（每批 50 标题）从 52poke MediaWiki API 抓取 effect 为空的道具页，解析「效果/使用效果/游戏中」段落，清洗后增量写入 `items-effect-fill.json`，`--merge` 时合并回 `items.json`。
+- 可断点续跑；配合 `--merge` 一步完成抓取 + 回写。
 
 ### 3. 特性 / 招式 / 精灵文字数据
 
@@ -137,6 +138,13 @@ python3 scripts/fetch_pokemon.py    pokemon-new.json    # 精灵 1025 只（可�
 | 图片地址 | `api.php?action=query&prop=imageinfo&iiprop=url&titles=File:{文件名}` |
 
 解析要点：文字数据在页面信息框（`{{信息框 ...}}`）与对应章节段落里；下载图片需带 `Referer: https://wiki.52poke.com/` 头，否则 403。
+
+### 更新数据后：同步 HUD 缓存版本
+
+数据文件（`items.json` / `moves.json` / `abilities.json` / `dex-list.json` 等）更新后，必须同步更新 `pkm-hud` 里的两个值，用户端才会自动拉取新数据（否则用户本地缓存的旧数据不会刷新）：
+
+1. `PKM_DATA_REV`（在 `pkm-hud.js` 里，形如 `r20260929`）——改成新值（如日期）；
+2. `PK_VER`（HUD 版本号）——加一个补丁版本号，并推送 `pkm-hud` 仓库。
 
 ## 免责声明
 
