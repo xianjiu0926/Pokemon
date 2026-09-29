@@ -151,7 +151,7 @@ def clean_line(ln):
 def extract_effect(wt):
     # 先按二级标题（==效果== / ==使用效果== / ==游戏中==）取，取不到再回退三级标题（===效果===）
     for level in (2, 3):
-        for heading in ('效果', '使用效果', '游戏中', '对战', '对战效果'):
+        for heading in ('效果', '使用效果', '道具效果', '游戏中', '对战', '对战效果'):
             sec = extract_section(wt, heading, level)
             if not sec:
                 continue
