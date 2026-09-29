@@ -157,7 +157,7 @@ python3 scripts/fetch_pokemon.py    pokemon-new.json    # 精灵 1025 只（可�
 
 ## 免责声明
 
-1. 本仓库所收录的宝可梦相关**文字、图片、数据均源自上述公开网站**，版权归 **Nintendo / The Pokémon Company / Game Freak 及原始数据提供方（神奇宝贝百科、Serebii.net 等）** 所有。
+1. 本仓库所收录的宝可梦相关**文字、图片、数据**，其版权归 **Nintendo / The Pokémon Company / Game Freak（及 Creatures Inc. 等官方权利方）** 所有。上述公开网站（神奇宝贝百科、Serebii.net、PokeOS、Pokémon Showdown、PokeAPI 等）**仅为数据的整理/翻译/搬运来源，并非版权方**；其自行产出的译名、排版等如另有著作权，本仓库同样予以尊重。
 2. 本仓库仅对公开数据进行**抓取、索引、格式化**，不拥有任何原始数据的版权。
 3. 本项目**仅供个人学习、研究、同人创作**使用，**严禁用于任何商业用途**。
 4. 数据可能存在遗漏或误差，请以原始网站及官方资料为准。

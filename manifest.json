@@ -10,7 +10,7 @@
     "https://github.com/PokeAPI/cries",
     "https://github.com/feixianer/pokemon-badges"
   ],
-  "disclaimer": "数据版权归 Nintendo / The Pokémon Company / Game Freak 及原始数据提供方所有，本仓库仅做抓取整理，严禁商业用途。",
+  "disclaimer": "宝可梦内容版权归 Nintendo / The Pokémon Company / Game Freak 等官方权利方所有；52poke、Serebii 等仅为数据整理/翻译来源，并非版权方。本仓库仅做抓取整理，严禁商业用途。",
   "files": {
     "types": "types.json",
     "abilities": "abilities.json",
