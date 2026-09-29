@@ -42,12 +42,6 @@
     "note": "游戏机制非道具，无贴图"
   },
   {
-    "name": "宝可方块",
-    "en": "pokeblock",
-    "type": "进化道具",
-    "note": "52poke无糖果本体贴图"
-  },
-  {
     "name": "经验值",
     "en": "experience",
     "type": "进化道具",
