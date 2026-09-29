@@ -44,6 +44,7 @@ python3 scripts/check_sprites.py
 | `fetch_pokemon_sprites.py` | 精灵图（HOME 动图 + 渲染静态，普通/闪光） | PokeOS |
 | `fetch_missing_animated.py` | 补 PokeOS 动图缺口（压 128px） | PokeOS |
 | `fetch_special_forms.py` | 命名特殊形态图（原始回归/帽子/品种等） | PokeOS |
+| `fetch_showdown_sprites.py` | 补 Showdown 像素图缺口（4 槽位） | Pokémon Showdown |
 | `fetch_item_sprites.py` | 道具图 | Serebii + 52poke |
 | `resize_pokeos_gifs.py` | PokeOS 动图压 128px | 本地处理 |
 
