@@ -1,0 +1,43 @@
+{
+  "name": "pkm-data",
+  "description": "宝可梦图鉴数据（抓取自神奇宝贝百科 52poke 与 Serebii.net ItemDex 等公开网站，仅供个人学习/同人使用）",
+  "sources": [
+    "https://wiki.52poke.com",
+    "https://media.52poke.com",
+    "https://www.serebii.net/itemdex/"
+  ],
+  "disclaimer": "数据版权归 Nintendo / The Pokémon Company / Game Freak 及原始数据提供方所有，本仓库仅做抓取整理，严禁商业用途。",
+  "files": {
+    "types": "types.json",
+    "abilities": "abilities.json",
+    "moves": "moves.json",
+    "items": "items.json",
+    "evolution": "evolution.json",
+    "badges": "badges/",
+    "pokemon": [
+      "pokemon/gen-01.json",
+      "pokemon/gen-02.json",
+      "pokemon/gen-03.json",
+      "pokemon/gen-04.json",
+      "pokemon/gen-05.json",
+      "pokemon/gen-06.json",
+      "pokemon/gen-07.json",
+      "pokemon/gen-08.json",
+      "pokemon/gen-09.json",
+      "pokemon/gen-10.json"
+    ],
+    "movesets": "movesets/",
+    "item-sprites": "item-sprites/",
+    "item-sprites-missing": "item-sprites-missing.json",
+    "dex-list": "dex-list.json",
+    "pokemon-sprites": "pokemon-sprites/"
+  },
+  "counts": {
+    "abilities": 317,
+    "moves": 953,
+    "items": 2361,
+    "evolution": 534,
+    "badges": 8,
+    "pokemon": 1315
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "count": 8,
+  "data": [
+    {
+      "league": "石英联盟",
+      "region": "关都地区",
+      "gen": "第一世代",
+      "count": "8",
+      "badges": [
+        {
+          "name": "灰色徽章",
+          "en": "Boulder Badge",
+          "jp": "グレーバッジ",
+          "location": "深灰市",
+          "giver": "小刚",
+          "effect": "无"
+        },
+        {
+          "name": "蓝色徽章",
+          "en": "Cascade Badge",
+          "jp": "ブルーバッジ",
+          "location": "华蓝市",
+          "giver": "小霞",
+          "effect": "等级30以下"
+        },
+        {
+          "name": "橙色徽章",
+          "en": "Thunder Badge",
+          "jp": "オレンジバッジ",
+          "location": "枯叶市",
+          "giver": "马志士",
+          "effect": "无"
+        },
+        {
+          "name": "彩虹徽章",
+          "en": "Rainbow Badge",
+          "jp": "レインボーバッジ",
+          "location": "玉虹市",
+          "giver": "莉佳",
+          "effect": "等级50以下(<font color=\"#ff1111\">红</font>/<font color=\"#11bb11\">绿</font>/<font color=\"#1111ff\">蓝</font>/<font color=\"#ffd377\">皮卡丘</font>/<font color=\"#FF7327\">火红</font>/<font color=\"#98CF12\">叶绿</font>)"
+        },
+        {
+          "name": "粉红徽章",
+          "en": "Soul Badge",
+          "jp": "ピンクバッジ",
+          "location": "浅红市",
+          "giver": "阿桔(<font color=\"#ff1111\">红</font>/<font color=\"#11bb11\">绿</font>/<font color=\"#1111ff\">蓝</font>/<font color=\"#ffd377\">皮卡丘</font>/<font color=\"#FF7327\">火红</font>/<font color=\"#98CF12\">叶绿</font>/<font color=\"#F5DA26\">Let's Go！皮卡丘</font>/<font color=\"#D4924B\">Let's Go！伊布</font>)<br/>啊杏(<font color=\"#DAA520\">金</font>/<font color=\"#C0C0C0\">银</font>/<font color=\"#4FD9FF\">水晶</font>/<font color=\"#F8C838\">心金</font>/<font color=\"#A0C0E8\">魂银</font>)",
+          "effect": "无"
+        },
+        {
+          "name": "金色徽章",
+          "en": "Marsh Badge",
+          "jp": "ゴールドバッジ",
+          "location": "金黄市",
+          "giver": "娜姿",
+          "effect": "等级70级以下(<font color=\"#ff1111\">红</font>/<font color=\"#11bb11\">绿</font>/<font color=\"#1111ff\">蓝</font>/<font color=\"#ffd377\">皮卡丘</font>/<font color=\"#FF7327\">火红</font>/<font color=\"#98CF12\">叶绿</font>)"
+        },
+        {
+          "name": "深红徽章",
+          "en": "Volcano Badge",
+          "jp": "クリムゾンバッジ",
+          "location": "红莲镇(<font color=\"#ff1111\">红</font>/<font color=\"#11bb11\">绿</font>/<font color=\"#1111ff\">蓝</font>/<font color=\"#ffd377\">皮卡丘</font>/<font color=\"#FF7327\">火红</font>/<font color=\"#98CF12\">叶绿</font>/<font color=\"#F5DA26\">Let's Go！皮卡丘</font>/<font color=\"#D4924B\">Let's Go！伊布</font>)<br/>双子岛(<font color=\"#DAA520\">金</font>/<font color=\"#C0C0C0\">银</font>/<font color=\"#4FD9FF\">水晶</font>/<font color=\"#F8C838\">心金</font>/<font color=\"#A0C0E8\">魂银</font>)",
+          "giver": "夏伯",
+          "effect": "无"
+        },
+        {
+          "name": "绿色徽章",
+          "en": "Earth Badge",
+          "jp": "グリーンバッジ",
+          "location": "常青市",
+          "giver": "坂木(<font color=\"#ff1111\">红</font>/<font color=\"#11bb11\">绿</font>/<font color=\"#1111ff\">蓝</font>/<font color=\"#ffd377\">皮卡丘</font>/<font color=\"#FF7327\">火红</font>/<font color=\"#98CF12\">叶绿</font>/<font color=\"#F5DA26\">Let's Go！皮卡丘</font>/<font color=\"#D4924B\">Let's Go！伊布</font>)<br/>青绿(<font color=\"#DAA520\">金</font>/<font color=\"#C0C0C0\">银</font>/<font color=\"#4FD9FF\">水晶</font>/<font color=\"#F8C838\">心金</font>/<font color=\"#A0C0E8\">魂银</font>)",
+          "effect": "等级100以下(<font color=\"#ff1111\">红</font>/<font color=\"#11bb11\">绿</font>/<font color=\"#1111ff\">蓝</font>/<font color=\"#ffd377\">皮卡丘</font>/<font color=\"#FF7327\">火红</font>/<font color=\"#98CF12\">叶绿</font>)"
+        }
+      ]
+    },
+    {
+      "league": "城都联盟",
+      "region": "城都地区",
+      "gen": "第二世代",
+      "count": "8",
+      "badges": [
+        {
+          "name": "飞翼徽章",
+          "en": "Zephyr Badge",
+          "jp": "ウイングバッジ",
+          "location": "桔梗市",
+          "giver": "阿速",
+          "effect": "等级20以下(<font color=\"#F8C838\">心金</font>/<font color=\"#A0C0E8\">魂银</font>)"
+        },
+        {
+          "name": "昆虫徽章",
+          "en": "Hive Badge",
+          "jp": "インセクトバッジ",
+          "location": "桧皮镇",
+          "giver": "阿笔",
+          "effect": "等级30以下"
+        },
+        {
+          "name": "标准徽章",
+          "en": "Plain Badge",
+          "jp": "レギュラーバッジ",
+          "location": "满金市",
+          "giver": "小茜",
+          "effect": "无"
+        },
+        {
+          "name": "魅影徽章",
+          "en": "Fog Badge",
+          "jp": "ファントムバッジ",
+          "location": "缘朱市",
+          "giver": "松叶",
+          "effect": "等级50以下"
+        },
+        {
+          "name": "打击徽章",
+          "en": "Storm Badge",
+          "jp": "ショックバッジ",
+          "location": "湛蓝市",
+          "giver": "阿四",
+          "effect": "等级70以下(<font color=\"#DAA520\">金</font>/<font color=\"#C0C0C0\">银</font>/<font color=\"#4FD9FF\">水晶</font>)"
+        },
+        {
+          "name": "钢铁徽章",
+          "en": "Mineral Badge",
+          "jp": "スチールバッジ",
+          "location": "浅葱市",
+          "giver": "阿蜜",
+          "effect": "等级70级以下(<font color=\"#F8C838\">心金</font>/<font color=\"#A0C0E8\">魂银</font>)"
+        },
+        {
+          "name": "冰冻徽章",
+          "en": "Glacier Badge",
+          "jp": "アイスバッジ",
+          "location": "卡吉镇",
+          "giver": "柳伯",
+          "effect": "无"
+        },
+        {
+          "name": "升龙徽章",
+          "en": "Rising Badge",
+          "jp": "ライジングバッジ",
+          "location": "烟墨市",
+          "giver": "小椿",
+          "effect": "等级100以下"
+        }
+      ]
+    },
+    {
+      "league": "丰缘联盟",
+      "region": "丰缘地区",
+      "gen": "第三世代",
+      "count": "8",
+      "badges": [
+        {
+          "name": "岩石徽章",
+          "en": "Stone Badge",
+          "jp": "ストーンバッジ",
+          "location": "卡那兹市",
+          "giver": "杜娟",
+          "effect": "等级20以下(<font color=\"#AB2813\">欧米伽红宝石</font>/<font color=\"#26649C\">阿尔法蓝宝石</font>)"
+        },
+        {
+          "name": "拳击徽章",
+          "en": "Knuckle Badge",
+          "jp": "ナックルバッジ",
+          "location": "武斗镇",
+          "giver": "藤树",
+          "effect": "等级30以下"
+        },
+        {
+          "name": "电力徽章",
+          "en": "Dynamo Badge",
+          "jp": "ダイナモバッジ",
+          "location": "紫堇市",
+          "giver": "铁旋",
+          "effect": "等级40以下(<font color=\"#AB2813\">欧米伽红宝石</font>/<font color=\"#26649C\">阿尔法蓝宝石</font>)"
+        },
+        {
+          "name": "烈焰徽章",
+          "en": "Heat Badge",
+          "jp": "ヒートバッジ",
+          "location": "釜炎镇",
+          "giver": "亚莎",
+          "effect": "等级50以下"
+        },
+        {
+          "name": "天秤徽章",
+          "en": "Balance Badge",
+          "jp": "バランスバッジ",
+          "location": "橙华市",
+          "giver": "千里",
+          "effect": "等级60以下(<font color=\"#AB2813\">欧米伽红宝石</font>/<font color=\"#26649C\">阿尔法蓝宝石</font>)"
+        },
+        {
+          "name": "白羽徽章",
+          "en": "Feather Badge",
+          "jp": "フェザーバッジ",
+          "location": "茵郁市",
+          "giver": "娜琪",
+          "effect": "等级70级以下"
+        },
+        {
+          "name": "心灵徽章",
+          "en": "Mind Badge",
+          "jp": "マインドバッジ",
+          "location": "绿岭市",
+          "giver": "小枫和小南",
+          "effect": "等级80以下(<font color=\"#AB2813\">欧米伽红宝石</font>/<font color=\"#26649C\">阿尔法蓝宝石</font>)"
+        },
+        {
+          "name": "雨滴徽章",
+          "en": "Rain Badge",
+          "jp": "レインバッジ",
+          "location": "琉璃市",
+          "giver": "米可利(<font color=\"#BF0109\">红宝石</font>/<font color=\"#3862AE\">蓝宝石</font>/<font color=\"#AB2813\">欧米伽红宝石</font>/<font color=\"#26649C\">阿尔法蓝宝石</font>)<br/>亚当(<font color=\"#00A000\">绿宝石</font>)",
+          "effect": "等级100以下"
+        }
+      ]
+    },
+    {
+      "league": "神奥联盟",
+      "region": "神奥地区",
+      "gen": "第四世代",
+      "count": "8",
+      "badges": [
+        {
+          "name": "石炭徽章",
+          "en": "Coal Badge",
+          "jp": "コールバッジ",
+          "location": "黑金市",
+          "giver": "瓢太",
+          "effect": "无"
+        },
+        {
+          "name": "森林徽章",
+          "en": "Forest Badge",
+          "jp": "フォレストバッジ",
+          "location": "百代市",
+          "giver": "菜种",
+          "effect": "无"
+        },
+        {
+          "name": "圆石徽章",
+          "en": "Cobble Badge",
+          "jp": "コボルバッジ",
+          "location": "帷幕市",
+          "giver": "阿李",
+          "effect": "无"
+        },
+        {
+          "name": "沼泽徽章",
+          "en": "Fen Badge",
+          "jp": "フェンバッジ",
+          "location": "湿原市",
+          "giver": "吉宪",
+          "effect": "无"
+        },
+        {
+          "name": "遗迹徽章",
+          "en": "Relic Badge",
+          "jp": "レリックバッジ",
+          "location": "家缘市",
+          "giver": "梅丽莎",
+          "effect": "无"
+        },
+        {
+          "name": "矿山徽章",
+          "en": "Mine Badge",
+          "jp": "マインバッジ",
+          "location": "水脉市",
+          "giver": "东瓜",
+          "effect": "无"
+        },
+        {
+          "name": "冰河徽章",
+          "en": "Icicle Badge",
+          "jp": "グレイシャバッジ",
+          "location": "雪峰市",
+          "giver": "小菘",
+          "effect": "无"
+        },
+        {
+          "name": "灯塔徽章",
+          "en": "Beacon Badge",
+          "jp": "ビーコンバッジ",
+          "location": "滨海市",
+          "giver": "电次",
+          "effect": "无"
+        }
+      ]
+    },
+    {
+      "league": "合众联盟",
+      "region": "合众地区",
+      "gen": "第五世代",
+      "count": "8或10",
+      "badges": [
+        {
+          "name": "三元徽章",
+          "en": "Trio Badge",
+          "jp": "トライバッジ",
+          "location": "三曜市",
+          "giver": "天桐、伯特、寇恩",
+          "effect": "等级20以下"
+        },
+        {
+          "name": "基础徽章",
+          "en": "Basic Badge",
+          "jp": "ベーシックバッジ",
+          "location": "七宝市(<font color=\"#444444\">黑</font>/<font color=\"#C3C3C3\">白</font>)<br/>桧扇市(<font color=\"#181818\">黑2</font>/<font color=\"#CBCBCB\">白2</font>)",
+          "giver": "芦荟(<font color=\"#444444\">黑</font>/<font color=\"#C3C3C3\">白</font>)<br/>黑连(<font color=\"#181818\">黑2</font>/<font color=\"#CBCBCB\">白2</font>)",
+          "effect": "等级30以下(<font color=\"#444444\">黑</font>/<font color=\"#C3C3C3\">白</font>)<br/>等级20以下(<font color=\"#181818\">黑2</font>/<font color=\"#CBCBCB\">白2</font>)"
+        },
+        {
+          "name": "毒性徽章",
+          "en": "Toxic Badge",
+          "jp": "トキシックバッジ",
+          "location": "立涌市",
+          "giver": "霍米加",
+          "effect": "等级30以下"
+        },
+        {
+          "name": "甲虫徽章",
+          "en": "Insect Badge",
+          "jp": "ビートルバッジ",
+          "location": "飞云市",
+          "giver": "亚堤",
+          "effect": "等级40以下"
+        },
+        {
+          "name": "伏特徽章",
+          "en": "Bolt Badge",
+          "jp": "ボルトバッジ",
+          "location": "雷文市",
+          "giver": "小菊儿",
+          "effect": "等级50以下"
+        },
+        {
+          "name": "震动徽章",
+          "en": "Quake Badge",
+          "jp": "クェイクバッジ",
+          "location": "帆巴市",
+          "giver": "菊老大",
+          "effect": "等级60以下"
+        },
+        {
+          "name": "喷射徽章",
+          "en": "Jet Badge",
+          "jp": "ジェットバッジ",
+          "location": "吹寄市",
+          "giver": "风露",
+          "effect": "等级70以下"
+        },
+        {
+          "name": "冰柱徽章",
+          "en": "Freeze Badge",
+          "jp": "アイシクルバッジ",
+          "location": "雪花市",
+          "giver": "哈奇库",
+          "effect": "等级80以下"
+        },
+        {
+          "name": "传说徽章",
+          "en": "Legend Badge",
+          "jp": "レジェンドバッジ",
+          "location": "双龙市",
+          "giver": "夏卡(<font color=\"#444444\">黑</font>/<font color=\"#181818\">黑2</font>/<font color=\"#CBCBCB\">白2</font>)<br/>艾莉丝(<font color=\"#C3C3C3\">白</font>)",
+          "effect": "等级100以下(<font color=\"#444444\">黑</font>/<font color=\"#C3C3C3\">白</font>)<br/>等级80以下(<font color=\"#181818\">黑2</font>/<font color=\"#CBCBCB\">白2</font>)"
+        },
+        {
+          "name": "海浪徽章",
+          "en": "Wave Badge",
+          "jp": "ウェーブバッジ",
+          "location": "青海波市",
+          "giver": "西子伊",
+          "effect": "等级100以下"
+        }
+      ]
+    },
+    {
+      "league": "卡洛斯联盟",
+      "region": "卡洛斯地区",
+      "gen": "第六世代",
+      "count": "8",
+      "badges": [
+        {
+          "name": "虫子徽章",
+          "en": "Bug Badge",
+          "jp": "バグバッジ",
+          "location": "白檀市",
+          "giver": "紫罗兰",
+          "effect": "等级30以下"
+        },
+        {
+          "name": "岩壁徽章",
+          "en": "Cliff Badge",
+          "jp": "ウォールバッジ",
+          "location": "遥香市",
+          "giver": "查克洛",
+          "effect": "等级40以下"
+        },
+        {
+          "name": "战斗徽章",
+          "en": "Rumble Badge",
+          "jp": "ファイトバッジ",
+          "location": "娑罗市",
+          "giver": "可尔妮",
+          "effect": "等级50以下"
+        },
+        {
+          "name": "植物徽章",
+          "en": "Plant Badge",
+          "jp": "プラントバッジ",
+          "location": "比翼市",
+          "giver": "福爷",
+          "effect": "等级60以下"
+        },
+        {
+          "name": "电压徽章",
+          "en": "Voltage Badge",
+          "jp": "ボルテージバッジ",
+          "location": "密阿雷市",
+          "giver": "希特隆",
+          "effect": "等级70以下"
+        },
+        {
+          "name": "妖精徽章",
+          "en": "Fairy Badge",
+          "jp": "フェアリーバッジ",
+          "location": "香薰市",
+          "giver": "玛绣",
+          "effect": "等级80以下"
+        },
+        {
+          "name": "灵力徽章",
+          "en": "Psychic Badge",
+          "jp": "サイキックバッジ",
+          "location": "百刻市",
+          "giver": "葛吉花",
+          "effect": "等级90以下"
+        },
+        {
+          "name": "冰山徽章",
+          "en": "Iceberg Badge",
+          "jp": "アイスバーグバッジ",
+          "location": "映雪市",
+          "giver": "得抚",
+          "effect": "等级100以下"
+        }
+      ]
+    },
+    {
+      "league": "伽勒尔联盟",
+      "region": "伽勒尔地区",
+      "gen": "第八世代",
+      "count": "8或10",
+      "badges": [
+        {
+          "name": "草之徽章",
+          "en": "Grass Badge",
+          "jp": "くさバッジ",
+          "location": "草路镇",
+          "giver": "亚洛",
+          "effect": "等级30以下<br/>可以收服等级25以下的宝可梦"
+        },
+        {
+          "name": "水之徽章",
+          "en": "Water Badge",
+          "jp": "みずバッジ",
+          "location": "水舟镇",
+          "giver": "露璃娜",
+          "effect": "等级40以下<br/>可以收服等级30以下的宝可梦"
+        },
+        {
+          "name": "火之徽章",
+          "en": "Fire Badge",
+          "jp": "ほのおバッジ",
+          "location": "机擎市",
+          "giver": "卡芜",
+          "effect": "等级50以下<br/>可以收服等级35以下的宝可梦"
+        },
+        {
+          "name": "格斗徽章",
+          "en": "Fighting Badge",
+          "jp": "かくとうバッジ",
+          "location": "溯传镇",
+          "giver": "彩豆",
+          "effect": "等级60以下<br/>可以收服等级40以下的宝可梦"
+        },
+        {
+          "name": "幽灵徽章",
+          "en": "Ghost Badge",
+          "jp": "ゴーストバッジ",
+          "location": "溯传镇",
+          "giver": "欧尼奥",
+          "effect": "等级60以下<br/>可以收服等级40以下的宝可梦"
+        },
+        {
+          "name": "妖精徽章",
+          "en": "Fairy Badge",
+          "jp": "フェアリーバッジ",
+          "location": "舞姿镇",
+          "giver": "波普菈",
+          "effect": "等级70以下<br/>可以收服等级45以下的宝可梦"
+        },
+        {
+          "name": "岩石徽章",
+          "en": "Rock Badge",
+          "jp": "いわバッジ",
+          "location": "战竞镇",
+          "giver": "玛瓜",
+          "effect": "等级80以下<br/>可以收服等级50以下的宝可梦"
+        },
+        {
+          "name": "冰之徽章",
+          "en": "Ice Badge",
+          "jp": "こおりバッジ",
+          "location": "战竞镇",
+          "giver": "美蓉",
+          "effect": "等级80以下<br/>可以收服等级50以下的宝可梦"
+        },
+        {
+          "name": "恶之徽章",
+          "en": "Dark Badge",
+          "jp": "あくバッジ",
+          "location": "尖钉镇",
+          "giver": "聂梓",
+          "effect": "等级90以下<br/>可以收服等级55以下的宝可梦"
+        },
+        {
+          "name": "龙之徽章",
+          "en": "Dragon Badge",
+          "jp": "ドラゴンバッジ",
+          "location": "拳关市",
+          "giver": "奇巴纳",
+          "effect": "等级100以下<br/>可以收服等级100以下的宝可梦"
+        }
+      ]
+    },
+    {
+      "league": "帕底亚联盟",
+      "region": "帕底亚地区",
+      "gen": "第九世代",
+      "count": "8",
+      "badges": [
+        {
+          "name": "道馆徽章(虫)",
+          "en": "Gym Badge",
+          "jp": "ジムバッジ",
+          "location": "圆模镇",
+          "giver": "阿枫",
+          "effect": "等级30以下"
+        },
+        {
+          "name": "道馆徽章(草)",
+          "en": "Gym Badge",
+          "jp": "ジムバッジ",
+          "location": "深钵镇",
+          "giver": "寇沙",
+          "effect": "等级40以下"
+        },
+        {
+          "name": "道馆徽章(水)",
+          "en": "Gym Badge",
+          "jp": "ジムバッジ",
+          "location": "玻瓶市",
+          "giver": "海岱",
+          "effect": "等级50以下"
+        },
+        {
+          "name": "道馆徽章(电)",
+          "en": "Gym Badge",
+          "jp": "ジムバッジ",
+          "location": "酿光市",
+          "giver": "奇树",
+          "effect": "等级60以下"
+        },
+        {
+          "name": "道馆徽章(一般)",
+          "en": "Gym Badge",
+          "jp": "ジムバッジ",
+          "location": "锦汇镇",
+          "giver": "青木",
+          "effect": "等级70以下"
+        },
+        {
+          "name": "道馆徽章(冰)",
+          "en": "Gym Badge",
+          "jp": "ジムバッジ",
+          "location": "霜抹山",
+          "giver": "古鲁夏",
+          "effect": "等级80以下"
+        },
+        {
+          "name": "道馆徽章(幽灵)",
+          "en": "Gym Badge",
+          "jp": "ジムバッジ",
+          "location": "冰柜镇",
+          "giver": "莱姆",
+          "effect": "等级90以下"
+        },
+        {
+          "name": "道馆徽章(超能力)",
+          "en": "Gym Badge",
+          "jp": "ジムバッジ",
+          "location": "焙固镇",
+          "giver": "莉普",
+          "effect": "等级100以下"
+        }
+      ]
+    }
+  ]
+}

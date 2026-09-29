@@ -1,0 +1,68 @@
+[
+  {
+    "name": "合众之石",
+    "en": "unova-stone",
+    "type": "进化道具",
+    "note": "宝可梦GO道具，52poke无对应图"
+  },
+  {
+    "name": "神奥之石",
+    "en": "sinnoh-stone",
+    "type": "进化道具",
+    "note": "宝可梦GO道具，52poke无对应图"
+  },
+  {
+    "name": "碎瓦片",
+    "en": "brick-piece",
+    "type": "贵重道具",
+    "note": "第二世代道具，52poke无背包贴图"
+  },
+  {
+    "name": "太阳碎片",
+    "en": "sun-shard",
+    "type": "进化道具",
+    "note": "XD道具，52poke无背包贴图"
+  },
+  {
+    "name": "月亮碎片",
+    "en": "moon-shard",
+    "type": "进化道具",
+    "note": "XD道具，52poke无背包贴图"
+  },
+  {
+    "name": "木箱",
+    "en": "normal-box",
+    "type": "一般道具",
+    "note": "第二世代道具，52poke无背包贴图"
+  },
+  {
+    "name": "桐木箱",
+    "en": "gorgeous-box",
+    "type": "一般道具",
+    "note": "第二世代道具，52poke无背包贴图"
+  },
+  {
+    "name": "宝可梦的蛋兑换券",
+    "en": "egg-ticket",
+    "type": "重要物品",
+    "note": "52poke无背包贴图"
+  },
+  {
+    "name": "亲密度",
+    "en": "friendship",
+    "type": "进化道具",
+    "note": "游戏机制非道具，无贴图"
+  },
+  {
+    "name": "宝可方块",
+    "en": "pokeblock",
+    "type": "进化道具",
+    "note": "52poke无糖果本体贴图"
+  },
+  {
+    "name": "经验值",
+    "en": "experience",
+    "type": "进化道具",
+    "note": "游戏机制非道具，无贴图"
+  }
+]
