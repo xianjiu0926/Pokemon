@@ -148,7 +148,7 @@ python3 scripts/fetch_pokemon.py    pokemon-new.json    # 精灵 1025 只（可�
 
 ## 联系方式
 
-- 反馈 / 侵权申诉 / 合作：**3525442929@qq.com**
+- 反馈 / 侵权申诉 / 合作：**325780707+xianjiu0926@users.noreply.github.com**（GitHub 隐私转发邮箱）
 - 或直接在本仓库提 [Issue](https://github.com/xianjiu0926/Pokemon/issues)
 
 ## 免责声明
@@ -157,4 +157,4 @@ python3 scripts/fetch_pokemon.py    pokemon-new.json    # 精灵 1025 只（可�
 2. 本仓库仅对公开数据进行**抓取、索引、格式化**，不拥有任何原始数据的版权。
 3. 本项目**仅供个人学习、研究、同人创作**使用，**严禁用于任何商业用途**。
 4. 数据可能存在遗漏或误差，请以原始网站及官方资料为准。
-5. 如权利人认为本仓库内容侵犯其权益，请联系仓库维护者（3525442929@qq.com），收到通知后将及时删除相关内容。
+5. 如权利人认为本仓库内容侵犯其权益，请联系仓库维护者（325780707+xianjiu0926@users.noreply.github.com），收到通知后将及时删除相关内容。
