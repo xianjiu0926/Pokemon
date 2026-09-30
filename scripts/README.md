@@ -17,6 +17,12 @@ python3 scripts/fetch_move_effects.py
 # 补精灵动图缺口（下载 + 压 128px，断点续跑）
 python3 scripts/fetch_missing_animated.py
 
+# 补 Showdown 像素图缺口（4 槽位：动图/静态 × 普通/闪光）
+python3 scripts/fetch_showdown_sprites.py
+
+# 批量重压 PokeOS 动图去毛边（阈值二值化，断点续跑，参数=并发数）
+python3 scripts/refetch_pokeos_animated.py 6
+
 # 检查缺图（生成 pokemon-sprites-missing.json）
 python3 scripts/check_sprites.py
 ```
@@ -46,7 +52,8 @@ python3 scripts/check_sprites.py
 | `fetch_special_forms.py` | 命名特殊形态图（原始回归/帽子/品种等） | PokeOS |
 | `fetch_showdown_sprites.py` | 补 Showdown 像素图缺口（4 槽位） | Pokémon Showdown |
 | `fetch_item_sprites.py` | 道具图 | Serebii + 52poke |
-| `resize_pokeos_gifs.py` | PokeOS 动图压 128px | 本地处理 |
+| `resize_pokeos_gifs.py` | PokeOS 动图压 128px（阈值二值化去毛边） | 本地处理 |
+| `refetch_pokeos_animated.py` | 批量重下 PokeOS 动图原图 + 阈值二值化重压（去毛边） | PokeOS |
 
 ### 音频
 | 脚本 | 抓什么 | 数据源 |
@@ -66,8 +73,20 @@ python3 scripts/check_sprites.py
 3. **幂等**：重复跑不产生重复数据；合并回 JSON 用 key 去重。
 4. **52poke 限流**：MediaWiki API 批量请求，一次最多 50 个标题，别逐条抓（会 429）。
 5. **52poke 图片**：下载必须带 `Referer: https://wiki.52poke.com/`，否则 403。
-6. **PokeOS 动图**：源站是「编号+简化后缀」命名（`383-mega`=原始回归、`25-*-cap`=帽子、`128-regional-p-*`=品种），动图压到 128px。
-7. **提交约定**：
+6. **PokeOS 动图**：源站「编号+简化后缀」命名，完整规则：
+   - 原始回归 `-mega`（`383-mega`，不是 `-primal`）
+   - 帽子 `-{region}-cap`（`25-unova-cap`，不是 `-unova`）
+   - 肯泰罗品种 `-regional-p-{combat/blaze/aqua}`（`128-regional-p-combat`）
+   - 奈克洛兹玛 `-dusk/-dawn/-ultra`（`800-dusk`，不是 `-dusk-mane`）
+   - 地区形态 `-regional-a/g/h/p`（`26-regional-a`，不是 `-alola`）
+   - 海兔 `-west/-east`、土龙节节 `-three-segment`
+   - 雌性动图源站没有（只有静态 `-female`）
+   - 这套映射已写进 `fetch_pokemon_sprites.py` 的 `pokeos_id()`，抓图直接复用。
+7. **Showdown 图**：命名 = 英文小写去连字符 + `mega-x→megax`：
+   - 基础名去连字符（`mr-mime→mrmime`、`ho-oh→hooh`、`porygon-z→porygonz`、`type-null→typenull`、`tapu-koko→tapukoko`、`nidoran-f→nidoranf`）
+   - `mega-x/y/z→megax/y/z`（`charizard-megax`）；其余形态（`-f`、`-galar`、`-gmax`）保持。
+8. **GIF 压缩毛边**：GIF 不支持半透明，缩放原图会硬切半透明边缘出白边/黑边。**正确做法是「阈值二值化」**（alpha≥128 保留、保持原色），**别用预乘 alpha**（半透明压暗会变黑边）。`resize_pokeos_gifs.py` 已按阈值二值化处理。
+9. **提交约定**：
    - 纯加图/音频 → 只推数据仓库，HUD 不用动；
    - 动了 JSON → 推数据 + bump `PKM_DATA_REV` + 推 HUD；
    - 动了 HUD 逻辑 → bump `PK_VER` + 推 HUD。
