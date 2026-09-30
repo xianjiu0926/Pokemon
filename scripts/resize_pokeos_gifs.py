@@ -25,7 +25,7 @@ def gif_width(path):
         return 0
 
 
-def resize_gif(src, width=WIDTH, premult=True):
+def resize_gif(src, width=WIDTH, edge_clean=True):
     im = Image.open(src)
     durations = []
     frames = []
@@ -35,12 +35,11 @@ def resize_gif(src, width=WIDTH, premult=True):
         w, h = f.size
         nh = max(1, round(h * width / w))
         f = f.resize((width, nh), Image.LANCZOS)
-        if premult:
-            # 预乘 alpha：半透明边缘像素颜色按 alpha 变暗，避免存 GIF 时硬切成浅色毛边
+        if edge_clean:
+            # alpha 阈值二值化：半透明边缘硬切，但保持原色（不预乘）。
+            # 直接存 GIF 会留白边，预乘 alpha 会留黑边；阈值硬切两者都不留。
             r, g, b, a = f.split()
-            r = ImageChops.multiply(r, a)
-            g = ImageChops.multiply(g, a)
-            b = ImageChops.multiply(b, a)
+            a = a.point(lambda x: 255 if x >= 128 else 0)
             f = Image.merge('RGBA', (r, g, b, a))
         frames.append(f)
     if not frames:
