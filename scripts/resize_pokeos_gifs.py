@@ -10,7 +10,7 @@ import os
 import struct
 import sys
 import tempfile
-from PIL import Image, ImageSequence
+from PIL import Image, ImageSequence, ImageChops
 
 WIDTH = 128
 
@@ -25,7 +25,7 @@ def gif_width(path):
         return 0
 
 
-def resize_gif(src, width=WIDTH):
+def resize_gif(src, width=WIDTH, premult=True):
     im = Image.open(src)
     durations = []
     frames = []
@@ -34,7 +34,15 @@ def resize_gif(src, width=WIDTH):
         f = frame.convert('RGBA')
         w, h = f.size
         nh = max(1, round(h * width / w))
-        frames.append(f.resize((width, nh), Image.LANCZOS))
+        f = f.resize((width, nh), Image.LANCZOS)
+        if premult:
+            # 预乘 alpha：半透明边缘像素颜色按 alpha 变暗，避免存 GIF 时硬切成浅色毛边
+            r, g, b, a = f.split()
+            r = ImageChops.multiply(r, a)
+            g = ImageChops.multiply(g, a)
+            b = ImageChops.multiply(b, a)
+            f = Image.merge('RGBA', (r, g, b, a))
+        frames.append(f)
     if not frames:
         return
     fd, tmp = tempfile.mkstemp(suffix='.gif')
