@@ -29,7 +29,7 @@ BASE = 'https://s3.pokeos.com/pokeos-uploads/assets/pokemon/home/'
 DELAY = 0.12
 REG = {'alola': 'regional-a', 'galar': 'regional-g', 'hisui': 'regional-h', 'paldea': 'regional-p'}
 # dex en 形态后缀 → pokeos 源站后缀（源站简化命名）
-POKEOS_SUFFIX_FIX = {'primal': 'mega', 'dusk-mane': 'dusk', 'dawn-wings': 'dawn', 'threesegment': 'three-segment'}
+POKEOS_SUFFIX_FIX = {'primal': 'mega', 'dusk-mane': 'dusk', 'dawn-wings': 'dawn', 'threesegment': 'three-segment', 'original-mega': 'mega-original'}
 POKEOS_CAP = ('original', 'hoenn', 'sinnoh', 'unova', 'kalos', 'alola', 'partner', 'world')  # 皮卡丘帽子
 POKEOS_PALDEA = {'paldea-combat': 'regional-p-combat', 'paldea-blaze': 'regional-p-blaze', 'paldea-aqua': 'regional-p-aqua'}
 
