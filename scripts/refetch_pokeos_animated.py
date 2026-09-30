@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-批量重新下载 PokeOS HOME 动图原图，用「预乘 alpha」压到 128px，消除半透明硬切毛边。
+批量重新下载 PokeOS HOME 动图原图，用「阈值二值化」压到 128px，消除半透明硬切毛边。
 
-背景：旧图直接 resize+存 GIF，半透明抗锯齿边缘被硬切成浅色毛边。
-此脚本重新从源站拉原图（大 GIF），resize_pokeos_gifs.resize_gif 已加预乘 alpha。
+背景：旧图直接 resize+存 GIF，半透明抗锯齿边缘被硬切成白边/黑边。
+此脚本重新从源站拉原图（大 GIF），resize_pokeos_gifs.resize_gif 已改阈值二值化。
 
-断点续跑：pokeos-refetch-done.txt 记录已完成的 slug（普通+闪光都处理过）。
-用法：python3 scripts/refetch_pokeos_animated.py
+断点续跑：pokeos-refetch-done.txt 记录已完成的 slug。
+用法：python3 scripts/refetch_pokeos_animated.py [并发数]
 """
 import os
 import sys
 import subprocess
 import tempfile
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_pokemon_sprites import load_entries, build_mapping, pokeos_id, slugify, BASE
@@ -39,13 +40,13 @@ def fetch_resize(url, dst):
     fd, tmp = tempfile.mkstemp(suffix='.gif')
     os.close(fd)
     try:
-        r = subprocess.run(['curl', '-s', '-o', tmp, '--max-time', '60',
-                            '-w', '%{http_code}', url],
-                           capture_output=True, text=True, timeout=120)
+        r = subprocess.run(['curl', '-s', '-o', tmp, '--connect-timeout', '10',
+                            '--max-time', '45', '-w', '%{http_code}', url],
+                           capture_output=True, text=True, timeout=60)
         code = r.stdout.strip()
         if code != '200' or not os.path.exists(tmp) or os.path.getsize(tmp) < 500:
             return False
-        resize_gif(tmp)  # 预乘 alpha，压 128px
+        resize_gif(tmp)  # 阈值二值化，压 128px
         os.replace(tmp, dst)
         return True
     except Exception:
@@ -58,7 +59,18 @@ def fetch_resize(url, dst):
                 pass
 
 
+def process_one(item):
+    slug, pid, no, cn = item
+    got = []
+    if fetch_resize(BASE + 'animated/%s.gif' % pid, os.path.join(AN_N, slug + '.gif')):
+        got.append('N')
+    if fetch_resize(BASE + 'animated/shiny/%s.gif' % pid, os.path.join(AN_S, slug + '.gif')):
+        got.append('S')
+    return slug, ''.join(got)
+
+
 def main():
+    workers = int(sys.argv[1]) if len(sys.argv) > 1 else 4
     entries = load_entries()
     base_slug = build_mapping(entries)
     done = load_done()
@@ -76,22 +88,20 @@ def main():
             continue
         todo.append((slug, pid, p['no'], p['name']))
 
-    print('待处理 %d 个（已完成 %d）' % (len(todo), len(done)), flush=True)
+    print('待处理 %d 个（已完成 %d，并发 %d）' % (len(todo), len(done), workers), flush=True)
     ok = miss = 0
-    for slug, pid, no, cn in todo:
-        got = []
-        if fetch_resize(BASE + 'animated/%s.gif' % pid, os.path.join(AN_N, slug + '.gif')):
-            got.append('N')
-        if fetch_resize(BASE + 'animated/shiny/%s.gif' % pid, os.path.join(AN_S, slug + '.gif')):
-            got.append('S')
-        if got:
-            ok += 1
-            mark_done(slug)
-        else:
-            miss += 1
-        n = ok + miss
-        if n % 25 == 0:
-            print('  ... %d/%d OK=%d MISS=%d' % (n, len(todo), ok, miss), flush=True)
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futs = {pool.submit(process_one, t): t for t in todo}
+        for fut in as_completed(futs):
+            slug, got = fut.result()
+            if got:
+                ok += 1
+                mark_done(slug)
+            else:
+                miss += 1
+            n = ok + miss
+            if n % 25 == 0 or not got:
+                print('  %4d/%d %s [%s]' % (n, len(todo), slug, got or 'X'), flush=True)
     print('完成：OK=%d MISS=%d' % (ok, miss), flush=True)
 
 

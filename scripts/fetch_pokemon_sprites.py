@@ -28,6 +28,10 @@ UA = 'Mozilla/5.0 pkm-sprite-fetch/1.0'
 BASE = 'https://s3.pokeos.com/pokeos-uploads/assets/pokemon/home/'
 DELAY = 0.12
 REG = {'alola': 'regional-a', 'galar': 'regional-g', 'hisui': 'regional-h', 'paldea': 'regional-p'}
+# dex en 形态后缀 → pokeos 源站后缀（源站简化命名）
+POKEOS_SUFFIX_FIX = {'primal': 'mega', 'dusk-mane': 'dusk', 'dawn-wings': 'dawn', 'threesegment': 'three-segment'}
+POKEOS_CAP = ('original', 'hoenn', 'sinnoh', 'unova', 'kalos', 'alola', 'partner', 'world')  # 皮卡丘帽子
+POKEOS_PALDEA = {'paldea-combat': 'regional-p-combat', 'paldea-blaze': 'regional-p-blaze', 'paldea-aqua': 'regional-p-aqua'}
 
 
 def slugify(en):
@@ -78,8 +82,14 @@ def pokeos_id(p, base_slug):
     suf = en[len(bs):].lstrip('-')
     if not suf:
         return None, en
-    if suf in REG:
-        suf = REG[suf]
+    if bs == 'pikachu' and suf in POKEOS_CAP:
+        suf = suf + '-cap'              # 皮卡丘帽子
+    elif suf in POKEOS_PALDEA:
+        suf = POKEOS_PALDEA[suf]        # 肯泰罗帕底亚品种
+    elif suf in POKEOS_SUFFIX_FIX:
+        suf = POKEOS_SUFFIX_FIX[suf]    # 原始回归/奈克洛兹玛/土龙节节
+    elif suf in REG:
+        suf = REG[suf]                  # 地区形态
     elif suf in ('battle-bond', 'ash'):
         suf = 'ash'
     elif suf == '10%':
