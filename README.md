@@ -29,6 +29,7 @@
 ├─ abilities.json                 # 特性 317 条
 ├─ moves.json                     # 招式 953 条
 ├─ items.json                     # 道具 2361 条
+├─ item-alias.json                # 道具中文别名表（别名 → 正式名）
 ├─ evolution.json                 # 进化链 534 条
 ├─ badges.json                    # 徽章 8 个联盟
 ├─ dex-list.json                  # 全国图鉴列表（1025 只：编号/名字/英文slug/属性）
@@ -91,6 +92,9 @@ var PKM_ITEM_SEREBII_BASE = 'https://raw.githubusercontent.com/xianjiu0926/Pokem
 // items.json
 { "count": 2361, "data": [ { "id": 1, "name": "精灵球", "en": "poke-ball", "cat": "精灵球", "price": 200, "effect": "捕获率 ×1", "desc": "说明…" } ] }
 
+// item-alias.json（道具中文别名 → 正式名，供 HUD 匹配时纠错）
+{ "count": 41, "data": { "奇异糖果": "神奇糖果", "药水": "伤药" } }
+
 // pokemon/gen-XX.json
 { "gen": "第一世代", "count": 230, "data": [ { "no": 1, "name": "妙蛙种子", "en": "bulbasaur", "types": ["草","毒"], "stats": {"hp":45,"atk":65,"def":65,"spa":49,"spd":49,"spe":45}, "desc": "图鉴描述…", "evolveChainId": 1 } ] }
 ```
@@ -119,6 +123,17 @@ python3 scripts/fetch_item_effects.py --merge
 
 - 批量（每批 50 标题）从 52poke MediaWiki API 抓取 effect 为空的道具页，解析「效果/使用效果/游戏中」段落，清洗后增量写入 `items-effect-fill.json`，`--merge` 时合并回 `items.json`。
 - 可断点续跑；配合 `--merge` 一步完成抓取 + 回写。
+
+### 2.5 道具中文别名
+
+直接编辑根目录 `item-alias.json` 的 `data`，加一条 `"别名":"正式名"` 即可：
+
+```json
+{ "count": 42, "data": { "电气珠": "电气球", "奇异糖果": "神奇糖果" } }
+```
+
+- 纯数据改动，推送到本仓库即可，**无需改 HUD 脚本**。
+- HUD 启动时拉取合并（HUD 内置表兜底），下次刷新生效。
 
 ### 3. 特性 / 招式 / 精灵文字数据
 
