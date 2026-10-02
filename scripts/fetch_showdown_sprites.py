@@ -9,10 +9,11 @@
   gen5/{slug}.png       静态普通（Gen5 风格）
   gen5-shiny/{slug}.png 静态闪光
 
-slug 规则（与 showdown 源站一致）：
+slug 规则（源站 URL 用）：
   - -mega-x/-mega-y/-mega-z → -megax/-megay/-megaz（去 mega 与 x/y/z 间的连字符）
   - 基础名去连字符（mr-mime→mrmime、ho-oh→hooh、porygon-z→porygonz、type-null→typenull、nidoran-f→nidoranf、tapu-koko→tapukoko）
-  每个 en 生成两个候选（原始 + 去连字符），逐个试，命中的那个即源站真实文件名。
+  每个 en 生成两个候选（原始 + 去连字符）逐个试源站 URL。
+  仓库文件名统一存 dex en（带连字符），与 pokeos 目录一致。
 
 断点续跑：文件已存在就跳过。
 """
@@ -60,25 +61,19 @@ def main():
     for en in entries:
         cands = sd_candidates(en)
         for slot_url, slot_path in SLOTS:
-            done = False
-            for c in cands:
-                path = os.path.join(ROOT, slot_path % c)
-                if os.path.exists(path) and os.path.getsize(path) > 50:
-                    skip += 1
-                    done = True
-                    break
-            if done:
+            dst = os.path.join(ROOT, slot_path % en)  # 仓库统一存 dex en（带连字符）
+            if os.path.exists(dst) and os.path.getsize(dst) > 50:
+                skip += 1
                 continue
-            # 下载：逐个候选试，命中即存
+            # 下载：源站用去连字符/megax 候选试 URL，命中存成 dex en
             for c in cands:
                 url = BASE + slot_url % c
                 try:
                     req = urllib.request.Request(url, headers={'User-Agent': UA})
                     data = urllib.request.urlopen(req, timeout=15).read()
                     if len(data) >= 50:
-                        path = os.path.join(ROOT, slot_path % c)
-                        os.makedirs(os.path.dirname(path), exist_ok=True)
-                        open(path, 'wb').write(data)
+                        os.makedirs(os.path.dirname(dst), exist_ok=True)
+                        open(dst, 'wb').write(data)
                         got += 1
                         if got % 20 == 0:
                             print('  已下 %d，跳过 %d，404 %d' % (got, skip, miss))

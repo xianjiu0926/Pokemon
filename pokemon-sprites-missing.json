@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29",
+ "generated": "2026-10-02",
  "dexTotal": 1305,
  "slots": {
   "animated-pokeos-normal": "animated/pokeos/normal",
@@ -13,36 +13,36 @@
  },
  "summary": {
   "animated-pokeos-normal": {
-   "have": 1278,
-   "missing": 27
+   "have": 1281,
+   "missing": 24
   },
   "animated-pokeos-shiny": {
-   "have": 1221,
-   "missing": 84
+   "have": 1222,
+   "missing": 83
   },
   "animated-showdown-normal": {
-   "have": 1264,
-   "missing": 41
+   "have": 1265,
+   "missing": 40
   },
   "animated-showdown-shiny": {
-   "have": 1234,
-   "missing": 71
+   "have": 1235,
+   "missing": 70
   },
   "static-pokeos-normal": {
-   "have": 1297,
-   "missing": 8
+   "have": 1300,
+   "missing": 5
   },
   "static-pokeos-shiny": {
-   "have": 1296,
-   "missing": 9
+   "have": 1299,
+   "missing": 6
   },
   "static-showdown-normal": {
-   "have": 1282,
-   "missing": 23
+   "have": 1283,
+   "missing": 22
   },
   "static-showdown-shiny": {
-   "have": 1282,
-   "missing": 23
+   "have": 1283,
+   "missing": 22
   }
  },
  "missing": {
@@ -103,11 +103,6 @@
     "en": "gourgeist-super"
    },
    {
-    "no": 801,
-    "name": "超级玛机雅娜(500年前的颜色)",
-    "en": "magearna-original-mega"
-   },
-   {
     "no": 812,
     "name": "超极巨化轰擂金刚猩",
     "en": "rillaboom-gmax"
@@ -126,11 +121,6 @@
     "no": 844,
     "name": "超极巨化沙螺蟒",
     "en": "sandaconda-gmax"
-   },
-   {
-    "no": 849,
-    "name": "颤弦蝾螈(低调)",
-    "en": "toxtricity-low-key"
    },
    {
     "no": 876,
@@ -156,11 +146,6 @@
     "no": 916,
     "name": "飘香豚(雌性)",
     "en": "oinkologne-f"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(下垂姿势)",
-    "en": "tatsugiri-droopy-mega"
    },
    {
     "no": 1024,
@@ -505,11 +490,6 @@
     "en": "inteleon-gmax"
    },
    {
-    "no": 849,
-    "name": "颤弦蝾螈(低调)",
-    "en": "toxtricity-low-key"
-   },
-   {
     "no": 870,
     "name": "超级列阵兵",
     "en": "falinks-mega"
@@ -620,11 +600,6 @@
     "no": 25,
     "name": "皮卡丘(世界帽子)",
     "en": "pikachu-world"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr-mime-galar"
    },
    {
     "no": 483,
@@ -867,11 +842,6 @@
     "no": 26,
     "name": "超级雷丘Y",
     "en": "raichu-mega-y"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr-mime-galar"
    },
    {
     "no": 358,
@@ -1176,24 +1146,9 @@
     "en": "unfezant-f"
    },
    {
-    "no": 801,
-    "name": "超级玛机雅娜(500年前的颜色)",
-    "en": "magearna-original-mega"
-   },
-   {
     "no": 925,
     "name": "一家鼠(四只家庭)",
     "en": "maushold-four"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(下垂姿势)",
-    "en": "tatsugiri-droopy-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(平挺姿势)",
-    "en": "tatsugiri-stretchy-mega"
    },
    {
     "no": 1026,
@@ -1218,24 +1173,9 @@
     "en": "unfezant-f"
    },
    {
-    "no": 801,
-    "name": "超级玛机雅娜(500年前的颜色)",
-    "en": "magearna-original-mega"
-   },
-   {
     "no": 925,
     "name": "一家鼠(四只家庭)",
     "en": "maushold-four"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(下垂姿势)",
-    "en": "tatsugiri-droopy-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(平挺姿势)",
-    "en": "tatsugiri-stretchy-mega"
    },
    {
     "no": 1024,
@@ -1268,11 +1208,6 @@
     "no": 26,
     "name": "超级雷丘Y",
     "en": "raichu-mega-y"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr-mime-galar"
    },
    {
     "no": 398,
@@ -1385,11 +1320,6 @@
     "no": 26,
     "name": "超级雷丘Y",
     "en": "raichu-mega-y"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr-mime-galar"
    },
    {
     "no": 398,
@@ -1786,7 +1716,6 @@
    "minior-violet",
    "minior-yellow",
    "mollux",
-   "mrmime-galar",
    "mumbao",
    "murkrow-f",
    "naviathan",
@@ -2211,7 +2140,6 @@
    "minior-yellow",
    "mollux",
    "mr._mime",
-   "mrmime-galar",
    "mumbao",
    "murkrow-f",
    "naviathan",
@@ -2648,7 +2576,6 @@
    "missingno",
    "mollux",
    "monohm",
-   "mrmime-galar",
    "mumbao",
    "murkrow-f",
    "naviathan",
@@ -3041,7 +2968,6 @@
    "minior-yellow",
    "mollux",
    "monohm",
-   "mrmime-galar",
    "mumbao",
    "murkrow-f",
    "naviathan",
