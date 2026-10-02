@@ -14,6 +14,9 @@ python3 scripts/fetch_item_effects.py --merge
 # 补招式效果
 python3 scripts/fetch_move_effects.py
 
+# 补精灵可学招式（PokeAPI，支持 --from/--to，断点续跑）
+python3 scripts/fetch_movesets.py 899 1025
+
 # 补精灵动图缺口（下载 + 压 128px，断点续跑）
 python3 scripts/fetch_missing_animated.py
 
@@ -36,6 +39,11 @@ python3 scripts/check_sprites.py
 | `fetch_moves.py` | 招式 | `moves.json` |
 | `fetch_abilities.py` | 特性 | `abilities.json` |
 | `fetch_52poke_items.py` | 道具 | `items.json` |
+
+### 可学招式（PokeAPI）
+| 脚本 | 抓什么 | 输出 |
+|---|---|---|
+| `fetch_movesets.py` | 精灵可学招式（升级/技能机/蛋/教学，按版本分组） | `movesets/pokemon-XXXX.json` |
 
 ### 效果字段补全（52poke）
 | 脚本 | 用途 |
