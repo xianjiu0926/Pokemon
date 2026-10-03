@@ -111,7 +111,6 @@
 - `#849` 颤弦蝾螈(低调)（`toxtricity-low-key`）缺：APN、APS
 - `#890` 无极汰那(无极巨化)（`eternatus-eternamax`）缺：APN、APS
 - `#902` 幽尾玄鱼(雄性)（`basculegion`）缺：APS
-- `#925` 一家鼠(四只家庭)（`maushold-four`）缺：SPN、SPS
 - `#990` 铁辙迹（`iron-treads`）缺：ADN、ADS
 - `#991` 铁包袱（`iron-bundle`）缺：ADN、ADS
 - `#992` 铁臂膀（`iron-hands`）缺：ADN、ADS

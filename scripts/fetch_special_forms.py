@@ -49,7 +49,8 @@ SPECIAL = {
     'aegislash': '681',                 # 盾牌=基础 681
     'zygarde': '718',                   # 50%=基础 718
     'morpeko-hangry': '877-hangry',
-    'maushold-four': '925-family-of-four',
+    'maushold': '925-family-of-three',       # 基础=三只
+    'maushold-four': '925',                  # 四只=pokeos 基础编号
     'dudunsparce-threesegment': '982-three-segment',
     'basculin-blue-striped': '550-blue-striped',
     'basculin-white-striped': '550-white-striped',

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02",
+ "generated": "2026-10-03",
  "dexTotal": 1305,
  "slots": {
   "animated-pokeos-normal": "animated/pokeos/normal",
@@ -17,8 +17,8 @@
    "missing": 24
   },
   "animated-pokeos-shiny": {
-   "have": 1222,
-   "missing": 83
+   "have": 1223,
+   "missing": 82
   },
   "animated-showdown-normal": {
    "have": 1265,
@@ -29,12 +29,12 @@
    "missing": 70
   },
   "static-pokeos-normal": {
-   "have": 1300,
-   "missing": 5
+   "have": 1301,
+   "missing": 4
   },
   "static-pokeos-shiny": {
-   "have": 1299,
-   "missing": 6
+   "have": 1300,
+   "missing": 5
   },
   "static-showdown-normal": {
    "have": 1283,
@@ -283,11 +283,6 @@
     "no": 445,
     "name": "超级烈咬陆鲨Z",
     "en": "garchomp-mega-z"
-   },
-   {
-    "no": 448,
-    "name": "超级路卡利欧Z",
-    "en": "lucario-mega-z"
    },
    {
     "no": 478,
@@ -1146,11 +1141,6 @@
     "en": "unfezant-f"
    },
    {
-    "no": 925,
-    "name": "一家鼠(四只家庭)",
-    "en": "maushold-four"
-   },
-   {
     "no": 1026,
     "name": "叶眉鸟",
     "en": "browt"
@@ -1171,11 +1161,6 @@
     "no": 521,
     "name": "高傲雉鸡(雌性)",
     "en": "unfezant-f"
-   },
-   {
-    "no": 925,
-    "name": "一家鼠(四只家庭)",
-    "en": "maushold-four"
    },
    {
     "no": 1024,
@@ -2310,7 +2295,6 @@
    "koraidon-limited-build",
    "koraidon-sprinting-build",
    "koraidon-swimming-build",
-   "maushold-family-of-three",
    "meowstic-female",
    "mimikyu-busted",
    "minior-blue",
@@ -2365,7 +2349,6 @@
    "koraidon-limited-build",
    "koraidon-sprinting-build",
    "koraidon-swimming-build",
-   "maushold-family-of-three",
    "meowstic-female",
    "mimikyu-busted",
    "minior-red",
