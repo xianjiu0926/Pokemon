@@ -33,6 +33,7 @@
     "movesets": "movesets/",
     "item-sprites": "item-sprites/",
     "item-sprites-missing": "item-sprites-missing.json",
+    "sprite-map": "sprite-map.json",
     "dex-list": "dex-list.json",
     "regional-dex": "regional-dex.json",
     "cries": "cries/",

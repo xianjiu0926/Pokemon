@@ -30,6 +30,7 @@
 ├─ moves.json                     # 招式 953 条
 ├─ items.json                     # 道具 2361 条
 ├─ item-alias.json                # 道具中文别名表（别名 → 正式名）
+├─ sprite-map.json                # 形态图 slug → 基础形态 slug 映射表（形态图缺失时回退）
 ├─ evolution.json                 # 进化链 534 条
 ├─ badges.json                    # 徽章 8 个联盟
 ├─ dex-list.json                  # 全国图鉴列表（1025 只：编号/名字/英文slug/属性）
