@@ -82,10 +82,6 @@
 
 ## 雌性(动图无)（5 只）
 
-- `#678` 超能妙喵(雌性)（`meowstic-f`）缺：APN、APS
-- `#876` 爱管侍(雌性)（`indeedee-f`）缺：APN、APS
-- `#902` 幽尾玄鱼(雌性)（`basculegion-f`）缺：APN、APS
-- `#916` 飘香豚(雌性)（`oinkologne-f`）缺：APN、APS
 
 ## 体型尺寸(动图无)（6 只）
 

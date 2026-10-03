@@ -13,12 +13,12 @@
  },
  "summary": {
   "animated-pokeos-normal": {
-   "have": 1282,
-   "missing": 23
+   "have": 1286,
+   "missing": 19
   },
   "animated-pokeos-shiny": {
-   "have": 1224,
-   "missing": 81
+   "have": 1228,
+   "missing": 77
   },
   "animated-showdown-normal": {
    "have": 1265,
@@ -61,11 +61,6 @@
     "no": 25,
     "name": "皮卡丘(世界帽子)",
     "en": "pikachu-world"
-   },
-   {
-    "no": 678,
-    "name": "超能妙喵(雌性)",
-    "en": "meowstic-f"
    },
    {
     "no": 710,
@@ -118,11 +113,6 @@
     "en": "sandaconda-gmax"
    },
    {
-    "no": 876,
-    "name": "爱管侍(雌性)",
-    "en": "indeedee-f"
-   },
-   {
     "no": 890,
     "name": "无极汰那(无极巨化)",
     "en": "eternatus-eternamax"
@@ -131,16 +121,6 @@
     "no": 892,
     "name": "超极巨化武道熊师(一击流)",
     "en": "urshifu-gmax"
-   },
-   {
-    "no": 902,
-    "name": "幽尾玄鱼(雌性)",
-    "en": "basculegion-f"
-   },
-   {
-    "no": 916,
-    "name": "飘香豚(雌性)",
-    "en": "oinkologne-f"
    },
    {
     "no": 1024,
@@ -361,11 +341,6 @@
    },
    {
     "no": 678,
-    "name": "超能妙喵(雌性)",
-    "en": "meowstic-f"
-   },
-   {
-    "no": 678,
     "name": "超级超能妙喵",
     "en": "meowstic-mega"
    },
@@ -480,11 +455,6 @@
     "en": "falinks-mega"
    },
    {
-    "no": 876,
-    "name": "爱管侍(雌性)",
-    "en": "indeedee-f"
-   },
-   {
     "no": 890,
     "name": "无极汰那(无极巨化)",
     "en": "eternatus-eternamax"
@@ -498,16 +468,6 @@
     "no": 902,
     "name": "幽尾玄鱼(雄性)",
     "en": "basculegion"
-   },
-   {
-    "no": 902,
-    "name": "幽尾玄鱼(雌性)",
-    "en": "basculegion-f"
-   },
-   {
-    "no": 916,
-    "name": "飘香豚(雌性)",
-    "en": "oinkologne-f"
    },
    {
     "no": 952,
@@ -2266,16 +2226,13 @@
    "zubat-f"
   ],
   "static-pokeos-normal": [
-   "basculegion-female",
    "darmanitan-galar-standard",
    "dudunsparce-three-segment",
-   "indeedee-female",
    "keldeo-resolute",
    "koraidon-gliding-build",
    "koraidon-limited-build",
    "koraidon-sprinting-build",
    "koraidon-swimming-build",
-   "meowstic-female",
    "mimikyu-busted",
    "minior-blue",
    "minior-green",
@@ -2293,7 +2250,6 @@
    "ogerpon-cornerstone-mask",
    "ogerpon-hearthflame-mask",
    "ogerpon-wellspring-mask",
-   "oinkologne-female",
    "pikachu-alola-cap",
    "pikachu-belle",
    "pikachu-cosplay",
@@ -2320,16 +2276,13 @@
    "zygarde-50-power-construct"
   ],
   "static-pokeos-shiny": [
-   "basculegion-female",
    "darmanitan-galar-standard",
    "dudunsparce-three-segment",
-   "indeedee-female",
    "keldeo-resolute",
    "koraidon-gliding-build",
    "koraidon-limited-build",
    "koraidon-sprinting-build",
    "koraidon-swimming-build",
-   "meowstic-female",
    "mimikyu-busted",
    "minior-red",
    "miraidon-aquatic-mode",
@@ -2340,7 +2293,6 @@
    "ogerpon-cornerstone-mask",
    "ogerpon-hearthflame-mask",
    "ogerpon-wellspring-mask",
-   "oinkologne-female",
    "pikachu-belle",
    "pikachu-cosplay",
    "pikachu-libre",

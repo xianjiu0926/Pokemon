@@ -41,10 +41,10 @@ SPECIAL = {
     'shellos': '422-west',              # dex 基础 en 实际=西海
     'gastrodon': '423-west',
     'unfezant-f': 'female/521',         # 雌性：pokeos 用 female/ 子目录（动图+静图都走这个）
-    'meowstic-f': '678-female',         # 雌性静态用 -female（动图 pokeos 无）
-    'indeedee-f': '876-female',
-    'basculegion-f': '902-female',
-    'oinkologne-f': '916-female',
+    'meowstic-f': '678-female',         # 雌性静图用 -female；动图走 female/678 子目录
+    'indeedee-f': '876-female',         # 动图 female/876
+    'basculegion-f': '902-female',      # 动图 female/902
+    'oinkologne-f': '916-female',       # 动图 female/916
     # 第二批：基础形态静态图（render 基础编号）＋部分动图
     'shaymin': '492',                   # 陆上=基础 492（静态用 492，非 492-land）
     'aegislash': '681',                 # 盾牌=基础 681
