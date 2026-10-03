@@ -73,6 +73,7 @@ python3 scripts/check_sprites.py
 |---|---|
 | `check_sprites.py` | 扫 8 个图槽，生成缺图清单 |
 | `fix_sprite_aliases.py` | 把 pokeos 实际文件名复制成 dex-list 的 en 名（修命名不一致） |
+| `video_to_gif.py` | 录屏视频 → 透明 GIF（差分/单色抠像 + 阈值二值化） |
 
 ## 抓取约定（写新脚本照这个来）
 
@@ -98,3 +99,6 @@ python3 scripts/check_sprites.py
    - 纯加图/音频 → 只推数据仓库，HUD 不用动；
    - 动了 JSON → 推数据 + bump `PKM_DATA_REV` + 推 HUD；
    - 动了 HUD 逻辑 → bump `PK_VER` + 推 HUD。
+10. **录屏转 GIF**（源站拿不到、只能录屏时用）：录屏会丢掉透明通道，GIF 又不支持半透明，
+    所以抠像用「纯色背景 + 阈值二值化」：精灵垫纯色底（推荐两次录屏差分，颜色无关最稳），
+    用 `video_to_gif.py` 抠背景 → alpha≥128 保留 → 存 GIF（disposal=2/loop=0）。
