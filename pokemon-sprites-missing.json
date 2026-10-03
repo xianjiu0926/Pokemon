@@ -17,8 +17,8 @@
    "missing": 19
   },
   "animated-pokeos-shiny": {
-   "have": 1228,
-   "missing": 77
+   "have": 1230,
+   "missing": 75
   },
   "animated-showdown-normal": {
    "have": 1265,
@@ -395,11 +395,6 @@
     "en": "gourgeist-super"
    },
    {
-    "no": 716,
-    "name": "哲尔尼亚斯",
-    "en": "xerneas"
-   },
-   {
     "no": 718,
     "name": "超级基格尔德",
     "en": "zygarde-mega"
@@ -463,11 +458,6 @@
     "no": 892,
     "name": "超极巨化武道熊师(一击流)",
     "en": "urshifu-gmax"
-   },
-   {
-    "no": 902,
-    "name": "幽尾玄鱼(雄性)",
-    "en": "basculegion"
    },
    {
     "no": 952,
