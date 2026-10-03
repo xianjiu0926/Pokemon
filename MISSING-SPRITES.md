@@ -82,7 +82,6 @@
 
 ## 雌性(动图无)（5 只）
 
-- `#521` 高傲雉鸡(雌性)（`unfezant-f`）缺：APN、APS、SPN、SPS
 - `#678` 超能妙喵(雌性)（`meowstic-f`）缺：APN、APS
 - `#876` 爱管侍(雌性)（`indeedee-f`）缺：APN、APS
 - `#902` 幽尾玄鱼(雌性)（`basculegion-f`）缺：APN、APS

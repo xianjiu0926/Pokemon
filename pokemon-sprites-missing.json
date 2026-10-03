@@ -13,12 +13,12 @@
  },
  "summary": {
   "animated-pokeos-normal": {
-   "have": 1281,
-   "missing": 24
+   "have": 1282,
+   "missing": 23
   },
   "animated-pokeos-shiny": {
-   "have": 1223,
-   "missing": 82
+   "have": 1224,
+   "missing": 81
   },
   "animated-showdown-normal": {
    "have": 1265,
@@ -29,12 +29,12 @@
    "missing": 70
   },
   "static-pokeos-normal": {
-   "have": 1301,
-   "missing": 4
+   "have": 1302,
+   "missing": 3
   },
   "static-pokeos-shiny": {
-   "have": 1300,
-   "missing": 5
+   "have": 1301,
+   "missing": 4
   },
   "static-showdown-normal": {
    "have": 1283,
@@ -61,11 +61,6 @@
     "no": 25,
     "name": "皮卡丘(世界帽子)",
     "en": "pikachu-world"
-   },
-   {
-    "no": 521,
-    "name": "高傲雉鸡(雌性)",
-    "en": "unfezant-f"
    },
    {
     "no": 678,
@@ -303,11 +298,6 @@
     "no": 500,
     "name": "超级炎武王",
     "en": "emboar-mega"
-   },
-   {
-    "no": 521,
-    "name": "高傲雉鸡(雌性)",
-    "en": "unfezant-f"
    },
    {
     "no": 530,
@@ -1136,11 +1126,6 @@
   ],
   "static-pokeos-normal": [
    {
-    "no": 521,
-    "name": "高傲雉鸡(雌性)",
-    "en": "unfezant-f"
-   },
-   {
     "no": 1026,
     "name": "叶眉鸟",
     "en": "browt"
@@ -1157,11 +1142,6 @@
    }
   ],
   "static-pokeos-shiny": [
-   {
-    "no": 521,
-    "name": "高傲雉鸡(雌性)",
-    "en": "unfezant-f"
-   },
    {
     "no": 1024,
     "name": "太乐巴戈斯(星晶)",

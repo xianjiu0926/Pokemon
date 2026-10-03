@@ -40,6 +40,7 @@ SPECIAL = {
     'necrozma-dawn-wings': '800-dawn',
     'shellos': '422-west',              # dex 基础 en 实际=西海
     'gastrodon': '423-west',
+    'unfezant-f': 'female/521',         # 雌性：pokeos 用 female/ 子目录（动图+静图都走这个）
     'meowstic-f': '678-female',         # 雌性静态用 -female（动图 pokeos 无）
     'indeedee-f': '876-female',
     'basculegion-f': '902-female',
