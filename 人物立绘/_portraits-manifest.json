@@ -1,558 +1,105 @@
 {
- "generated": "2026-10-04",
- "cats": [
-  "主角",
-  "勁敵",
-  "道馆馆主",
-  "四天王",
-  "冠军",
-  "训练家类型"
- ],
- "raw": [
+ "characters": [
   {
-   "name": "仁美",
+   "name": "一树",
    "images": [
-    "仁美.png"
+    "一树.png"
    ]
   },
   {
-   "name": "創一",
+   "name": "丹帝",
    "images": [
-    "PR SA 创一.png"
+    "丹帝.png"
    ]
   },
   {
-   "name": "南美",
+   "name": "丹瑜",
    "images": [
-    "南美.png"
+    "丹瑜.png"
    ]
   },
   {
-   "name": "夏也",
+   "name": "也慈",
    "images": [
-    "夏也.png"
+    "也慈.png"
    ]
   },
   {
-   "name": "如初",
+   "name": "云雀",
    "images": [
-    "如初.png"
+    "云雀.png"
    ]
   },
   {
-   "name": "日向",
+   "name": "亚堤",
    "images": [
-    "日向 巡护员.png"
+    "亚堤.png"
    ]
   },
   {
-   "name": "牌克",
+   "name": "亚洛",
    "images": [
-    "牌克.png"
+    "亚洛.png"
    ]
   },
   {
-   "name": "風月",
+   "name": "亚莎",
    "images": [
-    "風月 巡護員.png"
+    "亚莎.png"
+   ]
+  },
+  {
+   "name": "京刚",
+   "images": [
+    "京刚.png"
+   ]
+  },
+  {
+   "name": "伯特",
+   "images": [
+    "伯特.png"
+   ]
+  },
+  {
+   "name": "克拉拉",
+   "images": [
+    "克拉拉.png"
    ]
   },
   {
    "name": "克丽丝",
    "images": [
-    "克丽丝 C.png"
+    "克丽丝.png"
+   ]
+  },
+  {
+   "name": "八朔",
+   "images": [
+    "八朔.png"
    ]
   },
   {
    "name": "共平",
    "images": [
-    "共平 B2W2.png"
+    "共平.png"
    ]
   },
   {
    "name": "共熙",
    "images": [
-    "共熙 ZA.png"
+    "共熙.png"
    ]
   },
   {
-   "name": "卡魯穆",
+   "name": "凡转",
    "images": [
-    "卡魯穆 XY.png"
+    "凡转.png"
    ]
   },
   {
-   "name": "威爾",
+   "name": "刚石",
    "images": [
-    "威爾 Champions.png"
-   ]
-  },
-  {
-   "name": "小亮",
-   "images": [
-    "小亮 New隨樂拍.png"
-   ]
-  },
-  {
-   "name": "小優",
-   "images": [
-    "小优 SWSH.png"
-   ]
-  },
-  {
-   "name": "小光",
-   "images": [
-    "小光 Pt.png"
-   ]
-  },
-  {
-   "name": "小勝",
-   "images": [
-    "小胜  SWSH.png"
-   ]
-  },
-  {
-   "name": "小悠",
-   "images": [
-    "小悠 ORAS.png"
-   ]
-  },
-  {
-   "name": "小春",
-   "images": [
-    "小春 VI.png"
-   ]
-  },
-  {
-   "name": "小照",
-   "images": [
-    "小照 LA.png"
-   ]
-  },
-  {
-   "name": "小結",
-   "images": [
-    "小結 Masters.png"
-   ]
-  },
-  {
-   "name": "小遥",
-   "images": [
-    "小遙 ORAS.png"
-   ]
-  },
-  {
-   "name": "小陽",
-   "images": [
-    "小陽 USUM.png"
-   ]
-  },
-  {
-   "name": "小霓",
-   "images": [
-    "小霓 New隨樂拍.png"
-   ]
-  },
-  {
-   "name": "小青",
-   "images": [
-    "小青 SC.png"
-   ]
-  },
-  {
-   "name": "小驅",
-   "images": [
-    "小驱 LPLE.png"
-   ]
-  },
-  {
-   "name": "提姆‧古德曼",
-   "images": [
-    "蒂姆·古德曼 DePR.png"
-   ]
-  },
-  {
-   "name": "明耀",
-   "images": [
-    "明耀 LA.png"
-   ]
-  },
-  {
-   "name": "明輝",
-   "images": [
-    "明辉 Pt.png"
-   ]
-  },
-  {
-   "name": "果塔",
-   "images": [
-    "Café Mix 果塔和伊布.png"
-   ]
-  },
-  {
-   "name": "步美",
-   "images": [
-    "步美 LPLE.png"
-   ]
-  },
-  {
-   "name": "琴音",
-   "images": [
-    "琴音 HGSS.png"
-   ]
-  },
-  {
-   "name": "生彩",
-   "images": [
-    "生彩 ZA.png"
-   ]
-  },
-  {
-   "name": "碧藍",
-   "images": [
-    "碧藍 LPLE.png"
-   ]
-  },
-  {
-   "name": "美月",
-   "images": [
-    "美月 USUM.png"
-   ]
-  },
-  {
-   "name": "莎莉娜",
-   "images": [
-    "莎莉娜 XY.png"
-   ]
-  },
-  {
-   "name": "葉子",
-   "images": [
-    "葉子 FRLG.png"
-   ]
-  },
-  {
-   "name": "蓓琪",
-   "images": [
-    "蓓琪 Champions.png"
-   ]
-  },
-  {
-   "name": "赤紅",
-   "images": [
-    "赤红 FRLG.png"
-   ]
-  },
-  {
-   "name": "阿徹",
-   "images": [
-    "阿彻 宝可梦随乐拍.png"
-   ]
-  },
-  {
-   "name": "阿響",
-   "images": [
-    "阿响 HGSS.png"
-   ]
-  },
-  {
-   "name": "阿齊",
-   "images": [
-    "阿齊 Masters.png"
-   ]
-  },
-  {
-   "name": "雷歐",
-   "images": [
-    "雷欧 圆形竞技场.png"
-   ]
-  },
-  {
-   "name": "露西·莲步",
-   "images": [
-    "露西·莲步.png"
-   ]
-  },
-  {
-   "name": "鬥也",
-   "images": [
-    "斗也 BW.png"
-   ]
-  },
-  {
-   "name": "鬥子",
-   "images": [
-    "斗子 BW.png"
-   ]
-  },
-  {
-   "name": "鳴依",
-   "images": [
-    "鸣依 B2W2.png"
-   ]
-  },
-  {
-   "name": "龍人",
-   "images": [
-    "龍人 XD 1.png"
-   ]
-  },
-  {
-   "name": "丹瑜",
-   "images": [
-    "丹瑜 SV.png"
-   ]
-  },
-  {
-   "name": "克拉拉",
-   "images": [
-    "克拉拉 SWSH.png"
-   ]
-  },
-  {
-   "name": "剛石",
-   "images": [
-    "刚石 LA.png"
-   ]
-  },
-  {
-   "name": "可爾妮",
-   "images": [
-    "可尔妮 ZA.png"
-   ]
-  },
-  {
-   "name": "哈烏",
-   "images": [
-    "哈烏 USUM.png"
-   ]
-  },
-  {
-   "name": "塔霓",
-   "images": [
-    "塔霓 ZA.png"
-   ]
-  },
-  {
-   "name": "夏蓉",
-   "images": [
-    "夏蓉 宝可梦战棋大师.png"
-   ]
-  },
-  {
-   "name": "多羅巴",
-   "images": [
-    "多罗巴 XY.png"
-   ]
-  },
-  {
-   "name": "妮莫",
-   "images": [
-    "妮莫 SC.png"
-   ]
-  },
-  {
-   "name": "安馨兒",
-   "images": [
-    "安馨儿 ZA.png"
-   ]
-  },
-  {
-   "name": "小進",
-   "images": [
-    "小進 LPLE.png"
-   ]
-  },
-  {
-   "name": "小银",
-   "images": [
-    "小银 HGSS.png"
-   ]
-  },
-  {
-   "name": "彼特",
-   "images": [
-    "彼特 SWSH.png"
-   ]
-  },
-  {
-   "name": "提耶魯諾",
-   "images": [
-    "提耶魯諾 XY.png"
-   ]
-  },
-  {
-   "name": "格拉吉歐",
-   "images": [
-    "格拉吉歐 SM.png"
-   ]
-  },
-  {
-   "name": "梧桐",
-   "images": [
-    "梧桐 Masters.png"
-   ]
-  },
-  {
-   "name": "派帕",
-   "images": [
-    "派帕 VI.png"
-   ]
-  },
-  {
-   "name": "滿充",
-   "images": [
-    "满充 ORAS.png"
-   ]
-  },
-  {
-   "name": "烏栗",
-   "images": [
-    "烏栗 SV.png"
-   ]
-  },
-  {
-   "name": "牡丹",
-   "images": [
-    "牡丹 SV.png"
-   ]
-  },
-  {
-   "name": "玳蘿",
-   "images": [
-    "玳蘿 ZA.png"
-   ]
-  },
-  {
-   "name": "珠貝",
-   "images": [
-    "珠贝 LA.png"
-   ]
-  },
-  {
-   "name": "琵魯",
-   "images": [
-    "琵魯 ZA.png"
-   ]
-  },
-  {
-   "name": "瑪俐",
-   "images": [
-    "玛俐 SWSH.png"
-   ]
-  },
-  {
-   "name": "瑪琪艾兒",
-   "images": [
-    "瑪琪艾兒 ZA.png"
-   ]
-  },
-  {
-   "name": "白露",
-   "images": [
-    "白露 B2W2.png"
-   ]
-  },
-  {
-   "name": "盧卡",
-   "images": [
-    "卢卡 宝可梦战棋大师.png"
-   ]
-  },
-  {
-   "name": "莉莉艾",
-   "images": [
-    "莉莉艾 USUM.png"
-   ]
-  },
-  {
-   "name": "莎娜",
-   "images": [
-    "莎娜 XY.png"
-   ]
-  },
-  {
-   "name": "菲爾",
-   "images": [
-    "菲爾 new隨樂拍.png"
-   ]
-  },
-  {
-   "name": "蓋伊",
-   "images": [
-    "蓋伊 ZA.png"
-   ]
-  },
-  {
-   "name": "赛宝利",
-   "images": [
-    "赛宝利 SWSH.png"
-   ]
-  },
-  {
-   "name": "赫普",
-   "images": [
-    "赫普 SWSH.png"
-   ]
-  },
-  {
-   "name": "鎯琊",
-   "images": [
-    "鎯琊 Masters.png"
-   ]
-  },
-  {
-   "name": "阿修",
-   "images": [
-    "阿修 B2W2.png"
-   ]
-  },
-  {
-   "name": "阿驯",
-   "images": [
-    "阿驯 Pt.png"
-   ]
-  },
-  {
-   "name": "青綠",
-   "images": [
-    "青綠 LPLE.png"
-   ]
-  },
-  {
-   "name": "黑連",
-   "images": [
-    "黑连 B2W2.png"
-   ]
-  },
-  {
-   "name": "Ｎ",
-   "images": [
-    "Ｎ B2W2.png"
-   ]
-  },
-  {
-   "name": "亞堤",
-   "images": [
-    "亚堤 BW.png"
-   ]
-  },
-  {
-   "name": "亞洛",
-   "images": [
-    "亞洛 SWSH.png"
-   ]
-  },
-  {
-   "name": "亞莎",
-   "images": [
-    "亚莎 ORAS.png"
-   ]
-  },
-  {
-   "name": "伯特",
-   "images": [
-    "伯特 BW.png"
+    "刚石.png"
    ]
   },
   {
@@ -564,703 +111,73 @@
   {
    "name": "千里",
    "images": [
-    "千里 ORAS.png"
+    "千里.png"
    ]
   },
   {
-   "name": "卡蕪",
+   "name": "卡希丽",
    "images": [
-    "卡蕪 SWSH.png"
+    "卡希丽.png"
    ]
   },
   {
-   "name": "古魯夏",
+   "name": "卡芜",
    "images": [
-    "古鲁夏 SV.png"
-   ]
-  },
-  {
-   "name": "吉憲",
-   "images": [
-    "吉宪 DP.png"
-   ]
-  },
-  {
-   "name": "哈奇庫",
-   "images": [
-    "哈奇库 BW.png"
-   ]
-  },
-  {
-   "name": "坂木",
-   "images": [
-    "坂木 LPLE.png"
-   ]
-  },
-  {
-   "name": "夏伯",
-   "images": [
-    "夏伯 LPLE.png"
-   ]
-  },
-  {
-   "name": "夏卡",
-   "images": [
-    "夏卡 BW.png"
-   ]
-  },
-  {
-   "name": "天桐",
-   "images": [
-    "天桐 BW.png"
-   ]
-  },
-  {
-   "name": "奇巴納",
-   "images": [
-    "奇巴納 SWSH.png"
-   ]
-  },
-  {
-   "name": "奇樹",
-   "images": [
-    "奇樹 SV.png"
-   ]
-  },
-  {
-   "name": "娜姿",
-   "images": [
-    "娜姿 LPLE.png"
-   ]
-  },
-  {
-   "name": "娜琪",
-   "images": [
-    "娜琪 ORAS.png"
-   ]
-  },
-  {
-   "name": "寇恩",
-   "images": [
-    "寇恩 BW.png"
-   ]
-  },
-  {
-   "name": "寇沙",
-   "images": [
-    "寇沙 SV.png"
-   ]
-  },
-  {
-   "name": "小丹",
-   "images": [
-    "小丹.png"
-   ]
-  },
-  {
-   "name": "小剛",
-   "images": [
-    "小剛 LPLE.png"
-   ]
-  },
-  {
-   "name": "小椿",
-   "images": [
-    "小椿 HGSS.png"
-   ]
-  },
-  {
-   "name": "小楓與小南",
-   "images": [
-    "小枫与小南 ORAS.png"
-   ]
-  },
-  {
-   "name": "小茜",
-   "images": [
-    "小茜 HGSS.png"
-   ]
-  },
-  {
-   "name": "小菊兒",
-   "images": [
-    "小菊儿 B2W2.png"
-   ]
-  },
-  {
-   "name": "小菘",
-   "images": [
-    "小菘 DP.png"
-   ]
-  },
-  {
-   "name": "小霞",
-   "images": [
-    "小霞 LPLE.png"
-   ]
-  },
-  {
-   "name": "小霞（特别篇）",
-   "images": [
-    "小刚 小霞 莉佳 夏伯 HGSS ADV.png"
-   ]
-  },
-  {
-   "name": "希特隆",
-   "images": [
-    "希特隆 XY.png"
-   ]
-  },
-  {
-   "name": "彩豆",
-   "images": [
-    "彩豆 SWSH.png"
-   ]
-  },
-  {
-   "name": "得撫",
-   "images": [
-    "得抚 XY.png"
-   ]
-  },
-  {
-   "name": "敦美",
-   "images": [
-    "敦美.png"
-   ]
-  },
-  {
-   "name": "杜娟",
-   "images": [
-    "杜娟 ORAS.png"
-   ]
-  },
-  {
-   "name": "東瓜",
-   "images": [
-    "东瓜 DP.png"
-   ]
-  },
-  {
-   "name": "松葉",
-   "images": [
-    "松葉 HGSS.png"
-   ]
-  },
-  {
-   "name": "查克洛",
-   "images": [
-    "查克洛 XY.png"
-   ]
-  },
-  {
-   "name": "柳伯",
-   "images": [
-    "柳伯 HGSS.png"
-   ]
-  },
-  {
-   "name": "梅麗莎",
-   "images": [
-    "梅丽莎 DP.png"
-   ]
-  },
-  {
-   "name": "次郎",
-   "images": [
-    "次郎.png"
-   ]
-  },
-  {
-   "name": "歐尼奧",
-   "images": [
-    "歐尼奧 SWSH.png"
-   ]
-  },
-  {
-   "name": "波普菈",
-   "images": [
-    "波普菈 SWSH.png"
-   ]
-  },
-  {
-   "name": "海岱",
-   "images": [
-    "海岱 SV.png"
-   ]
-  },
-  {
-   "name": "琉麗",
-   "images": [
-    "琉丽.png"
-   ]
-  },
-  {
-   "name": "瑪瓜",
-   "images": [
-    "瑪瓜 SWSH.png"
-   ]
-  },
-  {
-   "name": "瑪綉",
-   "images": [
-    "瑪綉 XY.png"
-   ]
-  },
-  {
-   "name": "瓢太",
-   "images": [
-    "瓢太 DP.png"
-   ]
-  },
-  {
-   "name": "福爺",
-   "images": [
-    "福爷 XY.png"
-   ]
-  },
-  {
-   "name": "米可利",
-   "images": [
-    "米可利 ORAS.png"
-   ]
-  },
-  {
-   "name": "紫羅蘭",
-   "images": [
-    "紫罗兰 XY.png"
-   ]
-  },
-  {
-   "name": "美蓉",
-   "images": [
-    "美蓉 SWSH.png"
-   ]
-  },
-  {
-   "name": "聶梓",
-   "images": [
-    "聂梓 SWSH.png"
-   ]
-  },
-  {
-   "name": "艾莉絲",
-   "images": [
-    "艾莉丝 B2W2.png"
-   ]
-  },
-  {
-   "name": "莉佳",
-   "images": [
-    "莉佳 LPLE.png"
-   ]
-  },
-  {
-   "name": "莉普",
-   "images": [
-    "莉普 SV.png"
-   ]
-  },
-  {
-   "name": "菊老大",
-   "images": [
-    "菊老大 BW.png"
-   ]
-  },
-  {
-   "name": "菜種",
-   "images": [
-    "菜种 DP.png"
-   ]
-  },
-  {
-   "name": "萊姆",
-   "images": [
-    "萊姆 SV.png"
-   ]
-  },
-  {
-   "name": "葛吉花",
-   "images": [
-    "葛吉花 XY.png"
-   ]
-  },
-  {
-   "name": "藤樹",
-   "images": [
-    "藤树 ORAS.png"
-   ]
-  },
-  {
-   "name": "蘆薈",
-   "images": [
-    "芦荟 B2W2.png"
-   ]
-  },
-  {
-   "name": "西子伊",
-   "images": [
-    "西子伊 B2W2.png"
-   ]
-  },
-  {
-   "name": "鐵旋",
-   "images": [
-    "铁旋 ORAS.png"
-   ]
-  },
-  {
-   "name": "阿四",
-   "images": [
-    "阿四 HGSS.png"
-   ]
-  },
-  {
-   "name": "阿李",
-   "images": [
-    "阿李 DP.png"
-   ]
-  },
-  {
-   "name": "阿杏",
-   "images": [
-    "阿杏 HGSS.png"
-   ]
-  },
-  {
-   "name": "阿桔",
-   "images": [
-    "阿桔 LPLE.png"
-   ]
-  },
-  {
-   "name": "阿筆",
-   "images": [
-    "阿笔 HGSS.png"
-   ]
-  },
-  {
-   "name": "阿義",
-   "images": [
-    "阿义.png"
-   ]
-  },
-  {
-   "name": "阿蜜",
-   "images": [
-    "阿蜜 HGSS.png"
-   ]
-  },
-  {
-   "name": "阿速",
-   "images": [
-    "阿速 HGSS.png"
-   ]
-  },
-  {
-   "name": "電次",
-   "images": [
-    "电次 DP.png"
-   ]
-  },
-  {
-   "name": "霍米加",
-   "images": [
-    "霍米加 B2W2.png"
-   ]
-  },
-  {
-   "name": "露璃娜",
-   "images": [
-    "露璃娜 SWSH.png"
-   ]
-  },
-  {
-   "name": "青木",
-   "images": [
-    "青木 SV.png"
-   ]
-  },
-  {
-   "name": "風露",
-   "images": [
-    "风露 BW.png"
-   ]
-  },
-  {
-   "name": "馬志士",
-   "images": [
-    "馬志士 LPLE.png"
-   ]
-  },
-  {
-   "name": "一树",
-   "images": [
-    "一树 HGSS.png"
-   ]
-  },
-  {
-   "name": "京刚",
-   "images": [
-    "VS 京刚 ZA.png"
-   ]
-  },
-  {
-   "name": "八朔",
-   "images": [
-    "八朔 SV.png"
-   ]
-  },
-  {
-   "name": "卡希麗",
-   "images": [
-    "卡希麗 SM.png"
-   ]
-  },
-  {
-   "name": "哈拉",
-   "images": [
-    "哈拉 SM.png"
-   ]
-  },
-  {
-   "name": "嘉德麗雅",
-   "images": [
-    "嘉德丽雅 BW.png"
-   ]
-  },
-  {
-   "name": "大葉",
-   "images": [
-    "大叶 DP.png"
-   ]
-  },
-  {
-   "name": "婉龍",
-   "images": [
-    "婉龙 BW.png"
-   ]
-  },
-  {
-   "name": "希巴",
-   "images": [
-    "希巴 LPLE.png"
-   ]
-  },
-  {
-   "name": "帕琦拉",
-   "images": [
-    "帕琦拉 XY.png"
-   ]
-  },
-  {
-   "name": "弥叶",
-   "images": [
-    "VS 弥叶 ZA.png"
-   ]
-  },
-  {
-   "name": "志米",
-   "images": [
-    "志米 XY.png"
-   ]
-  },
-  {
-   "name": "悟松",
-   "images": [
-    "悟松 DP.png"
-   ]
-  },
-  {
-   "name": "朵拉塞娜",
-   "images": [
-    "朵拉塞娜 XY.png"
-   ]
-  },
-  {
-   "name": "杜若",
-   "images": [
-    "杜若 SV.png"
-   ]
-  },
-  {
-   "name": "梨花",
-   "images": [
-    "梨花 HGSS.png"
-   ]
-  },
-  {
-   "name": "波妮",
-   "images": [
-    "波妮 ORAS.png"
-   ]
-  },
-  {
-   "name": "波琵",
-   "images": [
-    "波琵 SV.png"
-   ]
-  },
-  {
-   "name": "源治",
-   "images": [
-    "源治 ORAS.png"
-   ]
-  },
-  {
-   "name": "瑰芙",
-   "images": [
-    "VS 瑰芙 ZA.png"
-   ]
-  },
-  {
-   "name": "科拿",
-   "images": [
-    "科拿 LPLE.png"
-   ]
-  },
-  {
-   "name": "納莉",
-   "images": [
-    "納莉 SV.png"
-   ]
-  },
-  {
-   "name": "紫竽",
-   "images": [
-    "紫竽 SV.png"
-   ]
-  },
-  {
-   "name": "芙蓉",
-   "images": [
-    "芙蓉 ORAS.png"
-   ]
-  },
-  {
-   "name": "花月",
-   "images": [
-    "花月 ORAS.png"
-   ]
-  },
-  {
-   "name": "菊子",
-   "images": [
-    "菊子 LPLE.png"
-   ]
-  },
-  {
-   "name": "菊野",
-   "images": [
-    "菊野 DP.png"
-   ]
-  },
-  {
-   "name": "赤松",
-   "images": [
-    "赤松 SV.png"
-   ]
-  },
-  {
-   "name": "越橘",
-   "images": [
-    "越橘 BW.png"
-   ]
-  },
-  {
-   "name": "辉耀",
-   "images": [
-    "VS 辉耀 ZA.png"
-   ]
-  },
-  {
-   "name": "辛俐",
-   "images": [
-    "辛俐 SV.png"
-   ]
-  },
-  {
-   "name": "連武",
-   "images": [
-    "连武 BW.png"
-   ]
-  },
-  {
-   "name": "阿塞蘿拉",
-   "images": [
-    "阿塞萝拉 SM.png"
-   ]
-  },
-  {
-   "name": "阿柳",
-   "images": [
-    "阿柳 DP.png"
-   ]
-  },
-  {
-   "name": "阿渡",
-   "images": [
-    "阿渡 LPLE.png"
-   ]
-  },
-  {
-   "name": "雁鎧",
-   "images": [
-    "雁铠 XY.png"
-   ]
-  },
-  {
-   "name": "馬睿因",
-   "images": [
-    "馬睿因 SM.png"
-   ]
-  },
-  {
-   "name": "麗姿",
-   "images": [
-    "麗姿 SM.png"
-   ]
-  },
-  {
-   "name": "丹帝",
-   "images": [
-    "丹帝 SWSH.png"
-   ]
-  },
-  {
-   "name": "丹帝（动画）",
-   "images": [
-    "SS 丹帝.png"
-   ]
-  },
-  {
-   "name": "也慈",
-   "images": [
-    "也慈 SV.png"
-   ]
-  },
-  {
-   "name": "也慈（动画）",
-   "images": [
-    "SV 也慈.png"
+    "卡芜.png"
    ]
   },
   {
    "name": "卡露妮",
    "images": [
-    "卡露妮 XY.png"
+    "卡露妮.png"
    ]
   },
   {
-   "name": "卡露妮（动画）",
+   "name": "卡鲁穆",
    "images": [
-    "SS 卡露妮.png"
+    "卡鲁穆.png"
    ]
   },
   {
-   "name": "卡露妮（特别篇）",
+   "name": "古兹马",
    "images": [
-    "卡露妮 ADV.png"
+    "古兹马.png"
+   ]
+  },
+  {
+   "name": "古鲁夏",
+   "images": [
+    "古鲁夏.png"
+   ]
+  },
+  {
+   "name": "可尔妮",
+   "images": [
+    "可尔妮.png"
+   ]
+  },
+  {
+   "name": "吉宪",
+   "images": [
+    "吉宪.png"
+   ]
+  },
+  {
+   "name": "哈奇库",
+   "images": [
+    "哈奇库.png"
+   ]
+  },
+  {
+   "name": "哈拉",
+   "images": [
+    "哈拉.png"
+   ]
+  },
+  {
+   "name": "哈乌",
+   "images": [
+    "哈乌.png"
    ]
   },
   {
@@ -1270,1557 +187,417 @@
    ]
   },
   {
-   "name": "大吾",
+   "name": "嘉德丽雅",
    "images": [
-    "大吾 ORAS.png"
+    "嘉德丽雅.png"
    ]
   },
   {
-   "name": "大吾（动画）",
+   "name": "坂木",
    "images": [
-    "SS 大吾 2.png"
-   ]
-  },
-  {
-   "name": "大吾（特别篇）",
-   "images": [
-    "AΩRαS000.png"
-   ]
-  },
-  {
-   "name": "大木博士（特别篇）",
-   "images": [
-    "大木博士 ADV HGSS.png"
-   ]
-  },
-  {
-   "name": "妮莫（动画）",
-   "images": [
-    "SV 妮莫.png"
-   ]
-  },
-  {
-   "name": "小智（全书）",
-   "images": [
-    "小智 PZ.png"
-   ]
-  },
-  {
-   "name": "小智（动画）",
-   "images": [
-    "SS 小智.png"
-   ]
-  },
-  {
-   "name": "小茂（全书）",
-   "images": [
-    "小茂 PZ.png"
-   ]
-  },
-  {
-   "name": "巴吉爾",
-   "images": [
-    "巴吉尔 BW.png"
-   ]
-  },
-  {
-   "name": "庫庫伊博士",
-   "images": [
-    "庫庫伊博士 SM.png"
-   ]
-  },
-  {
-   "name": "杜舍",
-   "images": [
-    "杜舍.png"
-   ]
-  },
-  {
-   "name": "照欣",
-   "images": [
-    "照欣 OD ZA.png"
-   ]
-  },
-  {
-   "name": "皮歐尼",
-   "images": [
-    "皮歐尼 SWSH.png"
-   ]
-  },
-  {
-   "name": "竹兰（动画）",
-   "images": [
-    "SS 竹兰.png"
-   ]
-  },
-  {
-   "name": "竹蘭",
-   "images": [
-    "竹兰 DP.png"
-   ]
-  },
-  {
-   "name": "米可利（特别篇）",
-   "images": [
-    "米可利 ADV.png"
-   ]
-  },
-  {
-   "name": "船长（橘子群岛）",
-   "images": [
-    "船长 橘子群岛.png"
-   ]
-  },
-  {
-   "name": "艾嵐",
-   "images": [
-    "艾嵐 SS 2.png"
-   ]
-  },
-  {
-   "name": "艾莉絲（動畫）",
-   "images": [
-    "SS 艾莉丝 2.png"
-   ]
-  },
-  {
-   "name": "赤红（THE ORIGIN）",
-   "images": [
-    "赤红 PO.png"
-   ]
-  },
-  {
-   "name": "赤红（特别篇）",
-   "images": [
-    "赤红 ADV.png"
-   ]
-  },
-  {
-   "name": "達克多",
-   "images": [
-    "达克多.png"
-   ]
-  },
-  {
-   "name": "阿戴克",
-   "images": [
-    "阿戴克 BW.png"
-   ]
-  },
-  {
-   "name": "阿渡（动画）",
-   "images": [
-    "SS 阿渡.png"
-   ]
-  },
-  {
-   "name": "青绿（THE ORIGIN）",
-   "images": [
-    "青绿 PO.png"
-   ]
-  },
-  {
-   "name": "馬士德",
-   "images": [
-    "马士德 SWSH.png"
-   ]
-  },
-  {
-   "name": "云雀",
-   "images": [
-    "ＯＬ OD SMUSUM.png"
-   ]
-  },
-  {
-   "name": "光聖",
-   "images": [
-    "Spr 长老 HGSS.png"
-   ]
-  },
-  {
-   "name": "凡轉",
-   "images": [
-    "超能力者 XYORAS.png"
-   ]
-  },
-  {
-   "name": "古茲馬",
-   "images": [
-    "古茲馬 SM.png"
+    "坂木.png"
    ]
   },
   {
    "name": "基利",
    "images": [
-    "基利 ORAS.png"
-   ]
-  },
-  {
-   "name": "大麗",
-   "images": [
-    "大丽 Pt.png"
-   ]
-  },
-  {
-   "name": "小薊",
-   "images": [
-    "小蓟 E.png"
-   ]
-  },
-  {
-   "name": "布尔美丽",
-   "images": [
-    "布爾美麗 SM.png"
-   ]
-  },
-  {
-   "name": "希嘉娜",
-   "images": [
-    "希嘉娜 ORAS.png"
-   ]
-  },
-  {
-   "name": "席藍",
-   "images": [
-    "席蓝 SV.png"
-   ]
-  },
-  {
-   "name": "弗拉達利",
-   "images": [
-    "弗拉达利 XY.png"
-   ]
-  },
-  {
-   "name": "影虎",
-   "images": [
-    "资深训练家M OD SM.png"
-   ]
-  },
-  {
-   "name": "扎奧博",
-   "images": [
-    "扎奧博 SM.png"
-   ]
-  },
-  {
-   "name": "望羅",
-   "images": [
-    "望罗 LA.png"
-   ]
-  },
-  {
-   "name": "查爾斯",
-   "images": [
-    "Charles anime.png"
-   ]
-  },
-  {
-   "name": "毅萬和馥好",
-   "images": [
-    "毅万 馥好 SV.png"
-   ]
-  },
-  {
-   "name": "水京",
-   "images": [
-    "水京 HGSS.png"
-   ]
-  },
-  {
-   "name": "水梧桐",
-   "images": [
-    "水梧桐 ORAS.png"
-   ]
-  },
-  {
-   "name": "沙儷",
-   "images": [
-    "沙儷 SV.png"
-   ]
-  },
-  {
-   "name": "石南",
-   "images": [
-    "石南 E.png"
-   ]
-  },
-  {
-   "name": "石蘭",
-   "images": [
-    "石兰 Pt.png"
-   ]
-  },
-  {
-   "name": "神代",
-   "images": [
-    "神代 E.png"
-   ]
-  },
-  {
-   "name": "赤日",
-   "images": [
-    "赤日 DP.png"
-   ]
-  },
-  {
-   "name": "赤焰松",
-   "images": [
-    "赤焰松 ORAS.png"
-   ]
-  },
-  {
-   "name": "阿始",
-   "images": [
-    "阿始2.png"
-   ]
-  },
-  {
-   "name": "雪忠",
-   "images": [
-    "雪忠 SV.png"
-   ]
-  },
-  {
-   "name": "露莎米奈",
-   "images": [
-    "露莎米奈 SM.png"
-   ]
-  },
-  {
-   "name": "青葙",
-   "images": [
-    "青葙 Pt.png"
-   ]
-  },
-  {
-   "name": "馬斯卡托",
-   "images": [
-    "馬斯卡托 ZA.png"
-   ]
-  },
-  {
-   "name": "鬱金",
-   "images": [
-    "郁金 E.png"
-   ]
-  },
-  {
-   "name": "黃瓜香",
-   "images": [
-    "黄瓜香 E.png"
-   ]
-  },
-  {
-   "name": "黍子",
-   "images": [
-    "黍子 SV.png"
-   ]
-  },
-  {
-   "name": "小霞（動畫）",
-   "images": [
-    "SM 小霞 2.png"
-   ]
-  },
-  {
-   "name": "小剛（動畫）",
-   "images": [
-    "SM 小剛.png"
-   ]
-  },
-  {
-   "name": "小遙（動畫）",
-   "images": [
-    "小遥 购物.png"
-   ]
-  },
-  {
-   "name": "小光（动画）",
-   "images": [
-    "SS 小光.png"
-   ]
-  },
-  {
-   "name": "小茂（動畫）",
-   "images": [
-    "小茂 SS.png"
-   ]
-  },
-  {
-   "name": "小勝（豐緣）",
-   "images": [
-    "AG 小胜.png"
-   ]
-  },
-  {
-   "name": "天桐（動畫）",
-   "images": [
-    "BW 天桐 2.png"
-   ]
-  },
-  {
-   "name": "希特隆（动画）",
-   "images": [
-    "XY 希特隆 4.png"
-   ]
-  },
-  {
-   "name": "柚麗嘉（動畫）",
-   "images": [
-    "柚丽嘉 XY 2.png"
-   ]
-  },
-  {
-   "name": "小豪",
-   "images": [
-    "小豪 SS.png"
-   ]
-  }
- ],
- "characters": [
-  {
-   "name": "克麗絲",
-   "images": [
-    "克丽丝 C.png"
-   ]
-  },
-  {
-   "name": "共平",
-   "images": [
-    "共平 B2W2.png"
-   ]
-  },
-  {
-   "name": "共熙",
-   "images": [
-    "共熙 ZA.png"
-   ]
-  },
-  {
-   "name": "卡魯穆",
-   "images": [
-    "卡魯穆 XY.png"
-   ]
-  },
-  {
-   "name": "小優",
-   "images": [
-    "小优 SWSH.png"
-   ]
-  },
-  {
-   "name": "小光",
-   "images": [
-    "SS 小光.png",
-    "小光 Pt.png"
-   ]
-  },
-  {
-   "name": "小勝",
-   "images": [
-    "AG 小胜.png",
-    "小胜  SWSH.png"
-   ]
-  },
-  {
-   "name": "小悠",
-   "images": [
-    "小悠 ORAS.png"
-   ]
-  },
-  {
-   "name": "小春",
-   "images": [
-    "小春 VI.png"
-   ]
-  },
-  {
-   "name": "小照",
-   "images": [
-    "小照 LA.png"
-   ]
-  },
-  {
-   "name": "小遙",
-   "images": [
-    "小遙 ORAS.png",
-    "小遥 购物.png"
-   ]
-  },
-  {
-   "name": "小陽",
-   "images": [
-    "小陽 USUM.png"
-   ]
-  },
-  {
-   "name": "小青",
-   "images": [
-    "小青 SC.png"
-   ]
-  },
-  {
-   "name": "小驅",
-   "images": [
-    "小驱 LPLE.png"
-   ]
-  },
-  {
-   "name": "明耀",
-   "images": [
-    "明耀 LA.png"
-   ]
-  },
-  {
-   "name": "明輝",
-   "images": [
-    "明辉 Pt.png"
-   ]
-  },
-  {
-   "name": "步美",
-   "images": [
-    "步美 LPLE.png"
-   ]
-  },
-  {
-   "name": "琴音",
-   "images": [
-    "琴音 HGSS.png"
-   ]
-  },
-  {
-   "name": "生彩",
-   "images": [
-    "生彩 ZA.png"
-   ]
-  },
-  {
-   "name": "碧藍",
-   "images": [
-    "碧藍 LPLE.png"
-   ]
-  },
-  {
-   "name": "美月",
-   "images": [
-    "美月 USUM.png"
-   ]
-  },
-  {
-   "name": "莎莉娜",
-   "images": [
-    "莎莉娜 XY.png"
-   ]
-  },
-  {
-   "name": "葉子",
-   "images": [
-    "葉子 FRLG.png"
-   ]
-  },
-  {
-   "name": "赤紅",
-   "images": [
-    "赤红 ADV.png",
-    "赤红 FRLG.png",
-    "赤红 PO.png"
-   ]
-  },
-  {
-   "name": "阿響",
-   "images": [
-    "阿响 HGSS.png"
-   ]
-  },
-  {
-   "name": "露西·莲步",
-   "images": [
-    "露西·莲步.png"
-   ]
-  },
-  {
-   "name": "鬥也",
-   "images": [
-    "斗也 BW.png"
-   ]
-  },
-  {
-   "name": "鬥子",
-   "images": [
-    "斗子 BW.png"
-   ]
-  },
-  {
-   "name": "鳴依",
-   "images": [
-    "鸣依 B2W2.png"
-   ]
-  },
-  {
-   "name": "丹瑜",
-   "images": [
-    "丹瑜 SV.png"
-   ]
-  },
-  {
-   "name": "克拉拉",
-   "images": [
-    "克拉拉 SWSH.png"
-   ]
-  },
-  {
-   "name": "剛石",
-   "images": [
-    "刚石 LA.png"
-   ]
-  },
-  {
-   "name": "可爾妮",
-   "images": [
-    "可尔妮 ZA.png"
-   ]
-  },
-  {
-   "name": "哈烏",
-   "images": [
-    "哈烏 USUM.png"
+    "基利.png"
    ]
   },
   {
    "name": "塔霓",
    "images": [
-    "塔霓 ZA.png"
-   ]
-  },
-  {
-   "name": "多羅巴",
-   "images": [
-    "多罗巴 XY.png"
-   ]
-  },
-  {
-   "name": "妮莫",
-   "images": [
-    "SV 妮莫.png",
-    "妮莫 SC.png"
-   ]
-  },
-  {
-   "name": "安馨兒",
-   "images": [
-    "安馨儿 ZA.png"
-   ]
-  },
-  {
-   "name": "小進",
-   "images": [
-    "小進 LPLE.png"
-   ]
-  },
-  {
-   "name": "小银",
-   "images": [
-    "小银 HGSS.png"
-   ]
-  },
-  {
-   "name": "彼特",
-   "images": [
-    "彼特 SWSH.png"
-   ]
-  },
-  {
-   "name": "提耶魯諾",
-   "images": [
-    "提耶魯諾 XY.png"
-   ]
-  },
-  {
-   "name": "格拉吉歐",
-   "images": [
-    "格拉吉歐 SM.png"
-   ]
-  },
-  {
-   "name": "派帕",
-   "images": [
-    "派帕 VI.png"
-   ]
-  },
-  {
-   "name": "滿充",
-   "images": [
-    "满充 ORAS.png"
-   ]
-  },
-  {
-   "name": "烏栗",
-   "images": [
-    "烏栗 SV.png"
-   ]
-  },
-  {
-   "name": "牡丹",
-   "images": [
-    "牡丹 SV.png"
-   ]
-  },
-  {
-   "name": "玳蘿",
-   "images": [
-    "玳蘿 ZA.png"
-   ]
-  },
-  {
-   "name": "珠貝",
-   "images": [
-    "珠贝 LA.png"
-   ]
-  },
-  {
-   "name": "琵魯",
-   "images": [
-    "琵魯 ZA.png"
-   ]
-  },
-  {
-   "name": "瑪俐",
-   "images": [
-    "玛俐 SWSH.png"
-   ]
-  },
-  {
-   "name": "瑪琪艾兒",
-   "images": [
-    "瑪琪艾兒 ZA.png"
-   ]
-  },
-  {
-   "name": "白露",
-   "images": [
-    "白露 B2W2.png"
-   ]
-  },
-  {
-   "name": "莉莉艾",
-   "images": [
-    "莉莉艾 USUM.png"
-   ]
-  },
-  {
-   "name": "莎娜",
-   "images": [
-    "莎娜 XY.png"
-   ]
-  },
-  {
-   "name": "蓋伊",
-   "images": [
-    "蓋伊 ZA.png"
-   ]
-  },
-  {
-   "name": "赛宝利",
-   "images": [
-    "赛宝利 SWSH.png"
-   ]
-  },
-  {
-   "name": "赫普",
-   "images": [
-    "赫普 SWSH.png"
-   ]
-  },
-  {
-   "name": "阿修",
-   "images": [
-    "阿修 B2W2.png"
-   ]
-  },
-  {
-   "name": "阿驯",
-   "images": [
-    "阿驯 Pt.png"
-   ]
-  },
-  {
-   "name": "青綠",
-   "images": [
-    "青綠 LPLE.png",
-    "青绿 PO.png"
-   ]
-  },
-  {
-   "name": "黑連",
-   "images": [
-    "黑连 B2W2.png"
-   ]
-  },
-  {
-   "name": "Ｎ",
-   "images": [
-    "Ｎ B2W2.png"
-   ]
-  },
-  {
-   "name": "亞堤",
-   "images": [
-    "亚堤 BW.png"
-   ]
-  },
-  {
-   "name": "亞洛",
-   "images": [
-    "亞洛 SWSH.png"
-   ]
-  },
-  {
-   "name": "亞莎",
-   "images": [
-    "亚莎 ORAS.png"
-   ]
-  },
-  {
-   "name": "伯特",
-   "images": [
-    "伯特 BW.png"
-   ]
-  },
-  {
-   "name": "勇次",
-   "images": [
-    "勇次.png"
-   ]
-  },
-  {
-   "name": "千里",
-   "images": [
-    "千里 ORAS.png"
-   ]
-  },
-  {
-   "name": "卡蕪",
-   "images": [
-    "卡蕪 SWSH.png"
-   ]
-  },
-  {
-   "name": "古魯夏",
-   "images": [
-    "古鲁夏 SV.png"
-   ]
-  },
-  {
-   "name": "吉憲",
-   "images": [
-    "吉宪 DP.png"
-   ]
-  },
-  {
-   "name": "哈奇庫",
-   "images": [
-    "哈奇库 BW.png"
-   ]
-  },
-  {
-   "name": "坂木",
-   "images": [
-    "坂木 LPLE.png"
+    "塔霓.png"
    ]
   },
   {
    "name": "夏伯",
    "images": [
-    "夏伯 LPLE.png"
+    "夏伯.png"
    ]
   },
   {
    "name": "夏卡",
    "images": [
-    "夏卡 BW.png"
+    "夏卡.png"
    ]
   },
   {
-   "name": "天桐",
+   "name": "多罗巴",
    "images": [
-    "BW 天桐 2.png",
-    "天桐 BW.png"
-   ]
-  },
-  {
-   "name": "奇巴納",
-   "images": [
-    "奇巴納 SWSH.png"
-   ]
-  },
-  {
-   "name": "奇樹",
-   "images": [
-    "奇樹 SV.png"
-   ]
-  },
-  {
-   "name": "娜姿",
-   "images": [
-    "娜姿 LPLE.png"
-   ]
-  },
-  {
-   "name": "娜琪",
-   "images": [
-    "娜琪 ORAS.png"
-   ]
-  },
-  {
-   "name": "寇恩",
-   "images": [
-    "寇恩 BW.png"
-   ]
-  },
-  {
-   "name": "寇沙",
-   "images": [
-    "寇沙 SV.png"
-   ]
-  },
-  {
-   "name": "小丹",
-   "images": [
-    "小丹.png"
-   ]
-  },
-  {
-   "name": "小剛",
-   "images": [
-    "SM 小剛.png",
-    "小剛 LPLE.png"
-   ]
-  },
-  {
-   "name": "小椿",
-   "images": [
-    "小椿 HGSS.png"
-   ]
-  },
-  {
-   "name": "小楓與小南",
-   "images": [
-    "小枫与小南 ORAS.png"
-   ]
-  },
-  {
-   "name": "小茜",
-   "images": [
-    "小茜 HGSS.png"
-   ]
-  },
-  {
-   "name": "小菊兒",
-   "images": [
-    "小菊儿 B2W2.png"
-   ]
-  },
-  {
-   "name": "小菘",
-   "images": [
-    "小菘 DP.png"
-   ]
-  },
-  {
-   "name": "小霞",
-   "images": [
-    "SM 小霞 2.png",
-    "小霞 LPLE.png"
-   ]
-  },
-  {
-   "name": "希特隆",
-   "images": [
-    "XY 希特隆 4.png",
-    "希特隆 XY.png"
-   ]
-  },
-  {
-   "name": "彩豆",
-   "images": [
-    "彩豆 SWSH.png"
-   ]
-  },
-  {
-   "name": "得撫",
-   "images": [
-    "得抚 XY.png"
-   ]
-  },
-  {
-   "name": "敦美",
-   "images": [
-    "敦美.png"
-   ]
-  },
-  {
-   "name": "杜娟",
-   "images": [
-    "杜娟 ORAS.png"
-   ]
-  },
-  {
-   "name": "東瓜",
-   "images": [
-    "东瓜 DP.png"
-   ]
-  },
-  {
-   "name": "松葉",
-   "images": [
-    "松葉 HGSS.png"
-   ]
-  },
-  {
-   "name": "查克洛",
-   "images": [
-    "查克洛 XY.png"
-   ]
-  },
-  {
-   "name": "柳伯",
-   "images": [
-    "柳伯 HGSS.png"
-   ]
-  },
-  {
-   "name": "梅麗莎",
-   "images": [
-    "梅丽莎 DP.png"
-   ]
-  },
-  {
-   "name": "次郎",
-   "images": [
-    "次郎.png"
-   ]
-  },
-  {
-   "name": "歐尼奧",
-   "images": [
-    "歐尼奧 SWSH.png"
-   ]
-  },
-  {
-   "name": "波普菈",
-   "images": [
-    "波普菈 SWSH.png"
-   ]
-  },
-  {
-   "name": "海岱",
-   "images": [
-    "海岱 SV.png"
-   ]
-  },
-  {
-   "name": "琉麗",
-   "images": [
-    "琉丽.png"
-   ]
-  },
-  {
-   "name": "瑪瓜",
-   "images": [
-    "瑪瓜 SWSH.png"
-   ]
-  },
-  {
-   "name": "瑪綉",
-   "images": [
-    "瑪綉 XY.png"
-   ]
-  },
-  {
-   "name": "瓢太",
-   "images": [
-    "瓢太 DP.png"
-   ]
-  },
-  {
-   "name": "福爺",
-   "images": [
-    "福爷 XY.png"
-   ]
-  },
-  {
-   "name": "米可利",
-   "images": [
-    "米可利 ADV.png",
-    "米可利 ORAS.png"
-   ]
-  },
-  {
-   "name": "紫羅蘭",
-   "images": [
-    "紫罗兰 XY.png"
-   ]
-  },
-  {
-   "name": "美蓉",
-   "images": [
-    "美蓉 SWSH.png"
-   ]
-  },
-  {
-   "name": "聶梓",
-   "images": [
-    "聂梓 SWSH.png"
-   ]
-  },
-  {
-   "name": "艾莉絲",
-   "images": [
-    "SS 艾莉丝 2.png",
-    "艾莉丝 B2W2.png"
-   ]
-  },
-  {
-   "name": "莉佳",
-   "images": [
-    "莉佳 LPLE.png"
-   ]
-  },
-  {
-   "name": "莉普",
-   "images": [
-    "莉普 SV.png"
-   ]
-  },
-  {
-   "name": "菊老大",
-   "images": [
-    "菊老大 BW.png"
-   ]
-  },
-  {
-   "name": "菜種",
-   "images": [
-    "菜种 DP.png"
-   ]
-  },
-  {
-   "name": "萊姆",
-   "images": [
-    "萊姆 SV.png"
-   ]
-  },
-  {
-   "name": "葛吉花",
-   "images": [
-    "葛吉花 XY.png"
-   ]
-  },
-  {
-   "name": "藤樹",
-   "images": [
-    "藤树 ORAS.png"
-   ]
-  },
-  {
-   "name": "蘆薈",
-   "images": [
-    "芦荟 B2W2.png"
-   ]
-  },
-  {
-   "name": "西子伊",
-   "images": [
-    "西子伊 B2W2.png"
-   ]
-  },
-  {
-   "name": "鐵旋",
-   "images": [
-    "铁旋 ORAS.png"
-   ]
-  },
-  {
-   "name": "阿四",
-   "images": [
-    "阿四 HGSS.png"
-   ]
-  },
-  {
-   "name": "阿李",
-   "images": [
-    "阿李 DP.png"
-   ]
-  },
-  {
-   "name": "阿杏",
-   "images": [
-    "阿杏 HGSS.png"
-   ]
-  },
-  {
-   "name": "阿桔",
-   "images": [
-    "阿桔 LPLE.png"
-   ]
-  },
-  {
-   "name": "阿筆",
-   "images": [
-    "阿笔 HGSS.png"
-   ]
-  },
-  {
-   "name": "阿義",
-   "images": [
-    "阿义.png"
-   ]
-  },
-  {
-   "name": "阿蜜",
-   "images": [
-    "阿蜜 HGSS.png"
-   ]
-  },
-  {
-   "name": "阿速",
-   "images": [
-    "阿速 HGSS.png"
-   ]
-  },
-  {
-   "name": "電次",
-   "images": [
-    "电次 DP.png"
-   ]
-  },
-  {
-   "name": "霍米加",
-   "images": [
-    "霍米加 B2W2.png"
-   ]
-  },
-  {
-   "name": "露璃娜",
-   "images": [
-    "露璃娜 SWSH.png"
-   ]
-  },
-  {
-   "name": "青木",
-   "images": [
-    "青木 SV.png"
-   ]
-  },
-  {
-   "name": "風露",
-   "images": [
-    "风露 BW.png"
-   ]
-  },
-  {
-   "name": "馬志士",
-   "images": [
-    "馬志士 LPLE.png"
-   ]
-  },
-  {
-   "name": "一树",
-   "images": [
-    "一树 HGSS.png"
-   ]
-  },
-  {
-   "name": "京刚",
-   "images": [
-    "VS 京刚 ZA.png"
-   ]
-  },
-  {
-   "name": "八朔",
-   "images": [
-    "八朔 SV.png"
-   ]
-  },
-  {
-   "name": "卡希麗",
-   "images": [
-    "卡希麗 SM.png"
-   ]
-  },
-  {
-   "name": "哈拉",
-   "images": [
-    "哈拉 SM.png"
-   ]
-  },
-  {
-   "name": "嘉德麗雅",
-   "images": [
-    "嘉德丽雅 BW.png"
-   ]
-  },
-  {
-   "name": "大葉",
-   "images": [
-    "大叶 DP.png"
-   ]
-  },
-  {
-   "name": "婉龍",
-   "images": [
-    "婉龙 BW.png"
-   ]
-  },
-  {
-   "name": "希巴",
-   "images": [
-    "希巴 LPLE.png"
-   ]
-  },
-  {
-   "name": "帕琦拉",
-   "images": [
-    "帕琦拉 XY.png"
-   ]
-  },
-  {
-   "name": "弥葉",
-   "images": [
-    "VS 弥叶 ZA.png"
-   ]
-  },
-  {
-   "name": "志米",
-   "images": [
-    "志米 XY.png"
-   ]
-  },
-  {
-   "name": "悟松",
-   "images": [
-    "悟松 DP.png"
-   ]
-  },
-  {
-   "name": "朵拉塞娜",
-   "images": [
-    "朵拉塞娜 XY.png"
-   ]
-  },
-  {
-   "name": "杜若",
-   "images": [
-    "杜若 SV.png"
-   ]
-  },
-  {
-   "name": "梨花",
-   "images": [
-    "梨花 HGSS.png"
-   ]
-  },
-  {
-   "name": "波妮",
-   "images": [
-    "波妮 ORAS.png"
-   ]
-  },
-  {
-   "name": "波琵",
-   "images": [
-    "波琵 SV.png"
-   ]
-  },
-  {
-   "name": "源治",
-   "images": [
-    "源治 ORAS.png"
-   ]
-  },
-  {
-   "name": "瑰芙",
-   "images": [
-    "VS 瑰芙 ZA.png"
-   ]
-  },
-  {
-   "name": "科拿",
-   "images": [
-    "科拿 LPLE.png"
-   ]
-  },
-  {
-   "name": "納莉",
-   "images": [
-    "納莉 SV.png"
-   ]
-  },
-  {
-   "name": "紫竽",
-   "images": [
-    "紫竽 SV.png"
-   ]
-  },
-  {
-   "name": "芙蓉",
-   "images": [
-    "芙蓉 ORAS.png"
-   ]
-  },
-  {
-   "name": "花月",
-   "images": [
-    "花月 ORAS.png"
-   ]
-  },
-  {
-   "name": "菊子",
-   "images": [
-    "菊子 LPLE.png"
-   ]
-  },
-  {
-   "name": "菊野",
-   "images": [
-    "菊野 DP.png"
-   ]
-  },
-  {
-   "name": "赤松",
-   "images": [
-    "赤松 SV.png"
-   ]
-  },
-  {
-   "name": "越橘",
-   "images": [
-    "越橘 BW.png"
-   ]
-  },
-  {
-   "name": "辉耀",
-   "images": [
-    "VS 辉耀 ZA.png"
-   ]
-  },
-  {
-   "name": "辛俐",
-   "images": [
-    "辛俐 SV.png"
-   ]
-  },
-  {
-   "name": "連武",
-   "images": [
-    "连武 BW.png"
-   ]
-  },
-  {
-   "name": "阿塞蘿拉",
-   "images": [
-    "阿塞萝拉 SM.png"
-   ]
-  },
-  {
-   "name": "阿柳",
-   "images": [
-    "阿柳 DP.png"
-   ]
-  },
-  {
-   "name": "阿渡",
-   "images": [
-    "SS 阿渡.png",
-    "阿渡 LPLE.png"
-   ]
-  },
-  {
-   "name": "雁鎧",
-   "images": [
-    "雁铠 XY.png"
-   ]
-  },
-  {
-   "name": "馬睿因",
-   "images": [
-    "馬睿因 SM.png"
-   ]
-  },
-  {
-   "name": "麗姿",
-   "images": [
-    "麗姿 SM.png"
-   ]
-  },
-  {
-   "name": "丹帝",
-   "images": [
-    "SS 丹帝.png",
-    "丹帝 SWSH.png"
-   ]
-  },
-  {
-   "name": "也慈",
-   "images": [
-    "SV 也慈.png",
-    "也慈 SV.png"
-   ]
-  },
-  {
-   "name": "卡露妮",
-   "images": [
-    "SS 卡露妮.png",
-    "卡露妮 ADV.png",
-    "卡露妮 XY.png"
-   ]
-  },
-  {
-   "name": "哲也",
-   "images": [
-    "哲也.png"
+    "多罗巴.png"
    ]
   },
   {
    "name": "大吾",
    "images": [
-    "AΩRαS000.png",
-    "SS 大吾 2.png",
-    "大吾 ORAS.png"
+    "大吾.png"
    ]
   },
   {
    "name": "大木博士",
    "images": [
-    "大木博士 ADV HGSS.png"
+    "大木博士.png"
+   ]
+  },
+  {
+   "name": "大叶",
+   "images": [
+    "大叶.png"
+   ]
+  },
+  {
+   "name": "大丽",
+   "images": [
+    "大丽.png"
+   ]
+  },
+  {
+   "name": "天桐",
+   "images": [
+    "天桐.png"
+   ]
+  },
+  {
+   "name": "奇巴纳",
+   "images": [
+    "奇巴纳.png"
+   ]
+  },
+  {
+   "name": "奇树",
+   "images": [
+    "奇树.png"
+   ]
+  },
+  {
+   "name": "妮莫",
+   "images": [
+    "妮莫.png"
+   ]
+  },
+  {
+   "name": "娜姿",
+   "images": [
+    "娜姿.png"
+   ]
+  },
+  {
+   "name": "娜琪",
+   "images": [
+    "娜琪.png"
+   ]
+  },
+  {
+   "name": "婉龙",
+   "images": [
+    "婉龙.png"
+   ]
+  },
+  {
+   "name": "安馨儿",
+   "images": [
+    "安馨儿.png"
+   ]
+  },
+  {
+   "name": "寇恩",
+   "images": [
+    "寇恩.png"
+   ]
+  },
+  {
+   "name": "寇沙",
+   "images": [
+    "寇沙.png"
+   ]
+  },
+  {
+   "name": "小丹",
+   "images": [
+    "小丹.png"
+   ]
+  },
+  {
+   "name": "小优",
+   "images": [
+    "小优.png"
+   ]
+  },
+  {
+   "name": "小光",
+   "images": [
+    "小光.png"
+   ]
+  },
+  {
+   "name": "小刚",
+   "images": [
+    "小刚.png"
+   ]
+  },
+  {
+   "name": "小胜",
+   "images": [
+    "小胜.png"
+   ]
+  },
+  {
+   "name": "小悠",
+   "images": [
+    "小悠.png"
+   ]
+  },
+  {
+   "name": "小春",
+   "images": [
+    "小春.png"
    ]
   },
   {
    "name": "小智",
    "images": [
-    "SS 小智.png",
-    "小智 PZ.png"
+    "小智.png"
+   ]
+  },
+  {
+   "name": "小椿",
+   "images": [
+    "小椿.png"
+   ]
+  },
+  {
+   "name": "小枫与小南",
+   "images": [
+    "小枫与小南.png"
+   ]
+  },
+  {
+   "name": "小照",
+   "images": [
+    "小照.png"
    ]
   },
   {
    "name": "小茂",
    "images": [
-    "小茂 PZ.png",
-    "小茂 SS.png"
+    "小茂.png"
    ]
   },
   {
-   "name": "巴吉爾",
+   "name": "小茜",
    "images": [
-    "巴吉尔 BW.png"
+    "小茜.png"
    ]
   },
   {
-   "name": "庫庫伊博士",
+   "name": "小菊儿",
    "images": [
-    "庫庫伊博士 SM.png"
+    "小菊儿.png"
+   ]
+  },
+  {
+   "name": "小菘",
+   "images": [
+    "小菘.png"
+   ]
+  },
+  {
+   "name": "小蓟",
+   "images": [
+    "小蓟.png"
+   ]
+  },
+  {
+   "name": "小豪",
+   "images": [
+    "小豪.png"
+   ]
+  },
+  {
+   "name": "小进",
+   "images": [
+    "小进.png"
+   ]
+  },
+  {
+   "name": "小遥",
+   "images": [
+    "小遥.png"
+   ]
+  },
+  {
+   "name": "小银",
+   "images": [
+    "小银.png"
+   ]
+  },
+  {
+   "name": "小阳",
+   "images": [
+    "小阳.png"
+   ]
+  },
+  {
+   "name": "小霞",
+   "images": [
+    "小霞.png"
+   ]
+  },
+  {
+   "name": "小青",
+   "images": [
+    "小青.png"
+   ]
+  },
+  {
+   "name": "小驱",
+   "images": [
+    "小驱.png"
+   ]
+  },
+  {
+   "name": "巴吉尔",
+   "images": [
+    "巴吉尔.png"
+   ]
+  },
+  {
+   "name": "布尔美丽",
+   "images": [
+    "布尔美丽.png"
+   ]
+  },
+  {
+   "name": "希嘉娜",
+   "images": [
+    "希嘉娜.png"
+   ]
+  },
+  {
+   "name": "希巴",
+   "images": [
+    "希巴.png"
+   ]
+  },
+  {
+   "name": "希特隆",
+   "images": [
+    "希特隆.png"
+   ]
+  },
+  {
+   "name": "帕琦拉",
+   "images": [
+    "帕琦拉.png"
+   ]
+  },
+  {
+   "name": "席蓝",
+   "images": [
+    "席蓝.png"
+   ]
+  },
+  {
+   "name": "库库伊博士",
+   "images": [
+    "库库伊博士.png"
+   ]
+  },
+  {
+   "name": "弗拉达利",
+   "images": [
+    "弗拉达利.png"
+   ]
+  },
+  {
+   "name": "弥叶",
+   "images": [
+    "弥叶.png"
+   ]
+  },
+  {
+   "name": "彩豆",
+   "images": [
+    "彩豆.png"
+   ]
+  },
+  {
+   "name": "影虎",
+   "images": [
+    "影虎.png"
+   ]
+  },
+  {
+   "name": "彼特",
+   "images": [
+    "彼特.png"
+   ]
+  },
+  {
+   "name": "得抚",
+   "images": [
+    "得抚.png"
+   ]
+  },
+  {
+   "name": "志米",
+   "images": [
+    "志米.png"
+   ]
+  },
+  {
+   "name": "悟松",
+   "images": [
+    "悟松.png"
+   ]
+  },
+  {
+   "name": "扎奥博",
+   "images": [
+    "扎奥博.png"
+   ]
+  },
+  {
+   "name": "提耶鲁诺",
+   "images": [
+    "提耶鲁诺.png"
+   ]
+  },
+  {
+   "name": "敦美",
+   "images": [
+    "敦美.png"
+   ]
+  },
+  {
+   "name": "明耀",
+   "images": [
+    "明耀.png"
+   ]
+  },
+  {
+   "name": "明辉",
+   "images": [
+    "明辉.png"
+   ]
+  },
+  {
+   "name": "望罗",
+   "images": [
+    "望罗.png"
+   ]
+  },
+  {
+   "name": "朵拉塞娜",
+   "images": [
+    "朵拉塞娜.png"
+   ]
+  },
+  {
+   "name": "杜娟",
+   "images": [
+    "杜娟.png"
    ]
   },
   {
@@ -2830,283 +607,772 @@
    ]
   },
   {
-   "name": "照欣",
+   "name": "杜若",
    "images": [
-    "照欣 OD ZA.png"
+    "杜若.png"
    ]
   },
   {
-   "name": "皮歐尼",
+   "name": "东瓜",
    "images": [
-    "皮歐尼 SWSH.png"
+    "东瓜.png"
    ]
   },
   {
-   "name": "竹蘭",
+   "name": "松叶",
    "images": [
-    "SS 竹兰.png",
-    "竹兰 DP.png"
+    "松叶.png"
    ]
   },
   {
-   "name": "船長",
+   "name": "柚丽嘉",
    "images": [
-    "船长 橘子群岛.png"
+    "柚丽嘉.png"
    ]
   },
   {
-   "name": "艾嵐",
+   "name": "查克洛",
    "images": [
-    "艾嵐 SS 2.png"
+    "查克洛.png"
    ]
   },
   {
-   "name": "達克多",
+   "name": "查尔斯",
    "images": [
-    "达克多.png"
+    "查尔斯.png"
    ]
   },
   {
-   "name": "阿戴克",
+   "name": "柳伯",
    "images": [
-    "阿戴克 BW.png"
+    "柳伯.png"
    ]
   },
   {
-   "name": "馬士德",
+   "name": "格拉吉欧",
    "images": [
-    "马士德 SWSH.png"
+    "格拉吉欧.png"
    ]
   },
   {
-   "name": "云雀",
+   "name": "梅丽莎",
    "images": [
-    "ＯＬ OD SMUSUM.png"
+    "梅丽莎.png"
    ]
   },
   {
-   "name": "光聖",
+   "name": "梨花",
    "images": [
-    "Spr 长老 HGSS.png"
+    "梨花.png"
    ]
   },
   {
-   "name": "凡轉",
+   "name": "次郎",
    "images": [
-    "超能力者 XYORAS.png"
+    "次郎.png"
    ]
   },
   {
-   "name": "古茲馬",
+   "name": "欧尼奥",
    "images": [
-    "古茲馬 SM.png"
+    "欧尼奥.png"
    ]
   },
   {
-   "name": "基利",
+   "name": "步美",
    "images": [
-    "基利 ORAS.png"
+    "步美.png"
    ]
   },
   {
-   "name": "大麗",
+   "name": "毅万和馥好",
    "images": [
-    "大丽 Pt.png"
-   ]
-  },
-  {
-   "name": "小薊",
-   "images": [
-    "小蓟 E.png"
-   ]
-  },
-  {
-   "name": "布爾美麗",
-   "images": [
-    "布爾美麗 SM.png"
-   ]
-  },
-  {
-   "name": "希嘉娜",
-   "images": [
-    "希嘉娜 ORAS.png"
-   ]
-  },
-  {
-   "name": "席藍",
-   "images": [
-    "席蓝 SV.png"
-   ]
-  },
-  {
-   "name": "弗拉達利",
-   "images": [
-    "弗拉达利 XY.png"
-   ]
-  },
-  {
-   "name": "影虎",
-   "images": [
-    "资深训练家M OD SM.png"
-   ]
-  },
-  {
-   "name": "扎奧博",
-   "images": [
-    "扎奧博 SM.png"
-   ]
-  },
-  {
-   "name": "望羅",
-   "images": [
-    "望罗 LA.png"
-   ]
-  },
-  {
-   "name": "查爾斯",
-   "images": [
-    "Charles anime.png"
-   ]
-  },
-  {
-   "name": "毅萬和馥好",
-   "images": [
-    "毅万 馥好 SV.png"
+    "毅万和馥好.png"
    ]
   },
   {
    "name": "水京",
    "images": [
-    "水京 HGSS.png"
+    "水京.png"
    ]
   },
   {
    "name": "水梧桐",
    "images": [
-    "水梧桐 ORAS.png"
+    "水梧桐.png"
    ]
   },
   {
-   "name": "沙儷",
+   "name": "沙俪",
    "images": [
-    "沙儷 SV.png"
+    "沙俪.png"
+   ]
+  },
+  {
+   "name": "波妮",
+   "images": [
+    "波妮.png"
+   ]
+  },
+  {
+   "name": "波普菈",
+   "images": [
+    "波普菈.png"
+   ]
+  },
+  {
+   "name": "波琵",
+   "images": [
+    "波琵.png"
+   ]
+  },
+  {
+   "name": "派帕",
+   "images": [
+    "派帕.png"
+   ]
+  },
+  {
+   "name": "海岱",
+   "images": [
+    "海岱.png"
+   ]
+  },
+  {
+   "name": "源治",
+   "images": [
+    "源治.png"
+   ]
+  },
+  {
+   "name": "满充",
+   "images": [
+    "满充.png"
+   ]
+  },
+  {
+   "name": "乌栗",
+   "images": [
+    "乌栗.png"
+   ]
+  },
+  {
+   "name": "照欣",
+   "images": [
+    "照欣.png"
+   ]
+  },
+  {
+   "name": "牡丹",
+   "images": [
+    "牡丹.png"
+   ]
+  },
+  {
+   "name": "玳萝",
+   "images": [
+    "玳萝.png"
+   ]
+  },
+  {
+   "name": "珠贝",
+   "images": [
+    "珠贝.png"
+   ]
+  },
+  {
+   "name": "琉丽",
+   "images": [
+    "琉丽.png"
+   ]
+  },
+  {
+   "name": "琴音",
+   "images": [
+    "琴音.png"
+   ]
+  },
+  {
+   "name": "琵鲁",
+   "images": [
+    "琵鲁.png"
+   ]
+  },
+  {
+   "name": "玛俐",
+   "images": [
+    "玛俐.png"
+   ]
+  },
+  {
+   "name": "玛琪艾儿",
+   "images": [
+    "玛琪艾儿.png"
+   ]
+  },
+  {
+   "name": "玛瓜",
+   "images": [
+    "玛瓜.png"
+   ]
+  },
+  {
+   "name": "玛绣",
+   "images": [
+    "玛绣.png"
+   ]
+  },
+  {
+   "name": "瑰芙",
+   "images": [
+    "瑰芙.png"
+   ]
+  },
+  {
+   "name": "瓢太",
+   "images": [
+    "瓢太.png"
+   ]
+  },
+  {
+   "name": "生彩",
+   "images": [
+    "生彩.png"
+   ]
+  },
+  {
+   "name": "白露",
+   "images": [
+    "白露.png"
+   ]
+  },
+  {
+   "name": "皮欧尼",
+   "images": [
+    "皮欧尼.png"
    ]
   },
   {
    "name": "石南",
    "images": [
-    "石南 E.png"
+    "石南.png"
    ]
   },
   {
-   "name": "石蘭",
+   "name": "石兰",
    "images": [
-    "石兰 Pt.png"
+    "石兰.png"
+   ]
+  },
+  {
+   "name": "碧蓝",
+   "images": [
+    "碧蓝.png"
    ]
   },
   {
    "name": "神代",
    "images": [
-    "神代 E.png"
+    "神代.png"
+   ]
+  },
+  {
+   "name": "福爷",
+   "images": [
+    "福爷.png"
+   ]
+  },
+  {
+   "name": "科拿",
+   "images": [
+    "科拿.png"
+   ]
+  },
+  {
+   "name": "竹兰",
+   "images": [
+    "竹兰.png"
+   ]
+  },
+  {
+   "name": "米可利",
+   "images": [
+    "米可利.png"
+   ]
+  },
+  {
+   "name": "纳莉",
+   "images": [
+    "纳莉.png"
+   ]
+  },
+  {
+   "name": "紫竽",
+   "images": [
+    "紫竽.png"
+   ]
+  },
+  {
+   "name": "紫罗兰",
+   "images": [
+    "紫罗兰.png"
+   ]
+  },
+  {
+   "name": "美月",
+   "images": [
+    "美月.png"
+   ]
+  },
+  {
+   "name": "美蓉",
+   "images": [
+    "美蓉.png"
+   ]
+  },
+  {
+   "name": "聂梓",
+   "images": [
+    "聂梓.png"
+   ]
+  },
+  {
+   "name": "船长",
+   "images": [
+    "船长.png"
+   ]
+  },
+  {
+   "name": "艾岚",
+   "images": [
+    "艾岚.png"
+   ]
+  },
+  {
+   "name": "艾莉丝",
+   "images": [
+    "艾莉丝.png"
+   ]
+  },
+  {
+   "name": "芙蓉",
+   "images": [
+    "芙蓉.png"
+   ]
+  },
+  {
+   "name": "花月",
+   "images": [
+    "花月.png"
+   ]
+  },
+  {
+   "name": "莉佳",
+   "images": [
+    "莉佳.png"
+   ]
+  },
+  {
+   "name": "莉普",
+   "images": [
+    "莉普.png"
+   ]
+  },
+  {
+   "name": "莉莉艾",
+   "images": [
+    "莉莉艾.png"
+   ]
+  },
+  {
+   "name": "莎娜",
+   "images": [
+    "莎娜.png"
+   ]
+  },
+  {
+   "name": "莎莉娜",
+   "images": [
+    "莎莉娜.png"
+   ]
+  },
+  {
+   "name": "菊子",
+   "images": [
+    "菊子.png"
+   ]
+  },
+  {
+   "name": "菊老大",
+   "images": [
+    "菊老大.png"
+   ]
+  },
+  {
+   "name": "菊野",
+   "images": [
+    "菊野.png"
+   ]
+  },
+  {
+   "name": "菜种",
+   "images": [
+    "菜种.png"
+   ]
+  },
+  {
+   "name": "莱姆",
+   "images": [
+    "莱姆.png"
+   ]
+  },
+  {
+   "name": "叶子",
+   "images": [
+    "叶子.png"
+   ]
+  },
+  {
+   "name": "葛吉花",
+   "images": [
+    "葛吉花.png"
+   ]
+  },
+  {
+   "name": "盖伊",
+   "images": [
+    "盖伊.png"
+   ]
+  },
+  {
+   "name": "藤树",
+   "images": [
+    "藤树.png"
+   ]
+  },
+  {
+   "name": "芦荟",
+   "images": [
+    "芦荟.png"
+   ]
+  },
+  {
+   "name": "西子伊",
+   "images": [
+    "西子伊.png"
+   ]
+  },
+  {
+   "name": "赛宝利",
+   "images": [
+    "赛宝利.png"
    ]
   },
   {
    "name": "赤日",
    "images": [
-    "赤日 DP.png"
+    "赤日.png"
+   ]
+  },
+  {
+   "name": "赤松",
+   "images": [
+    "赤松.png"
    ]
   },
   {
    "name": "赤焰松",
    "images": [
-    "赤焰松 ORAS.png"
+    "赤焰松.png"
+   ]
+  },
+  {
+   "name": "赤红",
+   "images": [
+    "赤红.png"
+   ]
+  },
+  {
+   "name": "赫普",
+   "images": [
+    "赫普.png"
+   ]
+  },
+  {
+   "name": "越橘",
+   "images": [
+    "越橘.png"
+   ]
+  },
+  {
+   "name": "辉耀",
+   "images": [
+    "辉耀.png"
+   ]
+  },
+  {
+   "name": "辛俐",
+   "images": [
+    "辛俐.png"
+   ]
+  },
+  {
+   "name": "连武",
+   "images": [
+    "连武.png"
+   ]
+  },
+  {
+   "name": "达克多",
+   "images": [
+    "达克多.png"
+   ]
+  },
+  {
+   "name": "铁旋",
+   "images": [
+    "铁旋.png"
+   ]
+  },
+  {
+   "name": "阿修",
+   "images": [
+    "阿修.png"
+   ]
+  },
+  {
+   "name": "阿四",
+   "images": [
+    "阿四.png"
+   ]
+  },
+  {
+   "name": "阿塞劳拉",
+   "images": [
+    "阿塞劳拉.png"
    ]
   },
   {
    "name": "阿始",
    "images": [
-    "阿始2.png"
+    "阿始.png"
+   ]
+  },
+  {
+   "name": "阿戴克",
+   "images": [
+    "阿戴克.png"
+   ]
+  },
+  {
+   "name": "阿李",
+   "images": [
+    "阿李.png"
+   ]
+  },
+  {
+   "name": "阿杏",
+   "images": [
+    "阿杏.png"
+   ]
+  },
+  {
+   "name": "阿柳",
+   "images": [
+    "阿柳.png"
+   ]
+  },
+  {
+   "name": "阿桔",
+   "images": [
+    "阿桔.png"
+   ]
+  },
+  {
+   "name": "阿渡",
+   "images": [
+    "阿渡.png"
+   ]
+  },
+  {
+   "name": "阿笔",
+   "images": [
+    "阿笔.png"
+   ]
+  },
+  {
+   "name": "阿义",
+   "images": [
+    "阿义.png"
+   ]
+  },
+  {
+   "name": "阿蜜",
+   "images": [
+    "阿蜜.png"
+   ]
+  },
+  {
+   "name": "阿速",
+   "images": [
+    "阿速.png"
+   ]
+  },
+  {
+   "name": "阿响",
+   "images": [
+    "阿响.png"
+   ]
+  },
+  {
+   "name": "阿驯",
+   "images": [
+    "阿驯.png"
+   ]
+  },
+  {
+   "name": "雁铠",
+   "images": [
+    "雁铠.png"
    ]
   },
   {
    "name": "雪忠",
    "images": [
-    "雪忠 SV.png"
+    "雪忠.png"
+   ]
+  },
+  {
+   "name": "电次",
+   "images": [
+    "电次.png"
+   ]
+  },
+  {
+   "name": "霍米加",
+   "images": [
+    "霍米加.png"
+   ]
+  },
+  {
+   "name": "露璃娜",
+   "images": [
+    "露璃娜.png"
    ]
   },
   {
    "name": "露莎米奈",
    "images": [
-    "露莎米奈 SM.png"
+    "露莎米奈.png"
+   ]
+  },
+  {
+   "name": "露西·莲步",
+   "images": [
+    "露西·莲步.png"
+   ]
+  },
+  {
+   "name": "青木",
+   "images": [
+    "青木.png"
+   ]
+  },
+  {
+   "name": "青绿",
+   "images": [
+    "青绿.png"
    ]
   },
   {
    "name": "青葙",
    "images": [
-    "青葙 Pt.png"
+    "青葙.png"
    ]
   },
   {
-   "name": "馬斯卡托",
+   "name": "风露",
    "images": [
-    "馬斯卡托 ZA.png"
+    "风露.png"
    ]
   },
   {
-   "name": "鬱金",
+   "name": "马士德",
    "images": [
-    "郁金 E.png"
+    "马士德.png"
    ]
   },
   {
-   "name": "黃瓜香",
+   "name": "马志士",
    "images": [
-    "黄瓜香 E.png"
+    "马志士.png"
+   ]
+  },
+  {
+   "name": "马斯卡托",
+   "images": [
+    "马斯卡托.png"
+   ]
+  },
+  {
+   "name": "马睿因",
+   "images": [
+    "马睿因.png"
+   ]
+  },
+  {
+   "name": "斗也",
+   "images": [
+    "斗也.png"
+   ]
+  },
+  {
+   "name": "斗子",
+   "images": [
+    "斗子.png"
+   ]
+  },
+  {
+   "name": "郁金",
+   "images": [
+    "郁金.png"
+   ]
+  },
+  {
+   "name": "鸣依",
+   "images": [
+    "鸣依.png"
+   ]
+  },
+  {
+   "name": "丽姿",
+   "images": [
+    "丽姿.png"
+   ]
+  },
+  {
+   "name": "黄瓜香",
+   "images": [
+    "黄瓜香.png"
    ]
   },
   {
    "name": "黍子",
    "images": [
-    "黍子 SV.png"
+    "黍子.png"
    ]
   },
   {
-   "name": "柚麗嘉",
+   "name": "黑连",
    "images": [
-    "柚丽嘉 XY 2.png"
+    "黑连.png"
    ]
   },
   {
-   "name": "小豪",
+   "name": "Ｎ",
    "images": [
-    "小豪 SS.png"
+    "Ｎ.png"
    ]
   }
- ],
- "excluded_spinoff": [
-  "仁美",
-  "創一",
-  "南美",
-  "夏也",
-  "如初",
-  "日向",
-  "牌克",
-  "風月",
-  "威爾",
-  "小亮",
-  "小結",
-  "小霓",
-  "提姆‧古德曼",
-  "果塔",
-  "蓓琪",
-  "阿徹",
-  "阿齊",
-  "雷歐",
-  "龍人",
-  "夏蓉",
-  "梧桐",
-  "盧卡",
-  "菲爾",
-  "鎯琊"
  ]
 }
