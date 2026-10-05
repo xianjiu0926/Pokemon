@@ -246,6 +246,9 @@ def scan(cats, titles=None):
 
 def main():
     args = sys.argv[1:]
+    if '--help' in args or '-h' in args:
+        print(__doc__)
+        return
     scan_only = '--scan' in args
     download_only = '--download' in args
     cats = DEFAULT_CATS
