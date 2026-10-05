@@ -38,6 +38,7 @@
     "item-sprites": "item-sprites/",
     "item-sprites-missing": "item-sprites-missing.json",
     "sprite-map": "sprite-map.json",
+    "form-cry-map": "form-cry-map.json",
     "dex-list": "dex-list.json",
     "regional-dex": "regional-dex.json",
     "cries": "cries/",

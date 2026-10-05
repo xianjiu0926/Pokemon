@@ -35,6 +35,7 @@
 ├─ item-alias.json                # 道具中文别名表（别名 → 正式名）
 ├─ ability-alias.json             # 特性中文别名表（别名 → 正式名）
 ├─ sprite-map.json                # 形态图 slug → 基础形态 slug 映射表（形态图缺失时回退）
+├─ form-cry-map.json              # 形态英文名(小写) → 叫声编号 映射表（形态叫声用）
 ├─ evolution.json                 # 进化链 534 条
 ├─ badges.json                    # 徽章 8 个联盟
 ├─ dex-list.json                  # 全国图鉴列表（1305 条：编号/名字/英文slug/属性，含形态）
@@ -44,7 +45,7 @@
 ├─ movesets/                      # 各精灵各代可学招式（升级/机器/蛋/教学）
 ├─ item-sprites/                  # 道具图标（2023 张 PNG，命名 = slug 规则）
 ├─ item-sprites-missing.json      # 暂无图的极少数道具清单
-├─ cries/                         # 宝可梦叫声（1025 个 .ogg）
+├─ cries/                         # 宝可梦叫声（1025 基础 + 326 形态，共 1351 个 .ogg）
 ├─ badges/                        # 徽章图片（8 地区 68 张 PNG）
 ├─ scripts/                       # 抓取脚本（更新数据用，见 scripts/README.md）
 └─ pokemon-sprites/               # 精灵图片（命名统一为英文 slug）
