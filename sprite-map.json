@@ -1,5 +1,5 @@
 {
-  "count": 8,
+  "count": 10,
   "data": {
     "basculin-red-striped-blue-striped": "basculin-red-striped",
     "basculin-red-striped-bluestriped": "basculin-red-striped",
@@ -8,6 +8,8 @@
     "basculinredstripedbluestriped": "basculin-red-striped",
     "basculinredstripedwhitestriped": "basculin-red-striped",
     "tauros-paldea": "tauros",
-    "taurospaldea": "tauros"
+    "taurospaldea": "tauros",
+    "gastrodon-west": "gastrodon",
+    "shellos-west": "shellos"
   }
 }
