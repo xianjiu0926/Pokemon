@@ -1,12 +1,12 @@
 {
   "count": 12,
   "data": {
-    "basculin-red-striped-blue-striped": "basculin-red-striped",
-    "basculin-red-striped-bluestriped": "basculin-red-striped",
-    "basculin-red-striped-white-striped": "basculin-red-striped",
-    "basculin-red-striped-whitestriped": "basculin-red-striped",
-    "basculinredstripedbluestriped": "basculin-red-striped",
-    "basculinredstripedwhitestriped": "basculin-red-striped",
+    "basculin-red-striped-blue-striped": "basculin-blue-striped",
+    "basculin-red-striped-bluestriped": "basculin-blue-striped",
+    "basculin-red-striped-white-striped": "basculin-white-striped",
+    "basculin-red-striped-whitestriped": "basculin-white-striped",
+    "basculinredstripedbluestriped": "basculin-blue-striped",
+    "basculinredstripedwhitestriped": "basculin-white-striped",
     "tauros-paldea": "tauros",
     "taurospaldea": "tauros",
     "gastrodon-west": "gastrodon",

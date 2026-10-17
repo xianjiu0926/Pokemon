@@ -1,5 +1,5 @@
 {
-  "count": 41,
+  "count": 45,
   "data": {
     "hooh": "ho-oh",
     "mrmime": "mr-mime",
@@ -41,6 +41,10 @@
     "gougingfire": "gouging-fire",
     "ragingbolt": "raging-bolt",
     "urshifurapidstrike": "urshifu-rapid-strike",
-    "urshifu-rapidstrike": "urshifu-rapid-strike"
+    "urshifu-rapidstrike": "urshifu-rapid-strike",
+    "basculin-whitestriped": "basculin-white-striped",
+    "basculinwhitestriped": "basculin-white-striped",
+    "basculin-bluestriped": "basculin-blue-striped",
+    "basculinbluestriped": "basculin-blue-striped"
   }
 }
