@@ -1,14 +1,14 @@
 # 宝可梦缺图清单（待补）
 
-> 生成: 2026-09-29 | 只列 pokemon-sprites-missing.json 里缺失槽位
+> 生成: 2026-10-18 | 只列 pokemon-sprites-missing.json 里缺失槽位
 
-## Gen10(完全无图)（3 只）
+## Gen10(仅静态普通图)（3 只）
 
-- `#1026` 叶眉鸟（`browt`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
-- `#1029` 博姆耿（`pombon`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
-- `#1032` 妙澪儿（`gecqua`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#1026` 叶眉鸟（`browt`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
+- `#1029` 博姆耿（`pombon`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
+- `#1032` 妙澪儿（`gecqua`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
 
-## 超极巨化(动图无)（7 只）
+## 超极巨化(动图无)（8 只）
 
 - `#3` 超极巨化妙蛙花（`venusaur-gmax`）缺：APN、APS、ADN、ADS
 - `#9` 超极巨化水箭龟（`blastoise-gmax`）缺：APN、APS、ADN、ADS
@@ -17,6 +17,7 @@
 - `#818` 超极巨化千面避役（`inteleon-gmax`）缺：APN、APS
 - `#844` 超极巨化沙螺蟒（`sandaconda-gmax`）缺：APN
 - `#892` 超极巨化武道熊师(一击流)（`urshifu-gmax`）缺：APN、APS、ADN、ADS
+- `#892` 超极巨化武道熊师(连击流)（`urshifu-rapid-strike-gmax`）缺：ADN、ADS
 
 ## 皮卡丘帽子(闪动图无)（8 只）
 
@@ -41,10 +42,10 @@
 - `#160` 超级大力鳄（`feraligatr-mega`）缺：APS
 - `#227` 超级盔甲鸟（`skarmory-mega`）缺：APS
 - `#358` 超级风铃铃（`chimecho-mega`）缺：APS、ADS
-- `#359` 超级阿勃梭鲁Z（`absol-mega-z`）缺：APS
+- `#359` 超级阿勃梭鲁Z（`absol-mega-z`）缺：APS、ADN、ADS
 - `#398` 超级姆克鹰（`staraptor-mega`）缺：APS、ADS、SDN、SDS
-- `#445` 超级烈咬陆鲨Z（`garchomp-mega-z`）缺：APS
-- `#448` 超级路卡利欧Z（`lucario-mega-z`）缺：APS
+- `#445` 超级烈咬陆鲨Z（`garchomp-mega-z`）缺：APS、ADN、ADS
+- `#448` 超级路卡利欧Z（`lucario-mega-z`）缺：ADN、ADS
 - `#478` 超级雪妖女（`froslass-mega`）缺：APS
 - `#485` 超级席多蓝恩（`heatran-mega`）缺：APS、ADN、ADS、SDN、SDS
 - `#491` 超级达克莱伊（`darkrai-mega`）缺：APS、ADN、ADS、SDN、SDS
@@ -70,18 +71,15 @@
 - `#768` 超级具甲武者（`golisopod-mega`）缺：APS、ADN、ADS
 - `#780` 超级老翁龙（`drampa-mega`）缺：APS、ADS
 - `#801` 超级玛机雅娜(现在的颜色)（`magearna-mega`）缺：APS、ADN、ADS、SDN、SDS
-- `#801` 超级玛机雅娜(500年前的颜色)（`magearna-original-mega`）缺：APN、APS、SPN、SPS
+- `#801` 超级玛机雅娜(500年前的颜色)（`magearna-original-mega`）缺：APS、ADN、ADS、SDN、SDS
 - `#807` 超级捷拉奥拉（`zeraora-mega`）缺：APS、ADN、ADS、SDN、SDS
 - `#870` 超级列阵兵（`falinks-mega`）缺：APS、ADS、SDN、SDS
 - `#952` 超级狠辣椒（`scovillain-mega`）缺：APS、ADS
 - `#970` 超级晶光花（`glimmora-mega`）缺：APS、ADS
-- `#978` 超级米立龙(下垂姿势)（`tatsugiri-droopy-mega`）缺：APN、APS、SPN、SPS
+- `#978` 超级米立龙(下垂姿势)（`tatsugiri-droopy-mega`）缺：APS、ADN、ADS、SDN、SDS
 - `#978` 超级米立龙(上弓姿势)（`tatsugiri-mega`）缺：APS、ADN、ADS、SDN、SDS
-- `#978` 超级米立龙(平挺姿势)（`tatsugiri-stretchy-mega`）缺：APS、SPN、SPS
+- `#978` 超级米立龙(平挺姿势)（`tatsugiri-stretchy-mega`）缺：APS、ADN、ADS、SDN、SDS
 - `#998` 超级戟脊龙（`baxcalibur-mega`）缺：APS、ADN、ADS
-
-## 雌性(动图无)（5 只）
-
 
 ## 体型尺寸(动图无)（6 只）
 
@@ -92,34 +90,118 @@
 - `#711` 南瓜怪人(小尺寸)（`gourgeist-small`）缺：APN、APS
 - `#711` 南瓜怪人(特大尺寸)（`gourgeist-super`）缺：APN、APS
 
-## 条纹（1 只）
+## 条纹/东西海（1 只）
 
 - `#550` 野蛮鲈鱼(红条纹)（`basculin-red-striped`）缺：ADN、ADS、SDN、SDS
 
-## 其他（28 只）
+## 其他（109 只）
 
-- `#122` 魔墙人偶(伽勒尔)（`mr-mime-galar`）缺：ADN、ADS、SDN、SDS
+- `#83` 大葱鸭（`farfetch'd`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#83` 大葱鸭(伽勒尔)（`farfetch'd-galar`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#122` 魔墙人偶（`mr.mime`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#122` 魔墙人偶(伽勒尔)（`mr.mime-galar`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#439` 魔尼尼（`mime jr.`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
 - `#483` 帝牙卢卡(起源)（`dialga-origin`）缺：ADN、ADS
 - `#484` 帕路奇亚(起源)（`palkia-origin`）缺：ADN、ADS
 - `#648` 美洛耶塔(舞步)（`meloetta-pirouette`）缺：APS
-- `#849` 颤弦蝾螈(低调)（`toxtricity-low-key`）缺：APN、APS
+- `#718` 基格尔德(10％形态)（`zygarde-10%`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#741` 花舞鸟(呼拉)（`oricorio-pa'u`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#772` 属性：空（`type: null`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#785` 卡璞・鸣鸣（`tapu koko`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#786` 卡璞・蝶蝶（`tapu lele`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#787` 卡璞・哞哞（`tapu bulu`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#788` 卡璞・鳍鳍（`tapu fini`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#865` 葱游兵（`sirfetch'd`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#866` 踏冰人偶（`mr.rime`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#869` 草莓霜奶仙-焦糖综合（`alcremie-caramel-swirl`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
+- `#869` 蓝莓霜奶仙-焦糖综合（`alcremie-caramel-swirl-berry`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 幸运草霜奶仙-焦糖综合（`alcremie-caramel-swirl-clover`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 花朵霜奶仙-焦糖综合（`alcremie-caramel-swirl-flower`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 爱心霜奶仙-焦糖综合（`alcremie-caramel-swirl-love`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 蝴蝶结霜奶仙-焦糖综合（`alcremie-caramel-swirl-ribbon`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 星星霜奶仙-焦糖综合（`alcremie-caramel-swirl-star`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 草莓霜奶仙-奶香柠檬（`alcremie-lemon-cream`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
+- `#869` 蓝莓霜奶仙-奶香柠檬（`alcremie-lemon-cream-berry`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 幸运草霜奶仙-奶香柠檬（`alcremie-lemon-cream-clover`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 花朵霜奶仙-奶香柠檬（`alcremie-lemon-cream-flower`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 爱心霜奶仙-奶香柠檬（`alcremie-lemon-cream-love`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 蝴蝶结霜奶仙-奶香柠檬（`alcremie-lemon-cream-ribbon`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 星星霜奶仙-奶香柠檬（`alcremie-lemon-cream-star`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 草莓霜奶仙-奶香抹茶（`alcremie-matcha-cream`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
+- `#869` 蓝莓霜奶仙-奶香抹茶（`alcremie-matcha-cream-berry`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 幸运草霜奶仙-奶香抹茶（`alcremie-matcha-cream-clover`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 花朵霜奶仙-奶香抹茶（`alcremie-matcha-cream-flower`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 爱心霜奶仙-奶香抹茶（`alcremie-matcha-cream-love`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 蝴蝶结霜奶仙-奶香抹茶（`alcremie-matcha-cream-ribbon`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 星星霜奶仙-奶香抹茶（`alcremie-matcha-cream-star`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 草莓霜奶仙-奶香薄荷（`alcremie-mint-cream`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
+- `#869` 蓝莓霜奶仙-奶香薄荷（`alcremie-mint-cream-berry`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 幸运草霜奶仙-奶香薄荷（`alcremie-mint-cream-clover`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 花朵霜奶仙-奶香薄荷（`alcremie-mint-cream-flower`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 爱心霜奶仙-奶香薄荷（`alcremie-mint-cream-love`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 蝴蝶结霜奶仙-奶香薄荷（`alcremie-mint-cream-ribbon`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 星星霜奶仙-奶香薄荷（`alcremie-mint-cream-star`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 草莓霜奶仙-三色综合（`alcremie-rainbow-swirl`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
+- `#869` 蓝莓霜奶仙-三色综合（`alcremie-rainbow-swirl-berry`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 幸运草霜奶仙-三色综合（`alcremie-rainbow-swirl-clover`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 花朵霜奶仙-三色综合（`alcremie-rainbow-swirl-flower`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 爱心霜奶仙-三色综合（`alcremie-rainbow-swirl-love`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 蝴蝶结霜奶仙-三色综合（`alcremie-rainbow-swirl-ribbon`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 星星霜奶仙-三色综合（`alcremie-rainbow-swirl-star`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 草莓霜奶仙-奶香红钻（`alcremie-ruby-cream`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
+- `#869` 蓝莓霜奶仙-奶香红钻（`alcremie-ruby-cream-berry`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 幸运草霜奶仙-奶香红钻（`alcremie-ruby-cream-clover`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 花朵霜奶仙-奶香红钻（`alcremie-ruby-cream-flower`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 爱心霜奶仙-奶香红钻（`alcremie-ruby-cream-love`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 蝴蝶结霜奶仙-奶香红钻（`alcremie-ruby-cream-ribbon`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 星星霜奶仙-奶香红钻（`alcremie-ruby-cream-star`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 草莓霜奶仙-红钻综合（`alcremie-ruby-swirl`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
+- `#869` 蓝莓霜奶仙-红钻综合（`alcremie-ruby-swirl-berry`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 幸运草霜奶仙-红钻综合（`alcremie-ruby-swirl-clover`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 花朵霜奶仙-红钻综合（`alcremie-ruby-swirl-flower`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 爱心霜奶仙-红钻综合（`alcremie-ruby-swirl-love`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 蝴蝶结霜奶仙-红钻综合（`alcremie-ruby-swirl-ribbon`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 星星霜奶仙-红钻综合（`alcremie-ruby-swirl-star`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 草莓霜奶仙-奶香雪盐（`alcremie-salted-cream`）缺：APN、APS、ADN、ADS、SPS、SDN、SDS
+- `#869` 蓝莓霜奶仙-奶香雪盐（`alcremie-salted-cream-berry`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 幸运草霜奶仙-奶香雪盐（`alcremie-salted-cream-clover`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 花朵霜奶仙-奶香雪盐（`alcremie-salted-cream-flower`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 爱心霜奶仙-奶香雪盐（`alcremie-salted-cream-love`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 蝴蝶结霜奶仙-奶香雪盐（`alcremie-salted-cream-ribbon`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 星星霜奶仙-奶香雪盐（`alcremie-salted-cream-star`）缺：APN、APS、SPS、SDN、SDS
+- `#869` 蓝莓霜奶仙-奶香香草（`alcremie-vanilla-cream-berry`）缺：APN、APS、SDN、SDS
+- `#869` 幸运草霜奶仙-奶香香草（`alcremie-vanilla-cream-clover`）缺：APN、APS、SDN、SDS
+- `#869` 花朵霜奶仙-奶香香草（`alcremie-vanilla-cream-flower`）缺：APN、APS、SDN、SDS
+- `#869` 爱心霜奶仙-奶香香草（`alcremie-vanilla-cream-love`）缺：APN、APS、SDN、SDS
+- `#869` 蝴蝶结霜奶仙-奶香香草（`alcremie-vanilla-cream-ribbon`）缺：APN、APS、SDN、SDS
+- `#869` 星星霜奶仙-奶香香草（`alcremie-vanilla-cream-star`）缺：APN、APS、SDN、SDS
 - `#890` 无极汰那(无极巨化)（`eternatus-eternamax`）缺：APN、APS
-- `#990` 铁辙迹（`iron-treads`）缺：ADN、ADS
-- `#991` 铁包袱（`iron-bundle`）缺：ADN、ADS
-- `#992` 铁臂膀（`iron-hands`）缺：ADN、ADS
-- `#993` 铁脖颈（`iron-jugulis`）缺：ADN、ADS
-- `#994` 铁毒蛾（`iron-moth`）缺：ADN、ADS
-- `#995` 铁荆棘（`iron-thorns`）缺：ADN、ADS
-- `#1006` 铁武者（`iron-valiant`）缺：ADN、ADS
+- `#984` 雄伟牙（`great tusk`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#985` 吼叫尾（`scream tail`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#986` 猛恶菇（`brute bonnet`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#987` 振翼发（`flutter mane`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#988` 爬地翅（`slither wing`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#989` 沙铁皮（`sandy shocks`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#990` 铁辙迹（`iron treads`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#991` 铁包袱（`iron bundle`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#992` 铁臂膀（`iron hands`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#993` 铁脖颈（`iron jugulis`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#994` 铁毒蛾（`iron moth`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#995` 铁荆棘（`iron thorns`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#1005` 轰鸣月（`roaring moon`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#1006` 铁武者（`iron valiant`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
 - `#1008` 密勒顿（`miraidon`）缺：ADN、ADS
-- `#1010` 铁斑叶（`iron-leaves`）缺：ADN、ADS
+- `#1009` 波荡水（`walking wake`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#1010` 铁斑叶（`iron leaves`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
 - `#1017` 厄诡椪(碧草面具)（`ogerpon`）缺：ADN、ADS
 - `#1017` 厄诡椪(础石面具)（`ogerpon-cornerstone`）缺：ADN、ADS
 - `#1017` 厄诡椪(火灶面具)（`ogerpon-hearthflame`）缺：ADN、ADS
 - `#1017` 厄诡椪(水井面具)（`ogerpon-wellspring`）缺：ADN、ADS
-- `#1022` 铁磐岩（`iron-boulder`）缺：ADN、ADS
-- `#1023` 铁头壳（`iron-crown`）缺：ADN、ADS
+- `#1020` 破空焰（`gouging fire`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#1021` 猛雷鼓（`raging bolt`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#1022` 铁磐岩（`iron boulder`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
+- `#1023` 铁头壳（`iron crown`）缺：APN、APS、ADN、ADS、SPN、SPS、SDN、SDS
 - `#1024` 太乐巴戈斯(普通)（`terapagos`）缺：APS、ADN、ADS
-- `#1024` 太乐巴戈斯(星晶)（`terapagos-stellar`）缺：APN、APS、ADN、ADS、SPS
+- `#1024` 太乐巴戈斯(星晶)（`terapagos-stellar`）缺：APN、APS、ADN、ADS
 - `#1024` 太乐巴戈斯(太晶)（`terapagos-terastal`）缺：ADN、ADS
 - `#1025` 桃歹郎（`pecharunt`）缺：APS、ADN、ADS
