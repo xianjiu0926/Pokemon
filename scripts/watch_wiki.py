@@ -187,6 +187,38 @@ def parse_moves(wt):
 PARSERS = {'items': parse_items, 'abilities': parse_abilities, 'moves': parse_moves}
 
 
+# ---------------------------------------------------------------- 道具图标
+SPRITE_DIR = os.path.join(ROOT, 'item-sprites')
+# 这些类别不单独存图：HUD 里技能机按招式属性用 tm-{属性}.png
+SKIP_ITEM_CATS = {'技能机', '招式记录', '秘传学习器'}
+# HUD 的 ITEM_IMG 已硬编码映射的（不走 item-sprites）
+ITEM_IMG_MAPPED = {'Mega手镯', 'Z强力手环', 'Z手环', '阿尔宙斯手机', '手机',
+                   '太晶珠', '钥石', '极巨腕带', '宝可梦图鉴'}
+
+
+def _item_slug(s):
+    """与 HUD 的 serebiiItemSlug 完全一致：小写、只保留英文字母和数字（点号/冒号/连字符都去掉）"""
+    return re.sub(r'[^a-z0-9]+', '', str(s or '').lower())
+
+
+def check_item_sprites():
+    """items.json 有条目、item-sprites 没有对应 png 的道具（排除设计上不需要图的）"""
+    if not os.path.isdir(SPRITE_DIR):
+        return []
+    have = set(os.listdir(SPRITE_DIR))
+    out = []
+    for it in load_local(os.path.join(ROOT, 'items.json')):
+        if it.get('cat') in SKIP_ITEM_CATS or it.get('name') in ITEM_IMG_MAPPED:
+            continue
+        cands = []
+        if it.get('en'):
+            cands.append(_item_slug(it['en']) + '.png')
+        cands.append(_item_slug(it['name']) + '.png')
+        if not any(c in have for c in cands):
+            out.append(it)
+    return out
+
+
 # ---------------------------------------------------------------- 本地数据
 def load_local(path):
     """读本地 JSON，返回 [{name,en}]（items/abilities/moves 都是 {count,data:[{name...}]}）"""
@@ -195,7 +227,8 @@ def load_local(path):
     with open(path, encoding='utf-8') as f:
         d = json.load(f)
     data = d.get('data') if isinstance(d, dict) else d
-    return [{'name': x.get('name', ''), 'en': x.get('en', '')} for x in (data or [])]
+    return [{'name': x.get('name', ''), 'en': x.get('en', ''), 'cat': x.get('cat', '')}
+            for x in (data or [])]
 
 
 # ---------------------------------------------------------------- 主流程
@@ -298,6 +331,18 @@ def main():
             'count': len(cur),
             'names': sorted(cur),
         }
+
+    # 道具图标检查
+    sp_missing = check_item_sprites()
+    detail.append('')
+    if sp_missing:
+        detail.append('### 道具图标缺失（%d 条，item-sprites 里没有对应 png）' % len(sp_missing))
+        detail.append('- ' + '、'.join(x['name'] for x in sp_missing[:60]) +
+                      ('…' if len(sp_missing) > 60 else ''))
+        detail.append('- 补图：`python3 scripts/fetch_item_sprites.py item-sprites`'
+                      '（Serebii ItemDex 全量扫；已存在的文件不重写，但每个 slug 仍会发一次请求，约 3~5 分钟）')
+    else:
+        detail.append('### 道具图标：齐全 ✅')
 
     report = '\n'.join(lines + detail) + '\n'
     print()
