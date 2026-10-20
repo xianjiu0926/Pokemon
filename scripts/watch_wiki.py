@@ -50,6 +50,7 @@ PAGES = [
     {'title': '道具列表', 'kind': 'items', 'local': 'items.json'},
     {'title': '特性列表', 'kind': 'abilities', 'local': 'abilities.json'},
     {'title': '招式列表', 'kind': 'moves', 'local': 'moves.json'},
+    {'title': '宝可梦列表（按全国图鉴编号）', 'kind': 'dex', 'local': 'dex-list.json'},
 ]
 
 
@@ -184,7 +185,27 @@ def parse_moves(wt):
     return out
 
 
-PARSERS = {'items': parse_items, 'abilities': parse_abilities, 'moves': parse_moves}
+def parse_dex(wt):
+    """宝可梦列表（按全国图鉴编号）：{{Rdexn|编号|中文|日文|英文|属性1|属性2|filter=...}}"""
+    out = []
+    for m in re.finditer(r'\{\{Rdexn\|([^{}]*?)\}\}', wt):
+        p = [x.strip() for x in m.group(1).split('|')]
+        p = [x for x in p if not re.match(r'^[a-z_]+=', x)]  # 丢掉 filter= 之类具名参数
+        if len(p) < 2:
+            continue
+        out.append({
+            'no': p[0],
+            'name': p[1],
+            'jp': p[2] if len(p) > 2 else '',
+            'en': p[3] if len(p) > 3 else '',
+            'type1': p[4] if len(p) > 4 else '',
+            'type2': p[5] if len(p) > 5 else '',
+        })
+    return out
+
+
+PARSERS = {'items': parse_items, 'abilities': parse_abilities, 'moves': parse_moves,
+           'dex': parse_dex}
 
 
 # ---------------------------------------------------------------- 道具图标
@@ -306,9 +327,19 @@ def main():
 
         local_set = {_norm(x['name']) for x in local_items}
         local_ens = {_norm(x['en']) for x in local_items if x.get('en')}
-        missing = [x for x in items
-                   if x['name'] and _norm(x['name']) not in local_set
-                   and not (x.get('en') and _norm(x['en']) in local_ens)]
+        # 精灵的基础形态在本地可能带后缀，如 wiki「野蛮鲈鱼」对应本地「野蛮鲈鱼(红条纹)」
+        local_base = {_norm(re.split(r'[（(]', x['name'])[0]) for x in local_items}
+
+        def known(it):
+            if _norm(it['name']) in local_set:
+                return True
+            if it.get('en') and _norm(it['en']) in local_ens:
+                return True
+            if page['kind'] == 'dex' and _norm(it['name']) in local_base:
+                return True
+            return False
+
+        missing = [x for x in items if x['name'] and not known(x)]
 
         detail.append('')
         detail.append('### %s（%s 条 → %s 条）' % (title, len(prev) or '-', len(cur)))

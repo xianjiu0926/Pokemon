@@ -29,7 +29,7 @@ python3 scripts/refetch_pokeos_animated.py 6
 # 检查缺图（生成 pokemon-sprites-missing.json）
 python3 scripts/check_sprites.py
 
-# 检查 52poke 列表页（道具/特性/招式）有没有更新，并核对本地 JSON 缺什么
+# 检查 52poke 列表页（道具/特性/招式/宝可梦图鉴）有没有更新，并核对本地 JSON 缺什么
 python3 scripts/watch_wiki.py          # 只出报告（不写基线）
 python3 scripts/watch_wiki.py --save   # 确认无误后更新基线
 ```
@@ -76,7 +76,7 @@ python3 scripts/watch_wiki.py --save   # 确认无误后更新基线
 | 脚本 | 用途 |
 |---|---|
 | `check_sprites.py` | 扫 8 个图槽，生成缺图清单 |
-| `watch_wiki.py` | 监控 52poke 列表页变更：revid 对比 → 有变化就拉最新版，报「新增/删除条目」+「本地 JSON 缺什么」。基线存 `scripts/wiki-watch-state.json`（建议随仓库提交）。`--init` 建基线、`--save` 更新基线、`--full` 只做全量核对 |
+| `watch_wiki.py` | 监控 52poke 列表页变更：道具列表 / 特性列表 / 招式列表 / 宝可梦列表（按全国图鉴编号）。revid 对比 → 有变化就拉最新版，报「新增/删除条目」+「本地 JSON 缺什么」+「道具图标缺哪些」。基线存 `scripts/wiki-watch-state.json`（建议随仓库提交）。`--init` 建基线、`--save` 更新基线、`--full` 只做全量核对 |
 | `fix_sprite_aliases.py` | 把 pokeos 实际文件名复制成 dex-list 的 en 名（修命名不一致） |
 | `video_to_gif.py` | 录屏视频 → 透明 GIF（差分/单色抠像 + 阈值二值化） |
 
