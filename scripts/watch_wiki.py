@@ -215,6 +215,16 @@ SKIP_ITEM_CATS = {'技能机', '招式记录', '秘传学习器'}
 # HUD 的 ITEM_IMG 已硬编码映射的（不走 item-sprites）
 ITEM_IMG_MAPPED = {'Mega手镯', 'Z强力手环', 'Z手环', '阿尔宙斯手机', '手机',
                    '太晶珠', '钥石', '极巨腕带', '宝可梦图鉴'}
+# 源站就没有图标的道具（52poke 道具列表里显示「Bag 无」/共用 GSC 果实树图，Serebii ItemDex 也 404）
+# 这类条目不再计入缺失，否则报告里天天提示又无法补
+NO_ICON_ITEMS = {
+    # 第二世代遗留道具（无官方图标）
+    '冰冻的果实', '奇迹的果实', '果实', '水玉色之带', '消除麻痹的果实', '烧烤的果实',
+    '神奇的果实', '粉红色丝带', '苦涩的果实', '薄荷的果实', '解毒的果实', '黄金的果实',
+    '破坏基因', '破坏基因(破坏因子)', '碎瓦片', '木箱', '桐木箱', '宝可梦的蛋兑换券',
+    # 不是道具的系统概念/旧版条目
+    '亲密度', '经验值', '太阳碎片', '月亮碎片',
+}
 
 
 def _item_slug(s):
@@ -229,7 +239,8 @@ def check_item_sprites():
     have = set(os.listdir(SPRITE_DIR))
     out = []
     for it in load_local(os.path.join(ROOT, 'items.json')):
-        if it.get('cat') in SKIP_ITEM_CATS or it.get('name') in ITEM_IMG_MAPPED:
+        if (it.get('cat') in SKIP_ITEM_CATS or it.get('name') in ITEM_IMG_MAPPED
+                or it.get('name') in NO_ICON_ITEMS):
             continue
         cands = []
         if it.get('en'):
