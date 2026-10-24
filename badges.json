@@ -1,5 +1,5 @@
 {
-  "count": 8,
+  "count": 9,
   "data": [
     {
       "league": "石英联盟",
@@ -446,6 +446,110 @@
           "location": "映雪市",
           "giver": "得抚",
           "effect": "等级100以下"
+        }
+      ]
+    },
+    {
+      "league": "诸岛巡礼",
+      "region": "阿罗拉地区",
+      "gen": "第七世代",
+      "count": "12",
+      "badges": [
+        {
+          "name": "一般Ｚ",
+          "en": "Normalium Z",
+          "jp": "ノーマルＺ",
+          "location": "葱郁洞窟",
+          "giver": "伊利马（考验）",
+          "effect": "携带后可将一般属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "格斗Ｚ",
+          "en": "Fightinium Z",
+          "jp": "カクトウＺ",
+          "location": "利利小镇",
+          "giver": "哈拉（大考验）",
+          "effect": "携带后可将格斗属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "水Ｚ",
+          "en": "Waterium Z",
+          "jp": "ミズＺ",
+          "location": "潺潺之丘",
+          "giver": "水莲（考验）",
+          "effect": "携带后可将水属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "火Ｚ",
+          "en": "Firium Z",
+          "jp": "ホノオＺ",
+          "location": "维拉火山公园",
+          "giver": "卡奇（考验）",
+          "effect": "携带后可将火属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "草Ｚ",
+          "en": "Grassium Z",
+          "jp": "クサＺ",
+          "location": "树荫丛林",
+          "giver": "玛奥（考验）",
+          "effect": "携带后可将草属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "岩石Ｚ",
+          "en": "Rockium Z",
+          "jp": "イワＺ",
+          "location": "生命遗迹",
+          "giver": "丽姿（大考验）",
+          "effect": "携带后可将岩石属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "电Ｚ",
+          "en": "Electrium Z",
+          "jp": "デンキＺ",
+          "location": "辉克拉尼天文台",
+          "giver": "马玛内（考验）",
+          "effect": "携带后可将电属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "幽灵Ｚ",
+          "en": "Ghostium Z",
+          "jp": "ゴーストＺ",
+          "location": "超值超市旧址",
+          "giver": "阿塞萝拉（考验）",
+          "effect": "携带后可将幽灵属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "恶Ｚ",
+          "en": "Darkinium Z",
+          "jp": "アクＺ",
+          "location": "马利埃静市",
+          "giver": "默丹（大考验）",
+          "effect": "携带后可将恶属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "龙Ｚ",
+          "en": "Dragonium Z",
+          "jp": "ドラゴンＺ",
+          "location": "波尼大峡谷",
+          "giver": "考验",
+          "effect": "携带后可将龙属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "妖精Ｚ",
+          "en": "Fairium Z",
+          "jp": "フェアリーＺ",
+          "location": "海洋居民之村",
+          "giver": "茉莉（考验）",
+          "effect": "携带后可将妖精属性的招式升级为Ｚ招式。"
+        },
+        {
+          "name": "地面Ｚ",
+          "en": "Groundium Z",
+          "jp": "ジメンＺ",
+          "location": "波尼大峡谷／椰蛋树岛",
+          "giver": "哈普乌（大考验）",
+          "effect": "携带后可将地面属性的招式升级为Ｚ招式。"
         }
       ]
     },
