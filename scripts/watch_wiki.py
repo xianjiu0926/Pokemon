@@ -223,6 +223,8 @@ NO_ICON_ITEMS = {
     '宝可梦的蛋兑换券',
     # 不是道具的系统概念/旧版条目
     '亲密度', '经验值', '太阳碎片', '月亮碎片',
+    # 剑盾 DLC 料理（Serebii ItemDex 无 sprites/maxsoup.png，52poke 道具列表也无图标，实测 404）
+    '极巨汤',
 }
 
 
