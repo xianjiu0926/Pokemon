@@ -132,9 +132,11 @@ def _norm(s):
 
 
 def parse_items(wt):
-    """道具列表：| {{I|道具名}}"""
+    """道具列表：| {{I|道具名}}
+    个别行前面带表格属性（如 `| rowspan="2" | {{I|精通种子}}`），要允许这种前缀，
+    否则会把这类条目误判成「删除」。"""
     return [{'name': m.group(1).strip()}
-            for m in re.finditer(r'^\|\s*\{\{I\|([^}|]+)', wt, re.M)]
+            for m in re.finditer(r'^\|\s*(?:rowspan="\d+"\s*\|\s*)?\{\{I\|([^}|]+)', wt, re.M)]
 
 
 def parse_abilities(wt):
