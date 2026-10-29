@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-18",
- "dexTotal": 1378,
+ "generated": "2026-10-29",
+ "dexTotal": 1305,
  "slots": {
   "animated-pokeos-normal": "animated/pokeos/normal",
   "animated-pokeos-shiny": "animated/pokeos/shiny",
@@ -13,40 +13,40 @@
  },
  "summary": {
   "animated-pokeos-normal": {
-   "have": 1263,
-   "missing": 115
+   "have": 1286,
+   "missing": 19
   },
   "animated-pokeos-shiny": {
-   "have": 1207,
-   "missing": 171
+   "have": 1230,
+   "missing": 75
   },
   "animated-showdown-normal": {
-   "have": 1299,
-   "missing": 79
+   "have": 1268,
+   "missing": 37
   },
   "animated-showdown-shiny": {
-   "have": 1269,
-   "missing": 109
+   "have": 1238,
+   "missing": 67
   },
   "static-pokeos-normal": {
-   "have": 1344,
-   "missing": 34
+   "have": 1305,
+   "missing": 0
   },
   "static-pokeos-shiny": {
-   "have": 1285,
-   "missing": 93
+   "have": 1302,
+   "missing": 3
   },
   "static-showdown-normal": {
-   "have": 1257,
-   "missing": 121
+   "have": 1283,
+   "missing": 22
   },
   "static-showdown-shiny": {
-   "have": 1257,
-   "missing": 121
+   "have": 1283,
+   "missing": 22
   }
  },
  "missing": {
-  "APN": [
+  "animated-pokeos-normal": [
    {
     "no": 3,
     "name": "超极巨化妙蛙花",
@@ -61,31 +61,6 @@
     "no": 25,
     "name": "皮卡丘(世界帽子)",
     "en": "pikachu-world"
-   },
-   {
-    "no": 83,
-    "name": "大葱鸭",
-    "en": "farfetch'd"
-   },
-   {
-    "no": 83,
-    "name": "大葱鸭(伽勒尔)",
-    "en": "farfetch'd-galar"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶",
-    "en": "mr.mime"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr.mime-galar"
-   },
-   {
-    "no": 439,
-    "name": "魔尼尼",
-    "en": "mime jr."
    },
    {
     "no": 710,
@@ -118,41 +93,6 @@
     "en": "gourgeist-super"
    },
    {
-    "no": 718,
-    "name": "基格尔德(10％形态)",
-    "en": "zygarde-10%"
-   },
-   {
-    "no": 741,
-    "name": "花舞鸟(呼拉)",
-    "en": "oricorio-pa'u"
-   },
-   {
-    "no": 772,
-    "name": "属性：空",
-    "en": "type: null"
-   },
-   {
-    "no": 785,
-    "name": "卡璞・鸣鸣",
-    "en": "tapu koko"
-   },
-   {
-    "no": 786,
-    "name": "卡璞・蝶蝶",
-    "en": "tapu lele"
-   },
-   {
-    "no": 787,
-    "name": "卡璞・哞哞",
-    "en": "tapu bulu"
-   },
-   {
-    "no": 788,
-    "name": "卡璞・鳍鳍",
-    "en": "tapu fini"
-   },
-   {
     "no": 812,
     "name": "超极巨化轰擂金刚猩",
     "en": "rillaboom-gmax"
@@ -173,326 +113,6 @@
     "en": "sandaconda-gmax"
    },
    {
-    "no": 865,
-    "name": "葱游兵",
-    "en": "sirfetch'd"
-   },
-   {
-    "no": 866,
-    "name": "踏冰人偶",
-    "en": "mr.rime"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-clover"
-   },
-   {
     "no": 890,
     "name": "无极汰那(无极巨化)",
     "en": "eternatus-eternamax"
@@ -501,106 +121,6 @@
     "no": 892,
     "name": "超极巨化武道熊师(一击流)",
     "en": "urshifu-gmax"
-   },
-   {
-    "no": 984,
-    "name": "雄伟牙",
-    "en": "great tusk"
-   },
-   {
-    "no": 985,
-    "name": "吼叫尾",
-    "en": "scream tail"
-   },
-   {
-    "no": 986,
-    "name": "猛恶菇",
-    "en": "brute bonnet"
-   },
-   {
-    "no": 987,
-    "name": "振翼发",
-    "en": "flutter mane"
-   },
-   {
-    "no": 988,
-    "name": "爬地翅",
-    "en": "slither wing"
-   },
-   {
-    "no": 989,
-    "name": "沙铁皮",
-    "en": "sandy shocks"
-   },
-   {
-    "no": 990,
-    "name": "铁辙迹",
-    "en": "iron treads"
-   },
-   {
-    "no": 991,
-    "name": "铁包袱",
-    "en": "iron bundle"
-   },
-   {
-    "no": 992,
-    "name": "铁臂膀",
-    "en": "iron hands"
-   },
-   {
-    "no": 993,
-    "name": "铁脖颈",
-    "en": "iron jugulis"
-   },
-   {
-    "no": 994,
-    "name": "铁毒蛾",
-    "en": "iron moth"
-   },
-   {
-    "no": 995,
-    "name": "铁荆棘",
-    "en": "iron thorns"
-   },
-   {
-    "no": 1005,
-    "name": "轰鸣月",
-    "en": "roaring moon"
-   },
-   {
-    "no": 1006,
-    "name": "铁武者",
-    "en": "iron valiant"
-   },
-   {
-    "no": 1009,
-    "name": "波荡水",
-    "en": "walking wake"
-   },
-   {
-    "no": 1010,
-    "name": "铁斑叶",
-    "en": "iron leaves"
-   },
-   {
-    "no": 1020,
-    "name": "破空焰",
-    "en": "gouging fire"
-   },
-   {
-    "no": 1021,
-    "name": "猛雷鼓",
-    "en": "raging bolt"
-   },
-   {
-    "no": 1022,
-    "name": "铁磐岩",
-    "en": "iron boulder"
-   },
-   {
-    "no": 1023,
-    "name": "铁头壳",
-    "en": "iron crown"
    },
    {
     "no": 1024,
@@ -623,7 +143,7 @@
     "en": "gecqua"
    }
   ],
-  "APS": [
+  "animated-pokeos-shiny": [
    {
     "no": 3,
     "name": "超极巨化妙蛙花",
@@ -695,29 +215,9 @@
     "en": "victreebel-mega"
    },
    {
-    "no": 83,
-    "name": "大葱鸭",
-    "en": "farfetch'd"
-   },
-   {
-    "no": 83,
-    "name": "大葱鸭(伽勒尔)",
-    "en": "farfetch'd-galar"
-   },
-   {
     "no": 121,
     "name": "超级宝石海星",
     "en": "starmie-mega"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶",
-    "en": "mr.mime"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr.mime-galar"
    },
    {
     "no": 149,
@@ -753,11 +253,6 @@
     "no": 398,
     "name": "超级姆克鹰",
     "en": "staraptor-mega"
-   },
-   {
-    "no": 439,
-    "name": "魔尼尼",
-    "en": "mime jr."
    },
    {
     "no": 445,
@@ -901,11 +396,6 @@
    },
    {
     "no": 718,
-    "name": "基格尔德(10％形态)",
-    "en": "zygarde-10%"
-   },
-   {
-    "no": 718,
     "name": "超级基格尔德",
     "en": "zygarde-mega"
    },
@@ -915,44 +405,14 @@
     "en": "crabominable-mega"
    },
    {
-    "no": 741,
-    "name": "花舞鸟(呼拉)",
-    "en": "oricorio-pa'u"
-   },
-   {
     "no": 768,
     "name": "超级具甲武者",
     "en": "golisopod-mega"
    },
    {
-    "no": 772,
-    "name": "属性：空",
-    "en": "type: null"
-   },
-   {
     "no": 780,
     "name": "超级老翁龙",
     "en": "drampa-mega"
-   },
-   {
-    "no": 785,
-    "name": "卡璞・鸣鸣",
-    "en": "tapu koko"
-   },
-   {
-    "no": 786,
-    "name": "卡璞・蝶蝶",
-    "en": "tapu lele"
-   },
-   {
-    "no": 787,
-    "name": "卡璞・哞哞",
-    "en": "tapu bulu"
-   },
-   {
-    "no": 788,
-    "name": "卡璞・鳍鳍",
-    "en": "tapu fini"
    },
    {
     "no": 801,
@@ -983,326 +443,6 @@
     "no": 818,
     "name": "超极巨化千面避役",
     "en": "inteleon-gmax"
-   },
-   {
-    "no": 865,
-    "name": "葱游兵",
-    "en": "sirfetch'd"
-   },
-   {
-    "no": 866,
-    "name": "踏冰人偶",
-    "en": "mr.rime"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-clover"
    },
    {
     "no": 870,
@@ -1345,109 +485,9 @@
     "en": "tatsugiri-stretchy-mega"
    },
    {
-    "no": 984,
-    "name": "雄伟牙",
-    "en": "great tusk"
-   },
-   {
-    "no": 985,
-    "name": "吼叫尾",
-    "en": "scream tail"
-   },
-   {
-    "no": 986,
-    "name": "猛恶菇",
-    "en": "brute bonnet"
-   },
-   {
-    "no": 987,
-    "name": "振翼发",
-    "en": "flutter mane"
-   },
-   {
-    "no": 988,
-    "name": "爬地翅",
-    "en": "slither wing"
-   },
-   {
-    "no": 989,
-    "name": "沙铁皮",
-    "en": "sandy shocks"
-   },
-   {
-    "no": 990,
-    "name": "铁辙迹",
-    "en": "iron treads"
-   },
-   {
-    "no": 991,
-    "name": "铁包袱",
-    "en": "iron bundle"
-   },
-   {
-    "no": 992,
-    "name": "铁臂膀",
-    "en": "iron hands"
-   },
-   {
-    "no": 993,
-    "name": "铁脖颈",
-    "en": "iron jugulis"
-   },
-   {
-    "no": 994,
-    "name": "铁毒蛾",
-    "en": "iron moth"
-   },
-   {
-    "no": 995,
-    "name": "铁荆棘",
-    "en": "iron thorns"
-   },
-   {
     "no": 998,
     "name": "超级戟脊龙",
     "en": "baxcalibur-mega"
-   },
-   {
-    "no": 1005,
-    "name": "轰鸣月",
-    "en": "roaring moon"
-   },
-   {
-    "no": 1006,
-    "name": "铁武者",
-    "en": "iron valiant"
-   },
-   {
-    "no": 1009,
-    "name": "波荡水",
-    "en": "walking wake"
-   },
-   {
-    "no": 1010,
-    "name": "铁斑叶",
-    "en": "iron leaves"
-   },
-   {
-    "no": 1020,
-    "name": "破空焰",
-    "en": "gouging fire"
-   },
-   {
-    "no": 1021,
-    "name": "猛雷鼓",
-    "en": "raging bolt"
-   },
-   {
-    "no": 1022,
-    "name": "铁磐岩",
-    "en": "iron boulder"
-   },
-   {
-    "no": 1023,
-    "name": "铁头壳",
-    "en": "iron crown"
    },
    {
     "no": 1024,
@@ -1480,7 +520,7 @@
     "en": "gecqua"
    }
   ],
-  "ADN": [
+  "animated-showdown-normal": [
    {
     "no": 3,
     "name": "超极巨化妙蛙花",
@@ -1495,46 +535,6 @@
     "no": 25,
     "name": "皮卡丘(世界帽子)",
     "en": "pikachu-world"
-   },
-   {
-    "no": 83,
-    "name": "大葱鸭",
-    "en": "farfetch'd"
-   },
-   {
-    "no": 83,
-    "name": "大葱鸭(伽勒尔)",
-    "en": "farfetch'd-galar"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶",
-    "en": "mr.mime"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr.mime-galar"
-   },
-   {
-    "no": 359,
-    "name": "超级阿勃梭鲁Z",
-    "en": "absol-mega-z"
-   },
-   {
-    "no": 439,
-    "name": "魔尼尼",
-    "en": "mime jr."
-   },
-   {
-    "no": 445,
-    "name": "超级烈咬陆鲨Z",
-    "en": "garchomp-mega-z"
-   },
-   {
-    "no": 448,
-    "name": "超级路卡利欧Z",
-    "en": "lucario-mega-z"
    },
    {
     "no": 483,
@@ -1568,18 +568,8 @@
    },
    {
     "no": 718,
-    "name": "基格尔德(10％形态)",
-    "en": "zygarde-10%"
-   },
-   {
-    "no": 718,
     "name": "超级基格尔德",
     "en": "zygarde-mega"
-   },
-   {
-    "no": 741,
-    "name": "花舞鸟(呼拉)",
-    "en": "oricorio-pa'u"
    },
    {
     "no": 768,
@@ -1587,39 +577,9 @@
     "en": "golisopod-mega"
    },
    {
-    "no": 772,
-    "name": "属性：空",
-    "en": "type: null"
-   },
-   {
-    "no": 785,
-    "name": "卡璞・鸣鸣",
-    "en": "tapu koko"
-   },
-   {
-    "no": 786,
-    "name": "卡璞・蝶蝶",
-    "en": "tapu lele"
-   },
-   {
-    "no": 787,
-    "name": "卡璞・哞哞",
-    "en": "tapu bulu"
-   },
-   {
-    "no": 788,
-    "name": "卡璞・鳍鳍",
-    "en": "tapu fini"
-   },
-   {
     "no": 801,
     "name": "超级玛机雅娜(现在的颜色)",
     "en": "magearna-mega"
-   },
-   {
-    "no": 801,
-    "name": "超级玛机雅娜(500年前的颜色)",
-    "en": "magearna-original-mega"
    },
    {
     "no": 807,
@@ -1637,64 +597,9 @@
     "en": "cinderace-gmax"
    },
    {
-    "no": 865,
-    "name": "葱游兵",
-    "en": "sirfetch'd"
-   },
-   {
-    "no": 866,
-    "name": "踏冰人偶",
-    "en": "mr.rime"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl"
-   },
-   {
     "no": 892,
     "name": "超极巨化武道熊师(一击流)",
     "en": "urshifu-gmax"
-   },
-   {
-    "no": 892,
-    "name": "超极巨化武道熊师(连击流)",
-    "en": "urshifu-rapid-strike-gmax"
    },
    {
     "no": 978,
@@ -1702,74 +607,34 @@
     "en": "tatsugiri-mega"
    },
    {
-    "no": 978,
-    "name": "超级米立龙(下垂姿势)",
-    "en": "tatsugiri-droopy-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(平挺姿势)",
-    "en": "tatsugiri-stretchy-mega"
-   },
-   {
-    "no": 984,
-    "name": "雄伟牙",
-    "en": "great tusk"
-   },
-   {
-    "no": 985,
-    "name": "吼叫尾",
-    "en": "scream tail"
-   },
-   {
-    "no": 986,
-    "name": "猛恶菇",
-    "en": "brute bonnet"
-   },
-   {
-    "no": 987,
-    "name": "振翼发",
-    "en": "flutter mane"
-   },
-   {
-    "no": 988,
-    "name": "爬地翅",
-    "en": "slither wing"
-   },
-   {
-    "no": 989,
-    "name": "沙铁皮",
-    "en": "sandy shocks"
-   },
-   {
     "no": 990,
     "name": "铁辙迹",
-    "en": "iron treads"
+    "en": "iron-treads"
    },
    {
     "no": 991,
     "name": "铁包袱",
-    "en": "iron bundle"
+    "en": "iron-bundle"
    },
    {
     "no": 992,
     "name": "铁臂膀",
-    "en": "iron hands"
+    "en": "iron-hands"
    },
    {
     "no": 993,
     "name": "铁脖颈",
-    "en": "iron jugulis"
+    "en": "iron-jugulis"
    },
    {
     "no": 994,
     "name": "铁毒蛾",
-    "en": "iron moth"
+    "en": "iron-moth"
    },
    {
     "no": 995,
     "name": "铁荆棘",
-    "en": "iron thorns"
+    "en": "iron-thorns"
    },
    {
     "no": 998,
@@ -1777,14 +642,9 @@
     "en": "baxcalibur-mega"
    },
    {
-    "no": 1005,
-    "name": "轰鸣月",
-    "en": "roaring moon"
-   },
-   {
     "no": 1006,
     "name": "铁武者",
-    "en": "iron valiant"
+    "en": "iron-valiant"
    },
    {
     "no": 1008,
@@ -1792,14 +652,9 @@
     "en": "miraidon"
    },
    {
-    "no": 1009,
-    "name": "波荡水",
-    "en": "walking wake"
-   },
-   {
     "no": 1010,
     "name": "铁斑叶",
-    "en": "iron leaves"
+    "en": "iron-leaves"
    },
    {
     "no": 1017,
@@ -1822,39 +677,14 @@
     "en": "ogerpon-cornerstone"
    },
    {
-    "no": 1020,
-    "name": "破空焰",
-    "en": "gouging fire"
-   },
-   {
-    "no": 1021,
-    "name": "猛雷鼓",
-    "en": "raging bolt"
-   },
-   {
     "no": 1022,
     "name": "铁磐岩",
-    "en": "iron boulder"
+    "en": "iron-boulder"
    },
    {
     "no": 1023,
     "name": "铁头壳",
-    "en": "iron crown"
-   },
-   {
-    "no": 1024,
-    "name": "太乐巴戈斯(普通)",
-    "en": "terapagos"
-   },
-   {
-    "no": 1024,
-    "name": "太乐巴戈斯(太晶)",
-    "en": "terapagos-terastal"
-   },
-   {
-    "no": 1024,
-    "name": "太乐巴戈斯(星晶)",
-    "en": "terapagos-stellar"
+    "en": "iron-crown"
    },
    {
     "no": 1025,
@@ -1877,7 +707,7 @@
     "en": "gecqua"
    }
   ],
-  "ADS": [
+  "animated-showdown-shiny": [
    {
     "no": 3,
     "name": "超极巨化妙蛙花",
@@ -1934,54 +764,14 @@
     "en": "raichu-mega-y"
    },
    {
-    "no": 83,
-    "name": "大葱鸭",
-    "en": "farfetch'd"
-   },
-   {
-    "no": 83,
-    "name": "大葱鸭(伽勒尔)",
-    "en": "farfetch'd-galar"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶",
-    "en": "mr.mime"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr.mime-galar"
-   },
-   {
     "no": 358,
     "name": "超级风铃铃",
     "en": "chimecho-mega"
    },
    {
-    "no": 359,
-    "name": "超级阿勃梭鲁Z",
-    "en": "absol-mega-z"
-   },
-   {
     "no": 398,
     "name": "超级姆克鹰",
     "en": "staraptor-mega"
-   },
-   {
-    "no": 439,
-    "name": "魔尼尼",
-    "en": "mime jr."
-   },
-   {
-    "no": 445,
-    "name": "超级烈咬陆鲨Z",
-    "en": "garchomp-mega-z"
-   },
-   {
-    "no": 448,
-    "name": "超级路卡利欧Z",
-    "en": "lucario-mega-z"
    },
    {
     "no": 483,
@@ -2090,11 +880,6 @@
    },
    {
     "no": 718,
-    "name": "基格尔德(10％形态)",
-    "en": "zygarde-10%"
-   },
-   {
-    "no": 718,
     "name": "超级基格尔德",
     "en": "zygarde-mega"
    },
@@ -2104,19 +889,9 @@
     "en": "crabominable-mega"
    },
    {
-    "no": 741,
-    "name": "花舞鸟(呼拉)",
-    "en": "oricorio-pa'u"
-   },
-   {
     "no": 768,
     "name": "超级具甲武者",
     "en": "golisopod-mega"
-   },
-   {
-    "no": 772,
-    "name": "属性：空",
-    "en": "type: null"
    },
    {
     "no": 780,
@@ -2124,34 +899,9 @@
     "en": "drampa-mega"
    },
    {
-    "no": 785,
-    "name": "卡璞・鸣鸣",
-    "en": "tapu koko"
-   },
-   {
-    "no": 786,
-    "name": "卡璞・蝶蝶",
-    "en": "tapu lele"
-   },
-   {
-    "no": 787,
-    "name": "卡璞・哞哞",
-    "en": "tapu bulu"
-   },
-   {
-    "no": 788,
-    "name": "卡璞・鳍鳍",
-    "en": "tapu fini"
-   },
-   {
     "no": 801,
     "name": "超级玛机雅娜(现在的颜色)",
     "en": "magearna-mega"
-   },
-   {
-    "no": 801,
-    "name": "超级玛机雅娜(500年前的颜色)",
-    "en": "magearna-original-mega"
    },
    {
     "no": 807,
@@ -2169,56 +919,6 @@
     "en": "cinderace-gmax"
    },
    {
-    "no": 865,
-    "name": "葱游兵",
-    "en": "sirfetch'd"
-   },
-   {
-    "no": 866,
-    "name": "踏冰人偶",
-    "en": "mr.rime"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl"
-   },
-   {
     "no": 870,
     "name": "超级列阵兵",
     "en": "falinks-mega"
@@ -2227,11 +927,6 @@
     "no": 892,
     "name": "超极巨化武道熊师(一击流)",
     "en": "urshifu-gmax"
-   },
-   {
-    "no": 892,
-    "name": "超极巨化武道熊师(连击流)",
-    "en": "urshifu-rapid-strike-gmax"
    },
    {
     "no": 952,
@@ -2249,74 +944,34 @@
     "en": "tatsugiri-mega"
    },
    {
-    "no": 978,
-    "name": "超级米立龙(下垂姿势)",
-    "en": "tatsugiri-droopy-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(平挺姿势)",
-    "en": "tatsugiri-stretchy-mega"
-   },
-   {
-    "no": 984,
-    "name": "雄伟牙",
-    "en": "great tusk"
-   },
-   {
-    "no": 985,
-    "name": "吼叫尾",
-    "en": "scream tail"
-   },
-   {
-    "no": 986,
-    "name": "猛恶菇",
-    "en": "brute bonnet"
-   },
-   {
-    "no": 987,
-    "name": "振翼发",
-    "en": "flutter mane"
-   },
-   {
-    "no": 988,
-    "name": "爬地翅",
-    "en": "slither wing"
-   },
-   {
-    "no": 989,
-    "name": "沙铁皮",
-    "en": "sandy shocks"
-   },
-   {
     "no": 990,
     "name": "铁辙迹",
-    "en": "iron treads"
+    "en": "iron-treads"
    },
    {
     "no": 991,
     "name": "铁包袱",
-    "en": "iron bundle"
+    "en": "iron-bundle"
    },
    {
     "no": 992,
     "name": "铁臂膀",
-    "en": "iron hands"
+    "en": "iron-hands"
    },
    {
     "no": 993,
     "name": "铁脖颈",
-    "en": "iron jugulis"
+    "en": "iron-jugulis"
    },
    {
     "no": 994,
     "name": "铁毒蛾",
-    "en": "iron moth"
+    "en": "iron-moth"
    },
    {
     "no": 995,
     "name": "铁荆棘",
-    "en": "iron thorns"
+    "en": "iron-thorns"
    },
    {
     "no": 998,
@@ -2324,14 +979,9 @@
     "en": "baxcalibur-mega"
    },
    {
-    "no": 1005,
-    "name": "轰鸣月",
-    "en": "roaring moon"
-   },
-   {
     "no": 1006,
     "name": "铁武者",
-    "en": "iron valiant"
+    "en": "iron-valiant"
    },
    {
     "no": 1008,
@@ -2339,14 +989,9 @@
     "en": "miraidon"
    },
    {
-    "no": 1009,
-    "name": "波荡水",
-    "en": "walking wake"
-   },
-   {
     "no": 1010,
     "name": "铁斑叶",
-    "en": "iron leaves"
+    "en": "iron-leaves"
    },
    {
     "no": 1017,
@@ -2369,39 +1014,14 @@
     "en": "ogerpon-cornerstone"
    },
    {
-    "no": 1020,
-    "name": "破空焰",
-    "en": "gouging fire"
-   },
-   {
-    "no": 1021,
-    "name": "猛雷鼓",
-    "en": "raging bolt"
-   },
-   {
     "no": 1022,
     "name": "铁磐岩",
-    "en": "iron boulder"
+    "en": "iron-boulder"
    },
    {
     "no": 1023,
     "name": "铁头壳",
-    "en": "iron crown"
-   },
-   {
-    "no": 1024,
-    "name": "太乐巴戈斯(普通)",
-    "en": "terapagos"
-   },
-   {
-    "no": 1024,
-    "name": "太乐巴戈斯(太晶)",
-    "en": "terapagos-terastal"
-   },
-   {
-    "no": 1024,
-    "name": "太乐巴戈斯(星晶)",
-    "en": "terapagos-stellar"
+    "en": "iron-crown"
    },
    {
     "no": 1025,
@@ -2424,629 +1044,7 @@
     "en": "gecqua"
    }
   ],
-  "SPN": [
-   {
-    "no": 83,
-    "name": "大葱鸭",
-    "en": "farfetch'd"
-   },
-   {
-    "no": 83,
-    "name": "大葱鸭(伽勒尔)",
-    "en": "farfetch'd-galar"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶",
-    "en": "mr.mime"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr.mime-galar"
-   },
-   {
-    "no": 439,
-    "name": "魔尼尼",
-    "en": "mime jr."
-   },
-   {
-    "no": 718,
-    "name": "基格尔德(10％形态)",
-    "en": "zygarde-10%"
-   },
-   {
-    "no": 741,
-    "name": "花舞鸟(呼拉)",
-    "en": "oricorio-pa'u"
-   },
-   {
-    "no": 772,
-    "name": "属性：空",
-    "en": "type: null"
-   },
-   {
-    "no": 785,
-    "name": "卡璞・鸣鸣",
-    "en": "tapu koko"
-   },
-   {
-    "no": 786,
-    "name": "卡璞・蝶蝶",
-    "en": "tapu lele"
-   },
-   {
-    "no": 787,
-    "name": "卡璞・哞哞",
-    "en": "tapu bulu"
-   },
-   {
-    "no": 788,
-    "name": "卡璞・鳍鳍",
-    "en": "tapu fini"
-   },
-   {
-    "no": 865,
-    "name": "葱游兵",
-    "en": "sirfetch'd"
-   },
-   {
-    "no": 866,
-    "name": "踏冰人偶",
-    "en": "mr.rime"
-   },
-   {
-    "no": 984,
-    "name": "雄伟牙",
-    "en": "great tusk"
-   },
-   {
-    "no": 985,
-    "name": "吼叫尾",
-    "en": "scream tail"
-   },
-   {
-    "no": 986,
-    "name": "猛恶菇",
-    "en": "brute bonnet"
-   },
-   {
-    "no": 987,
-    "name": "振翼发",
-    "en": "flutter mane"
-   },
-   {
-    "no": 988,
-    "name": "爬地翅",
-    "en": "slither wing"
-   },
-   {
-    "no": 989,
-    "name": "沙铁皮",
-    "en": "sandy shocks"
-   },
-   {
-    "no": 990,
-    "name": "铁辙迹",
-    "en": "iron treads"
-   },
-   {
-    "no": 991,
-    "name": "铁包袱",
-    "en": "iron bundle"
-   },
-   {
-    "no": 992,
-    "name": "铁臂膀",
-    "en": "iron hands"
-   },
-   {
-    "no": 993,
-    "name": "铁脖颈",
-    "en": "iron jugulis"
-   },
-   {
-    "no": 994,
-    "name": "铁毒蛾",
-    "en": "iron moth"
-   },
-   {
-    "no": 995,
-    "name": "铁荆棘",
-    "en": "iron thorns"
-   },
-   {
-    "no": 1005,
-    "name": "轰鸣月",
-    "en": "roaring moon"
-   },
-   {
-    "no": 1006,
-    "name": "铁武者",
-    "en": "iron valiant"
-   },
-   {
-    "no": 1009,
-    "name": "波荡水",
-    "en": "walking wake"
-   },
-   {
-    "no": 1010,
-    "name": "铁斑叶",
-    "en": "iron leaves"
-   },
-   {
-    "no": 1020,
-    "name": "破空焰",
-    "en": "gouging fire"
-   },
-   {
-    "no": 1021,
-    "name": "猛雷鼓",
-    "en": "raging bolt"
-   },
-   {
-    "no": 1022,
-    "name": "铁磐岩",
-    "en": "iron boulder"
-   },
-   {
-    "no": 1023,
-    "name": "铁头壳",
-    "en": "iron crown"
-   }
-  ],
-  "SPS": [
-   {
-    "no": 83,
-    "name": "大葱鸭",
-    "en": "farfetch'd"
-   },
-   {
-    "no": 83,
-    "name": "大葱鸭(伽勒尔)",
-    "en": "farfetch'd-galar"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶",
-    "en": "mr.mime"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr.mime-galar"
-   },
-   {
-    "no": 439,
-    "name": "魔尼尼",
-    "en": "mime jr."
-   },
-   {
-    "no": 718,
-    "name": "基格尔德(10％形态)",
-    "en": "zygarde-10%"
-   },
-   {
-    "no": 741,
-    "name": "花舞鸟(呼拉)",
-    "en": "oricorio-pa'u"
-   },
-   {
-    "no": 772,
-    "name": "属性：空",
-    "en": "type: null"
-   },
-   {
-    "no": 785,
-    "name": "卡璞・鸣鸣",
-    "en": "tapu koko"
-   },
-   {
-    "no": 786,
-    "name": "卡璞・蝶蝶",
-    "en": "tapu lele"
-   },
-   {
-    "no": 787,
-    "name": "卡璞・哞哞",
-    "en": "tapu bulu"
-   },
-   {
-    "no": 788,
-    "name": "卡璞・鳍鳍",
-    "en": "tapu fini"
-   },
-   {
-    "no": 865,
-    "name": "葱游兵",
-    "en": "sirfetch'd"
-   },
-   {
-    "no": 866,
-    "name": "踏冰人偶",
-    "en": "mr.rime"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-clover"
-   },
-   {
-    "no": 984,
-    "name": "雄伟牙",
-    "en": "great tusk"
-   },
-   {
-    "no": 985,
-    "name": "吼叫尾",
-    "en": "scream tail"
-   },
-   {
-    "no": 986,
-    "name": "猛恶菇",
-    "en": "brute bonnet"
-   },
-   {
-    "no": 987,
-    "name": "振翼发",
-    "en": "flutter mane"
-   },
-   {
-    "no": 988,
-    "name": "爬地翅",
-    "en": "slither wing"
-   },
-   {
-    "no": 989,
-    "name": "沙铁皮",
-    "en": "sandy shocks"
-   },
-   {
-    "no": 990,
-    "name": "铁辙迹",
-    "en": "iron treads"
-   },
-   {
-    "no": 991,
-    "name": "铁包袱",
-    "en": "iron bundle"
-   },
-   {
-    "no": 992,
-    "name": "铁臂膀",
-    "en": "iron hands"
-   },
-   {
-    "no": 993,
-    "name": "铁脖颈",
-    "en": "iron jugulis"
-   },
-   {
-    "no": 994,
-    "name": "铁毒蛾",
-    "en": "iron moth"
-   },
-   {
-    "no": 995,
-    "name": "铁荆棘",
-    "en": "iron thorns"
-   },
-   {
-    "no": 1005,
-    "name": "轰鸣月",
-    "en": "roaring moon"
-   },
-   {
-    "no": 1006,
-    "name": "铁武者",
-    "en": "iron valiant"
-   },
-   {
-    "no": 1009,
-    "name": "波荡水",
-    "en": "walking wake"
-   },
-   {
-    "no": 1010,
-    "name": "铁斑叶",
-    "en": "iron leaves"
-   },
-   {
-    "no": 1020,
-    "name": "破空焰",
-    "en": "gouging fire"
-   },
-   {
-    "no": 1021,
-    "name": "猛雷鼓",
-    "en": "raging bolt"
-   },
-   {
-    "no": 1022,
-    "name": "铁磐岩",
-    "en": "iron boulder"
-   },
-   {
-    "no": 1023,
-    "name": "铁头壳",
-    "en": "iron crown"
-   },
+  "static-pokeos-shiny": [
    {
     "no": 1026,
     "name": "叶眉鸟",
@@ -3063,7 +1061,7 @@
     "en": "gecqua"
    }
   ],
-  "SDN": [
+  "static-showdown-normal": [
    {
     "no": 26,
     "name": "超级雷丘X",
@@ -3075,34 +1073,9 @@
     "en": "raichu-mega-y"
    },
    {
-    "no": 83,
-    "name": "大葱鸭",
-    "en": "farfetch'd"
-   },
-   {
-    "no": 83,
-    "name": "大葱鸭(伽勒尔)",
-    "en": "farfetch'd-galar"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶",
-    "en": "mr.mime"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr.mime-galar"
-   },
-   {
     "no": 398,
     "name": "超级姆克鹰",
     "en": "staraptor-mega"
-   },
-   {
-    "no": 439,
-    "name": "魔尼尼",
-    "en": "mime jr."
    },
    {
     "no": 485,
@@ -3161,43 +1134,8 @@
    },
    {
     "no": 718,
-    "name": "基格尔德(10％形态)",
-    "en": "zygarde-10%"
-   },
-   {
-    "no": 718,
     "name": "超级基格尔德",
     "en": "zygarde-mega"
-   },
-   {
-    "no": 741,
-    "name": "花舞鸟(呼拉)",
-    "en": "oricorio-pa'u"
-   },
-   {
-    "no": 772,
-    "name": "属性：空",
-    "en": "type: null"
-   },
-   {
-    "no": 785,
-    "name": "卡璞・鸣鸣",
-    "en": "tapu koko"
-   },
-   {
-    "no": 786,
-    "name": "卡璞・蝶蝶",
-    "en": "tapu lele"
-   },
-   {
-    "no": 787,
-    "name": "卡璞・哞哞",
-    "en": "tapu bulu"
-   },
-   {
-    "no": 788,
-    "name": "卡璞・鳍鳍",
-    "en": "tapu fini"
    },
    {
     "no": 801,
@@ -3205,334 +1143,9 @@
     "en": "magearna-mega"
    },
    {
-    "no": 801,
-    "name": "超级玛机雅娜(500年前的颜色)",
-    "en": "magearna-original-mega"
-   },
-   {
     "no": 807,
     "name": "超级捷拉奥拉",
     "en": "zeraora-mega"
-   },
-   {
-    "no": 865,
-    "name": "葱游兵",
-    "en": "sirfetch'd"
-   },
-   {
-    "no": 866,
-    "name": "踏冰人偶",
-    "en": "mr.rime"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-clover"
    },
    {
     "no": 870,
@@ -3543,116 +1156,6 @@
     "no": 978,
     "name": "超级米立龙(上弓姿势)",
     "en": "tatsugiri-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(下垂姿势)",
-    "en": "tatsugiri-droopy-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(平挺姿势)",
-    "en": "tatsugiri-stretchy-mega"
-   },
-   {
-    "no": 984,
-    "name": "雄伟牙",
-    "en": "great tusk"
-   },
-   {
-    "no": 985,
-    "name": "吼叫尾",
-    "en": "scream tail"
-   },
-   {
-    "no": 986,
-    "name": "猛恶菇",
-    "en": "brute bonnet"
-   },
-   {
-    "no": 987,
-    "name": "振翼发",
-    "en": "flutter mane"
-   },
-   {
-    "no": 988,
-    "name": "爬地翅",
-    "en": "slither wing"
-   },
-   {
-    "no": 989,
-    "name": "沙铁皮",
-    "en": "sandy shocks"
-   },
-   {
-    "no": 990,
-    "name": "铁辙迹",
-    "en": "iron treads"
-   },
-   {
-    "no": 991,
-    "name": "铁包袱",
-    "en": "iron bundle"
-   },
-   {
-    "no": 992,
-    "name": "铁臂膀",
-    "en": "iron hands"
-   },
-   {
-    "no": 993,
-    "name": "铁脖颈",
-    "en": "iron jugulis"
-   },
-   {
-    "no": 994,
-    "name": "铁毒蛾",
-    "en": "iron moth"
-   },
-   {
-    "no": 995,
-    "name": "铁荆棘",
-    "en": "iron thorns"
-   },
-   {
-    "no": 1005,
-    "name": "轰鸣月",
-    "en": "roaring moon"
-   },
-   {
-    "no": 1006,
-    "name": "铁武者",
-    "en": "iron valiant"
-   },
-   {
-    "no": 1009,
-    "name": "波荡水",
-    "en": "walking wake"
-   },
-   {
-    "no": 1010,
-    "name": "铁斑叶",
-    "en": "iron leaves"
-   },
-   {
-    "no": 1020,
-    "name": "破空焰",
-    "en": "gouging fire"
-   },
-   {
-    "no": 1021,
-    "name": "猛雷鼓",
-    "en": "raging bolt"
-   },
-   {
-    "no": 1022,
-    "name": "铁磐岩",
-    "en": "iron boulder"
-   },
-   {
-    "no": 1023,
-    "name": "铁头壳",
-    "en": "iron crown"
    },
    {
     "no": 1026,
@@ -3670,7 +1173,7 @@
     "en": "gecqua"
    }
   ],
-  "SDS": [
+  "static-showdown-shiny": [
    {
     "no": 26,
     "name": "超级雷丘X",
@@ -3682,34 +1185,9 @@
     "en": "raichu-mega-y"
    },
    {
-    "no": 83,
-    "name": "大葱鸭",
-    "en": "farfetch'd"
-   },
-   {
-    "no": 83,
-    "name": "大葱鸭(伽勒尔)",
-    "en": "farfetch'd-galar"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶",
-    "en": "mr.mime"
-   },
-   {
-    "no": 122,
-    "name": "魔墙人偶(伽勒尔)",
-    "en": "mr.mime-galar"
-   },
-   {
     "no": 398,
     "name": "超级姆克鹰",
     "en": "staraptor-mega"
-   },
-   {
-    "no": 439,
-    "name": "魔尼尼",
-    "en": "mime jr."
    },
    {
     "no": 485,
@@ -3768,43 +1246,8 @@
    },
    {
     "no": 718,
-    "name": "基格尔德(10％形态)",
-    "en": "zygarde-10%"
-   },
-   {
-    "no": 718,
     "name": "超级基格尔德",
     "en": "zygarde-mega"
-   },
-   {
-    "no": 741,
-    "name": "花舞鸟(呼拉)",
-    "en": "oricorio-pa'u"
-   },
-   {
-    "no": 772,
-    "name": "属性：空",
-    "en": "type: null"
-   },
-   {
-    "no": 785,
-    "name": "卡璞・鸣鸣",
-    "en": "tapu koko"
-   },
-   {
-    "no": 786,
-    "name": "卡璞・蝶蝶",
-    "en": "tapu lele"
-   },
-   {
-    "no": 787,
-    "name": "卡璞・哞哞",
-    "en": "tapu bulu"
-   },
-   {
-    "no": 788,
-    "name": "卡璞・鳍鳍",
-    "en": "tapu fini"
    },
    {
     "no": 801,
@@ -3812,334 +1255,9 @@
     "en": "magearna-mega"
    },
    {
-    "no": 801,
-    "name": "超级玛机雅娜(500年前的颜色)",
-    "en": "magearna-original-mega"
-   },
-   {
     "no": 807,
     "name": "超级捷拉奥拉",
     "en": "zeraora-mega"
-   },
-   {
-    "no": 865,
-    "name": "葱游兵",
-    "en": "sirfetch'd"
-   },
-   {
-    "no": 866,
-    "name": "踏冰人偶",
-    "en": "mr.rime"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-love"
-   },
-   {
-    "no": 869,
-    "name": "爱心霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-love"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream"
-   },
-   {
-    "no": 869,
-    "name": "草莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "蝴蝶结霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-ribbon"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-flower"
-   },
-   {
-    "no": 869,
-    "name": "花朵霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-flower"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-berry"
-   },
-   {
-    "no": 869,
-    "name": "蓝莓霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-berry"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-star"
-   },
-   {
-    "no": 869,
-    "name": "星星霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-star"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-红钻综合",
-    "en": "alcremie-ruby-swirl-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-焦糖综合",
-    "en": "alcremie-caramel-swirl-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香薄荷",
-    "en": "alcremie-mint-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香红钻",
-    "en": "alcremie-ruby-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香抹茶",
-    "en": "alcremie-matcha-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香柠檬",
-    "en": "alcremie-lemon-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香香草",
-    "en": "alcremie-vanilla-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-奶香雪盐",
-    "en": "alcremie-salted-cream-clover"
-   },
-   {
-    "no": 869,
-    "name": "幸运草霜奶仙-三色综合",
-    "en": "alcremie-rainbow-swirl-clover"
    },
    {
     "no": 870,
@@ -4150,116 +1268,6 @@
     "no": 978,
     "name": "超级米立龙(上弓姿势)",
     "en": "tatsugiri-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(下垂姿势)",
-    "en": "tatsugiri-droopy-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(平挺姿势)",
-    "en": "tatsugiri-stretchy-mega"
-   },
-   {
-    "no": 984,
-    "name": "雄伟牙",
-    "en": "great tusk"
-   },
-   {
-    "no": 985,
-    "name": "吼叫尾",
-    "en": "scream tail"
-   },
-   {
-    "no": 986,
-    "name": "猛恶菇",
-    "en": "brute bonnet"
-   },
-   {
-    "no": 987,
-    "name": "振翼发",
-    "en": "flutter mane"
-   },
-   {
-    "no": 988,
-    "name": "爬地翅",
-    "en": "slither wing"
-   },
-   {
-    "no": 989,
-    "name": "沙铁皮",
-    "en": "sandy shocks"
-   },
-   {
-    "no": 990,
-    "name": "铁辙迹",
-    "en": "iron treads"
-   },
-   {
-    "no": 991,
-    "name": "铁包袱",
-    "en": "iron bundle"
-   },
-   {
-    "no": 992,
-    "name": "铁臂膀",
-    "en": "iron hands"
-   },
-   {
-    "no": 993,
-    "name": "铁脖颈",
-    "en": "iron jugulis"
-   },
-   {
-    "no": 994,
-    "name": "铁毒蛾",
-    "en": "iron moth"
-   },
-   {
-    "no": 995,
-    "name": "铁荆棘",
-    "en": "iron thorns"
-   },
-   {
-    "no": 1005,
-    "name": "轰鸣月",
-    "en": "roaring moon"
-   },
-   {
-    "no": 1006,
-    "name": "铁武者",
-    "en": "iron valiant"
-   },
-   {
-    "no": 1009,
-    "name": "波荡水",
-    "en": "walking wake"
-   },
-   {
-    "no": 1010,
-    "name": "铁斑叶",
-    "en": "iron leaves"
-   },
-   {
-    "no": 1020,
-    "name": "破空焰",
-    "en": "gouging fire"
-   },
-   {
-    "no": 1021,
-    "name": "猛雷鼓",
-    "en": "raging bolt"
-   },
-   {
-    "no": 1022,
-    "name": "铁磐岩",
-    "en": "iron boulder"
-   },
-   {
-    "no": 1023,
-    "name": "铁头壳",
-    "en": "iron crown"
    },
    {
     "no": 1026,
@@ -4276,6 +1284,1789 @@
     "name": "妙澪儿",
     "en": "gecqua"
    }
+  ]
+ },
+ "noImageAtAll": [],
+ "noImageAtAllCount": 0,
+ "extraFilesNotInDex": {
+  "animated-pokeos-normal": [
+   "778-busted",
+   "800-dawn",
+   "800-dusk",
+   "849-gmax",
+   "keldeo-resolute",
+   "ogerpon-cornerstone-mask",
+   "ogerpon-hearthflame-mask",
+   "ogerpon-wellspring-mask"
+  ],
+  "animated-pokeos-shiny": [
+   "778-busted",
+   "800-dawn",
+   "800-dusk",
+   "849-gmax",
+   "keldeo-resolute",
+   "ogerpon-cornerstone-mask",
+   "ogerpon-hearthflame-mask",
+   "ogerpon-wellspring-mask"
+  ],
+  "animated-showdown-normal": [
+   "abomasnow-f",
+   "aipom-f",
+   "alcremie-caramel-swirl-berry",
+   "alcremie-caramel-swirl-clover",
+   "alcremie-caramel-swirl-flower",
+   "alcremie-caramel-swirl-love",
+   "alcremie-caramel-swirl-ribbon",
+   "alcremie-caramel-swirl-star",
+   "alcremie-caramelswirl",
+   "alcremie-caramelswirl-berry",
+   "alcremie-caramelswirl-clover",
+   "alcremie-caramelswirl-flower",
+   "alcremie-caramelswirl-love",
+   "alcremie-caramelswirl-ribbon",
+   "alcremie-caramelswirl-star",
+   "alcremie-lemon-cream-berry",
+   "alcremie-lemon-cream-clover",
+   "alcremie-lemon-cream-flower",
+   "alcremie-lemon-cream-love",
+   "alcremie-lemon-cream-ribbon",
+   "alcremie-lemon-cream-star",
+   "alcremie-lemoncream",
+   "alcremie-lemoncream-berry",
+   "alcremie-lemoncream-clover",
+   "alcremie-lemoncream-flower",
+   "alcremie-lemoncream-love",
+   "alcremie-lemoncream-ribbon",
+   "alcremie-lemoncream-star",
+   "alcremie-matcha-cream-berry",
+   "alcremie-matcha-cream-clover",
+   "alcremie-matcha-cream-flower",
+   "alcremie-matcha-cream-love",
+   "alcremie-matcha-cream-ribbon",
+   "alcremie-matcha-cream-star",
+   "alcremie-matchacream",
+   "alcremie-matchacream-berry",
+   "alcremie-matchacream-clover",
+   "alcremie-matchacream-flower",
+   "alcremie-matchacream-love",
+   "alcremie-matchacream-ribbon",
+   "alcremie-matchacream-star",
+   "alcremie-mint-cream-berry",
+   "alcremie-mint-cream-clover",
+   "alcremie-mint-cream-flower",
+   "alcremie-mint-cream-love",
+   "alcremie-mint-cream-ribbon",
+   "alcremie-mint-cream-star",
+   "alcremie-mintcream",
+   "alcremie-mintcream-berry",
+   "alcremie-mintcream-clover",
+   "alcremie-mintcream-flower",
+   "alcremie-mintcream-love",
+   "alcremie-mintcream-ribbon",
+   "alcremie-mintcream-star",
+   "alcremie-rainbow-swirl-berry",
+   "alcremie-rainbow-swirl-clover",
+   "alcremie-rainbow-swirl-flower",
+   "alcremie-rainbow-swirl-love",
+   "alcremie-rainbow-swirl-ribbon",
+   "alcremie-rainbow-swirl-star",
+   "alcremie-rainbowswirl",
+   "alcremie-rainbowswirl-berry",
+   "alcremie-rainbowswirl-clover",
+   "alcremie-rainbowswirl-flower",
+   "alcremie-rainbowswirl-love",
+   "alcremie-rainbowswirl-ribbon",
+   "alcremie-rainbowswirl-star",
+   "alcremie-ruby-cream-berry",
+   "alcremie-ruby-cream-clover",
+   "alcremie-ruby-cream-flower",
+   "alcremie-ruby-cream-love",
+   "alcremie-ruby-cream-ribbon",
+   "alcremie-ruby-cream-star",
+   "alcremie-ruby-swirl-berry",
+   "alcremie-ruby-swirl-clover",
+   "alcremie-ruby-swirl-flower",
+   "alcremie-ruby-swirl-love",
+   "alcremie-ruby-swirl-ribbon",
+   "alcremie-ruby-swirl-star",
+   "alcremie-rubycream",
+   "alcremie-rubycream-berry",
+   "alcremie-rubycream-clover",
+   "alcremie-rubycream-flower",
+   "alcremie-rubycream-love",
+   "alcremie-rubycream-ribbon",
+   "alcremie-rubycream-star",
+   "alcremie-rubyswirl",
+   "alcremie-rubyswirl-berry",
+   "alcremie-rubyswirl-clover",
+   "alcremie-rubyswirl-flower",
+   "alcremie-rubyswirl-love",
+   "alcremie-rubyswirl-ribbon",
+   "alcremie-rubyswirl-star",
+   "alcremie-salted-cream-berry",
+   "alcremie-salted-cream-clover",
+   "alcremie-salted-cream-flower",
+   "alcremie-salted-cream-love",
+   "alcremie-salted-cream-ribbon",
+   "alcremie-salted-cream-star",
+   "alcremie-saltedcream",
+   "alcremie-saltedcream-berry",
+   "alcremie-saltedcream-clover",
+   "alcremie-saltedcream-flower",
+   "alcremie-saltedcream-love",
+   "alcremie-saltedcream-ribbon",
+   "alcremie-saltedcream-star",
+   "alcremie-vanilla-cream-berry",
+   "alcremie-vanilla-cream-clover",
+   "alcremie-vanilla-cream-flower",
+   "alcremie-vanilla-cream-love",
+   "alcremie-vanilla-cream-ribbon",
+   "alcremie-vanilla-cream-star",
+   "alcremie-vanillacream-berry",
+   "alcremie-vanillacream-clover",
+   "alcremie-vanillacream-flower",
+   "alcremie-vanillacream-love",
+   "alcremie-vanillacream-ribbon",
+   "alcremie-vanillacream-star",
+   "ambipom-f",
+   "araquanid-totem",
+   "arceus-bug",
+   "arceus-dark",
+   "arceus-dragon",
+   "arceus-electric",
+   "arceus-fairy",
+   "arceus-fighting",
+   "arceus-fire",
+   "arceus-flying",
+   "arceus-ghost",
+   "arceus-grass",
+   "arceus-ground",
+   "arceus-ice",
+   "arceus-poison",
+   "arceus-psychic",
+   "arceus-rock",
+   "arceus-steel",
+   "arceus-water",
+   "astrolotl",
+   "aurumoth",
+   "barboarch",
+   "basculin",
+   "beautifly-f",
+   "bibarel-f",
+   "bidoof-f",
+   "blaziken-f",
+   "buizel-f",
+   "burmy-sandy",
+   "burmy-trash",
+   "cacturne-f",
+   "camerupt-f",
+   "camperupt-mega",
+   "caribolt",
+   "cawmodore",
+   "cherrim-sunshine",
+   "chromera",
+   "colossoil",
+   "colossoil-f",
+   "combee-f",
+   "combusken-f",
+   "cramorant-gorging",
+   "cramorant-gulping",
+   "croagunk-f",
+   "crucibelle",
+   "crucibelle-mega",
+   "deerling-autumn",
+   "deerling-summer",
+   "deerling-winter",
+   "donphan-f",
+   "dustox-f",
+   "eevee-starter",
+   "equilibra",
+   "fidgit",
+   "finneon-f",
+   "flabebe-blue",
+   "flabebe-orange",
+   "flabebe-white",
+   "flabebe-yellow",
+   "floatzel-f",
+   "floette-blue",
+   "floette-orange",
+   "floette-white",
+   "floette-yellow",
+   "florges-blue",
+   "florges-orange",
+   "florges-white",
+   "florges-yellow",
+   "frillish-f",
+   "furfrou-dandy",
+   "furfrou-debutante",
+   "furfrou-diamond",
+   "furfrou-heart",
+   "furfrou-kabuki",
+   "furfrou-lareine",
+   "furfrou-matron",
+   "furfrou-pharaoh",
+   "furfrou-star",
+   "gabite-f",
+   "garchomp-f",
+   "genesect-burn",
+   "genesect-chill",
+   "genesect-douse",
+   "genesect-shock",
+   "gible-f",
+   "girafarig-f",
+   "gligar-f",
+   "golbat-f",
+   "gulpin-f",
+   "gumshoos-totem",
+   "heracross-f",
+   "hippopotas-f",
+   "hippowdon-f",
+   "hoopa-mega",
+   "houndoom-f",
+   "jellicent-f",
+   "jumbao",
+   "justyke",
+   "keldeo-resolute",
+   "kerfluffle",
+   "kerfluffle-f",
+   "kitsunoh",
+   "kitsunoh-f",
+   "kommoo-totem",
+   "kricketot-f",
+   "kricketune-f",
+   "krilowatt",
+   "ledian-f",
+   "ledyba-f",
+   "ludicolo-f",
+   "lumineon-f",
+   "lurantis-totem",
+   "luxio-f",
+   "luxray-f",
+   "magikarp-f",
+   "malaconda",
+   "mamoswine-f",
+   "marowak-alolatotem",
+   "marowak-totem",
+   "medicham-f",
+   "meditite-f",
+   "meganium-f",
+   "meowstic-fmega",
+   "meowstic-mmega",
+   "miasmaw",
+   "milotic-f",
+   "mimikyu-busted",
+   "mimikyu-bustedtotem",
+   "mimikyu-totem",
+   "minior-blue",
+   "minior-green",
+   "minior-indigo",
+   "minior-meteor",
+   "minior-orange",
+   "minior-violet",
+   "minior-yellow",
+   "mollux",
+   "mumbao",
+   "murkrow-f",
+   "naviathan",
+   "necturna",
+   "nidoran",
+   "numel-f",
+   "nuzleaf-f",
+   "octillery-f",
+   "pachirisu-f",
+   "pajantom",
+   "pikachu-belle",
+   "pikachu-cosplay",
+   "pikachu-f",
+   "pikachu-libre",
+   "pikachu-phd",
+   "pikachu-pop-star",
+   "pikachu-popstar",
+   "pikachu-rockstar",
+   "pikachu-starter",
+   "pikachu-starter-f",
+   "piloswine-f",
+   "plasmanta",
+   "pluffle",
+   "pokestarblackbelt",
+   "pokestarblackdoor",
+   "pokestarbrycenman",
+   "pokestarf00",
+   "pokestarf002",
+   "pokestargiant",
+   "pokestarhumanoid",
+   "pokestarmonster",
+   "pokestarmt",
+   "pokestarmt2",
+   "pokestarsmeargle",
+   "pokestarspirit",
+   "pokestartransport",
+   "pokestarufo",
+   "pokestarufo-2",
+   "pokestarufo2",
+   "pokestarwhitedoor",
+   "politoed-f",
+   "poltchageist-artisan",
+   "polteageist-antique",
+   "protowatt",
+   "protowatt-f",
+   "pyroak",
+   "pyroar-f",
+   "quagsire-f",
+   "raticate-alolatotem",
+   "raticate-f",
+   "raticate-totem-a",
+   "rattata-f",
+   "relicanth-f",
+   "rhydon-f",
+   "rhyperior-f",
+   "roselia-f",
+   "roserade-f",
+   "rotom-h",
+   "rotom-s",
+   "rotom-w",
+   "salazzle-totem",
+   "sawsbuck-autumn",
+   "sawsbuck-summer",
+   "sawsbuck-winter",
+   "scizor-f",
+   "scratchet",
+   "scyther-f",
+   "shapedo-mega",
+   "shiftry-f",
+   "shinx-f",
+   "silvally-bug",
+   "silvally-dark",
+   "silvally-dragon",
+   "silvally-electric",
+   "silvally-fairy",
+   "silvally-fighting",
+   "silvally-fire",
+   "silvally-flying",
+   "silvally-ghost",
+   "silvally-grass",
+   "silvally-ground",
+   "silvally-ice",
+   "silvally-poison",
+   "silvally-psychic",
+   "silvally-rock",
+   "silvally-steel",
+   "silvally-water",
+   "sinistcha-masterpiece",
+   "sinistea-antique",
+   "smogecko",
+   "smoguana",
+   "smokomodo",
+   "snaelstrom",
+   "sneasel-f",
+   "sneasel-hisui-f",
+   "snornut",
+   "snover-f",
+   "staraptor-f",
+   "staravia-f",
+   "starly-f",
+   "steelix-f",
+   "stratagem",
+   "substitute",
+   "sudowoodo-f",
+   "swalot-f",
+   "tangrowth-f",
+   "togedemaru-totem",
+   "tomohawk",
+   "torchic-f",
+   "toxicroak-f",
+   "tyrantum",
+   "unown-b",
+   "unown-c",
+   "unown-d",
+   "unown-e",
+   "unown-exclamation",
+   "unown-f",
+   "unown-g",
+   "unown-h",
+   "unown-i",
+   "unown-j",
+   "unown-k",
+   "unown-l",
+   "unown-m",
+   "unown-n",
+   "unown-o",
+   "unown-p",
+   "unown-q",
+   "unown-question",
+   "unown-r",
+   "unown-s",
+   "unown-t",
+   "unown-u",
+   "unown-v",
+   "unown-w",
+   "unown-x",
+   "unown-y",
+   "unown-z",
+   "ursaring-f",
+   "vikavolt-totem",
+   "vivillon-archipelago",
+   "vivillon-continental",
+   "vivillon-elegant",
+   "vivillon-fancy",
+   "vivillon-garden",
+   "vivillon-highplains",
+   "vivillon-icysnow",
+   "vivillon-jungle",
+   "vivillon-marine",
+   "vivillon-modern",
+   "vivillon-monsoon",
+   "vivillon-ocean",
+   "vivillon-pokeball",
+   "vivillon-polar",
+   "vivillon-river",
+   "vivillon-sandstorm",
+   "vivillon-savanna",
+   "vivillon-sun",
+   "vivillon-tundra",
+   "volkraken",
+   "voodoom",
+   "voodoom-f",
+   "weavile-f",
+   "wobbuffet-f",
+   "wooper-f",
+   "xatu-f",
+   "xerneas-neutral",
+   "zarude-dada",
+   "zubat-f"
+  ],
+  "animated-showdown-shiny": [
+   "abomasnow-f",
+   "aipom-f",
+   "alcremie-caramel-swirl-berry",
+   "alcremie-caramel-swirl-clover",
+   "alcremie-caramel-swirl-flower",
+   "alcremie-caramel-swirl-love",
+   "alcremie-caramel-swirl-ribbon",
+   "alcremie-caramel-swirl-star",
+   "alcremie-caramelswirl",
+   "alcremie-caramelswirl-berry",
+   "alcremie-caramelswirl-clover",
+   "alcremie-caramelswirl-flower",
+   "alcremie-caramelswirl-love",
+   "alcremie-caramelswirl-ribbon",
+   "alcremie-caramelswirl-star",
+   "alcremie-lemon-cream-berry",
+   "alcremie-lemon-cream-clover",
+   "alcremie-lemon-cream-flower",
+   "alcremie-lemon-cream-love",
+   "alcremie-lemon-cream-ribbon",
+   "alcremie-lemon-cream-star",
+   "alcremie-lemoncream",
+   "alcremie-lemoncream-berry",
+   "alcremie-lemoncream-clover",
+   "alcremie-lemoncream-flower",
+   "alcremie-lemoncream-love",
+   "alcremie-lemoncream-ribbon",
+   "alcremie-lemoncream-star",
+   "alcremie-matcha-cream-berry",
+   "alcremie-matcha-cream-clover",
+   "alcremie-matcha-cream-flower",
+   "alcremie-matcha-cream-love",
+   "alcremie-matcha-cream-ribbon",
+   "alcremie-matcha-cream-star",
+   "alcremie-matchacream",
+   "alcremie-matchacream-berry",
+   "alcremie-matchacream-clover",
+   "alcremie-matchacream-flower",
+   "alcremie-matchacream-love",
+   "alcremie-matchacream-ribbon",
+   "alcremie-matchacream-star",
+   "alcremie-mint-cream-berry",
+   "alcremie-mint-cream-clover",
+   "alcremie-mint-cream-flower",
+   "alcremie-mint-cream-love",
+   "alcremie-mint-cream-ribbon",
+   "alcremie-mint-cream-star",
+   "alcremie-mintcream",
+   "alcremie-mintcream-berry",
+   "alcremie-mintcream-clover",
+   "alcremie-mintcream-flower",
+   "alcremie-mintcream-love",
+   "alcremie-mintcream-ribbon",
+   "alcremie-mintcream-star",
+   "alcremie-rainbow-swirl-berry",
+   "alcremie-rainbow-swirl-clover",
+   "alcremie-rainbow-swirl-flower",
+   "alcremie-rainbow-swirl-love",
+   "alcremie-rainbow-swirl-ribbon",
+   "alcremie-rainbow-swirl-star",
+   "alcremie-rainbowswirl",
+   "alcremie-rainbowswirl-berry",
+   "alcremie-rainbowswirl-clover",
+   "alcremie-rainbowswirl-flower",
+   "alcremie-rainbowswirl-love",
+   "alcremie-rainbowswirl-ribbon",
+   "alcremie-rainbowswirl-star",
+   "alcremie-ruby-cream-berry",
+   "alcremie-ruby-cream-clover",
+   "alcremie-ruby-cream-flower",
+   "alcremie-ruby-cream-love",
+   "alcremie-ruby-cream-ribbon",
+   "alcremie-ruby-cream-star",
+   "alcremie-ruby-swirl-berry",
+   "alcremie-ruby-swirl-clover",
+   "alcremie-ruby-swirl-flower",
+   "alcremie-ruby-swirl-love",
+   "alcremie-ruby-swirl-ribbon",
+   "alcremie-ruby-swirl-star",
+   "alcremie-rubycream",
+   "alcremie-rubycream-berry",
+   "alcremie-rubycream-clover",
+   "alcremie-rubycream-flower",
+   "alcremie-rubycream-love",
+   "alcremie-rubycream-ribbon",
+   "alcremie-rubycream-star",
+   "alcremie-rubyswirl",
+   "alcremie-rubyswirl-berry",
+   "alcremie-rubyswirl-clover",
+   "alcremie-rubyswirl-flower",
+   "alcremie-rubyswirl-love",
+   "alcremie-rubyswirl-ribbon",
+   "alcremie-rubyswirl-star",
+   "alcremie-salted-cream-berry",
+   "alcremie-salted-cream-clover",
+   "alcremie-salted-cream-flower",
+   "alcremie-salted-cream-love",
+   "alcremie-salted-cream-ribbon",
+   "alcremie-salted-cream-star",
+   "alcremie-saltedcream",
+   "alcremie-saltedcream-berry",
+   "alcremie-saltedcream-clover",
+   "alcremie-saltedcream-flower",
+   "alcremie-saltedcream-love",
+   "alcremie-saltedcream-ribbon",
+   "alcremie-saltedcream-star",
+   "alcremie-vanilla-cream-berry",
+   "alcremie-vanilla-cream-clover",
+   "alcremie-vanilla-cream-flower",
+   "alcremie-vanilla-cream-love",
+   "alcremie-vanilla-cream-ribbon",
+   "alcremie-vanilla-cream-star",
+   "alcremie-vanillacream-berry",
+   "alcremie-vanillacream-clover",
+   "alcremie-vanillacream-flower",
+   "alcremie-vanillacream-love",
+   "alcremie-vanillacream-ribbon",
+   "alcremie-vanillacream-star",
+   "ambipom-f",
+   "araquanid-totem",
+   "arceus-bug",
+   "arceus-dark",
+   "arceus-dragon",
+   "arceus-electric",
+   "arceus-fairy",
+   "arceus-fighting",
+   "arceus-fire",
+   "arceus-flying",
+   "arceus-ghost",
+   "arceus-grass",
+   "arceus-ground",
+   "arceus-ice",
+   "arceus-poison",
+   "arceus-psychic",
+   "arceus-rock",
+   "arceus-steel",
+   "arceus-water",
+   "astrolotl",
+   "aurumoth",
+   "basculin",
+   "beautifly-f",
+   "bibarel-f",
+   "bidoof-f",
+   "blaziken-f",
+   "buizel-f",
+   "burmy-sandy",
+   "burmy-trash",
+   "cacturne-f",
+   "camerupt-f",
+   "camperupt-mega",
+   "caribolt",
+   "cawmodore",
+   "cherrim-sunshine",
+   "chromera",
+   "colossoil",
+   "colossoil-f",
+   "combee-f",
+   "combusken-f",
+   "cramorant-gorging",
+   "cramorant-gulping",
+   "croagunk-f",
+   "crucibelle",
+   "crucibelle-mega",
+   "deerling-autumn",
+   "deerling-summer",
+   "deerling-winter",
+   "donphan-f",
+   "dustox-f",
+   "equilibra",
+   "fidgit",
+   "finneon-f",
+   "flabebe-blue",
+   "flabebe-orange",
+   "flabebe-white",
+   "flabebe-yellow",
+   "floatzel-f",
+   "floette-blue",
+   "floette-eternal-l",
+   "floette-orange",
+   "floette-white",
+   "floette-yellow",
+   "florges-blue",
+   "florges-orange",
+   "florges-white",
+   "florges-yellow",
+   "frillish-f",
+   "furfrou-dandy",
+   "furfrou-debutante",
+   "furfrou-diamond",
+   "furfrou-heart",
+   "furfrou-kabuki",
+   "furfrou-lareine",
+   "furfrou-matron",
+   "furfrou-pharaoh",
+   "furfrou-star",
+   "gabite-f",
+   "garchomp-f",
+   "genesect-burn",
+   "genesect-chill",
+   "genesect-douse",
+   "genesect-shock",
+   "gible-f",
+   "girafarig-f",
+   "gligar-f",
+   "golbat-f",
+   "gulpin-f",
+   "gumshoos-totem",
+   "heracross-f",
+   "hippopotas-f",
+   "hippowdon-f",
+   "hoopa-mega",
+   "houndoom-f",
+   "jellicent-f",
+   "jumbao",
+   "justyke",
+   "keldeo-resolute",
+   "kerfluffle",
+   "kerfluffle-f",
+   "kitsunoh",
+   "kitsunoh-f",
+   "kommoo-totem",
+   "kricketot-f",
+   "kricketune-f",
+   "krilowatt",
+   "ledian-f",
+   "ledyba-f",
+   "ludicolo-f",
+   "lumineon-f",
+   "lurantis-totem",
+   "luxio-f",
+   "luxray-f",
+   "magikarp-f",
+   "malaconda",
+   "mamoswine-f",
+   "marowak-alolatotem",
+   "marowak-totem",
+   "medicham-f",
+   "meditite-f",
+   "meganium-f",
+   "miasmaw",
+   "milotic-f",
+   "mimikyu-busted",
+   "mimikyu-bustedtotem",
+   "mimikyu-totem",
+   "minior-blue",
+   "minior-green",
+   "minior-indigo",
+   "minior-meteor",
+   "minior-orange",
+   "minior-violet",
+   "minior-yellow",
+   "mollux",
+   "mr._mime",
+   "mumbao",
+   "murkrow-f",
+   "naviathan",
+   "necturna",
+   "nidoran_f",
+   "nidoran_m",
+   "numel-f",
+   "nuzleaf-f",
+   "octillery-f",
+   "pachirisu-f",
+   "pajantom",
+   "pikachu-alolacap",
+   "pikachu-belle",
+   "pikachu-cosplay",
+   "pikachu-f",
+   "pikachu-hoenncap",
+   "pikachu-kaloscap",
+   "pikachu-kantocap",
+   "pikachu-libre",
+   "pikachu-phd",
+   "pikachu-popstar",
+   "pikachu-rockstar",
+   "pikachu-rockstar-",
+   "pikachu-sinnohcap",
+   "pikachu-unovacap",
+   "piloswine-f",
+   "plasmanta",
+   "pluffle",
+   "politoed-f",
+   "poltchageist-artisan",
+   "polteageist-antique",
+   "protowatt",
+   "protowatt-f",
+   "pyroak",
+   "pyroar-f",
+   "quagsire-f",
+   "raticate-alolatotem",
+   "raticate-f",
+   "raticate-totem",
+   "rattata-f",
+   "relicanth-f",
+   "rhydon-f",
+   "rhyperior-f",
+   "ribombee-totem",
+   "roselia-f",
+   "roserade-f",
+   "salazzle-f",
+   "salazzle-totem",
+   "sawsbuck-autumn",
+   "sawsbuck-summer",
+   "sawsbuck-winter",
+   "scizor-f",
+   "scratchet",
+   "scyther-f",
+   "shapedo-mega",
+   "shiftry-f",
+   "shinx-f",
+   "silvally-bug",
+   "silvally-dark",
+   "silvally-dragon",
+   "silvally-electric",
+   "silvally-fairy",
+   "silvally-fighting",
+   "silvally-fire",
+   "silvally-flying",
+   "silvally-ghost",
+   "silvally-grass",
+   "silvally-ground",
+   "silvally-ice",
+   "silvally-poison",
+   "silvally-psychic",
+   "silvally-rock",
+   "silvally-steel",
+   "silvally-water",
+   "sinistcha-masterpiece",
+   "sinistea-antique",
+   "smogecko",
+   "smoguana",
+   "smokomodo",
+   "snaelstrom",
+   "sneasel-f",
+   "sneasel-hisui-f",
+   "snover-f",
+   "staraptor-f",
+   "staravia-f",
+   "starly-f",
+   "steelix-f",
+   "stratagem",
+   "sudowoodo-f",
+   "swalot-f",
+   "tangrowth-f",
+   "togedemaru-totem",
+   "tomohawk",
+   "torchic-f",
+   "toxicroak-f",
+   "tyrantum",
+   "unown-%21",
+   "unown-L",
+   "unown-a",
+   "unown-b",
+   "unown-c",
+   "unown-d",
+   "unown-e",
+   "unown-exclamation",
+   "unown-f",
+   "unown-g",
+   "unown-h",
+   "unown-i",
+   "unown-j",
+   "unown-k",
+   "unown-l",
+   "unown-m",
+   "unown-n",
+   "unown-o",
+   "unown-p",
+   "unown-q",
+   "unown-question",
+   "unown-r",
+   "unown-s",
+   "unown-t",
+   "unown-u",
+   "unown-v",
+   "unown-w",
+   "unown-x",
+   "unown-y",
+   "unown-z",
+   "ursaring-f",
+   "vikavolt-totem",
+   "vivillon-archipelago",
+   "vivillon-continental",
+   "vivillon-elegant",
+   "vivillon-fancy",
+   "vivillon-garden",
+   "vivillon-highplains",
+   "vivillon-icysnow",
+   "vivillon-jungle",
+   "vivillon-marine",
+   "vivillon-meadow",
+   "vivillon-modern",
+   "vivillon-monsoon",
+   "vivillon-ocean",
+   "vivillon-pokeball",
+   "vivillon-polar",
+   "vivillon-river",
+   "vivillon-sandstorm",
+   "vivillon-savanna",
+   "vivillon-sun",
+   "vivillon-tundra",
+   "volkraken",
+   "voodoom",
+   "voodoom-f",
+   "weavile-f",
+   "wobbuffet-f",
+   "wooper-f",
+   "xatu-f",
+   "xerneas-active",
+   "xerneas-neutral",
+   "zarude-dada",
+   "zubat-f"
+  ],
+  "static-pokeos-normal": [
+   "alcremie-caramel-swirl",
+   "alcremie-caramel-swirl-berry",
+   "alcremie-caramel-swirl-clover",
+   "alcremie-caramel-swirl-flower",
+   "alcremie-caramel-swirl-love",
+   "alcremie-caramel-swirl-ribbon",
+   "alcremie-caramel-swirl-star",
+   "alcremie-lemon-cream",
+   "alcremie-lemon-cream-berry",
+   "alcremie-lemon-cream-clover",
+   "alcremie-lemon-cream-flower",
+   "alcremie-lemon-cream-love",
+   "alcremie-lemon-cream-ribbon",
+   "alcremie-lemon-cream-star",
+   "alcremie-matcha-cream",
+   "alcremie-matcha-cream-berry",
+   "alcremie-matcha-cream-clover",
+   "alcremie-matcha-cream-flower",
+   "alcremie-matcha-cream-love",
+   "alcremie-matcha-cream-ribbon",
+   "alcremie-matcha-cream-star",
+   "alcremie-mint-cream",
+   "alcremie-mint-cream-berry",
+   "alcremie-mint-cream-clover",
+   "alcremie-mint-cream-flower",
+   "alcremie-mint-cream-love",
+   "alcremie-mint-cream-ribbon",
+   "alcremie-mint-cream-star",
+   "alcremie-rainbow-swirl",
+   "alcremie-rainbow-swirl-berry",
+   "alcremie-rainbow-swirl-clover",
+   "alcremie-rainbow-swirl-flower",
+   "alcremie-rainbow-swirl-love",
+   "alcremie-rainbow-swirl-ribbon",
+   "alcremie-rainbow-swirl-star",
+   "alcremie-ruby-cream",
+   "alcremie-ruby-cream-berry",
+   "alcremie-ruby-cream-clover",
+   "alcremie-ruby-cream-flower",
+   "alcremie-ruby-cream-love",
+   "alcremie-ruby-cream-ribbon",
+   "alcremie-ruby-cream-star",
+   "alcremie-ruby-swirl",
+   "alcremie-ruby-swirl-berry",
+   "alcremie-ruby-swirl-clover",
+   "alcremie-ruby-swirl-flower",
+   "alcremie-ruby-swirl-love",
+   "alcremie-ruby-swirl-ribbon",
+   "alcremie-ruby-swirl-star",
+   "alcremie-salted-cream",
+   "alcremie-salted-cream-berry",
+   "alcremie-salted-cream-clover",
+   "alcremie-salted-cream-flower",
+   "alcremie-salted-cream-love",
+   "alcremie-salted-cream-ribbon",
+   "alcremie-salted-cream-star",
+   "alcremie-vanilla-cream-berry",
+   "alcremie-vanilla-cream-clover",
+   "alcremie-vanilla-cream-flower",
+   "alcremie-vanilla-cream-love",
+   "alcremie-vanilla-cream-ribbon",
+   "alcremie-vanilla-cream-star",
+   "darmanitan-galar-standard",
+   "dudunsparce-three-segment",
+   "keldeo-resolute",
+   "koraidon-gliding-build",
+   "koraidon-limited-build",
+   "koraidon-sprinting-build",
+   "koraidon-swimming-build",
+   "mimikyu-busted",
+   "minior-blue",
+   "minior-green",
+   "minior-indigo",
+   "minior-orange",
+   "minior-red",
+   "minior-violet",
+   "minior-yellow",
+   "miraidon-aquatic-mode",
+   "miraidon-drive-mode",
+   "miraidon-glide-mode",
+   "miraidon-low-power-mode",
+   "necrozma-dawn",
+   "necrozma-dusk",
+   "ogerpon-cornerstone-mask",
+   "ogerpon-hearthflame-mask",
+   "ogerpon-wellspring-mask",
+   "pikachu-alola-cap",
+   "pikachu-belle",
+   "pikachu-cosplay",
+   "pikachu-hoenn-cap",
+   "pikachu-kalos-cap",
+   "pikachu-libre",
+   "pikachu-original-cap",
+   "pikachu-partner-cap",
+   "pikachu-phd",
+   "pikachu-pop-star",
+   "pikachu-rock-star",
+   "pikachu-sinnoh-cap",
+   "pikachu-unova-cap",
+   "pikachu-world-cap",
+   "squawkabilly-blue-plumage",
+   "squawkabilly-white-plumage",
+   "squawkabilly-yellow-plumage",
+   "tauros-paldea-aqua-breed",
+   "tauros-paldea-blaze-breed",
+   "tauros-paldea-combat-breed",
+   "toxtricity-amped-gmax",
+   "urshifu-single-strike-gmax",
+   "zygarde-10-power-construct",
+   "zygarde-50-power-construct"
+  ],
+  "static-pokeos-shiny": [
+   "alcremie-vanilla-cream-berry",
+   "alcremie-vanilla-cream-clover",
+   "alcremie-vanilla-cream-flower",
+   "alcremie-vanilla-cream-love",
+   "alcremie-vanilla-cream-ribbon",
+   "alcremie-vanilla-cream-star",
+   "darmanitan-galar-standard",
+   "dudunsparce-three-segment",
+   "keldeo-resolute",
+   "koraidon-gliding-build",
+   "koraidon-limited-build",
+   "koraidon-sprinting-build",
+   "koraidon-swimming-build",
+   "mimikyu-busted",
+   "minior-red",
+   "miraidon-aquatic-mode",
+   "miraidon-drive-mode",
+   "miraidon-low-power-mode",
+   "necrozma-dawn",
+   "necrozma-dusk",
+   "ogerpon-cornerstone-mask",
+   "ogerpon-hearthflame-mask",
+   "ogerpon-wellspring-mask",
+   "pikachu-belle",
+   "pikachu-cosplay",
+   "pikachu-libre",
+   "pikachu-phd",
+   "pikachu-pop-star",
+   "pikachu-rock-star",
+   "squawkabilly-blue-plumage",
+   "squawkabilly-white-plumage",
+   "squawkabilly-yellow-plumage",
+   "tauros-paldea-aqua-breed",
+   "tauros-paldea-blaze-breed",
+   "tauros-paldea-combat-breed",
+   "toxtricity-amped-gmax",
+   "urshifu-single-strike-gmax",
+   "zygarde-10-power-construct",
+   "zygarde-50-power-construct"
+  ],
+  "static-showdown-normal": [
+   "0",
+   "ababo",
+   "abomasnow-f",
+   "aipom-f",
+   "alakazam-f",
+   "alcremie-caramelswirl",
+   "alcremie-lemoncream",
+   "alcremie-matchacream",
+   "alcremie-mintcream",
+   "alcremie-rainbowswirl",
+   "alcremie-rubycream",
+   "alcremie-rubyswirl",
+   "alcremie-saltedcream",
+   "ambipom-f",
+   "arceus-bug",
+   "arceus-dark",
+   "arceus-dragon",
+   "arceus-electric",
+   "arceus-fairy",
+   "arceus-fighting",
+   "arceus-fire",
+   "arceus-flying",
+   "arceus-ghost",
+   "arceus-grass",
+   "arceus-ground",
+   "arceus-ice",
+   "arceus-normal",
+   "arceus-poison",
+   "arceus-psychic",
+   "arceus-rock",
+   "arceus-steel",
+   "arceus-water",
+   "argalis",
+   "arghonaut",
+   "arghonaut-f",
+   "astrolotl",
+   "aurumoth",
+   "basculin",
+   "beautifly-f",
+   "bibarel-f",
+   "bidoof-f",
+   "blaziken-f",
+   "brattler",
+   "breezi",
+   "burmy-sandy",
+   "burmy-trash",
+   "butterfree-f",
+   "cacturne-f",
+   "caimanoe",
+   "camerupt-f",
+   "caribolt",
+   "cawdet",
+   "cawmodore",
+   "cherrim-sunshine",
+   "chromera",
+   "chuggalong",
+   "chuggon",
+   "colossoil",
+   "colossoil-f",
+   "combee-f",
+   "combusken-f",
+   "coribalis",
+   "cramorant-gorging",
+   "cramorant-gulping",
+   "cresceidon",
+   "croagunk-f",
+   "crucibelle",
+   "crucibelle-mega",
+   "cupra",
+   "cyclohm",
+   "cyclohm-f",
+   "deerling-autumn",
+   "deerling-summer",
+   "deerling-winter",
+   "dodrio-f",
+   "doduo-f",
+   "donphan-f",
+   "dorsoil",
+   "draggalong",
+   "duohm",
+   "dustox-f",
+   "eevee-starter",
+   "eevee-starter-f",
+   "egg",
+   "egg-manaphy",
+   "electrelk",
+   "embirch",
+   "equilibra",
+   "fawnifer",
+   "fidgit",
+   "fidgit-f",
+   "finneon-f",
+   "flabebe-blue",
+   "flabebe-orange",
+   "flabebe-white",
+   "flabebe-yellow",
+   "flarelm",
+   "flarelm-f",
+   "floatoy",
+   "floette-blue",
+   "floette-orange",
+   "floette-white",
+   "floette-yellow",
+   "florges-blue",
+   "florges-orange",
+   "florges-white",
+   "florges-yellow",
+   "flox",
+   "frillish-f",
+   "furfrou-dandy",
+   "furfrou-debutante",
+   "furfrou-diamond",
+   "furfrou-heart",
+   "furfrou-kabuki",
+   "furfrou-lareine",
+   "furfrou-matron",
+   "furfrou-pharaoh",
+   "furfrou-star",
+   "gabite-f",
+   "garchomp-f",
+   "genesect-burn",
+   "genesect-chill",
+   "genesect-douse",
+   "genesect-shock",
+   "gible-f",
+   "girafarig-f",
+   "giratina-altered",
+   "gligar-f",
+   "gloom-f",
+   "golbat-f",
+   "goldeen-f",
+   "gulpin-f",
+   "gyarados-f",
+   "hemogoblin",
+   "heracross-f",
+   "hippopotas-f",
+   "hippowdon-f",
+   "houndoom-f",
+   "hypno-f",
+   "jellicent-f",
+   "jumbao",
+   "justyke",
+   "kadabra-f",
+   "keldeo-resolute",
+   "kerfluffle",
+   "kerfluffle-f",
+   "kitsunoh",
+   "kitsunoh-f",
+   "kricketot-f",
+   "kricketune-f",
+   "krilowatt",
+   "krilowatt-f",
+   "ledian-f",
+   "ledyba-f",
+   "ludicolo-f",
+   "lumineon-f",
+   "luxio-f",
+   "luxray-f",
+   "magikarp-f",
+   "malaconda",
+   "mamoswine-f",
+   "medicham-f",
+   "meditite-f",
+   "meganium-f",
+   "meowstic-fmega",
+   "meowstic-mmega",
+   "miasmaw",
+   "miasmite",
+   "milotic-f",
+   "mimikyu-busted",
+   "minior-blue",
+   "minior-green",
+   "minior-indigo",
+   "minior-meteor",
+   "minior-orange",
+   "minior-violet",
+   "minior-yellow",
+   "missingno",
+   "mollux",
+   "monohm",
+   "mumbao",
+   "murkrow-f",
+   "naviathan",
+   "necturine",
+   "necturna",
+   "nohface",
+   "numel-f",
+   "nuzleaf-f",
+   "obliteryx",
+   "octillery-f",
+   "ogerpon-cornerstonetera",
+   "ogerpon-hearthflametera",
+   "ogerpon-tealtera",
+   "ogerpon-wellspringtera",
+   "pachirisu-f",
+   "pajantom",
+   "pichu-spikyeared",
+   "pikachu-belle",
+   "pikachu-cosplay",
+   "pikachu-f",
+   "pikachu-libre",
+   "pikachu-phd",
+   "pikachu-popstar",
+   "pikachu-rockstar",
+   "pikachu-starter",
+   "pikachu-starter-f",
+   "piloswine-f",
+   "plasmanta",
+   "pluffle",
+   "pokestarblackbelt",
+   "pokestarblackbelt-prop",
+   "pokestarblackdoor",
+   "pokestarblackdoor-prop",
+   "pokestarbrycenman",
+   "pokestarbrycenman-prop",
+   "pokestarf00",
+   "pokestarf00-prop",
+   "pokestarf002",
+   "pokestarf002-prop",
+   "pokestargiant",
+   "pokestargiant-2",
+   "pokestargiant-prop",
+   "pokestargiant2",
+   "pokestargiant2-prop",
+   "pokestarhumanoid",
+   "pokestarhumanoid-prop",
+   "pokestarmonster",
+   "pokestarmonster-prop",
+   "pokestarmt",
+   "pokestarmt-prop",
+   "pokestarmt2",
+   "pokestarmt2-prop",
+   "pokestarsmeargle",
+   "pokestarspirit",
+   "pokestarspirit-prop",
+   "pokestartransport",
+   "pokestartransport-prop",
+   "pokestarufo",
+   "pokestarufo-2",
+   "pokestarufo-prop",
+   "pokestarufo-propu2",
+   "pokestarufo2",
+   "pokestarufo2-prop",
+   "pokestarwhitedoor",
+   "pokestarwhitedoor-prop",
+   "politoed-f",
+   "poltchageist-artisan",
+   "polteageist-antique",
+   "privatyke",
+   "protowatt",
+   "protowatt-f",
+   "pyroak",
+   "pyroak-f",
+   "pyroar-f",
+   "quagsire-f",
+   "raichu-f",
+   "ramnarok",
+   "ramnarok-radiant",
+   "raticate-f",
+   "rattata-f",
+   "rebble",
+   "relicanth-f",
+   "revenankh",
+   "revenankh-f",
+   "rhydon-f",
+   "rhyhorn-f",
+   "rhyperior-f",
+   "roselia-f",
+   "roserade-f",
+   "saharaja",
+   "saharascal",
+   "sawsbuck-autumn",
+   "sawsbuck-summer",
+   "sawsbuck-winter",
+   "scattervein",
+   "scizor-f",
+   "scratchet",
+   "scratchet-f",
+   "scyther-f",
+   "seaking-f",
+   "shiftry-f",
+   "shinx-f",
+   "shox",
+   "silvally-bug",
+   "silvally-dark",
+   "silvally-dragon",
+   "silvally-electric",
+   "silvally-fairy",
+   "silvally-fighting",
+   "silvally-fire",
+   "silvally-flying",
+   "silvally-ghost",
+   "silvally-grass",
+   "silvally-ground",
+   "silvally-ice",
+   "silvally-poison",
+   "silvally-psychic",
+   "silvally-rock",
+   "silvally-steel",
+   "silvally-water",
+   "sinistcha-masterpiece",
+   "sinistea-antique",
+   "smogecko",
+   "smoguana",
+   "smokomodo",
+   "snaelstrom",
+   "sneasel-f",
+   "sneasel-hisui-f",
+   "snover-f",
+   "snugglow",
+   "solotl",
+   "staraptor-f",
+   "staravia-f",
+   "starly-f",
+   "steelix-f",
+   "stratagem",
+   "substitute",
+   "sudowoodo-f",
+   "swalot-f",
+   "swirlpool",
+   "syclant",
+   "syclant-f",
+   "syclar",
+   "tactite",
+   "tangrowth-f",
+   "tomohawk",
+   "tomohawk-f",
+   "toxicroak-f",
+   "unown-a",
+   "unown-b",
+   "unown-c",
+   "unown-d",
+   "unown-e",
+   "unown-em",
+   "unown-f",
+   "unown-g",
+   "unown-h",
+   "unown-i",
+   "unown-j",
+   "unown-k",
+   "unown-l",
+   "unown-m",
+   "unown-n",
+   "unown-o",
+   "unown-p",
+   "unown-q",
+   "unown-qm",
+   "unown-r",
+   "unown-s",
+   "unown-t",
+   "unown-u",
+   "unown-v",
+   "unown-w",
+   "unown-x",
+   "unown-y",
+   "unown-z",
+   "ursaring-f",
+   "venomicon",
+   "venomicon-epilogue",
+   "venusaur-f",
+   "vileplume-f",
+   "vivillon-archipelago",
+   "vivillon-continental",
+   "vivillon-elegant",
+   "vivillon-fancy",
+   "vivillon-garden",
+   "vivillon-highplains",
+   "vivillon-icysnow",
+   "vivillon-jungle",
+   "vivillon-marine",
+   "vivillon-modern",
+   "vivillon-monsoon",
+   "vivillon-ocean",
+   "vivillon-pokeball",
+   "vivillon-polar",
+   "vivillon-river",
+   "vivillon-sandstorm",
+   "vivillon-savanna",
+   "vivillon-sun",
+   "vivillon-tundra",
+   "volkraken",
+   "volkritter",
+   "voodoll",
+   "voodoom",
+   "voodoom-f",
+   "weavile-f",
+   "wobbuffet-f",
+   "wooper-f",
+   "xatu-f",
+   "xerneas-neutral",
+   "zarude-dada",
+   "zubat-f"
+  ],
+  "static-showdown-shiny": [
+   "ababo",
+   "abomasnow-f",
+   "aipom-f",
+   "alakazam-f",
+   "alcremie-caramelswirl",
+   "alcremie-lemoncream",
+   "alcremie-matchacream",
+   "alcremie-mintcream",
+   "alcremie-rainbowswirl",
+   "alcremie-rubycream",
+   "alcremie-rubyswirl",
+   "alcremie-saltedcream",
+   "ambipom-f",
+   "arceus-bug",
+   "arceus-dark",
+   "arceus-dragon",
+   "arceus-electric",
+   "arceus-fairy",
+   "arceus-fighting",
+   "arceus-fire",
+   "arceus-flying",
+   "arceus-ghost",
+   "arceus-grass",
+   "arceus-ground",
+   "arceus-ice",
+   "arceus-normal",
+   "arceus-poison",
+   "arceus-psychic",
+   "arceus-rock",
+   "arceus-steel",
+   "arceus-water",
+   "argalis",
+   "arghonaut",
+   "arghonaut-f",
+   "astrolotl",
+   "aurumoth",
+   "basculin",
+   "beautifly-f",
+   "bibarel-f",
+   "bidoof-f",
+   "blaziken-f",
+   "brattler",
+   "breezi",
+   "burmy-sandy",
+   "burmy-trash",
+   "butterfree-f",
+   "cacturne-f",
+   "caimanoe",
+   "camerupt-f",
+   "caribolt",
+   "cawdet",
+   "cawmodore",
+   "cherrim-sunshine",
+   "chromera",
+   "chuggalong",
+   "chuggon",
+   "colossoil",
+   "colossoil-f",
+   "combee-f",
+   "combusken-f",
+   "coribalis",
+   "cramorant-gorging",
+   "cramorant-gulping",
+   "cresceidon",
+   "croagunk-f",
+   "crucibelle",
+   "crucibelle-mega",
+   "cupra",
+   "cyclohm",
+   "cyclohm-f",
+   "deerling-autumn",
+   "deerling-summer",
+   "deerling-winter",
+   "dodrio-f",
+   "doduo-f",
+   "donphan-f",
+   "dorsoil",
+   "draggalong",
+   "duohm",
+   "dustox-f",
+   "eevee-starter",
+   "eevee-starter-f",
+   "egg",
+   "egg-manaphy",
+   "electrelk",
+   "embirch",
+   "equilibra",
+   "fawnifer",
+   "fidgit",
+   "fidgit-f",
+   "finneon-f",
+   "flabebe-blue",
+   "flabebe-orange",
+   "flabebe-white",
+   "flabebe-yellow",
+   "flarelm",
+   "flarelm-f",
+   "floatoy",
+   "floette-blue",
+   "floette-orange",
+   "floette-white",
+   "floette-yellow",
+   "florges-blue",
+   "florges-orange",
+   "florges-white",
+   "florges-yellow",
+   "flox",
+   "frillish-f",
+   "furfrou-dandy",
+   "furfrou-debutante",
+   "furfrou-diamond",
+   "furfrou-heart",
+   "furfrou-kabuki",
+   "furfrou-lareine",
+   "furfrou-matron",
+   "furfrou-pharaoh",
+   "furfrou-star",
+   "gabite-f",
+   "garchomp-f",
+   "genesect-burn",
+   "genesect-chill",
+   "genesect-douse",
+   "genesect-shock",
+   "gible-f",
+   "girafarig-f",
+   "giratina-altered",
+   "gligar-f",
+   "gloom-f",
+   "golbat-f",
+   "goldeen-f",
+   "gulpin-f",
+   "gyarados-f",
+   "hemogoblin",
+   "heracross-f",
+   "hippopotas-f",
+   "hippowdon-f",
+   "houndoom-f",
+   "hypno-f",
+   "jellicent-f",
+   "jumbao",
+   "justyke",
+   "kadabra-f",
+   "keldeo-resolute",
+   "kerfluffle",
+   "kerfluffle-f",
+   "kitsunoh",
+   "kitsunoh-f",
+   "kricketot-f",
+   "kricketune-f",
+   "krilowatt",
+   "krilowatt-f",
+   "ledian-f",
+   "ledyba-f",
+   "ludicolo-f",
+   "lumineon-f",
+   "luxio-f",
+   "luxray-f",
+   "magikarp-f",
+   "malaconda",
+   "mamoswine-f",
+   "medicham-f",
+   "meditite-f",
+   "meganium-f",
+   "meowstic-fmega",
+   "meowstic-mmega",
+   "miasmaw",
+   "miasmite",
+   "milotic-f",
+   "mimikyu-busted",
+   "minior-blue",
+   "minior-green",
+   "minior-indigo",
+   "minior-meteor",
+   "minior-orange",
+   "minior-violet",
+   "minior-yellow",
+   "mollux",
+   "monohm",
+   "mumbao",
+   "murkrow-f",
+   "naviathan",
+   "necturine",
+   "necturna",
+   "nohface",
+   "numel-f",
+   "nuzleaf-f",
+   "obliteryx",
+   "octillery-f",
+   "ogerpon-cornerstonetera",
+   "ogerpon-hearthflametera",
+   "ogerpon-teal",
+   "ogerpon-tealtera",
+   "ogerpon-wellspringtera",
+   "pachirisu-f",
+   "pajantom",
+   "pichu-spikyeared",
+   "pikachu-belle",
+   "pikachu-cosplay",
+   "pikachu-f",
+   "pikachu-libre",
+   "pikachu-phd",
+   "pikachu-popstar",
+   "pikachu-rockstar",
+   "pikachu-starter",
+   "pikachu-starter-f",
+   "piloswine-f",
+   "plasmanta",
+   "pluffle",
+   "pokestarblackbelt",
+   "pokestarblackdoor",
+   "pokestarbrycenman",
+   "pokestarf00",
+   "pokestarf002",
+   "pokestargiant",
+   "pokestarhumanoid",
+   "pokestarmonster",
+   "pokestarmt",
+   "pokestarmt2",
+   "pokestarsmeargle",
+   "pokestarspirit",
+   "pokestartransport",
+   "pokestarufo",
+   "pokestarufo2",
+   "pokestarwhitedoor",
+   "politoed-f",
+   "poltchageist-artisan",
+   "polteageist-antique",
+   "privatyke",
+   "protowatt",
+   "protowatt-f",
+   "pyroak",
+   "pyroak-f",
+   "pyroar-f",
+   "quagsire-f",
+   "raichu-f",
+   "ramnarok",
+   "ramnarok-radiant",
+   "raticate-f",
+   "rattata-f",
+   "rebble",
+   "relicanth-f",
+   "revenankh",
+   "revenankh-f",
+   "rhydon-f",
+   "rhyhorn-f",
+   "rhyperior-f",
+   "roselia-f",
+   "roserade-f",
+   "saharaja",
+   "saharascal",
+   "sawsbuck-autumn",
+   "sawsbuck-summer",
+   "sawsbuck-winter",
+   "scattervein",
+   "scizor-f",
+   "scratchet",
+   "scratchet-f",
+   "scyther-f",
+   "seaking-f",
+   "shiftry-f",
+   "shinx-f",
+   "shox",
+   "silvally-bug",
+   "silvally-dark",
+   "silvally-dragon",
+   "silvally-electric",
+   "silvally-fairy",
+   "silvally-fighting",
+   "silvally-fire",
+   "silvally-flying",
+   "silvally-ghost",
+   "silvally-grass",
+   "silvally-ground",
+   "silvally-ice",
+   "silvally-poison",
+   "silvally-psychic",
+   "silvally-rock",
+   "silvally-steel",
+   "silvally-water",
+   "sinistcha-masterpiece",
+   "sinistea-antique",
+   "smogecko",
+   "smoguana",
+   "smokomodo",
+   "snaelstrom",
+   "sneasel-f",
+   "sneasel-hisui-f",
+   "snover-f",
+   "snugglow",
+   "solotl",
+   "staraptor-f",
+   "staravia-f",
+   "starly-f",
+   "steelix-f",
+   "stratagem",
+   "sudowoodo-f",
+   "swalot-f",
+   "swirlpool",
+   "syclant",
+   "syclant-f",
+   "syclar",
+   "tactite",
+   "tangrowth-f",
+   "tomohawk",
+   "tomohawk-f",
+   "toxicroak-f",
+   "unown-a",
+   "unown-b",
+   "unown-c",
+   "unown-d",
+   "unown-e",
+   "unown-exclamation",
+   "unown-f",
+   "unown-g",
+   "unown-h",
+   "unown-i",
+   "unown-j",
+   "unown-k",
+   "unown-l",
+   "unown-m",
+   "unown-n",
+   "unown-o",
+   "unown-p",
+   "unown-q",
+   "unown-question",
+   "unown-r",
+   "unown-s",
+   "unown-t",
+   "unown-u",
+   "unown-v",
+   "unown-w",
+   "unown-x",
+   "unown-y",
+   "unown-z",
+   "ursaring-f",
+   "venomicon",
+   "venomicon-epilogue",
+   "venusaur-f",
+   "vileplume-f",
+   "vivillon-archipelago",
+   "vivillon-continental",
+   "vivillon-elegant",
+   "vivillon-fancy",
+   "vivillon-garden",
+   "vivillon-highplains",
+   "vivillon-icysnow",
+   "vivillon-jungle",
+   "vivillon-marine",
+   "vivillon-modern",
+   "vivillon-monsoon",
+   "vivillon-ocean",
+   "vivillon-pokeball",
+   "vivillon-polar",
+   "vivillon-river",
+   "vivillon-sandstorm",
+   "vivillon-savanna",
+   "vivillon-sun",
+   "vivillon-tundra",
+   "volkraken",
+   "volkritter",
+   "voodoll",
+   "voodoom",
+   "voodoom-f",
+   "weavile-f",
+   "wobbuffet-f",
+   "wooper-f",
+   "xatu-f",
+   "xerneas-neutral",
+   "zarude-dada",
+   "zubat-f"
   ]
  }
 }
