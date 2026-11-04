@@ -1,5 +1,5 @@
 {
-  "count": 45,
+  "count": 47,
   "data": {
     "hooh": "ho-oh",
     "mrmime": "mr-mime",
@@ -45,6 +45,8 @@
     "basculin-whitestriped": "basculin-white-striped",
     "basculinwhitestriped": "basculin-white-striped",
     "basculin-bluestriped": "basculin-blue-striped",
-    "basculinbluestriped": "basculin-blue-striped"
+    "basculinbluestriped": "basculin-blue-striped",
+    "necrozma-duskmane": "necrozma-dusk-mane",
+    "necrozma-dawnwings": "necrozma-dawn-wings"
   }
 }
