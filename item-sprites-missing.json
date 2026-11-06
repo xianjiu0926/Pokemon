@@ -34,17 +34,5 @@
     "en": "egg-ticket",
     "type": "重要物品",
     "note": "52poke无背包贴图"
-  },
-  {
-    "name": "亲密度",
-    "en": "friendship",
-    "type": "进化道具",
-    "note": "游戏机制非道具，无贴图"
-  },
-  {
-    "name": "经验值",
-    "en": "experience",
-    "type": "进化道具",
-    "note": "游戏机制非道具，无贴图"
   }
 ]
