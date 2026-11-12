@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29",
+ "generated": "2026-11-12",
  "dexTotal": 1305,
  "slots": {
   "animated-pokeos-normal": "animated/pokeos/normal",
@@ -17,8 +17,8 @@
    "missing": 19
   },
   "animated-pokeos-shiny": {
-   "have": 1230,
-   "missing": 75
+   "have": 1277,
+   "missing": 28
   },
   "animated-showdown-normal": {
    "have": 1268,
@@ -195,174 +195,9 @@
     "en": "pikachu-world"
    },
    {
-    "no": 26,
-    "name": "超级雷丘X",
-    "en": "raichu-mega-x"
-   },
-   {
-    "no": 26,
-    "name": "超级雷丘Y",
-    "en": "raichu-mega-y"
-   },
-   {
-    "no": 36,
-    "name": "超级皮可西",
-    "en": "clefable-mega"
-   },
-   {
-    "no": 71,
-    "name": "超级大食花",
-    "en": "victreebel-mega"
-   },
-   {
-    "no": 121,
-    "name": "超级宝石海星",
-    "en": "starmie-mega"
-   },
-   {
-    "no": 149,
-    "name": "超级快龙",
-    "en": "dragonite-mega"
-   },
-   {
-    "no": 154,
-    "name": "超级大竺葵",
-    "en": "meganium-mega"
-   },
-   {
-    "no": 160,
-    "name": "超级大力鳄",
-    "en": "feraligatr-mega"
-   },
-   {
-    "no": 227,
-    "name": "超级盔甲鸟",
-    "en": "skarmory-mega"
-   },
-   {
-    "no": 358,
-    "name": "超级风铃铃",
-    "en": "chimecho-mega"
-   },
-   {
-    "no": 359,
-    "name": "超级阿勃梭鲁Z",
-    "en": "absol-mega-z"
-   },
-   {
-    "no": 398,
-    "name": "超级姆克鹰",
-    "en": "staraptor-mega"
-   },
-   {
-    "no": 445,
-    "name": "超级烈咬陆鲨Z",
-    "en": "garchomp-mega-z"
-   },
-   {
-    "no": 478,
-    "name": "超级雪妖女",
-    "en": "froslass-mega"
-   },
-   {
-    "no": 485,
-    "name": "超级席多蓝恩",
-    "en": "heatran-mega"
-   },
-   {
-    "no": 491,
-    "name": "超级达克莱伊",
-    "en": "darkrai-mega"
-   },
-   {
-    "no": 500,
-    "name": "超级炎武王",
-    "en": "emboar-mega"
-   },
-   {
-    "no": 530,
-    "name": "超级龙头地鼠",
-    "en": "excadrill-mega"
-   },
-   {
-    "no": 545,
-    "name": "超级蜈蚣王",
-    "en": "scolipede-mega"
-   },
-   {
-    "no": 560,
-    "name": "超级头巾混混",
-    "en": "scrafty-mega"
-   },
-   {
-    "no": 604,
-    "name": "超级麻麻鳗鱼王",
-    "en": "eelektross-mega"
-   },
-   {
-    "no": 609,
-    "name": "超级水晶灯火灵",
-    "en": "chandelure-mega"
-   },
-   {
-    "no": 623,
-    "name": "超级泥偶巨人",
-    "en": "golurk-mega"
-   },
-   {
     "no": 648,
     "name": "美洛耶塔(舞步)",
     "en": "meloetta-pirouette"
-   },
-   {
-    "no": 652,
-    "name": "超级布里卡隆",
-    "en": "chesnaught-mega"
-   },
-   {
-    "no": 655,
-    "name": "超级妖火红狐",
-    "en": "delphox-mega"
-   },
-   {
-    "no": 658,
-    "name": "超级甲贺忍蛙",
-    "en": "greninja-mega"
-   },
-   {
-    "no": 668,
-    "name": "超级火炎狮",
-    "en": "pyroar-mega"
-   },
-   {
-    "no": 670,
-    "name": "超级花叶蒂",
-    "en": "floette-mega"
-   },
-   {
-    "no": 678,
-    "name": "超级超能妙喵",
-    "en": "meowstic-mega"
-   },
-   {
-    "no": 687,
-    "name": "超级乌贼王",
-    "en": "malamar-mega"
-   },
-   {
-    "no": 689,
-    "name": "超级龟足巨铠",
-    "en": "barbaracle-mega"
-   },
-   {
-    "no": 691,
-    "name": "超级毒藻龙",
-    "en": "dragalge-mega"
-   },
-   {
-    "no": 701,
-    "name": "超级摔角鹰人",
-    "en": "hawlucha-mega"
    },
    {
     "no": 710,
@@ -395,41 +230,6 @@
     "en": "gourgeist-super"
    },
    {
-    "no": 718,
-    "name": "超级基格尔德",
-    "en": "zygarde-mega"
-   },
-   {
-    "no": 740,
-    "name": "超级好胜毛蟹",
-    "en": "crabominable-mega"
-   },
-   {
-    "no": 768,
-    "name": "超级具甲武者",
-    "en": "golisopod-mega"
-   },
-   {
-    "no": 780,
-    "name": "超级老翁龙",
-    "en": "drampa-mega"
-   },
-   {
-    "no": 801,
-    "name": "超级玛机雅娜(现在的颜色)",
-    "en": "magearna-mega"
-   },
-   {
-    "no": 801,
-    "name": "超级玛机雅娜(500年前的颜色)",
-    "en": "magearna-original-mega"
-   },
-   {
-    "no": 807,
-    "name": "超级捷拉奥拉",
-    "en": "zeraora-mega"
-   },
-   {
     "no": 812,
     "name": "超极巨化轰擂金刚猩",
     "en": "rillaboom-gmax"
@@ -445,11 +245,6 @@
     "en": "inteleon-gmax"
    },
    {
-    "no": 870,
-    "name": "超级列阵兵",
-    "en": "falinks-mega"
-   },
-   {
     "no": 890,
     "name": "无极汰那(无极巨化)",
     "en": "eternatus-eternamax"
@@ -458,36 +253,6 @@
     "no": 892,
     "name": "超极巨化武道熊师(一击流)",
     "en": "urshifu-gmax"
-   },
-   {
-    "no": 952,
-    "name": "超级狠辣椒",
-    "en": "scovillain-mega"
-   },
-   {
-    "no": 970,
-    "name": "超级晶光花",
-    "en": "glimmora-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(上弓姿势)",
-    "en": "tatsugiri-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(下垂姿势)",
-    "en": "tatsugiri-droopy-mega"
-   },
-   {
-    "no": 978,
-    "name": "超级米立龙(平挺姿势)",
-    "en": "tatsugiri-stretchy-mega"
-   },
-   {
-    "no": 998,
-    "name": "超级戟脊龙",
-    "en": "baxcalibur-mega"
    },
    {
     "no": 1024,
@@ -2215,10 +1980,6 @@
    "darmanitan-galar-standard",
    "dudunsparce-three-segment",
    "keldeo-resolute",
-   "koraidon-gliding-build",
-   "koraidon-limited-build",
-   "koraidon-sprinting-build",
-   "koraidon-swimming-build",
    "mimikyu-busted",
    "minior-blue",
    "minior-green",
@@ -2227,10 +1988,6 @@
    "minior-red",
    "minior-violet",
    "minior-yellow",
-   "miraidon-aquatic-mode",
-   "miraidon-drive-mode",
-   "miraidon-glide-mode",
-   "miraidon-low-power-mode",
    "necrozma-dawn",
    "necrozma-dusk",
    "ogerpon-cornerstone-mask",
@@ -2271,15 +2028,8 @@
    "darmanitan-galar-standard",
    "dudunsparce-three-segment",
    "keldeo-resolute",
-   "koraidon-gliding-build",
-   "koraidon-limited-build",
-   "koraidon-sprinting-build",
-   "koraidon-swimming-build",
    "mimikyu-busted",
    "minior-red",
-   "miraidon-aquatic-mode",
-   "miraidon-drive-mode",
-   "miraidon-low-power-mode",
    "necrozma-dawn",
    "necrozma-dusk",
    "ogerpon-cornerstone-mask",
