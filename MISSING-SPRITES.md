@@ -8,8 +8,8 @@
 
 | 槽位 | 缺 | 有 |
 |---|---|---|
-| APN `animated/pokeos/normal` | 19 | 1286 |
-| APS `animated/pokeos/shiny` | 28 | 1277 |
+| APN `animated/pokeos/normal` | 13 | 1292 |
+| APS `animated/pokeos/shiny` | 21 | 1284 |
 | ADN `animated/showdown/normal` | 37 | 1268 |
 | ADS `animated/showdown/shiny` | 67 | 1238 |
 | SPN `static/pokeos/normal` | 0 | 1305 |
@@ -17,7 +17,7 @@
 | SDN `static/showdown/normal` | 22 | 1283 |
 | SDS `static/showdown/shiny` | 22 | 1283 |
 
-合计缺 **198** 个槽位（共 80 只，dex 条目 1305）。
+合计缺 **185** 个槽位（共 73 只，dex 条目 1305）。
 
 ## DLC 新 Mega（源站未补）（33 只）
 
@@ -61,15 +61,6 @@
 - `#1029` 博姆耿（`pombon`）缺：APN,APS,ADN,ADS,SPS,SDN,SDS
 - `#1032` 妙澪儿（`gecqua`）缺：APN,APS,ADN,ADS,SPS,SDN,SDS
 
-## 南瓜精/南瓜怪人尺寸（6 只）
-
-- `#710` 南瓜精(大尺寸)（`pumpkaboo-large`）缺：APN,APS
-- `#710` 南瓜精(小尺寸)（`pumpkaboo-small`）缺：APN,APS
-- `#710` 南瓜精(特大尺寸)（`pumpkaboo-super`）缺：APN,APS
-- `#711` 南瓜怪人(大尺寸)（`gourgeist-large`）缺：APN,APS
-- `#711` 南瓜怪人(小尺寸)（`gourgeist-small`）缺：APN,APS
-- `#711` 南瓜怪人(特大尺寸)（`gourgeist-super`）缺：APN,APS
-
 ## 太乐巴戈斯太晶/星晶（1 只）
 
 - `#1024` 太乐巴戈斯(星晶)（`terapagos-stellar`）缺：APN,APS
@@ -95,12 +86,11 @@
 - `#844` 超极巨化沙螺蟒（`sandaconda-gmax`）缺：APN
 - `#892` 超极巨化武道熊师(一击流)（`urshifu-gmax`）缺：APN,APS,ADN,ADS
 
-## 其他（22 只）
+## 其他（21 只）
 
 - `#483` 帝牙卢卡(起源)（`dialga-origin`）缺：ADN,ADS
 - `#484` 帕路奇亚(起源)（`palkia-origin`）缺：ADN,ADS
 - `#550` 野蛮鲈鱼(红条纹)（`basculin-red-striped`）缺：ADN,ADS,SDN,SDS
-- `#648` 美洛耶塔(舞步)（`meloetta-pirouette`）缺：APS
 - `#890` 无极汰那(无极巨化)（`eternatus-eternamax`）缺：APN,APS
 - `#990` 铁辙迹（`iron-treads`）缺：ADN,ADS
 - `#991` 铁包袱（`iron-bundle`）缺：ADN,ADS

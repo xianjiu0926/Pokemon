@@ -13,12 +13,12 @@
  },
  "summary": {
   "animated-pokeos-normal": {
-   "have": 1286,
-   "missing": 19
+   "have": 1292,
+   "missing": 13
   },
   "animated-pokeos-shiny": {
-   "have": 1277,
-   "missing": 28
+   "have": 1284,
+   "missing": 21
   },
   "animated-showdown-normal": {
    "have": 1268,
@@ -61,36 +61,6 @@
     "no": 25,
     "name": "皮卡丘(世界帽子)",
     "en": "pikachu-world"
-   },
-   {
-    "no": 710,
-    "name": "南瓜精(小尺寸)",
-    "en": "pumpkaboo-small"
-   },
-   {
-    "no": 710,
-    "name": "南瓜精(大尺寸)",
-    "en": "pumpkaboo-large"
-   },
-   {
-    "no": 710,
-    "name": "南瓜精(特大尺寸)",
-    "en": "pumpkaboo-super"
-   },
-   {
-    "no": 711,
-    "name": "南瓜怪人(小尺寸)",
-    "en": "gourgeist-small"
-   },
-   {
-    "no": 711,
-    "name": "南瓜怪人(大尺寸)",
-    "en": "gourgeist-large"
-   },
-   {
-    "no": 711,
-    "name": "南瓜怪人(特大尺寸)",
-    "en": "gourgeist-super"
    },
    {
     "no": 812,
@@ -193,41 +163,6 @@
     "no": 25,
     "name": "皮卡丘(世界帽子)",
     "en": "pikachu-world"
-   },
-   {
-    "no": 648,
-    "name": "美洛耶塔(舞步)",
-    "en": "meloetta-pirouette"
-   },
-   {
-    "no": 710,
-    "name": "南瓜精(小尺寸)",
-    "en": "pumpkaboo-small"
-   },
-   {
-    "no": 710,
-    "name": "南瓜精(大尺寸)",
-    "en": "pumpkaboo-large"
-   },
-   {
-    "no": 710,
-    "name": "南瓜精(特大尺寸)",
-    "en": "pumpkaboo-super"
-   },
-   {
-    "no": 711,
-    "name": "南瓜怪人(小尺寸)",
-    "en": "gourgeist-small"
-   },
-   {
-    "no": 711,
-    "name": "南瓜怪人(大尺寸)",
-    "en": "gourgeist-large"
-   },
-   {
-    "no": 711,
-    "name": "南瓜怪人(特大尺寸)",
-    "en": "gourgeist-super"
    },
    {
     "no": 812,

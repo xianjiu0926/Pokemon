@@ -35,7 +35,7 @@ OUT_N = os.path.join(ROOT, 'pokemon-sprites/animated/pokeos/normal')
 OUT_S = os.path.join(ROOT, 'pokemon-sprites/animated/pokeos/shiny')
 
 # 新 Mega：slug（仓库用的名字）→ PokeAPI pokemon id
-ZA_NEW_MEGA = {
+ZA_IDS = {
     'raichu-mega-x': 10304,
     'raichu-mega-y': 10305,
     'clefable-mega': 10278,
@@ -84,6 +84,16 @@ ZA_NEW_MEGA = {
     'tatsugiri-droopy-mega': 10323,
     'tatsugiri-stretchy-mega': 10324,
     'baxcalibur-mega': 10325,
+    # 南瓜精/南瓜怪人分尺寸 —— 注意上游 10027=10028=710 是同一张图，
+    # 只有 10029/10032（super）是独立的模型；补上去只是让清单不缺，看不出差别。
+    'pumpkaboo-small': 10027,
+    'pumpkaboo-large': 10028,
+    'pumpkaboo-super': 10029,
+    'gourgeist-small': 10030,
+    'gourgeist-large': 10031,
+    'gourgeist-super': 10032,
+    # 美洛耶塔舞步形态（普通图已有，只缺闪光）
+    'meloetta-pirouette': 10018,
 }
 
 WIDTH = 128
@@ -146,10 +156,10 @@ def main():
     ap.add_argument('--maxframes', type=int, default=100)
     a = ap.parse_args()
 
-    todo = ZA_NEW_MEGA
+    todo = ZA_IDS
     if a.only:
         keys = [k.strip() for k in a.only.split(',') if k.strip()]
-        todo = {k: ZA_NEW_MEGA[k] for k in keys if k in ZA_NEW_MEGA}
+        todo = {k: ZA_IDS[k] for k in keys if k in ZA_IDS}
         if not todo:
             print('没有匹配的 slug'); return 1
 
