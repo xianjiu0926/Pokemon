@@ -229,6 +229,13 @@ NO_ICON_ITEMS = {
     '极巨汤',
 }
 
+# 收进「本地不缺」名单的 wiki 条目（(kind, 名字)）：明知不收、也不再报缺失
+# 杂音 / Cacophony：只在第三世代数据里出现、没有宝可梦拥有、第四世代已移除，页面还挂「暂译」。
+# 2026-11-14 用户定：不收，也不再提。
+IGNORE_MISSING = {
+    ('abilities', '杂音'),
+}
+
 
 def _item_slug(s):
     """与 HUD 的 serebiiItemSlug 完全一致：小写、只保留英文字母和数字（点号/冒号/连字符都去掉）"""
@@ -353,7 +360,9 @@ def main():
                 return True
             return False
 
-        missing = [x for x in items if x['name'] and not known(x)]
+        missing = [x for x in items
+                   if x['name'] and not known(x)
+                   and (page['kind'], x['name']) not in IGNORE_MISSING]
 
         detail.append('')
         detail.append('### %s（%s 条 → %s 条）' % (title, len(prev) or '-', len(cur)))
