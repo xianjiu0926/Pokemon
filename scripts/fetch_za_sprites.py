@@ -140,11 +140,14 @@ def webp_to_gif(src, dst, step=0, maxframes=100):
         f = f.resize((WIDTH, nh), Image.LANCZOS)
         r, g, b, a = f.split()
         a = a.point(lambda x: 255 if x >= 128 else 0)
-        out.append(Image.merge('RGBA', (r, g, b, a)))
+        # GIF 的透明必须落到调色板索引上：255 号位留给透明，
+        # 透明像素按 alpha 贴回 255；否则透明区会被量化成黑色（整张黑底）。
+        q = f.convert('RGB').quantize(colors=255, method=Image.FASTOCTREE, dither=Image.NONE)
+        q.paste(255, mask=a.point(lambda x: 255 if x < 128 else 0))
+        out.append(q)
 
-    q = [f.quantize(colors=255, method=Image.FASTOCTREE, dither=Image.NONE) for f in out]
-    q[0].save(dst, save_all=True, append_images=q[1:], duration=33 * step, loop=0,
-              disposal=2, optimize=True, transparency=255)
+    out[0].save(dst, save_all=True, append_images=out[1:], duration=33 * step, loop=0,
+                disposal=2, optimize=True, transparency=255)
     return True
 
 
