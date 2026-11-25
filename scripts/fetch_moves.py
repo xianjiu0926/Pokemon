@@ -3,10 +3,16 @@
 """
 从神奇宝贝百科（wiki.52poke.com）抓取招式文字数据，输出 moves 结构化 JSON。
 
-来源：wiki.52poke.com 的「招式列表」及每个招式页（信息框 + 招式附加效果段落）。
+来源：wiki.52poke.com 的「Category:招式」分类（分页取全部招式页）及每个招式页（信息框 + 招式附加效果段落）。
 
 用法：
   python3 fetch_moves.py [输出json路径]
+
+旧版从「招式列表」页的链接拿名单，那页现在要登录（API 回 mustbeloggedin），
+改用 Category:招式 分类列页面；分类里混着列表页、说明页，没信息框的会被跳过。
+
+新页面的 wikitext 常是繁体（極巨水流、Ｖ熱焰），名字用 zhconv 转简体；
+没装 zhconv 也能跑，只是名字会留繁体。
 
 输出 schema（与 moves.json 一致）：
   [ { "id": 1, "name": "拍击", "jp": "はたく", "en": "Pound",
@@ -22,7 +28,17 @@ import time
 import urllib.request
 import urllib.parse
 
+try:
+    import zhconv
+except ImportError:
+    zhconv = None
+
 UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) pkm-data-fetch/1.0'
+
+
+def s2s(v):
+    """繁体转简体；没装 zhconv 就原样返回。"""
+    return zhconv.convert(v, 'zh-cn') if (zhconv and v) else v
 
 GEN_CN = {1: '第一世代', 2: '第二世代', 3: '第三世代', 4: '第四世代', 5: '第五世代',
           6: '第六世代', 7: '第七世代', 8: '第八世代', 9: '第九世代'}
@@ -57,11 +73,26 @@ def api(params):
 
 def wikitext(title):
     d = api({'action': 'query', 'prop': 'revisions', 'rvprop': 'content',
-             'rvslots': 'main', 'titles': title})
+             'rvslots': 'main', 'titles': title, 'redirects': '1', 'converttitles': '1'})
     for pid, p in d.get('query', {}).get('pages', {}).items():
         rev = p.get('revisions', [{}])[0]
         return rev.get('slots', {}).get('main', {}).get('*', '') or rev.get('*', '')
     return ''
+
+
+def list_move_titles():
+    """从 Category:招式 分页取全部候选页（列表页和子页面先筛掉）。"""
+    titles, cont = [], {}
+    while True:
+        params = {'action': 'query', 'list': 'categorymembers', 'cmtitle': 'Category:招式',
+                  'cmlimit': '500', 'cmnamespace': '0', 'cmtype': 'page'}
+        params.update(cont)
+        d = api(params)
+        titles += [m['title'] for m in d.get('query', {}).get('categorymembers', [])]
+        cont = d.get('continue')
+        if not cont:
+            break
+    return sorted({t for t in titles if '/' not in t and '招式列表' not in t})
 
 
 def info_value(wt, key):
@@ -102,7 +133,7 @@ def parse_move(title):
     gen_num = num(info_value(b, 'gen'))
     return {
         'id': num(info_value(b, 'n')) or 0,
-        'name': info_value(b, 'name'),
+        'name': s2s(info_value(b, 'name')),
         'jp': info_value(b, 'jname'),
         'en': info_value(b, 'enname'),
         'type': info_value(b, 'type'),
@@ -119,11 +150,9 @@ def parse_move(title):
 def main():
     out = sys.argv[1] if len(sys.argv) > 1 else 'moves-new.json'
 
-    print('== 抓取 52poke 招式列表 ==')
-    d = api({'action': 'parse', 'page': '招式列表', 'prop': 'links'})
-    titles = [l['*'] for l in d.get('parse', {}).get('links', [])]
-    moves = sorted(t for t in titles if t.endswith('（招式）'))
-    print('  招式条目 %d' % len(moves))
+    print('== 抓取 52poke Category:招式 ==')
+    moves = list_move_titles()
+    print('  候选页面 %d' % len(moves))
 
     result = []
     for i, title in enumerate(moves, 1):
