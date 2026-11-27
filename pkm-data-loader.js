@@ -115,8 +115,8 @@
     },
 
     // —— 单只精灵可学招式（movesets/） ——
-    loadMoveset: function (no) {
-      var file = 'movesets/pokemon-' + String(no).padStart(4, '0') + '.json';
+    loadMoveset: function (no, suffix) {
+      var file = 'movesets/pokemon-' + String(no).padStart(4, '0') + (suffix || '') + '.json';
       return fetchJson(file);
     }
   };
